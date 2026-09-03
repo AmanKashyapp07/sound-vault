@@ -1,0 +1,22 @@
+{
+  "name": "soundvault",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "lsof -ti :3000 | xargs kill -9 2>/dev/null || true; vite",
+    "kill-3000": "lsof -ti :3000,3001,3002 | xargs kill -9 2>/dev/null || true",
+    "build": "vite build",
+    "preview": "vite preview",
+    "refresh": "python3 scripts/refresh.py"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^4.0.4",
+    "lucide-svelte": "^0.468.0",
+    "svelte": "^5.14.2",
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "sql.js": "^1.14.2"
+  }
+}

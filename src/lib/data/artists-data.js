@@ -1,0 +1,19473 @@
+/**
+ * ARTIST FLASHCARD PORTFOLIO DATASET — IN-MEMORY SQLITE DATABASE HYDRATION DATA
+ * 149 Artists, 610 Curated Tracks, 330 Albums
+ * Total Play Count: 4,935 Plays · Total Play Time: 330.4 Hours (13.8 Days)
+ */
+
+export const ARTIST_PORTFOLIO_DATA = {
+  "catalogStats": {
+    "totalSongs": 610,
+    "totalArtists": 149,
+    "totalAlbums": 330,
+    "totalPlays": 4935,
+    "totalSkips": 1138,
+    "totalDurationSec": 1189447,
+    "totalHours": 330.4,
+    "totalDays": 13.8,
+    "overallCompletionRate": 81.3,
+    "archetype": {
+      "title": "The Sonic Time-Traveler",
+      "badge": "7 Decades Spanned \u00b7 81.6% Retention",
+      "tagline": "330.4 Hours (~13.8 Days) of Continuous Music Journeys",
+      "bio": "Your English playlist bridges 1960s classic rock legends with 2020s alternative rock & chart hits, featuring 81.6% track retention and deep discography loyalty across 7 decades."
+    },
+    "circadianClock": {
+      "hourCounts": [
+        45,
+        11,
+        89,
+        159,
+        44,
+        14,
+        13,
+        112,
+        147,
+        318,
+        195,
+        425,
+        303,
+        264,
+        344,
+        292,
+        531,
+        550,
+        291,
+        333,
+        468,
+        307,
+        29,
+        13
+      ],
+      "timeSegments": {
+        "Late Night (00:00 - 06:00)": 362,
+        "Morning Flow (06:00 - 12:00)": 1210,
+        "Afternoon Focus (12:00 - 18:00)": 2284,
+        "Evening Prime (18:00 - 24:00)": 1441
+      },
+      "peakSegment": "Afternoon Focus (12:00 - 18:00)",
+      "peakHour": 17,
+      "persona": "Afternoon Flow Connoisseur"
+    },
+    "milestones": [
+      {
+        "id": "catalog-5k",
+        "title": "Catalog Sovereign",
+        "badge": "5,000 Plays",
+        "icon": "crown",
+        "desc": "Logged 4,935 / 5,000 total verified plays across the vault",
+        "current": 4935,
+        "target": 5000,
+        "unit": "plays",
+        "unlocked": false,
+        "progress": 98.7
+      },
+      {
+        "id": "centurion",
+        "title": "Devoted Disciple",
+        "badge": "500 Plays",
+        "icon": "trophy",
+        "desc": "Streamed LINKIN PARK 444 / 500 times in your catalog",
+        "current": 444,
+        "target": 500,
+        "unit": "plays",
+        "unlocked": false,
+        "progress": 88.8
+      },
+      {
+        "id": "marathon-titan",
+        "title": "Marathon Titan",
+        "badge": "500 Hours",
+        "icon": "headphones",
+        "desc": "Listened for 330.4 / 500 continuous hours (13.8 full days)",
+        "current": 330.4,
+        "target": 500,
+        "unit": "hours",
+        "unlocked": false,
+        "progress": 66.1
+      },
+      {
+        "id": "anthem-loop",
+        "title": "Anthem Addict",
+        "badge": "200 Plays",
+        "icon": "flame",
+        "desc": "Played 'Babydoll' 148 / 200 times on loop",
+        "current": 148,
+        "target": 200,
+        "unit": "plays",
+        "unlocked": false,
+        "progress": 74.0
+      },
+      {
+        "id": "vault-royalty",
+        "title": "Universe Expansion",
+        "badge": "200 Artists",
+        "icon": "music",
+        "desc": "Expanded catalog across 149 / 200 curated artists",
+        "current": 149,
+        "target": 200,
+        "unit": "artists",
+        "unlocked": false,
+        "progress": 74.5
+      },
+      {
+        "id": "discography-diver",
+        "title": "Deep Catalog Diver",
+        "badge": "75 Tracks",
+        "icon": "gem",
+        "desc": "Curated 56 / 75 tracks for flagship artist LINKIN PARK",
+        "current": 56,
+        "target": 75,
+        "unit": "tracks",
+        "unlocked": false,
+        "progress": 74.7
+      },
+      {
+        "id": "chrono-lord",
+        "title": "Chronos Traveler",
+        "badge": "7 Decades",
+        "icon": "clock",
+        "desc": "Curated legendary music spanning every decade from 1960s to 2020s",
+        "current": 7,
+        "target": 7,
+        "unit": "decades",
+        "unlocked": true,
+        "progress": 100
+      },
+      {
+        "id": "iron-retention",
+        "title": "Iron Will Retention",
+        "badge": ">80% Retention",
+        "icon": "shield",
+        "desc": "Maintained 81.3% track retention across the entire catalog",
+        "current": 81.3,
+        "target": 80.0,
+        "unit": "%",
+        "unlocked": true,
+        "progress": 100
+      }
+    ],
+    "masteryRank": "Senior Archivist",
+    "masteryScore": 85,
+    "decadeEvolution": [
+      {
+        "decade": "1960s",
+        "artistCount": 3,
+        "trackCount": 120,
+        "totalPlays": 91,
+        "topArtists": [
+          "The Beatles",
+          "The Rolling Stones",
+          "The Jimi Hendrix Experience"
+        ],
+        "image": "https://cdn-images.dzcdn.net/images/artist/16925ed8f96eb621ecd56c2c8ba3da6e/500x500-000000-80-0-0.jpg"
+      },
+      {
+        "decade": "1970s",
+        "artistCount": 8,
+        "trackCount": 121,
+        "totalPlays": 579,
+        "topArtists": [
+          "Queen",
+          "Aerosmith",
+          "Pink Floyd"
+        ],
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4d/08/2a/4d082a9e-7898-1aa1-a02f-339810058d9e/14DMGIM05632.rgb.jpg/600x600bb.jpg"
+      },
+      {
+        "decade": "1980s",
+        "artistCount": 14,
+        "trackCount": 58,
+        "totalPlays": 500,
+        "topArtists": [
+          "Madonna",
+          "Alphaville",
+          "George Michael"
+        ],
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/20/3c/f5/203cf53d-689e-528f-29d7-ba33758254aa/mzi.rotbotfl.jpg/600x600bb.jpg"
+      },
+      {
+        "decade": "1990s",
+        "artistCount": 18,
+        "trackCount": 29,
+        "totalPlays": 523,
+        "topArtists": [
+          "Michael Jackson",
+          "Nirvana",
+          "C\u00e9line Dion & James Horner"
+        ],
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg"
+      },
+      {
+        "decade": "2000s",
+        "artistCount": 28,
+        "trackCount": 136,
+        "totalPlays": 1343,
+        "topArtists": [
+          "LINKIN PARK",
+          "Eminem",
+          "JAY-Z & LINKIN PARK"
+        ],
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/600x600bb.jpg"
+      },
+      {
+        "decade": "2010s",
+        "artistCount": 47,
+        "trackCount": 89,
+        "totalPlays": 1209,
+        "topArtists": [
+          "Arctic Monkeys",
+          "Dominic Fike",
+          "Ed Sheeran"
+        ],
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+      },
+      {
+        "decade": "2020s",
+        "artistCount": 31,
+        "trackCount": 57,
+        "totalPlays": 690,
+        "topArtists": [
+          "Top Gun: Maverick",
+          "Shawn Mendes",
+          "Katy Perry"
+        ],
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e6/14/14/e6141444-6597-4c3a-7ad1-86304528acf4/22UMGIM45569.rgb.jpg/600x600bb.jpg"
+      }
+    ],
+    "topArtist": {
+      "name": "LINKIN PARK",
+      "plays": 444,
+      "trackCount": 56,
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/600x600bb.jpg"
+    },
+    "topTrack": {
+      "title": "Babydoll",
+      "artist": "Dominic Fike",
+      "plays": 148
+    },
+    "top20Songs": [
+      {
+        "title": "Babydoll",
+        "artist": "Dominic Fike",
+        "album": "Don't Forget About Me, Demos - EP",
+        "plays": 148,
+        "skips": 9,
+        "durationSec": 98,
+        "genre": "Indie / Alt Rock",
+        "decade": "2010s",
+        "artistId": "art-008",
+        "palette": {
+          "primary": "#3B82F6",
+          "bg": "linear-gradient(135deg,#172554,#0f172a)",
+          "glow": "rgba(59,130,246,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/5a/ef/0c5aef1c-6929-76c8-d9cb-9c8e9c5537fa/196873758947.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "'Till I Collapse (feat. Nate Dogg)",
+        "artist": "Eminem",
+        "album": "The Eminem Show",
+        "plays": 98,
+        "skips": 24,
+        "durationSec": 298,
+        "genre": "Hip-Hop / Rap",
+        "decade": "2000s",
+        "artistId": "art-002",
+        "palette": {
+          "primary": "#10B981",
+          "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+          "glow": "rgba(16,185,129,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/23/fc/0823fcd9-cb44-695b-32bf-b3bf51d9f800/00606949351229.rgb.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Stan (feat. Dido)",
+        "artist": "Eminem",
+        "album": "The Marshall Mathers LP",
+        "plays": 93,
+        "skips": 12,
+        "durationSec": 404,
+        "genre": "Hip-Hop / Rap",
+        "decade": "2000s",
+        "artistId": "art-002",
+        "palette": {
+          "primary": "#10B981",
+          "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+          "glow": "rgba(16,185,129,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/23/fc/0823fcd9-cb44-695b-32bf-b3bf51d9f800/00606949351229.rgb.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "GTA V Theme - Welcome To Los Santos",
+        "artist": "Ben Morfitt (SquidPhysics)",
+        "album": "Squidography, Vol. I",
+        "plays": 79,
+        "skips": 3,
+        "durationSec": 102,
+        "genre": "Cinematic / OST",
+        "decade": "2010s",
+        "artistId": "art-013",
+        "palette": {
+          "primary": "#3B82F6",
+          "bg": "linear-gradient(135deg,#172554,#0f172a)",
+          "glow": "rgba(59,130,246,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/eb/3b/e2/eb3be273-f570-508b-24e5-aa30e23a2a7e/ea64b48e-db9a-4a03-a64c-027e89a1790b.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "I Wanna Be Yours",
+        "artist": "Arctic Monkeys",
+        "album": "AM",
+        "plays": 76,
+        "skips": 2,
+        "durationSec": 184,
+        "genre": "Indie / Alt Rock",
+        "decade": "2010s",
+        "artistId": "art-003",
+        "palette": {
+          "primary": "#EC4899",
+          "bg": "linear-gradient(135deg,#500724,#2e081d)",
+          "glow": "rgba(236,72,153,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+      },
+      {
+        "title": "Dream On",
+        "artist": "Aerosmith",
+        "album": "Aerosmith",
+        "plays": 75,
+        "skips": 13,
+        "durationSec": 268,
+        "genre": "Classic Rock",
+        "decade": "1970s",
+        "artistId": "art-009",
+        "palette": {
+          "primary": "#EC4899",
+          "bg": "linear-gradient(135deg,#500724,#2e081d)",
+          "glow": "rgba(236,72,153,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/fa/da/9cfada2b-efbe-187f-dacf-a0f90ffdf63a/22UM1IM35694.rgb.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Forever Young",
+        "artist": "Alphaville",
+        "album": "Forever Young",
+        "plays": 75,
+        "skips": 7,
+        "durationSec": 227,
+        "genre": "Modern Pop / Chart",
+        "decade": "1980s",
+        "artistId": "art-014",
+        "palette": {
+          "primary": "#06B6D4",
+          "bg": "linear-gradient(135deg,#083344,#04222f)",
+          "glow": "rgba(6,182,212,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d22/h05/s05.qwwmqauc.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Something In The Way",
+        "artist": "Nirvana",
+        "album": "Nevermind",
+        "plays": 72,
+        "skips": 4,
+        "durationSec": 232,
+        "genre": "Grunge / Alt Rock",
+        "decade": "1990s",
+        "artistId": "art-015",
+        "palette": {
+          "primary": "#EF4444",
+          "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+          "glow": "rgba(239,68,68,0.35)"
+        },
+        "image": "https://cdn-images.dzcdn.net/images/artist/ad67af8b0dca71d5e69f1afd8e045c4e/500x500-000000-80-0-0.jpg"
+      },
+      {
+        "title": "The Man, the Legend / Touchdown",
+        "artist": "Top Gun: Maverick",
+        "album": "Top Gun: Maverick (Music from the Motion Picture)",
+        "plays": 67,
+        "skips": 5,
+        "durationSec": 235,
+        "genre": "Cinematic / OST",
+        "decade": "2020s",
+        "artistId": "art-007",
+        "palette": {
+          "primary": "#10B981",
+          "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+          "glow": "rgba(16,185,129,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e6/14/14/e6141444-6597-4c3a-7ad1-86304528acf4/22UMGIM45569.rgb.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Without Me",
+        "artist": "Eminem",
+        "album": "The Eminem Show",
+        "plays": 66,
+        "skips": 16,
+        "durationSec": 290,
+        "genre": "Hip-Hop / Rap",
+        "decade": "2000s",
+        "artistId": "art-002",
+        "palette": {
+          "primary": "#10B981",
+          "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+          "glow": "rgba(16,185,129,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/23/fc/0823fcd9-cb44-695b-32bf-b3bf51d9f800/00606949351229.rgb.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Give In to Me",
+        "artist": "Michael Jackson",
+        "album": "Dangerous",
+        "plays": 64,
+        "skips": 6,
+        "durationSec": 330,
+        "genre": "80s/90s Pop",
+        "decade": "1990s",
+        "artistId": "art-006",
+        "palette": {
+          "primary": "#10B981",
+          "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+          "glow": "rgba(16,185,129,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Careless Whisper",
+        "artist": "George Michael",
+        "album": "Ladies & Gentlemen",
+        "plays": 63,
+        "skips": 3,
+        "durationSec": 300,
+        "genre": "80s/90s Pop",
+        "decade": "1980s",
+        "artistId": "art-016",
+        "palette": {
+          "primary": "#3B82F6",
+          "bg": "linear-gradient(135deg,#172554,#0f172a)",
+          "glow": "rgba(59,130,246,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ee/49/ac/ee49accc-78bd-bcdb-1aff-c40c1ac3ccc4/074643959520.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Les",
+        "artist": "Childish Gambino",
+        "album": "Camp",
+        "plays": 63,
+        "skips": 25,
+        "durationSec": 317,
+        "genre": "Hip-Hop / Rap",
+        "decade": "2010s",
+        "artistId": "art-019",
+        "palette": {
+          "primary": "#10B981",
+          "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+          "glow": "rgba(16,185,129,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/3c/d7/f13cd7ab-7319-028a-8807-5991d0b308d4/0044003187658_Cover.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "From the Inside",
+        "artist": "LINKIN PARK",
+        "album": "Meteora (Deluxe Edition)",
+        "plays": 62,
+        "skips": 2,
+        "durationSec": 176,
+        "genre": "Nu-Metal / Alt Rock",
+        "decade": "2000s",
+        "artistId": "art-001",
+        "palette": {
+          "primary": "#EC4899",
+          "bg": "linear-gradient(135deg,#500724,#2e081d)",
+          "glow": "rgba(236,72,153,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Harleys in Hawaii",
+        "artist": "Katy Perry",
+        "album": "Harleys in Hawaii - Single",
+        "plays": 62,
+        "skips": 8,
+        "durationSec": 186,
+        "genre": "Modern Pop / Chart",
+        "decade": "2020s",
+        "artistId": "art-017",
+        "palette": {
+          "primary": "#8B5CF6",
+          "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+          "glow": "rgba(139,92,246,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/d3/42/c8d342af-26d9-3ec2-c511-e1eaf860e299/13UABIM57787.rgb.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Sweet Dreams (Are Made of This)",
+        "artist": "Eurythmics",
+        "album": "Sweet Dreams (Are Made of This) [Deluxe Edition]",
+        "plays": 60,
+        "skips": 14,
+        "durationSec": 217,
+        "genre": "Modern Pop / Chart",
+        "decade": "1980s",
+        "artistId": "art-021",
+        "palette": {
+          "primary": "#F59E0B",
+          "bg": "linear-gradient(135deg,#451a03,#291002)",
+          "glow": "rgba(245,158,11,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/82/46/65/824665ec-aa22-0f93-e511-ba1585978159/mzi.gkkumlce.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "Shape of You",
+        "artist": "Ed Sheeran",
+        "album": "\u00f7 (Deluxe)",
+        "plays": 59,
+        "skips": 7,
+        "durationSec": 234,
+        "genre": "Modern Pop / Chart",
+        "decade": "2010s",
+        "artistId": "art-011",
+        "palette": {
+          "primary": "#3B82F6",
+          "bg": "linear-gradient(135deg,#172554,#0f172a)",
+          "glow": "rgba(59,130,246,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "505",
+        "artist": "Arctic Monkeys",
+        "album": "Favourite Worst Nightmare",
+        "plays": 58,
+        "skips": 8,
+        "durationSec": 254,
+        "genre": "Indie / Alt Rock",
+        "decade": "2010s",
+        "artistId": "art-003",
+        "palette": {
+          "primary": "#EC4899",
+          "bg": "linear-gradient(135deg,#500724,#2e081d)",
+          "glow": "rgba(236,72,153,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg"
+      },
+      {
+        "title": "Viva La Vida",
+        "artist": "Coldplay",
+        "album": "Viva La Vida or Death and All His Friends",
+        "plays": 56,
+        "skips": 9,
+        "durationSec": 241,
+        "genre": "Modern Pop / Chart",
+        "decade": "2000s",
+        "artistId": "art-022",
+        "palette": {
+          "primary": "#8B5CF6",
+          "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+          "glow": "rgba(139,92,246,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/93/8c/f5938c49-964c-31d1-4b33-78b634f71fb7/190295978075.jpg/600x600bb.jpg"
+      },
+      {
+        "title": "La Isla Bonita",
+        "artist": "Madonna",
+        "album": "True Blue",
+        "plays": 55,
+        "skips": 11,
+        "durationSec": 243,
+        "genre": "80s/90s Pop",
+        "decade": "1980s",
+        "artistId": "art-005",
+        "palette": {
+          "primary": "#3B82F6",
+          "bg": "linear-gradient(135deg,#172554,#0f172a)",
+          "glow": "rgba(59,130,246,0.35)"
+        },
+        "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/20/3c/f5/203cf53d-689e-528f-29d7-ba33758254aa/mzi.rotbotfl.jpg/600x600bb.jpg"
+      }
+    ],
+    "decadesSummary": {
+      "2000s": 28,
+      "2010s": 47,
+      "1970s": 8,
+      "1980s": 14,
+      "1990s": 18,
+      "2020s": 31,
+      "1960s": 3
+    },
+    "genresSummary": {
+      "Nu-Metal / Alt Rock": 5,
+      "Hip-Hop / Rap": 20,
+      "Indie / Alt Rock": 2,
+      "Classic Rock": 28,
+      "80s/90s Pop": 12,
+      "Cinematic / OST": 9,
+      "Modern Pop / Chart": 59,
+      "Grunge / Alt Rock": 1,
+      "Smooth Soul / R&B": 7,
+      "Eurodance / Electronic": 6
+    }
+  },
+  "artists": [
+    {
+      "id": "art-001",
+      "name": "LINKIN PARK",
+      "genre": "Nu-Metal / Alt Rock",
+      "decade": "2000s",
+      "bio": "Linkin Park is an American rock band formed in Agoura Hills, California, in 1996. The band's current lineup consists of vocalist/rhythm guitarist/keyboardist Mike Shinoda, lead guitarist Brad Delson, DJ/turntablist Joe Hahn, bassist Dave Farrell, vocalist Emily Armstrong, and drummer Colin Brittain. The lineup for the band's first seven studio albums included lead vocalist Chester Bennington and drummer Rob Bourdon; after Bennington's suicide in July 2017, the band endured a seven-year hiatus, during which Bourdon chose to depart from the band. In September 2024, Linkin Park's reformation was announced along with the addition of Armstrong and Brittain.",
+      "trackCount": 56,
+      "albumCount": 22,
+      "totalPlays": 444,
+      "totalSkips": 82,
+      "totalHours": 24.7,
+      "avgPlays": 7.9,
+      "completionRate": 84.4,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/600x600bb.jpg",
+      "songs": [
+        "From the Inside",
+        "Two Faced",
+        "Unshatter",
+        "Up From the Bottom",
+        "Over Each Other",
+        "Friendly Fire",
+        "Don't Stay",
+        "Leave Out All the Rest",
+        "BURN IT DOWN",
+        "Lying from You",
+        "Casualty",
+        "Given Up",
+        "LOST IN THE ECHO",
+        "What I've Done",
+        "Enth E Nd (Kutmasta Kurt Reanimation) [feat. Motion Man]",
+        "Bleed It Out",
+        "Breaking the Habit",
+        "Figure.09",
+        "Papercut",
+        "Somewhere I Belong",
+        "In the End",
+        "Crawling (One More Light Live)",
+        "New Divide",
+        "In the End (One More Light Live)",
+        "Fighting Myself",
+        "Numb (One More Light Live)",
+        "CASTLE OF GLASS",
+        "Points of Authority",
+        "Bleed It Out (Live)",
+        "What I've Done (One More Light Live)",
+        "Talking to Myself (One More Light Live)",
+        "Leave Out All the Rest (Live)",
+        "Burn It Down (Live)",
+        "Battle Symphony (One More Light Live)",
+        "New Divide (One More Light Live)",
+        "Good Goodbye (feat. Stormzy) [Live]",
+        "Sharp Edges (One More Light Live)",
+        "Good Goodbye (feat. Pusha T & Stormzy)",
+        "Stained",
+        "IGYEIH",
+        "One More Light (One More Light Live)",
+        "A Place for My Head",
+        "Shadow of the Day",
+        "Runaway",
+        "Heavy (feat. Kiiara)",
+        "Pushing Me Away (Live)",
+        "From Zero (Intro)",
+        "Cut the Bridge",
+        "Good Things Go",
+        "Invisible (One More Light Live)",
+        "Nobody Can Save Me (One More Light Live)",
+        "Heavy (One More Light Live)",
+        "The Catalyst (Live In Madrid)",
+        "Heavy Is the Crown",
+        "The Emptiness Machine",
+        "Overflow"
+      ],
+      "albums": [
+        "Papercuts (Singles Collection 2000-2023)",
+        "One More Light",
+        "Meteora (Deluxe Edition)",
+        "LIVING THINGS",
+        "Bleed It Out - Single",
+        "Meteora (20th Anniversary Edition)",
+        "Minutes to Midnight",
+        "Rock Boost",
+        "From Zero (Deluxe Edition)",
+        "Meteora",
+        "Summer Top Hits 2025",
+        "One More Light: Live",
+        "Transformers: Revenge of the Fallen (The Album)",
+        "The Hits 10s",
+        "Top Gaming - Press Start",
+        "A Thousand Suns: Puerta de Alcal\u00e1 (Live) - EP",
+        "Hybrid Theory (20th Anniversary Edition)",
+        "Transformers (Soundtrack from the Motion Picture)",
+        "Road to Revolution: Live at Milton Keynes",
+        "Minutes to Midnight (Deluxe Edition)",
+        "From Zero",
+        "One More Light Live"
+      ],
+      "songDetails": [
+        {
+          "title": "From the Inside",
+          "album": "Meteora (Deluxe Edition)",
+          "genre": "Hard Rock",
+          "year": "2003",
+          "plays": 62,
+          "skips": 2,
+          "durationSec": 176
+        },
+        {
+          "title": "Two Faced",
+          "album": "From Zero",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 23,
+          "skips": 0,
+          "durationSec": 184
+        },
+        {
+          "title": "Unshatter",
+          "album": "From Zero (Deluxe Edition)",
+          "genre": "Alternative",
+          "year": "2025",
+          "plays": 22,
+          "skips": 0,
+          "durationSec": 196
+        },
+        {
+          "title": "Up From the Bottom",
+          "album": "From Zero (Deluxe Edition)",
+          "genre": "Alternative",
+          "year": "2025",
+          "plays": 21,
+          "skips": 3,
+          "durationSec": 183
+        },
+        {
+          "title": "Over Each Other",
+          "album": "From Zero",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 19,
+          "skips": 6,
+          "durationSec": 170
+        },
+        {
+          "title": "Friendly Fire",
+          "album": "Papercuts (Singles Collection 2000-2023)",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 18,
+          "skips": 5,
+          "durationSec": 177
+        },
+        {
+          "title": "Don't Stay",
+          "album": "Meteora (Deluxe Edition)",
+          "genre": "Hard Rock",
+          "year": "2003",
+          "plays": 17,
+          "skips": 1,
+          "durationSec": 188
+        },
+        {
+          "title": "Leave Out All the Rest",
+          "album": "Minutes to Midnight (Deluxe Edition)",
+          "genre": "Hard Rock",
+          "year": "2007",
+          "plays": 16,
+          "skips": 8,
+          "durationSec": 209
+        },
+        {
+          "title": "BURN IT DOWN",
+          "album": "LIVING THINGS",
+          "genre": "Hard Rock",
+          "year": "2012",
+          "plays": 15,
+          "skips": 10,
+          "durationSec": 230
+        },
+        {
+          "title": "Lying from You",
+          "album": "Meteora (Deluxe Edition)",
+          "genre": "Hard Rock",
+          "year": "2003",
+          "plays": 15,
+          "skips": 0,
+          "durationSec": 175
+        },
+        {
+          "title": "Casualty",
+          "album": "From Zero",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 15,
+          "skips": 0,
+          "durationSec": 141
+        },
+        {
+          "title": "Given Up",
+          "album": "Minutes to Midnight",
+          "genre": "Hard Rock",
+          "year": "2007",
+          "plays": 14,
+          "skips": 3,
+          "durationSec": 189
+        },
+        {
+          "title": "LOST IN THE ECHO",
+          "album": "LIVING THINGS",
+          "genre": "Hard Rock",
+          "year": "2012",
+          "plays": 14,
+          "skips": 5,
+          "durationSec": 205
+        },
+        {
+          "title": "What I've Done",
+          "album": "Transformers (Soundtrack from the Motion Picture)",
+          "genre": "Soundtrack",
+          "year": "2007",
+          "plays": 12,
+          "skips": 3,
+          "durationSec": 206
+        },
+        {
+          "title": "Enth E Nd (Kutmasta Kurt Reanimation) [feat. Motion Man]",
+          "album": "Hybrid Theory (20th Anniversary Edition)",
+          "genre": "Hard Rock",
+          "year": "2002",
+          "plays": 12,
+          "skips": 3,
+          "durationSec": 240
+        },
+        {
+          "title": "Bleed It Out",
+          "album": "Bleed It Out - Single",
+          "genre": "Hard Rock",
+          "year": "2007",
+          "plays": 11,
+          "skips": 4,
+          "durationSec": 165
+        },
+        {
+          "title": "Breaking the Habit",
+          "album": "Meteora",
+          "genre": "Hard Rock",
+          "year": "2003",
+          "plays": 11,
+          "skips": 1,
+          "durationSec": 196
+        },
+        {
+          "title": "Figure.09",
+          "album": "Meteora (Deluxe Edition)",
+          "genre": "Hard Rock",
+          "year": "2003",
+          "plays": 11,
+          "skips": 4,
+          "durationSec": 198
+        },
+        {
+          "title": "Papercut",
+          "album": "Hybrid Theory (20th Anniversary Edition)",
+          "genre": "Hard Rock",
+          "year": "2000",
+          "plays": 10,
+          "skips": 0,
+          "durationSec": 185
+        },
+        {
+          "title": "Somewhere I Belong",
+          "album": "Meteora (20th Anniversary Edition)",
+          "genre": "Alternative",
+          "year": "2003",
+          "plays": 9,
+          "skips": 3,
+          "durationSec": 214
+        },
+        {
+          "title": "In the End",
+          "album": "Hybrid Theory (20th Anniversary Edition)",
+          "genre": "Hard Rock",
+          "year": "2000",
+          "plays": 7,
+          "skips": 3,
+          "durationSec": 217
+        },
+        {
+          "title": "Crawling (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Alternative",
+          "year": "2017",
+          "plays": 7,
+          "skips": 2,
+          "durationSec": 210
+        },
+        {
+          "title": "New Divide",
+          "album": "Transformers: Revenge of the Fallen (The Album)",
+          "genre": "Soundtrack",
+          "year": "2009",
+          "plays": 7,
+          "skips": 1,
+          "durationSec": 269
+        },
+        {
+          "title": "In the End (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 7,
+          "skips": 1,
+          "durationSec": 228
+        },
+        {
+          "title": "Fighting Myself",
+          "album": "Rock Boost",
+          "genre": "Alternative",
+          "year": "2023",
+          "plays": 6,
+          "skips": 1,
+          "durationSec": 201
+        },
+        {
+          "title": "Numb (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 6,
+          "skips": 0,
+          "durationSec": 231
+        },
+        {
+          "title": "CASTLE OF GLASS",
+          "album": "Papercuts (Singles Collection 2000-2023)",
+          "genre": "Alternative",
+          "year": "2012",
+          "plays": 4,
+          "skips": 2,
+          "durationSec": 205
+        },
+        {
+          "title": "Points of Authority",
+          "album": "Hybrid Theory (20th Anniversary Edition)",
+          "genre": "Hard Rock",
+          "year": "2000",
+          "plays": 4,
+          "skips": 1,
+          "durationSec": 200
+        },
+        {
+          "title": "Bleed It Out (Live)",
+          "album": "One More Light: Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 4,
+          "skips": 0,
+          "durationSec": 297
+        },
+        {
+          "title": "What I've Done (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 4,
+          "skips": 1,
+          "durationSec": 273
+        },
+        {
+          "title": "Talking to Myself (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 4,
+          "skips": 2,
+          "durationSec": 317
+        },
+        {
+          "title": "Leave Out All the Rest (Live)",
+          "album": "One More Light: Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 291
+        },
+        {
+          "title": "Burn It Down (Live)",
+          "album": "One More Light: Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 254
+        },
+        {
+          "title": "Battle Symphony (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 225
+        },
+        {
+          "title": "New Divide (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 271
+        },
+        {
+          "title": "Good Goodbye (feat. Stormzy) [Live]",
+          "album": "One More Light: Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 249
+        },
+        {
+          "title": "Sharp Edges (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Alternative",
+          "year": "2017",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 288
+        },
+        {
+          "title": "Good Goodbye (feat. Pusha T & Stormzy)",
+          "album": "One More Light",
+          "genre": "Alternative",
+          "year": "2017",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 211
+        },
+        {
+          "title": "Stained",
+          "album": "From Zero",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 2,
+          "skips": 1,
+          "durationSec": 185
+        },
+        {
+          "title": "IGYEIH",
+          "album": "From Zero",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 209
+        },
+        {
+          "title": "One More Light (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 259
+        },
+        {
+          "title": "A Place for My Head",
+          "album": "Hybrid Theory (20th Anniversary Edition)",
+          "genre": "Hard Rock",
+          "year": "2000",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 185
+        },
+        {
+          "title": "Shadow of the Day",
+          "album": "Minutes to Midnight",
+          "genre": "Hard Rock",
+          "year": "2007",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 290
+        },
+        {
+          "title": "Runaway",
+          "album": "Hybrid Theory (20th Anniversary Edition)",
+          "genre": "Hard Rock",
+          "year": "2000",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 184
+        },
+        {
+          "title": "Heavy (feat. Kiiara)",
+          "album": "The Hits 10s",
+          "genre": "Pop",
+          "year": "2017",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 170
+        },
+        {
+          "title": "Pushing Me Away (Live)",
+          "album": "Road to Revolution: Live at Milton Keynes",
+          "genre": "Hard Rock",
+          "year": "2008",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 199
+        },
+        {
+          "title": "From Zero (Intro)",
+          "album": "From Zero",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 22
+        },
+        {
+          "title": "Cut the Bridge",
+          "album": "From Zero",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 229
+        },
+        {
+          "title": "Good Things Go",
+          "album": "From Zero",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 210
+        },
+        {
+          "title": "Invisible (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 270
+        },
+        {
+          "title": "Nobody Can Save Me (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 240
+        },
+        {
+          "title": "Heavy (One More Light Live)",
+          "album": "One More Light Live",
+          "genre": "Hard Rock",
+          "year": "2017",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 176
+        },
+        {
+          "title": "The Catalyst (Live In Madrid)",
+          "album": "A Thousand Suns: Puerta de Alcal\u00e1 (Live) - EP",
+          "genre": "Hard Rock",
+          "year": "2010",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 357
+        },
+        {
+          "title": "Heavy Is the Crown",
+          "album": "Top Gaming - Press Start",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 167
+        },
+        {
+          "title": "The Emptiness Machine",
+          "album": "Summer Top Hits 2025",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 190
+        },
+        {
+          "title": "Overflow",
+          "album": "From Zero",
+          "genre": "Alternative",
+          "year": "2024",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 211
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Meteora (Deluxe Edition)",
+          "plays": 105,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "From the Inside",
+              "album": "Meteora (Deluxe Edition)",
+              "genre": "Hard Rock",
+              "year": "2003",
+              "plays": 62,
+              "skips": 2,
+              "durationSec": 176
+            },
+            {
+              "title": "Don't Stay",
+              "album": "Meteora (Deluxe Edition)",
+              "genre": "Hard Rock",
+              "year": "2003",
+              "plays": 17,
+              "skips": 1,
+              "durationSec": 188
+            },
+            {
+              "title": "Lying from You",
+              "album": "Meteora (Deluxe Edition)",
+              "genre": "Hard Rock",
+              "year": "2003",
+              "plays": 15,
+              "skips": 0,
+              "durationSec": 175
+            },
+            {
+              "title": "Figure.09",
+              "album": "Meteora (Deluxe Edition)",
+              "genre": "Hard Rock",
+              "year": "2003",
+              "plays": 11,
+              "skips": 4,
+              "durationSec": 198
+            }
+          ]
+        },
+        {
+          "name": "From Zero",
+          "plays": 64,
+          "trackCount": 9,
+          "songs": [
+            {
+              "title": "Two Faced",
+              "album": "From Zero",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 23,
+              "skips": 0,
+              "durationSec": 184
+            },
+            {
+              "title": "Over Each Other",
+              "album": "From Zero",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 19,
+              "skips": 6,
+              "durationSec": 170
+            },
+            {
+              "title": "Casualty",
+              "album": "From Zero",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 15,
+              "skips": 0,
+              "durationSec": 141
+            },
+            {
+              "title": "Stained",
+              "album": "From Zero",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 2,
+              "skips": 1,
+              "durationSec": 185
+            },
+            {
+              "title": "IGYEIH",
+              "album": "From Zero",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 209
+            },
+            {
+              "title": "From Zero (Intro)",
+              "album": "From Zero",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 22
+            },
+            {
+              "title": "Cut the Bridge",
+              "album": "From Zero",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 229
+            },
+            {
+              "title": "Good Things Go",
+              "album": "From Zero",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 210
+            },
+            {
+              "title": "Overflow",
+              "album": "From Zero",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 211
+            }
+          ]
+        },
+        {
+          "name": "From Zero (Deluxe Edition)",
+          "plays": 43,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Unshatter",
+              "album": "From Zero (Deluxe Edition)",
+              "genre": "Alternative",
+              "year": "2025",
+              "plays": 22,
+              "skips": 0,
+              "durationSec": 196
+            },
+            {
+              "title": "Up From the Bottom",
+              "album": "From Zero (Deluxe Edition)",
+              "genre": "Alternative",
+              "year": "2025",
+              "plays": 21,
+              "skips": 3,
+              "durationSec": 183
+            }
+          ]
+        },
+        {
+          "name": "One More Light Live",
+          "plays": 42,
+          "trackCount": 12,
+          "songs": [
+            {
+              "title": "Crawling (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Alternative",
+              "year": "2017",
+              "plays": 7,
+              "skips": 2,
+              "durationSec": 210
+            },
+            {
+              "title": "In the End (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 7,
+              "skips": 1,
+              "durationSec": 228
+            },
+            {
+              "title": "Numb (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 6,
+              "skips": 0,
+              "durationSec": 231
+            },
+            {
+              "title": "What I've Done (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 4,
+              "skips": 1,
+              "durationSec": 273
+            },
+            {
+              "title": "Talking to Myself (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 4,
+              "skips": 2,
+              "durationSec": 317
+            },
+            {
+              "title": "Battle Symphony (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 225
+            },
+            {
+              "title": "New Divide (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 271
+            },
+            {
+              "title": "Sharp Edges (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Alternative",
+              "year": "2017",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 288
+            },
+            {
+              "title": "One More Light (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 259
+            },
+            {
+              "title": "Invisible (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 270
+            },
+            {
+              "title": "Nobody Can Save Me (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 240
+            },
+            {
+              "title": "Heavy (One More Light Live)",
+              "album": "One More Light Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 176
+            }
+          ]
+        },
+        {
+          "name": "Hybrid Theory (20th Anniversary Edition)",
+          "plays": 35,
+          "trackCount": 6,
+          "songs": [
+            {
+              "title": "Enth E Nd (Kutmasta Kurt Reanimation) [feat. Motion Man]",
+              "album": "Hybrid Theory (20th Anniversary Edition)",
+              "genre": "Hard Rock",
+              "year": "2002",
+              "plays": 12,
+              "skips": 3,
+              "durationSec": 240
+            },
+            {
+              "title": "Papercut",
+              "album": "Hybrid Theory (20th Anniversary Edition)",
+              "genre": "Hard Rock",
+              "year": "2000",
+              "plays": 10,
+              "skips": 0,
+              "durationSec": 185
+            },
+            {
+              "title": "In the End",
+              "album": "Hybrid Theory (20th Anniversary Edition)",
+              "genre": "Hard Rock",
+              "year": "2000",
+              "plays": 7,
+              "skips": 3,
+              "durationSec": 217
+            },
+            {
+              "title": "Points of Authority",
+              "album": "Hybrid Theory (20th Anniversary Edition)",
+              "genre": "Hard Rock",
+              "year": "2000",
+              "plays": 4,
+              "skips": 1,
+              "durationSec": 200
+            },
+            {
+              "title": "A Place for My Head",
+              "album": "Hybrid Theory (20th Anniversary Edition)",
+              "genre": "Hard Rock",
+              "year": "2000",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 185
+            },
+            {
+              "title": "Runaway",
+              "album": "Hybrid Theory (20th Anniversary Edition)",
+              "genre": "Hard Rock",
+              "year": "2000",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 184
+            }
+          ]
+        },
+        {
+          "name": "LIVING THINGS",
+          "plays": 29,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "BURN IT DOWN",
+              "album": "LIVING THINGS",
+              "genre": "Hard Rock",
+              "year": "2012",
+              "plays": 15,
+              "skips": 10,
+              "durationSec": 230
+            },
+            {
+              "title": "LOST IN THE ECHO",
+              "album": "LIVING THINGS",
+              "genre": "Hard Rock",
+              "year": "2012",
+              "plays": 14,
+              "skips": 5,
+              "durationSec": 205
+            }
+          ]
+        },
+        {
+          "name": "Papercuts (Singles Collection 2000-2023)",
+          "plays": 22,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Friendly Fire",
+              "album": "Papercuts (Singles Collection 2000-2023)",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 18,
+              "skips": 5,
+              "durationSec": 177
+            },
+            {
+              "title": "CASTLE OF GLASS",
+              "album": "Papercuts (Singles Collection 2000-2023)",
+              "genre": "Alternative",
+              "year": "2012",
+              "plays": 4,
+              "skips": 2,
+              "durationSec": 205
+            }
+          ]
+        },
+        {
+          "name": "Minutes to Midnight (Deluxe Edition)",
+          "plays": 16,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Leave Out All the Rest",
+              "album": "Minutes to Midnight (Deluxe Edition)",
+              "genre": "Hard Rock",
+              "year": "2007",
+              "plays": 16,
+              "skips": 8,
+              "durationSec": 209
+            }
+          ]
+        },
+        {
+          "name": "Minutes to Midnight",
+          "plays": 15,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Given Up",
+              "album": "Minutes to Midnight",
+              "genre": "Hard Rock",
+              "year": "2007",
+              "plays": 14,
+              "skips": 3,
+              "durationSec": 189
+            },
+            {
+              "title": "Shadow of the Day",
+              "album": "Minutes to Midnight",
+              "genre": "Hard Rock",
+              "year": "2007",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 290
+            }
+          ]
+        },
+        {
+          "name": "One More Light: Live",
+          "plays": 13,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "Bleed It Out (Live)",
+              "album": "One More Light: Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 4,
+              "skips": 0,
+              "durationSec": 297
+            },
+            {
+              "title": "Leave Out All the Rest (Live)",
+              "album": "One More Light: Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 291
+            },
+            {
+              "title": "Burn It Down (Live)",
+              "album": "One More Light: Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 254
+            },
+            {
+              "title": "Good Goodbye (feat. Stormzy) [Live]",
+              "album": "One More Light: Live",
+              "genre": "Hard Rock",
+              "year": "2017",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 249
+            }
+          ]
+        },
+        {
+          "name": "Transformers (Soundtrack from the Motion Picture)",
+          "plays": 12,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "What I've Done",
+              "album": "Transformers (Soundtrack from the Motion Picture)",
+              "genre": "Soundtrack",
+              "year": "2007",
+              "plays": 12,
+              "skips": 3,
+              "durationSec": 206
+            }
+          ]
+        },
+        {
+          "name": "Bleed It Out - Single",
+          "plays": 11,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Bleed It Out",
+              "album": "Bleed It Out - Single",
+              "genre": "Hard Rock",
+              "year": "2007",
+              "plays": 11,
+              "skips": 4,
+              "durationSec": 165
+            }
+          ]
+        },
+        {
+          "name": "Meteora",
+          "plays": 11,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Breaking the Habit",
+              "album": "Meteora",
+              "genre": "Hard Rock",
+              "year": "2003",
+              "plays": 11,
+              "skips": 1,
+              "durationSec": 196
+            }
+          ]
+        },
+        {
+          "name": "Meteora (20th Anniversary Edition)",
+          "plays": 9,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Somewhere I Belong",
+              "album": "Meteora (20th Anniversary Edition)",
+              "genre": "Alternative",
+              "year": "2003",
+              "plays": 9,
+              "skips": 3,
+              "durationSec": 214
+            }
+          ]
+        },
+        {
+          "name": "Transformers: Revenge of the Fallen (The Album)",
+          "plays": 7,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "New Divide",
+              "album": "Transformers: Revenge of the Fallen (The Album)",
+              "genre": "Soundtrack",
+              "year": "2009",
+              "plays": 7,
+              "skips": 1,
+              "durationSec": 269
+            }
+          ]
+        },
+        {
+          "name": "Rock Boost",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Fighting Myself",
+              "album": "Rock Boost",
+              "genre": "Alternative",
+              "year": "2023",
+              "plays": 6,
+              "skips": 1,
+              "durationSec": 201
+            }
+          ]
+        },
+        {
+          "name": "One More Light",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Good Goodbye (feat. Pusha T & Stormzy)",
+              "album": "One More Light",
+              "genre": "Alternative",
+              "year": "2017",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 211
+            }
+          ]
+        },
+        {
+          "name": "The Hits 10s",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Heavy (feat. Kiiara)",
+              "album": "The Hits 10s",
+              "genre": "Pop",
+              "year": "2017",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 170
+            }
+          ]
+        },
+        {
+          "name": "Road to Revolution: Live at Milton Keynes",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Pushing Me Away (Live)",
+              "album": "Road to Revolution: Live at Milton Keynes",
+              "genre": "Hard Rock",
+              "year": "2008",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 199
+            }
+          ]
+        },
+        {
+          "name": "A Thousand Suns: Puerta de Alcal\u00e1 (Live) - EP",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "The Catalyst (Live In Madrid)",
+              "album": "A Thousand Suns: Puerta de Alcal\u00e1 (Live) - EP",
+              "genre": "Hard Rock",
+              "year": "2010",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 357
+            }
+          ]
+        },
+        {
+          "name": "Top Gaming - Press Start",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Heavy Is the Crown",
+              "album": "Top Gaming - Press Start",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 167
+            }
+          ]
+        },
+        {
+          "name": "Summer Top Hits 2025",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "The Emptiness Machine",
+              "album": "Summer Top Hits 2025",
+              "genre": "Alternative",
+              "year": "2024",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 190
+            }
+          ]
+        }
+      ],
+      "galaxyX": 73.0,
+      "galaxyY": 0.0,
+      "starRadius": 32
+    },
+    {
+      "id": "art-002",
+      "name": "Eminem",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2000s",
+      "bio": "Marshall Bruce Mathers III, known professionally as Eminem, is an American rapper, songwriter, record producer, and record executive. Known for his rap flow and conscious rap, which includes political criticism and social commentary, he is widely regarded as one of the greatest and most influential rappers of all time, often credited with popularizing hip-hop in Middle America and the acceptance of white rappers. While much of his transgressive art during the late 1990s and early 2000s made him a controversial figure, Eminem has become a representation of popular angst in lower-income America.",
+      "trackCount": 10,
+      "albumCount": 5,
+      "totalPlays": 422,
+      "totalSkips": 98,
+      "totalHours": 38.6,
+      "avgPlays": 42.2,
+      "completionRate": 81.2,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/23/fc/0823fcd9-cb44-695b-32bf-b3bf51d9f800/00606949351229.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "'Till I Collapse (feat. Nate Dogg)",
+        "Stan (feat. Dido)",
+        "Without Me",
+        "The Real Slim Shady",
+        "Sing for the Moment",
+        "Sing For The Moment (Instrumental)",
+        "Lose Yourself (Soundtrack Version) [Edited Version]",
+        "Mockingbird",
+        "Hailie's Song",
+        "Superman (feat. Dina Rae)"
+      ],
+      "albums": [
+        "Curtain Call: The Hits",
+        "The Eminem Show (Expanded Edition)",
+        "The Eminem Show",
+        "The Marshall Mathers LP",
+        "Encore (Deluxe Version)"
+      ],
+      "songDetails": [
+        {
+          "title": "'Till I Collapse (feat. Nate Dogg)",
+          "album": "The Eminem Show",
+          "genre": "Hip-Hop/Rap",
+          "year": "2002",
+          "plays": 98,
+          "skips": 24,
+          "durationSec": 298
+        },
+        {
+          "title": "Stan (feat. Dido)",
+          "album": "The Marshall Mathers LP",
+          "genre": "Hip-Hop/Rap",
+          "year": "2000",
+          "plays": 93,
+          "skips": 12,
+          "durationSec": 404
+        },
+        {
+          "title": "Without Me",
+          "album": "The Eminem Show",
+          "genre": "Hip-Hop/Rap",
+          "year": "2002",
+          "plays": 66,
+          "skips": 16,
+          "durationSec": 290
+        },
+        {
+          "title": "The Real Slim Shady",
+          "album": "The Marshall Mathers LP",
+          "genre": "Hip-Hop/Rap",
+          "year": "2000",
+          "plays": 42,
+          "skips": 10,
+          "durationSec": 284
+        },
+        {
+          "title": "Sing for the Moment",
+          "album": "The Eminem Show",
+          "genre": "Hip-Hop/Rap",
+          "year": "2002",
+          "plays": 36,
+          "skips": 11,
+          "durationSec": 340
+        },
+        {
+          "title": "Sing For The Moment (Instrumental)",
+          "album": "The Eminem Show (Expanded Edition)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2002",
+          "plays": 33,
+          "skips": 11,
+          "durationSec": 384
+        },
+        {
+          "title": "Lose Yourself (Soundtrack Version) [Edited Version]",
+          "album": "Curtain Call: The Hits",
+          "genre": "Hip-Hop/Rap",
+          "year": "2002",
+          "plays": 24,
+          "skips": 6,
+          "durationSec": 321
+        },
+        {
+          "title": "Mockingbird",
+          "album": "Encore (Deluxe Version)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2004",
+          "plays": 18,
+          "skips": 0,
+          "durationSec": 251
+        },
+        {
+          "title": "Hailie's Song",
+          "album": "The Eminem Show",
+          "genre": "Hip-Hop/Rap",
+          "year": "2002",
+          "plays": 7,
+          "skips": 2,
+          "durationSec": 321
+        },
+        {
+          "title": "Superman (feat. Dina Rae)",
+          "album": "The Eminem Show",
+          "genre": "Hip-Hop/Rap",
+          "year": "2002",
+          "plays": 5,
+          "skips": 6,
+          "durationSec": 350
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "The Eminem Show",
+          "plays": 212,
+          "trackCount": 5,
+          "songs": [
+            {
+              "title": "'Till I Collapse (feat. Nate Dogg)",
+              "album": "The Eminem Show",
+              "genre": "Hip-Hop/Rap",
+              "year": "2002",
+              "plays": 98,
+              "skips": 24,
+              "durationSec": 298
+            },
+            {
+              "title": "Without Me",
+              "album": "The Eminem Show",
+              "genre": "Hip-Hop/Rap",
+              "year": "2002",
+              "plays": 66,
+              "skips": 16,
+              "durationSec": 290
+            },
+            {
+              "title": "Sing for the Moment",
+              "album": "The Eminem Show",
+              "genre": "Hip-Hop/Rap",
+              "year": "2002",
+              "plays": 36,
+              "skips": 11,
+              "durationSec": 340
+            },
+            {
+              "title": "Hailie's Song",
+              "album": "The Eminem Show",
+              "genre": "Hip-Hop/Rap",
+              "year": "2002",
+              "plays": 7,
+              "skips": 2,
+              "durationSec": 321
+            },
+            {
+              "title": "Superman (feat. Dina Rae)",
+              "album": "The Eminem Show",
+              "genre": "Hip-Hop/Rap",
+              "year": "2002",
+              "plays": 5,
+              "skips": 6,
+              "durationSec": 350
+            }
+          ]
+        },
+        {
+          "name": "The Marshall Mathers LP",
+          "plays": 135,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Stan (feat. Dido)",
+              "album": "The Marshall Mathers LP",
+              "genre": "Hip-Hop/Rap",
+              "year": "2000",
+              "plays": 93,
+              "skips": 12,
+              "durationSec": 404
+            },
+            {
+              "title": "The Real Slim Shady",
+              "album": "The Marshall Mathers LP",
+              "genre": "Hip-Hop/Rap",
+              "year": "2000",
+              "plays": 42,
+              "skips": 10,
+              "durationSec": 284
+            }
+          ]
+        },
+        {
+          "name": "The Eminem Show (Expanded Edition)",
+          "plays": 33,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Sing For The Moment (Instrumental)",
+              "album": "The Eminem Show (Expanded Edition)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2002",
+              "plays": 33,
+              "skips": 11,
+              "durationSec": 384
+            }
+          ]
+        },
+        {
+          "name": "Curtain Call: The Hits",
+          "plays": 24,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Lose Yourself (Soundtrack Version) [Edited Version]",
+              "album": "Curtain Call: The Hits",
+              "genre": "Hip-Hop/Rap",
+              "year": "2002",
+              "plays": 24,
+              "skips": 6,
+              "durationSec": 321
+            }
+          ]
+        },
+        {
+          "name": "Encore (Deluxe Version)",
+          "plays": 18,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Mockingbird",
+              "album": "Encore (Deluxe Version)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2004",
+              "plays": 18,
+              "skips": 0,
+              "durationSec": 251
+            }
+          ]
+        }
+      ],
+      "galaxyX": -65.43,
+      "galaxyY": 59.94,
+      "starRadius": 32
+    },
+    {
+      "id": "art-003",
+      "name": "Arctic Monkeys",
+      "genre": "Indie / Alt Rock",
+      "decade": "2010s",
+      "bio": "Arctic Monkeys are an English rock band formed in Sheffield in 2002. They comprise lead singer and guitarist Alex Turner, drummer Matt Helders, guitarist Jamie Cook and bassist Nick O'Malley, who replaced co-founder and original bassist Andy Nicholson in 2006. Though initially associated with the short-lived landfill indie movement, Arctic Monkeys were one of the earliest bands to come to public attention via the Internet, during the emerging \"blog rock\" era. Commentators have suggested that this period marked a shift in how new bands were promoted and marketed.",
+      "trackCount": 29,
+      "albumCount": 8,
+      "totalPlays": 346,
+      "totalSkips": 62,
+      "totalHours": 20.7,
+      "avgPlays": 11.9,
+      "completionRate": 84.8,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/9c/b5/699cb5d6-115c-ff73-9d26-e57ea4350d72/887828031795.png/600x600bb.jpg",
+      "songs": [
+        "I Wanna Be Yours",
+        "505",
+        "Do I Wanna Know?",
+        "Tranquility Base Hotel & Casino",
+        "Arabella",
+        "Black Treacle",
+        "R U Mine?",
+        "Crying Lightning",
+        "Fluorescent Adolescent",
+        "Knee Socks",
+        "Mardy Bum",
+        "Dancing Shoes",
+        "Leave Before the Lights Come On",
+        "Cornerstone",
+        "My Propeller",
+        "A Certain Romance",
+        "Do Me a Favour",
+        "Snap Out of It",
+        "Why'd You Only Call Me When You're High?",
+        "Brianstorm",
+        "I Bet You Look Good on the Dancefloor",
+        "There\u2019d Better Be A Mirrorball",
+        "Four out of Five",
+        "When the Sun Goes Down",
+        "Teddy Picker",
+        "Don't Sit Down 'Cause I've Moved Your Chair",
+        "Body Paint",
+        "I Ain\u2019t Quite Where I Think I Am",
+        "Fake Tales of San Francisco"
+      ],
+      "albums": [
+        "Humbug (Bonus Track Version)",
+        "AM",
+        "Suck It and See",
+        "Favourite Worst Nightmare",
+        "Tranquility Base Hotel & Casino",
+        "The Car",
+        "Whatever People Say I Am, That's What I'm Not",
+        "Leave Before the Lights Come On - EP"
+      ],
+      "songDetails": [
+        {
+          "title": "I Wanna Be Yours",
+          "album": "AM",
+          "genre": "Alternative",
+          "year": "2013",
+          "plays": 76,
+          "skips": 2,
+          "durationSec": 184
+        },
+        {
+          "title": "505",
+          "album": "Favourite Worst Nightmare",
+          "genre": "Alternative",
+          "year": "2007",
+          "plays": 58,
+          "skips": 8,
+          "durationSec": 254
+        },
+        {
+          "title": "Do I Wanna Know?",
+          "album": "AM",
+          "genre": "Alternative",
+          "year": "2013",
+          "plays": 21,
+          "skips": 3,
+          "durationSec": 272
+        },
+        {
+          "title": "Tranquility Base Hotel & Casino",
+          "album": "Tranquility Base Hotel & Casino",
+          "genre": "Alternative",
+          "year": "2018",
+          "plays": 19,
+          "skips": 8,
+          "durationSec": 212
+        },
+        {
+          "title": "Arabella",
+          "album": "AM",
+          "genre": "Alternative",
+          "year": "2013",
+          "plays": 18,
+          "skips": 4,
+          "durationSec": 207
+        },
+        {
+          "title": "Black Treacle",
+          "album": "Suck It and See",
+          "genre": "Alternative",
+          "year": "2011",
+          "plays": 12,
+          "skips": 5,
+          "durationSec": 215
+        },
+        {
+          "title": "R U Mine?",
+          "album": "AM",
+          "genre": "Alternative",
+          "year": "2012",
+          "plays": 11,
+          "skips": 3,
+          "durationSec": 202
+        },
+        {
+          "title": "Crying Lightning",
+          "album": "Humbug (Bonus Track Version)",
+          "genre": "Alternative",
+          "year": "2009",
+          "plays": 11,
+          "skips": 2,
+          "durationSec": 223
+        },
+        {
+          "title": "Fluorescent Adolescent",
+          "album": "Favourite Worst Nightmare",
+          "genre": "Alternative",
+          "year": "2007",
+          "plays": 10,
+          "skips": 8,
+          "durationSec": 180
+        },
+        {
+          "title": "Knee Socks",
+          "album": "AM",
+          "genre": "Alternative",
+          "year": "2013",
+          "plays": 10,
+          "skips": 1,
+          "durationSec": 258
+        },
+        {
+          "title": "Mardy Bum",
+          "album": "Whatever People Say I Am, That's What I'm Not",
+          "genre": "Alternative",
+          "year": "2006",
+          "plays": 9,
+          "skips": 2,
+          "durationSec": 175
+        },
+        {
+          "title": "Dancing Shoes",
+          "album": "Whatever People Say I Am, That's What I'm Not",
+          "genre": "Alternative",
+          "year": "2006",
+          "plays": 9,
+          "skips": 0,
+          "durationSec": 141
+        },
+        {
+          "title": "Leave Before the Lights Come On",
+          "album": "Leave Before the Lights Come On - EP",
+          "genre": "Alternative",
+          "year": "2006",
+          "plays": 8,
+          "skips": 1,
+          "durationSec": 234
+        },
+        {
+          "title": "Cornerstone",
+          "album": "Humbug (Bonus Track Version)",
+          "genre": "Alternative",
+          "year": "2009",
+          "plays": 8,
+          "skips": 0,
+          "durationSec": 198
+        },
+        {
+          "title": "My Propeller",
+          "album": "Humbug (Bonus Track Version)",
+          "genre": "Alternative",
+          "year": "2009",
+          "plays": 8,
+          "skips": 0,
+          "durationSec": 207
+        },
+        {
+          "title": "A Certain Romance",
+          "album": "Whatever People Say I Am, That's What I'm Not",
+          "genre": "Alternative",
+          "year": "2006",
+          "plays": 7,
+          "skips": 5,
+          "durationSec": 331
+        },
+        {
+          "title": "Do Me a Favour",
+          "album": "Favourite Worst Nightmare",
+          "genre": "Alternative",
+          "year": "2007",
+          "plays": 7,
+          "skips": 0,
+          "durationSec": 209
+        },
+        {
+          "title": "Snap Out of It",
+          "album": "AM",
+          "genre": "Alternative",
+          "year": "2013",
+          "plays": 6,
+          "skips": 1,
+          "durationSec": 193
+        },
+        {
+          "title": "Why'd You Only Call Me When You're High?",
+          "album": "AM",
+          "genre": "Alternative",
+          "year": "2013",
+          "plays": 5,
+          "skips": 0,
+          "durationSec": 161
+        },
+        {
+          "title": "Brianstorm",
+          "album": "Favourite Worst Nightmare",
+          "genre": "Alternative",
+          "year": "2007",
+          "plays": 5,
+          "skips": 3,
+          "durationSec": 172
+        },
+        {
+          "title": "I Bet You Look Good on the Dancefloor",
+          "album": "Whatever People Say I Am, That's What I'm Not",
+          "genre": "Alternative",
+          "year": "2005",
+          "plays": 4,
+          "skips": 1,
+          "durationSec": 174
+        },
+        {
+          "title": "There\u2019d Better Be A Mirrorball",
+          "album": "The Car",
+          "genre": "Alternative",
+          "year": "2022",
+          "plays": 4,
+          "skips": 2,
+          "durationSec": 266
+        },
+        {
+          "title": "Four out of Five",
+          "album": "Tranquility Base Hotel & Casino",
+          "genre": "Alternative",
+          "year": "2018",
+          "plays": 4,
+          "skips": 0,
+          "durationSec": 312
+        },
+        {
+          "title": "When the Sun Goes Down",
+          "album": "Whatever People Say I Am, That's What I'm Not",
+          "genre": "Alternative",
+          "year": "2006",
+          "plays": 4,
+          "skips": 1,
+          "durationSec": 200
+        },
+        {
+          "title": "Teddy Picker",
+          "album": "Favourite Worst Nightmare",
+          "genre": "Alternative",
+          "year": "2007",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 165
+        },
+        {
+          "title": "Don't Sit Down 'Cause I've Moved Your Chair",
+          "album": "Suck It and See",
+          "genre": "Alternative",
+          "year": "2011",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 184
+        },
+        {
+          "title": "Body Paint",
+          "album": "The Car",
+          "genre": "Alternative",
+          "year": "2022",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 291
+        },
+        {
+          "title": "I Ain\u2019t Quite Where I Think I Am",
+          "album": "The Car",
+          "genre": "Alternative",
+          "year": "2022",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 191
+        },
+        {
+          "title": "Fake Tales of San Francisco",
+          "album": "Whatever People Say I Am, That's What I'm Not",
+          "genre": "Alternative",
+          "year": "2006",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 178
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "AM",
+          "plays": 147,
+          "trackCount": 7,
+          "songs": [
+            {
+              "title": "I Wanna Be Yours",
+              "album": "AM",
+              "genre": "Alternative",
+              "year": "2013",
+              "plays": 76,
+              "skips": 2,
+              "durationSec": 184
+            },
+            {
+              "title": "Do I Wanna Know?",
+              "album": "AM",
+              "genre": "Alternative",
+              "year": "2013",
+              "plays": 21,
+              "skips": 3,
+              "durationSec": 272
+            },
+            {
+              "title": "Arabella",
+              "album": "AM",
+              "genre": "Alternative",
+              "year": "2013",
+              "plays": 18,
+              "skips": 4,
+              "durationSec": 207
+            },
+            {
+              "title": "R U Mine?",
+              "album": "AM",
+              "genre": "Alternative",
+              "year": "2012",
+              "plays": 11,
+              "skips": 3,
+              "durationSec": 202
+            },
+            {
+              "title": "Knee Socks",
+              "album": "AM",
+              "genre": "Alternative",
+              "year": "2013",
+              "plays": 10,
+              "skips": 1,
+              "durationSec": 258
+            },
+            {
+              "title": "Snap Out of It",
+              "album": "AM",
+              "genre": "Alternative",
+              "year": "2013",
+              "plays": 6,
+              "skips": 1,
+              "durationSec": 193
+            },
+            {
+              "title": "Why'd You Only Call Me When You're High?",
+              "album": "AM",
+              "genre": "Alternative",
+              "year": "2013",
+              "plays": 5,
+              "skips": 0,
+              "durationSec": 161
+            }
+          ]
+        },
+        {
+          "name": "Favourite Worst Nightmare",
+          "plays": 83,
+          "trackCount": 5,
+          "songs": [
+            {
+              "title": "505",
+              "album": "Favourite Worst Nightmare",
+              "genre": "Alternative",
+              "year": "2007",
+              "plays": 58,
+              "skips": 8,
+              "durationSec": 254
+            },
+            {
+              "title": "Fluorescent Adolescent",
+              "album": "Favourite Worst Nightmare",
+              "genre": "Alternative",
+              "year": "2007",
+              "plays": 10,
+              "skips": 8,
+              "durationSec": 180
+            },
+            {
+              "title": "Do Me a Favour",
+              "album": "Favourite Worst Nightmare",
+              "genre": "Alternative",
+              "year": "2007",
+              "plays": 7,
+              "skips": 0,
+              "durationSec": 209
+            },
+            {
+              "title": "Brianstorm",
+              "album": "Favourite Worst Nightmare",
+              "genre": "Alternative",
+              "year": "2007",
+              "plays": 5,
+              "skips": 3,
+              "durationSec": 172
+            },
+            {
+              "title": "Teddy Picker",
+              "album": "Favourite Worst Nightmare",
+              "genre": "Alternative",
+              "year": "2007",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 165
+            }
+          ]
+        },
+        {
+          "name": "Whatever People Say I Am, That's What I'm Not",
+          "plays": 35,
+          "trackCount": 6,
+          "songs": [
+            {
+              "title": "Mardy Bum",
+              "album": "Whatever People Say I Am, That's What I'm Not",
+              "genre": "Alternative",
+              "year": "2006",
+              "plays": 9,
+              "skips": 2,
+              "durationSec": 175
+            },
+            {
+              "title": "Dancing Shoes",
+              "album": "Whatever People Say I Am, That's What I'm Not",
+              "genre": "Alternative",
+              "year": "2006",
+              "plays": 9,
+              "skips": 0,
+              "durationSec": 141
+            },
+            {
+              "title": "A Certain Romance",
+              "album": "Whatever People Say I Am, That's What I'm Not",
+              "genre": "Alternative",
+              "year": "2006",
+              "plays": 7,
+              "skips": 5,
+              "durationSec": 331
+            },
+            {
+              "title": "I Bet You Look Good on the Dancefloor",
+              "album": "Whatever People Say I Am, That's What I'm Not",
+              "genre": "Alternative",
+              "year": "2005",
+              "plays": 4,
+              "skips": 1,
+              "durationSec": 174
+            },
+            {
+              "title": "When the Sun Goes Down",
+              "album": "Whatever People Say I Am, That's What I'm Not",
+              "genre": "Alternative",
+              "year": "2006",
+              "plays": 4,
+              "skips": 1,
+              "durationSec": 200
+            },
+            {
+              "title": "Fake Tales of San Francisco",
+              "album": "Whatever People Say I Am, That's What I'm Not",
+              "genre": "Alternative",
+              "year": "2006",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 178
+            }
+          ]
+        },
+        {
+          "name": "Humbug (Bonus Track Version)",
+          "plays": 27,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Crying Lightning",
+              "album": "Humbug (Bonus Track Version)",
+              "genre": "Alternative",
+              "year": "2009",
+              "plays": 11,
+              "skips": 2,
+              "durationSec": 223
+            },
+            {
+              "title": "Cornerstone",
+              "album": "Humbug (Bonus Track Version)",
+              "genre": "Alternative",
+              "year": "2009",
+              "plays": 8,
+              "skips": 0,
+              "durationSec": 198
+            },
+            {
+              "title": "My Propeller",
+              "album": "Humbug (Bonus Track Version)",
+              "genre": "Alternative",
+              "year": "2009",
+              "plays": 8,
+              "skips": 0,
+              "durationSec": 207
+            }
+          ]
+        },
+        {
+          "name": "Tranquility Base Hotel & Casino",
+          "plays": 23,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Tranquility Base Hotel & Casino",
+              "album": "Tranquility Base Hotel & Casino",
+              "genre": "Alternative",
+              "year": "2018",
+              "plays": 19,
+              "skips": 8,
+              "durationSec": 212
+            },
+            {
+              "title": "Four out of Five",
+              "album": "Tranquility Base Hotel & Casino",
+              "genre": "Alternative",
+              "year": "2018",
+              "plays": 4,
+              "skips": 0,
+              "durationSec": 312
+            }
+          ]
+        },
+        {
+          "name": "Suck It and See",
+          "plays": 15,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Black Treacle",
+              "album": "Suck It and See",
+              "genre": "Alternative",
+              "year": "2011",
+              "plays": 12,
+              "skips": 5,
+              "durationSec": 215
+            },
+            {
+              "title": "Don't Sit Down 'Cause I've Moved Your Chair",
+              "album": "Suck It and See",
+              "genre": "Alternative",
+              "year": "2011",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 184
+            }
+          ]
+        },
+        {
+          "name": "Leave Before the Lights Come On - EP",
+          "plays": 8,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Leave Before the Lights Come On",
+              "album": "Leave Before the Lights Come On - EP",
+              "genre": "Alternative",
+              "year": "2006",
+              "plays": 8,
+              "skips": 1,
+              "durationSec": 234
+            }
+          ]
+        },
+        {
+          "name": "The Car",
+          "plays": 8,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "There\u2019d Better Be A Mirrorball",
+              "album": "The Car",
+              "genre": "Alternative",
+              "year": "2022",
+              "plays": 4,
+              "skips": 2,
+              "durationSec": 266
+            },
+            {
+              "title": "Body Paint",
+              "album": "The Car",
+              "genre": "Alternative",
+              "year": "2022",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 291
+            },
+            {
+              "title": "I Ain\u2019t Quite Where I Think I Am",
+              "album": "The Car",
+              "genre": "Alternative",
+              "year": "2022",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 191
+            }
+          ]
+        }
+      ],
+      "galaxyX": 8.81,
+      "galaxyY": -100.43,
+      "starRadius": 32
+    },
+    {
+      "id": "art-004",
+      "name": "Queen",
+      "genre": "Classic Rock",
+      "decade": "1970s",
+      "bio": "Queen are a British rock band formed in London in 1970 by Freddie Mercury, Brian May, and Roger Taylor, later joined by John Deacon (bass). Their earliest works were influenced by progressive rock, hard rock and heavy metal, but the band gradually ventured into more conventional and radio-friendly works by incorporating further styles, such as arena rock and pop rock.",
+      "trackCount": 49,
+      "albumCount": 18,
+      "totalPlays": 279,
+      "totalSkips": 58,
+      "totalHours": 17.9,
+      "avgPlays": 5.7,
+      "completionRate": 82.8,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/4d/08/2a/4d082a9e-7898-1aa1-a02f-339810058d9e/14DMGIM05632.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "We Will Rock You (Remastered 2011)",
+        "Killer Queen",
+        "We Are The Champions (Remastered 2011)",
+        "Bohemian Rhapsody",
+        "Crazy Little Thing Called Love",
+        "Another One Bites the Dust",
+        "Fat Bottomed Girls",
+        "You're My Best Friend",
+        "Don't Stop Me Now",
+        "Somebody To Love",
+        "Love of My Life",
+        "The Show Must Go On",
+        "A Kind of Magic",
+        "Under Pressure (feat. David Bowie)",
+        "Radio Ga Ga",
+        "Good Old-Fashioned Lover Boy",
+        "Don't Stop Me Now (...Revisited)",
+        "These Are the Days of Our Lives",
+        "Play the Game",
+        "Cool Cat",
+        "'39",
+        "I Want To Break Free (Single Remix)",
+        "Too Much Love Will Kill You",
+        "Bicycle Race",
+        "Spread Your Wings (Remastered 2011)",
+        "Tie Your Mother Down",
+        "I Want It All (Edit)",
+        "Hammer To Fall",
+        "Friends Will Be Friends",
+        "Radio Ga Ga (Live Aid)",
+        "Who Wants To Live Forever",
+        "We Are the Champions (Live Aid)",
+        "Save Me",
+        "Breakthru (Remastered 2011)",
+        "It's a Hard Life",
+        "Innuendo",
+        "I Was Born To Love You",
+        "Seven Seas of Rhye",
+        "Headlong",
+        "Ay-Oh (Live Aid)",
+        "You Don't Fool Me",
+        "One Vision",
+        "Face It Alone",
+        "Don't Try Suicide",
+        "One Year of Love",
+        "Stone Cold Crazy",
+        "The Invisible Man (Remastered 2011)",
+        "Princes of the Universe",
+        "Death On Two Legs (Dedicated To...)"
+      ],
+      "albums": [
+        "The Game (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+        "A Kind of Magic (Deluxe Edition)",
+        "Hot Space",
+        "Bohemian Rhapsody (The Original Soundtrack)",
+        "Made In Heaven (Deluxe Edition)",
+        "A Day at the Races (Deluxe Edition)",
+        "The Works (Deluxe Edition)",
+        "Face It Alone - Single",
+        "Innuendo (Deluxe Edition)",
+        "The Miracle (Collector's Edition)",
+        "Hot Space (Deluxe Edition)",
+        "Queen II (Deluxe Edition)",
+        "The Game",
+        "Sheer Heart Attack (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+        "News Of The World (Deluxe Edition / Remastered 2011)",
+        "Greatest Hits II",
+        "A Night at the Opera (Deluxe Edition)",
+        "Jazz (Deluxe Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "We Will Rock You (Remastered 2011)",
+          "album": "News Of The World (Deluxe Edition / Remastered 2011)",
+          "genre": "Rock",
+          "year": "1977",
+          "plays": 32,
+          "skips": 3,
+          "durationSec": 122
+        },
+        {
+          "title": "Killer Queen",
+          "album": "Sheer Heart Attack (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+          "genre": "Rock",
+          "year": "1974",
+          "plays": 32,
+          "skips": 6,
+          "durationSec": 180
+        },
+        {
+          "title": "We Are The Champions (Remastered 2011)",
+          "album": "News Of The World (Deluxe Edition / Remastered 2011)",
+          "genre": "Rock",
+          "year": "1977",
+          "plays": 29,
+          "skips": 2,
+          "durationSec": 179
+        },
+        {
+          "title": "Bohemian Rhapsody",
+          "album": "A Night at the Opera (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 15,
+          "skips": 0,
+          "durationSec": 356
+        },
+        {
+          "title": "Crazy Little Thing Called Love",
+          "album": "The Game (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+          "genre": "Rock",
+          "year": "1979",
+          "plays": 13,
+          "skips": 7,
+          "durationSec": 165
+        },
+        {
+          "title": "Another One Bites the Dust",
+          "album": "The Game (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+          "genre": "Rock",
+          "year": "1980",
+          "plays": 12,
+          "skips": 3,
+          "durationSec": 215
+        },
+        {
+          "title": "Fat Bottomed Girls",
+          "album": "Jazz (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1978",
+          "plays": 12,
+          "skips": 0,
+          "durationSec": 256
+        },
+        {
+          "title": "You're My Best Friend",
+          "album": "A Night at the Opera (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 12,
+          "skips": 2,
+          "durationSec": 174
+        },
+        {
+          "title": "Don't Stop Me Now",
+          "album": "Jazz (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1978",
+          "plays": 11,
+          "skips": 0,
+          "durationSec": 209
+        },
+        {
+          "title": "Somebody To Love",
+          "album": "A Day at the Races (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1976",
+          "plays": 11,
+          "skips": 1,
+          "durationSec": 297
+        },
+        {
+          "title": "Love of My Life",
+          "album": "A Night at the Opera (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 11,
+          "skips": 3,
+          "durationSec": 219
+        },
+        {
+          "title": "The Show Must Go On",
+          "album": "Innuendo (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1991",
+          "plays": 11,
+          "skips": 2,
+          "durationSec": 272
+        },
+        {
+          "title": "A Kind of Magic",
+          "album": "A Kind of Magic (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1986",
+          "plays": 10,
+          "skips": 2,
+          "durationSec": 264
+        },
+        {
+          "title": "Under Pressure (feat. David Bowie)",
+          "album": "Hot Space (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1981",
+          "plays": 9,
+          "skips": 1,
+          "durationSec": 248
+        },
+        {
+          "title": "Radio Ga Ga",
+          "album": "The Works (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1984",
+          "plays": 9,
+          "skips": 0,
+          "durationSec": 349
+        },
+        {
+          "title": "Good Old-Fashioned Lover Boy",
+          "album": "A Day at the Races (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1976",
+          "plays": 7,
+          "skips": 0,
+          "durationSec": 173
+        },
+        {
+          "title": "Don't Stop Me Now (...Revisited)",
+          "album": "Bohemian Rhapsody (The Original Soundtrack)",
+          "genre": "Rock",
+          "year": "2018",
+          "plays": 7,
+          "skips": 1,
+          "durationSec": 209
+        },
+        {
+          "title": "These Are the Days of Our Lives",
+          "album": "Innuendo (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1991",
+          "plays": 5,
+          "skips": 3,
+          "durationSec": 255
+        },
+        {
+          "title": "Play the Game",
+          "album": "The Game (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+          "genre": "Rock",
+          "year": "1980",
+          "plays": 5,
+          "skips": 1,
+          "durationSec": 214
+        },
+        {
+          "title": "Cool Cat",
+          "album": "Hot Space",
+          "genre": "Rock",
+          "year": "1982",
+          "plays": 4,
+          "skips": 0,
+          "durationSec": 209
+        },
+        {
+          "title": "'39",
+          "album": "A Night at the Opera (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 4,
+          "skips": 0,
+          "durationSec": 211
+        },
+        {
+          "title": "I Want To Break Free (Single Remix)",
+          "album": "The Works (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1984",
+          "plays": 3,
+          "skips": 3,
+          "durationSec": 259
+        },
+        {
+          "title": "Too Much Love Will Kill You",
+          "album": "Made In Heaven (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1995",
+          "plays": 3,
+          "skips": 3,
+          "durationSec": 259
+        },
+        {
+          "title": "Bicycle Race",
+          "album": "Jazz (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1978",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 181
+        },
+        {
+          "title": "Spread Your Wings (Remastered 2011)",
+          "album": "News Of The World (Deluxe Edition / Remastered 2011)",
+          "genre": "Rock",
+          "year": "1977",
+          "plays": 2,
+          "skips": 4,
+          "durationSec": 274
+        },
+        {
+          "title": "Tie Your Mother Down",
+          "album": "A Day at the Races (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1976",
+          "plays": 2,
+          "skips": 1,
+          "durationSec": 289
+        },
+        {
+          "title": "I Want It All (Edit)",
+          "album": "The Miracle (Collector's Edition)",
+          "genre": "Rock",
+          "year": "1989",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 281
+        },
+        {
+          "title": "Hammer To Fall",
+          "album": "Greatest Hits II",
+          "genre": "Rock",
+          "year": "1984",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 269
+        },
+        {
+          "title": "Friends Will Be Friends",
+          "album": "A Kind of Magic (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1986",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 253
+        },
+        {
+          "title": "Radio Ga Ga (Live Aid)",
+          "album": "Bohemian Rhapsody (The Original Soundtrack)",
+          "genre": "Rock",
+          "year": "2018",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 246
+        },
+        {
+          "title": "Who Wants To Live Forever",
+          "album": "Greatest Hits II",
+          "genre": "Rock",
+          "year": "1986",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 314
+        },
+        {
+          "title": "We Are the Champions (Live Aid)",
+          "album": "Bohemian Rhapsody (The Original Soundtrack)",
+          "genre": "Rock",
+          "year": "2018",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 237
+        },
+        {
+          "title": "Save Me",
+          "album": "The Game (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+          "genre": "Rock",
+          "year": "1980",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 230
+        },
+        {
+          "title": "Breakthru (Remastered 2011)",
+          "album": "The Miracle (Collector's Edition)",
+          "genre": "Rock",
+          "year": "1989",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 248
+        },
+        {
+          "title": "It's a Hard Life",
+          "album": "The Works (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1984",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 249
+        },
+        {
+          "title": "Innuendo",
+          "album": "Innuendo (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1991",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 392
+        },
+        {
+          "title": "I Was Born To Love You",
+          "album": "Made In Heaven (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1985",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 290
+        },
+        {
+          "title": "Seven Seas of Rhye",
+          "album": "Queen II (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 172
+        },
+        {
+          "title": "Headlong",
+          "album": "Innuendo (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1991",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 278
+        },
+        {
+          "title": "Ay-Oh (Live Aid)",
+          "album": "Bohemian Rhapsody (The Original Soundtrack)",
+          "genre": "Rock",
+          "year": "2018",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 41
+        },
+        {
+          "title": "You Don't Fool Me",
+          "album": "Made In Heaven (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1995",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 325
+        },
+        {
+          "title": "One Vision",
+          "album": "A Kind of Magic (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1986",
+          "plays": 0,
+          "skips": 2,
+          "durationSec": 310
+        },
+        {
+          "title": "Face It Alone",
+          "album": "Face It Alone - Single",
+          "genre": "Rock",
+          "year": "2022",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 248
+        },
+        {
+          "title": "Don't Try Suicide",
+          "album": "The Game",
+          "genre": "Rock",
+          "year": "1980",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 232
+        },
+        {
+          "title": "One Year of Love",
+          "album": "A Kind of Magic (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1986",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 268
+        },
+        {
+          "title": "Stone Cold Crazy",
+          "album": "Sheer Heart Attack (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+          "genre": "Rock",
+          "year": "1974",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 134
+        },
+        {
+          "title": "The Invisible Man (Remastered 2011)",
+          "album": "The Miracle (Collector's Edition)",
+          "genre": "Rock",
+          "year": "1989",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 243
+        },
+        {
+          "title": "Princes of the Universe",
+          "album": "A Kind of Magic (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1986",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 212
+        },
+        {
+          "title": "Death On Two Legs (Dedicated To...)",
+          "album": "A Night at the Opera (Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 223
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "News Of The World (Deluxe Edition / Remastered 2011)",
+          "plays": 63,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "We Will Rock You (Remastered 2011)",
+              "album": "News Of The World (Deluxe Edition / Remastered 2011)",
+              "genre": "Rock",
+              "year": "1977",
+              "plays": 32,
+              "skips": 3,
+              "durationSec": 122
+            },
+            {
+              "title": "We Are The Champions (Remastered 2011)",
+              "album": "News Of The World (Deluxe Edition / Remastered 2011)",
+              "genre": "Rock",
+              "year": "1977",
+              "plays": 29,
+              "skips": 2,
+              "durationSec": 179
+            },
+            {
+              "title": "Spread Your Wings (Remastered 2011)",
+              "album": "News Of The World (Deluxe Edition / Remastered 2011)",
+              "genre": "Rock",
+              "year": "1977",
+              "plays": 2,
+              "skips": 4,
+              "durationSec": 274
+            }
+          ]
+        },
+        {
+          "name": "A Night at the Opera (Deluxe Edition)",
+          "plays": 42,
+          "trackCount": 5,
+          "songs": [
+            {
+              "title": "Bohemian Rhapsody",
+              "album": "A Night at the Opera (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 15,
+              "skips": 0,
+              "durationSec": 356
+            },
+            {
+              "title": "You're My Best Friend",
+              "album": "A Night at the Opera (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 12,
+              "skips": 2,
+              "durationSec": 174
+            },
+            {
+              "title": "Love of My Life",
+              "album": "A Night at the Opera (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 11,
+              "skips": 3,
+              "durationSec": 219
+            },
+            {
+              "title": "'39",
+              "album": "A Night at the Opera (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 4,
+              "skips": 0,
+              "durationSec": 211
+            },
+            {
+              "title": "Death On Two Legs (Dedicated To...)",
+              "album": "A Night at the Opera (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 223
+            }
+          ]
+        },
+        {
+          "name": "Sheer Heart Attack (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+          "plays": 32,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Killer Queen",
+              "album": "Sheer Heart Attack (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+              "genre": "Rock",
+              "year": "1974",
+              "plays": 32,
+              "skips": 6,
+              "durationSec": 180
+            },
+            {
+              "title": "Stone Cold Crazy",
+              "album": "Sheer Heart Attack (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+              "genre": "Rock",
+              "year": "1974",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 134
+            }
+          ]
+        },
+        {
+          "name": "The Game (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+          "plays": 30,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "Crazy Little Thing Called Love",
+              "album": "The Game (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+              "genre": "Rock",
+              "year": "1979",
+              "plays": 13,
+              "skips": 7,
+              "durationSec": 165
+            },
+            {
+              "title": "Another One Bites the Dust",
+              "album": "The Game (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+              "genre": "Rock",
+              "year": "1980",
+              "plays": 12,
+              "skips": 3,
+              "durationSec": 215
+            },
+            {
+              "title": "Play the Game",
+              "album": "The Game (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+              "genre": "Rock",
+              "year": "1980",
+              "plays": 5,
+              "skips": 1,
+              "durationSec": 214
+            },
+            {
+              "title": "Save Me",
+              "album": "The Game (Deluxe Edition with Bonus Videos) [2011 Remaster]",
+              "genre": "Rock",
+              "year": "1980",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 230
+            }
+          ]
+        },
+        {
+          "name": "Jazz (Deluxe Edition)",
+          "plays": 25,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Fat Bottomed Girls",
+              "album": "Jazz (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1978",
+              "plays": 12,
+              "skips": 0,
+              "durationSec": 256
+            },
+            {
+              "title": "Don't Stop Me Now",
+              "album": "Jazz (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1978",
+              "plays": 11,
+              "skips": 0,
+              "durationSec": 209
+            },
+            {
+              "title": "Bicycle Race",
+              "album": "Jazz (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1978",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 181
+            }
+          ]
+        },
+        {
+          "name": "A Day at the Races (Deluxe Edition)",
+          "plays": 20,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Somebody To Love",
+              "album": "A Day at the Races (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1976",
+              "plays": 11,
+              "skips": 1,
+              "durationSec": 297
+            },
+            {
+              "title": "Good Old-Fashioned Lover Boy",
+              "album": "A Day at the Races (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1976",
+              "plays": 7,
+              "skips": 0,
+              "durationSec": 173
+            },
+            {
+              "title": "Tie Your Mother Down",
+              "album": "A Day at the Races (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1976",
+              "plays": 2,
+              "skips": 1,
+              "durationSec": 289
+            }
+          ]
+        },
+        {
+          "name": "Innuendo (Deluxe Edition)",
+          "plays": 16,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "The Show Must Go On",
+              "album": "Innuendo (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1991",
+              "plays": 11,
+              "skips": 2,
+              "durationSec": 272
+            },
+            {
+              "title": "These Are the Days of Our Lives",
+              "album": "Innuendo (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1991",
+              "plays": 5,
+              "skips": 3,
+              "durationSec": 255
+            },
+            {
+              "title": "Innuendo",
+              "album": "Innuendo (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1991",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 392
+            },
+            {
+              "title": "Headlong",
+              "album": "Innuendo (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1991",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 278
+            }
+          ]
+        },
+        {
+          "name": "The Works (Deluxe Edition)",
+          "plays": 12,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Radio Ga Ga",
+              "album": "The Works (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1984",
+              "plays": 9,
+              "skips": 0,
+              "durationSec": 349
+            },
+            {
+              "title": "I Want To Break Free (Single Remix)",
+              "album": "The Works (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1984",
+              "plays": 3,
+              "skips": 3,
+              "durationSec": 259
+            },
+            {
+              "title": "It's a Hard Life",
+              "album": "The Works (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1984",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 249
+            }
+          ]
+        },
+        {
+          "name": "A Kind of Magic (Deluxe Edition)",
+          "plays": 11,
+          "trackCount": 5,
+          "songs": [
+            {
+              "title": "A Kind of Magic",
+              "album": "A Kind of Magic (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1986",
+              "plays": 10,
+              "skips": 2,
+              "durationSec": 264
+            },
+            {
+              "title": "Friends Will Be Friends",
+              "album": "A Kind of Magic (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1986",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 253
+            },
+            {
+              "title": "One Vision",
+              "album": "A Kind of Magic (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1986",
+              "plays": 0,
+              "skips": 2,
+              "durationSec": 310
+            },
+            {
+              "title": "One Year of Love",
+              "album": "A Kind of Magic (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1986",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 268
+            },
+            {
+              "title": "Princes of the Universe",
+              "album": "A Kind of Magic (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1986",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 212
+            }
+          ]
+        },
+        {
+          "name": "Hot Space (Deluxe Edition)",
+          "plays": 9,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Under Pressure (feat. David Bowie)",
+              "album": "Hot Space (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1981",
+              "plays": 9,
+              "skips": 1,
+              "durationSec": 248
+            }
+          ]
+        },
+        {
+          "name": "Bohemian Rhapsody (The Original Soundtrack)",
+          "plays": 9,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "Don't Stop Me Now (...Revisited)",
+              "album": "Bohemian Rhapsody (The Original Soundtrack)",
+              "genre": "Rock",
+              "year": "2018",
+              "plays": 7,
+              "skips": 1,
+              "durationSec": 209
+            },
+            {
+              "title": "Radio Ga Ga (Live Aid)",
+              "album": "Bohemian Rhapsody (The Original Soundtrack)",
+              "genre": "Rock",
+              "year": "2018",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 246
+            },
+            {
+              "title": "We Are the Champions (Live Aid)",
+              "album": "Bohemian Rhapsody (The Original Soundtrack)",
+              "genre": "Rock",
+              "year": "2018",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 237
+            },
+            {
+              "title": "Ay-Oh (Live Aid)",
+              "album": "Bohemian Rhapsody (The Original Soundtrack)",
+              "genre": "Rock",
+              "year": "2018",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 41
+            }
+          ]
+        },
+        {
+          "name": "Hot Space",
+          "plays": 4,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Cool Cat",
+              "album": "Hot Space",
+              "genre": "Rock",
+              "year": "1982",
+              "plays": 4,
+              "skips": 0,
+              "durationSec": 209
+            }
+          ]
+        },
+        {
+          "name": "Made In Heaven (Deluxe Edition)",
+          "plays": 3,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Too Much Love Will Kill You",
+              "album": "Made In Heaven (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1995",
+              "plays": 3,
+              "skips": 3,
+              "durationSec": 259
+            },
+            {
+              "title": "I Was Born To Love You",
+              "album": "Made In Heaven (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1985",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 290
+            },
+            {
+              "title": "You Don't Fool Me",
+              "album": "Made In Heaven (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1995",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 325
+            }
+          ]
+        },
+        {
+          "name": "Greatest Hits II",
+          "plays": 2,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Hammer To Fall",
+              "album": "Greatest Hits II",
+              "genre": "Rock",
+              "year": "1984",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 269
+            },
+            {
+              "title": "Who Wants To Live Forever",
+              "album": "Greatest Hits II",
+              "genre": "Rock",
+              "year": "1986",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 314
+            }
+          ]
+        },
+        {
+          "name": "The Miracle (Collector's Edition)",
+          "plays": 1,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "I Want It All (Edit)",
+              "album": "The Miracle (Collector's Edition)",
+              "genre": "Rock",
+              "year": "1989",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 281
+            },
+            {
+              "title": "Breakthru (Remastered 2011)",
+              "album": "The Miracle (Collector's Edition)",
+              "genre": "Rock",
+              "year": "1989",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 248
+            },
+            {
+              "title": "The Invisible Man (Remastered 2011)",
+              "album": "The Miracle (Collector's Edition)",
+              "genre": "Rock",
+              "year": "1989",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 243
+            }
+          ]
+        },
+        {
+          "name": "Queen II (Deluxe Edition)",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Seven Seas of Rhye",
+              "album": "Queen II (Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 172
+            }
+          ]
+        },
+        {
+          "name": "Face It Alone - Single",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Face It Alone",
+              "album": "Face It Alone - Single",
+              "genre": "Rock",
+              "year": "2022",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 248
+            }
+          ]
+        },
+        {
+          "name": "The Game",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Don't Try Suicide",
+              "album": "The Game",
+              "genre": "Rock",
+              "year": "1980",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 232
+            }
+          ]
+        }
+      ],
+      "galaxyX": 67.54,
+      "galaxyY": 88.09,
+      "starRadius": 31.1
+    },
+    {
+      "id": "art-005",
+      "name": "Madonna",
+      "genre": "80s/90s Pop",
+      "decade": "1980s",
+      "bio": "Madonna Louise Ciccone is an American singer, songwriter, record producer, and actress. Dubbed the \"Queen of Pop\", she is known for her continual reinvention and versatility in music production, songwriting, and visual presentation. Her works, which concern social, political, sexual, and religious themes, have generated both controversy and critical acclaim. Regarded as one of the most influential musicians in history, Madonna broke gender barriers in popular music and has had a significant socio-cultural impact across her career.",
+      "trackCount": 41,
+      "albumCount": 23,
+      "totalPlays": 197,
+      "totalSkips": 57,
+      "totalHours": 15.4,
+      "avgPlays": 4.8,
+      "completionRate": 77.6,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/20/3c/f5/203cf53d-689e-528f-29d7-ba33758254aa/mzi.rotbotfl.jpg/600x600bb.jpg",
+      "songs": [
+        "La Isla Bonita",
+        "Into the Groove",
+        "Papa Don't Preach",
+        "Back That Up To The Beat (demo version)",
+        "Holiday",
+        "Express Yourself",
+        "Like a Virgin",
+        "Material Girl",
+        "Frozen",
+        "Like a Prayer",
+        "Crazy for You",
+        "Open Your Heart",
+        "Borderline",
+        "Live to Tell",
+        "Human Nature",
+        "Hung Up",
+        "Who's That Girl",
+        "Lucky Star",
+        "4 Minutes (feat. Justin Timberlake & Timbaland)",
+        "Cherish",
+        "Dress You Up",
+        "The Power of Good-Bye",
+        "You'll See",
+        "Don't Tell Me",
+        "Take a Bow",
+        "Deeper and Deeper",
+        "Secret",
+        "Living For Love",
+        "Hollywood",
+        "Ghosttown",
+        "Erotica",
+        "Oh Father",
+        "Jump",
+        "Justify My Love",
+        "Nothing Really Matters",
+        "Rain",
+        "Die Another Day",
+        "Girl Gone Wild",
+        "Give It 2 Me",
+        "Get Together",
+        "Bitch I'm Madonna (feat. Nicki Minaj) [Sander Kleinberg Video Edit]"
+      ],
+      "albums": [
+        "Who's That Girl (Soundtrack from the Motion Picture)",
+        "Back That Up To The Beat - Single",
+        "Hard Candy",
+        "Like a Prayer",
+        "American Life",
+        "True Blue",
+        "Something to Remember",
+        "Like a Virgin",
+        "Ray of Light",
+        "Mdna",
+        "Music (Bonus Track Version)",
+        "best of 00s",
+        "Rebel Heart (Deluxe)",
+        "Confessions on a Dance Floor",
+        "Madonna",
+        "Celebration (Deluxe Version)",
+        "Oldies Love Songs",
+        "Bedtime Stories",
+        "Erotica",
+        "Deadpool & Wolverine: Madonna's \"Like a Prayer\" - EP",
+        "Rock The Rainbow - Pride",
+        "Cheer Me Up Pop",
+        "Finally Enough Love: 50 Number Ones (2022 Remasters)"
+      ],
+      "songDetails": [
+        {
+          "title": "La Isla Bonita",
+          "album": "True Blue",
+          "genre": "Pop",
+          "year": "1986",
+          "plays": 55,
+          "skips": 11,
+          "durationSec": 243
+        },
+        {
+          "title": "Into the Groove",
+          "album": "Celebration (Deluxe Version)",
+          "genre": "Pop",
+          "year": "1984",
+          "plays": 15,
+          "skips": 3,
+          "durationSec": 284
+        },
+        {
+          "title": "Papa Don't Preach",
+          "album": "True Blue",
+          "genre": "Pop",
+          "year": "1986",
+          "plays": 14,
+          "skips": 3,
+          "durationSec": 269
+        },
+        {
+          "title": "Back That Up To The Beat (demo version)",
+          "album": "Back That Up To The Beat - Single",
+          "genre": "Pop",
+          "year": "2022",
+          "plays": 14,
+          "skips": 7,
+          "durationSec": 211
+        },
+        {
+          "title": "Holiday",
+          "album": "Celebration (Deluxe Version)",
+          "genre": "Pop",
+          "year": "1983",
+          "plays": 11,
+          "skips": 2,
+          "durationSec": 370
+        },
+        {
+          "title": "Express Yourself",
+          "album": "Like a Prayer",
+          "genre": "Pop",
+          "year": "1989",
+          "plays": 10,
+          "skips": 1,
+          "durationSec": 279
+        },
+        {
+          "title": "Like a Virgin",
+          "album": "Like a Virgin",
+          "genre": "Pop",
+          "year": "1984",
+          "plays": 10,
+          "skips": 4,
+          "durationSec": 219
+        },
+        {
+          "title": "Material Girl",
+          "album": "Celebration (Deluxe Version)",
+          "genre": "Pop",
+          "year": "1984",
+          "plays": 8,
+          "skips": 2,
+          "durationSec": 241
+        },
+        {
+          "title": "Frozen",
+          "album": "Ray of Light",
+          "genre": "Pop",
+          "year": "1998",
+          "plays": 6,
+          "skips": 4,
+          "durationSec": 367
+        },
+        {
+          "title": "Like a Prayer",
+          "album": "Deadpool & Wolverine: Madonna's \"Like a Prayer\" - EP",
+          "genre": "Pop",
+          "year": "1989",
+          "plays": 6,
+          "skips": 2,
+          "durationSec": 341
+        },
+        {
+          "title": "Crazy for You",
+          "album": "Oldies Love Songs",
+          "genre": "Pop",
+          "year": "1985",
+          "plays": 5,
+          "skips": 4,
+          "durationSec": 224
+        },
+        {
+          "title": "Open Your Heart",
+          "album": "True Blue",
+          "genre": "Pop",
+          "year": "1986",
+          "plays": 4,
+          "skips": 2,
+          "durationSec": 253
+        },
+        {
+          "title": "Borderline",
+          "album": "Madonna",
+          "genre": "Pop",
+          "year": "1983",
+          "plays": 4,
+          "skips": 3,
+          "durationSec": 321
+        },
+        {
+          "title": "Live to Tell",
+          "album": "True Blue",
+          "genre": "Pop",
+          "year": "1986",
+          "plays": 4,
+          "skips": 0,
+          "durationSec": 352
+        },
+        {
+          "title": "Human Nature",
+          "album": "Bedtime Stories",
+          "genre": "Pop",
+          "year": "1994",
+          "plays": 4,
+          "skips": 2,
+          "durationSec": 294
+        },
+        {
+          "title": "Hung Up",
+          "album": "Cheer Me Up Pop",
+          "genre": "Pop",
+          "year": "2005",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 337
+        },
+        {
+          "title": "Who's That Girl",
+          "album": "Who's That Girl (Soundtrack from the Motion Picture)",
+          "genre": "Pop",
+          "year": "1987",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 239
+        },
+        {
+          "title": "Lucky Star",
+          "album": "Madonna",
+          "genre": "Pop",
+          "year": "1983",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 338
+        },
+        {
+          "title": "4 Minutes (feat. Justin Timberlake & Timbaland)",
+          "album": "best of 00s",
+          "genre": "Pop",
+          "year": "2008",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 190
+        },
+        {
+          "title": "Cherish",
+          "album": "Like a Prayer",
+          "genre": "Pop",
+          "year": "1989",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 303
+        },
+        {
+          "title": "Dress You Up",
+          "album": "Like a Virgin",
+          "genre": "Pop",
+          "year": "1984",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 242
+        },
+        {
+          "title": "The Power of Good-Bye",
+          "album": "Ray of Light",
+          "genre": "Pop",
+          "year": "1998",
+          "plays": 2,
+          "skips": 1,
+          "durationSec": 251
+        },
+        {
+          "title": "You'll See",
+          "album": "Something to Remember",
+          "genre": "Pop",
+          "year": "1995",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 278
+        },
+        {
+          "title": "Don't Tell Me",
+          "album": "Music (Bonus Track Version)",
+          "genre": "Pop",
+          "year": "2000",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 281
+        },
+        {
+          "title": "Take a Bow",
+          "album": "Celebration (Deluxe Version)",
+          "genre": "Pop",
+          "year": "1994",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 321
+        },
+        {
+          "title": "Deeper and Deeper",
+          "album": "Erotica",
+          "genre": "Pop",
+          "year": "1992",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 333
+        },
+        {
+          "title": "Secret",
+          "album": "Bedtime Stories",
+          "genre": "Pop",
+          "year": "1994",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 305
+        },
+        {
+          "title": "Living For Love",
+          "album": "Rebel Heart (Deluxe)",
+          "genre": "Pop",
+          "year": "2014",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 219
+        },
+        {
+          "title": "Hollywood",
+          "album": "American Life",
+          "genre": "Pop",
+          "year": "2003",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 263
+        },
+        {
+          "title": "Ghosttown",
+          "album": "Rebel Heart (Deluxe)",
+          "genre": "Pop",
+          "year": "2015",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 250
+        },
+        {
+          "title": "Erotica",
+          "album": "Rock The Rainbow - Pride",
+          "genre": "Pop",
+          "year": "1992",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 319
+        },
+        {
+          "title": "Oh Father",
+          "album": "Like a Prayer",
+          "genre": "Pop",
+          "year": "1989",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 299
+        },
+        {
+          "title": "Jump",
+          "album": "Confessions on a Dance Floor",
+          "genre": "Pop",
+          "year": "2005",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 239
+        },
+        {
+          "title": "Justify My Love",
+          "album": "Celebration (Deluxe Version)",
+          "genre": "Pop",
+          "year": "1990",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 294
+        },
+        {
+          "title": "Nothing Really Matters",
+          "album": "Ray of Light",
+          "genre": "Pop",
+          "year": "1998",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 267
+        },
+        {
+          "title": "Rain",
+          "album": "Erotica",
+          "genre": "Pop",
+          "year": "1992",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 325
+        },
+        {
+          "title": "Die Another Day",
+          "album": "Celebration (Deluxe Version)",
+          "genre": "Pop",
+          "year": "2002",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 279
+        },
+        {
+          "title": "Girl Gone Wild",
+          "album": "Mdna",
+          "genre": "Pop",
+          "year": "2012",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 223
+        },
+        {
+          "title": "Give It 2 Me",
+          "album": "Hard Candy",
+          "genre": "Pop",
+          "year": "2008",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 288
+        },
+        {
+          "title": "Get Together",
+          "album": "Confessions on a Dance Floor",
+          "genre": "Pop",
+          "year": "2005",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 315
+        },
+        {
+          "title": "Bitch I'm Madonna (feat. Nicki Minaj) [Sander Kleinberg Video Edit]",
+          "album": "Finally Enough Love: 50 Number Ones (2022 Remasters)",
+          "genre": "Pop",
+          "year": "2022",
+          "plays": 0,
+          "skips": 2,
+          "durationSec": 201
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "True Blue",
+          "plays": 77,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "La Isla Bonita",
+              "album": "True Blue",
+              "genre": "Pop",
+              "year": "1986",
+              "plays": 55,
+              "skips": 11,
+              "durationSec": 243
+            },
+            {
+              "title": "Papa Don't Preach",
+              "album": "True Blue",
+              "genre": "Pop",
+              "year": "1986",
+              "plays": 14,
+              "skips": 3,
+              "durationSec": 269
+            },
+            {
+              "title": "Open Your Heart",
+              "album": "True Blue",
+              "genre": "Pop",
+              "year": "1986",
+              "plays": 4,
+              "skips": 2,
+              "durationSec": 253
+            },
+            {
+              "title": "Live to Tell",
+              "album": "True Blue",
+              "genre": "Pop",
+              "year": "1986",
+              "plays": 4,
+              "skips": 0,
+              "durationSec": 352
+            }
+          ]
+        },
+        {
+          "name": "Celebration (Deluxe Version)",
+          "plays": 35,
+          "trackCount": 6,
+          "songs": [
+            {
+              "title": "Into the Groove",
+              "album": "Celebration (Deluxe Version)",
+              "genre": "Pop",
+              "year": "1984",
+              "plays": 15,
+              "skips": 3,
+              "durationSec": 284
+            },
+            {
+              "title": "Holiday",
+              "album": "Celebration (Deluxe Version)",
+              "genre": "Pop",
+              "year": "1983",
+              "plays": 11,
+              "skips": 2,
+              "durationSec": 370
+            },
+            {
+              "title": "Material Girl",
+              "album": "Celebration (Deluxe Version)",
+              "genre": "Pop",
+              "year": "1984",
+              "plays": 8,
+              "skips": 2,
+              "durationSec": 241
+            },
+            {
+              "title": "Take a Bow",
+              "album": "Celebration (Deluxe Version)",
+              "genre": "Pop",
+              "year": "1994",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 321
+            },
+            {
+              "title": "Justify My Love",
+              "album": "Celebration (Deluxe Version)",
+              "genre": "Pop",
+              "year": "1990",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 294
+            },
+            {
+              "title": "Die Another Day",
+              "album": "Celebration (Deluxe Version)",
+              "genre": "Pop",
+              "year": "2002",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 279
+            }
+          ]
+        },
+        {
+          "name": "Back That Up To The Beat - Single",
+          "plays": 14,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Back That Up To The Beat (demo version)",
+              "album": "Back That Up To The Beat - Single",
+              "genre": "Pop",
+              "year": "2022",
+              "plays": 14,
+              "skips": 7,
+              "durationSec": 211
+            }
+          ]
+        },
+        {
+          "name": "Like a Prayer",
+          "plays": 13,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Express Yourself",
+              "album": "Like a Prayer",
+              "genre": "Pop",
+              "year": "1989",
+              "plays": 10,
+              "skips": 1,
+              "durationSec": 279
+            },
+            {
+              "title": "Cherish",
+              "album": "Like a Prayer",
+              "genre": "Pop",
+              "year": "1989",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 303
+            },
+            {
+              "title": "Oh Father",
+              "album": "Like a Prayer",
+              "genre": "Pop",
+              "year": "1989",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 299
+            }
+          ]
+        },
+        {
+          "name": "Like a Virgin",
+          "plays": 12,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Like a Virgin",
+              "album": "Like a Virgin",
+              "genre": "Pop",
+              "year": "1984",
+              "plays": 10,
+              "skips": 4,
+              "durationSec": 219
+            },
+            {
+              "title": "Dress You Up",
+              "album": "Like a Virgin",
+              "genre": "Pop",
+              "year": "1984",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 242
+            }
+          ]
+        },
+        {
+          "name": "Ray of Light",
+          "plays": 8,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Frozen",
+              "album": "Ray of Light",
+              "genre": "Pop",
+              "year": "1998",
+              "plays": 6,
+              "skips": 4,
+              "durationSec": 367
+            },
+            {
+              "title": "The Power of Good-Bye",
+              "album": "Ray of Light",
+              "genre": "Pop",
+              "year": "1998",
+              "plays": 2,
+              "skips": 1,
+              "durationSec": 251
+            },
+            {
+              "title": "Nothing Really Matters",
+              "album": "Ray of Light",
+              "genre": "Pop",
+              "year": "1998",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 267
+            }
+          ]
+        },
+        {
+          "name": "Deadpool & Wolverine: Madonna's \"Like a Prayer\" - EP",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Like a Prayer",
+              "album": "Deadpool & Wolverine: Madonna's \"Like a Prayer\" - EP",
+              "genre": "Pop",
+              "year": "1989",
+              "plays": 6,
+              "skips": 2,
+              "durationSec": 341
+            }
+          ]
+        },
+        {
+          "name": "Madonna",
+          "plays": 6,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Borderline",
+              "album": "Madonna",
+              "genre": "Pop",
+              "year": "1983",
+              "plays": 4,
+              "skips": 3,
+              "durationSec": 321
+            },
+            {
+              "title": "Lucky Star",
+              "album": "Madonna",
+              "genre": "Pop",
+              "year": "1983",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 338
+            }
+          ]
+        },
+        {
+          "name": "Oldies Love Songs",
+          "plays": 5,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Crazy for You",
+              "album": "Oldies Love Songs",
+              "genre": "Pop",
+              "year": "1985",
+              "plays": 5,
+              "skips": 4,
+              "durationSec": 224
+            }
+          ]
+        },
+        {
+          "name": "Bedtime Stories",
+          "plays": 5,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Human Nature",
+              "album": "Bedtime Stories",
+              "genre": "Pop",
+              "year": "1994",
+              "plays": 4,
+              "skips": 2,
+              "durationSec": 294
+            },
+            {
+              "title": "Secret",
+              "album": "Bedtime Stories",
+              "genre": "Pop",
+              "year": "1994",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 305
+            }
+          ]
+        },
+        {
+          "name": "Cheer Me Up Pop",
+          "plays": 3,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Hung Up",
+              "album": "Cheer Me Up Pop",
+              "genre": "Pop",
+              "year": "2005",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 337
+            }
+          ]
+        },
+        {
+          "name": "Who's That Girl (Soundtrack from the Motion Picture)",
+          "plays": 3,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Who's That Girl",
+              "album": "Who's That Girl (Soundtrack from the Motion Picture)",
+              "genre": "Pop",
+              "year": "1987",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 239
+            }
+          ]
+        },
+        {
+          "name": "best of 00s",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "4 Minutes (feat. Justin Timberlake & Timbaland)",
+              "album": "best of 00s",
+              "genre": "Pop",
+              "year": "2008",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 190
+            }
+          ]
+        },
+        {
+          "name": "Something to Remember",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "You'll See",
+              "album": "Something to Remember",
+              "genre": "Pop",
+              "year": "1995",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 278
+            }
+          ]
+        },
+        {
+          "name": "Rebel Heart (Deluxe)",
+          "plays": 2,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Living For Love",
+              "album": "Rebel Heart (Deluxe)",
+              "genre": "Pop",
+              "year": "2014",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 219
+            },
+            {
+              "title": "Ghosttown",
+              "album": "Rebel Heart (Deluxe)",
+              "genre": "Pop",
+              "year": "2015",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 250
+            }
+          ]
+        },
+        {
+          "name": "Music (Bonus Track Version)",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Don't Tell Me",
+              "album": "Music (Bonus Track Version)",
+              "genre": "Pop",
+              "year": "2000",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 281
+            }
+          ]
+        },
+        {
+          "name": "Erotica",
+          "plays": 1,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Deeper and Deeper",
+              "album": "Erotica",
+              "genre": "Pop",
+              "year": "1992",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 333
+            },
+            {
+              "title": "Rain",
+              "album": "Erotica",
+              "genre": "Pop",
+              "year": "1992",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 325
+            }
+          ]
+        },
+        {
+          "name": "American Life",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Hollywood",
+              "album": "American Life",
+              "genre": "Pop",
+              "year": "2003",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 263
+            }
+          ]
+        },
+        {
+          "name": "Rock The Rainbow - Pride",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Erotica",
+              "album": "Rock The Rainbow - Pride",
+              "genre": "Pop",
+              "year": "1992",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 319
+            }
+          ]
+        },
+        {
+          "name": "Confessions on a Dance Floor",
+          "plays": 0,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Jump",
+              "album": "Confessions on a Dance Floor",
+              "genre": "Pop",
+              "year": "2005",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 239
+            },
+            {
+              "title": "Get Together",
+              "album": "Confessions on a Dance Floor",
+              "genre": "Pop",
+              "year": "2005",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 315
+            }
+          ]
+        },
+        {
+          "name": "Mdna",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Girl Gone Wild",
+              "album": "Mdna",
+              "genre": "Pop",
+              "year": "2012",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 223
+            }
+          ]
+        },
+        {
+          "name": "Hard Candy",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Give It 2 Me",
+              "album": "Hard Candy",
+              "genre": "Pop",
+              "year": "2008",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 288
+            }
+          ]
+        },
+        {
+          "name": "Finally Enough Love: 50 Number Ones (2022 Remasters)",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Bitch I'm Madonna (feat. Nicki Minaj) [Sander Kleinberg Video Edit]",
+              "album": "Finally Enough Love: 50 Number Ones (2022 Remasters)",
+              "genre": "Pop",
+              "year": "2022",
+              "plays": 0,
+              "skips": 2,
+              "durationSec": 201
+            }
+          ]
+        }
+      ],
+      "galaxyX": -118.14,
+      "galaxyY": -20.9,
+      "starRadius": 27.1
+    },
+    {
+      "id": "art-006",
+      "name": "Michael Jackson",
+      "genre": "80s/90s Pop",
+      "decade": "1990s",
+      "bio": "Michael Joseph Jackson was an American singer, songwriter, dancer, and philanthropist. Dubbed the \"King of Pop\", he is widely regarded as one of the most culturally significant figures of the 20th century. His musical achievements broke American racial barriers and made him a dominant figure worldwide. Through his songs, music videos, concerts, and fashion, he transformed visual performance in popular music, popularizing street dance moves such as the moonwalk, the robot, and the anti-gravity lean. Jackson is often deemed the greatest entertainer of all time.",
+      "trackCount": 10,
+      "albumCount": 5,
+      "totalPlays": 188,
+      "totalSkips": 54,
+      "totalHours": 16.2,
+      "avgPlays": 18.8,
+      "completionRate": 77.7,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/32/4f/fd/324ffda2-9e51-8f6a-0c2d-c6fd2b41ac55/074643811224.jpg/600x600bb.jpg",
+      "songs": [
+        "Give In to Me",
+        "Heal the World",
+        "Smooth Criminal",
+        "Don't Stop 'Til You Get Enough",
+        "Get On the Floor",
+        "Off the Wall",
+        "Rock With You",
+        "Man In the Mirror",
+        "Dirty Diana",
+        "They Don't Care About Us"
+      ],
+      "albums": [
+        "Dangerous",
+        "Off the Wall",
+        "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
+        "Bad (25th Anniversary Edition)",
+        "Number Ones"
+      ],
+      "songDetails": [
+        {
+          "title": "Give In to Me",
+          "album": "Dangerous",
+          "genre": "Pop",
+          "year": "1991",
+          "plays": 64,
+          "skips": 6,
+          "durationSec": 330
+        },
+        {
+          "title": "Heal the World",
+          "album": "Dangerous",
+          "genre": "Pop",
+          "year": "1991",
+          "plays": 24,
+          "skips": 3,
+          "durationSec": 384
+        },
+        {
+          "title": "Smooth Criminal",
+          "album": "Bad (25th Anniversary Edition)",
+          "genre": "Pop",
+          "year": "1987",
+          "plays": 18,
+          "skips": 4,
+          "durationSec": 258
+        },
+        {
+          "title": "Don't Stop 'Til You Get Enough",
+          "album": "Off the Wall",
+          "genre": "Pop",
+          "year": "1979",
+          "plays": 17,
+          "skips": 24,
+          "durationSec": 364
+        },
+        {
+          "title": "Get On the Floor",
+          "album": "Off the Wall",
+          "genre": "Pop",
+          "year": "1979",
+          "plays": 17,
+          "skips": 4,
+          "durationSec": 278
+        },
+        {
+          "title": "Off the Wall",
+          "album": "Off the Wall",
+          "genre": "Pop",
+          "year": "1979",
+          "plays": 15,
+          "skips": 2,
+          "durationSec": 246
+        },
+        {
+          "title": "Rock With You",
+          "album": "Off the Wall",
+          "genre": "Pop",
+          "year": "1979",
+          "plays": 14,
+          "skips": 3,
+          "durationSec": 220
+        },
+        {
+          "title": "Man In the Mirror",
+          "album": "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
+          "genre": "Pop",
+          "year": "1987",
+          "plays": 8,
+          "skips": 3,
+          "durationSec": 319
+        },
+        {
+          "title": "Dirty Diana",
+          "album": "Number Ones",
+          "genre": "Pop",
+          "year": "1987",
+          "plays": 6,
+          "skips": 1,
+          "durationSec": 282
+        },
+        {
+          "title": "They Don't Care About Us",
+          "album": "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
+          "genre": "Pop",
+          "year": "1995",
+          "plays": 5,
+          "skips": 4,
+          "durationSec": 284
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Dangerous",
+          "plays": 88,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Give In to Me",
+              "album": "Dangerous",
+              "genre": "Pop",
+              "year": "1991",
+              "plays": 64,
+              "skips": 6,
+              "durationSec": 330
+            },
+            {
+              "title": "Heal the World",
+              "album": "Dangerous",
+              "genre": "Pop",
+              "year": "1991",
+              "plays": 24,
+              "skips": 3,
+              "durationSec": 384
+            }
+          ]
+        },
+        {
+          "name": "Off the Wall",
+          "plays": 63,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "Don't Stop 'Til You Get Enough",
+              "album": "Off the Wall",
+              "genre": "Pop",
+              "year": "1979",
+              "plays": 17,
+              "skips": 24,
+              "durationSec": 364
+            },
+            {
+              "title": "Get On the Floor",
+              "album": "Off the Wall",
+              "genre": "Pop",
+              "year": "1979",
+              "plays": 17,
+              "skips": 4,
+              "durationSec": 278
+            },
+            {
+              "title": "Off the Wall",
+              "album": "Off the Wall",
+              "genre": "Pop",
+              "year": "1979",
+              "plays": 15,
+              "skips": 2,
+              "durationSec": 246
+            },
+            {
+              "title": "Rock With You",
+              "album": "Off the Wall",
+              "genre": "Pop",
+              "year": "1979",
+              "plays": 14,
+              "skips": 3,
+              "durationSec": 220
+            }
+          ]
+        },
+        {
+          "name": "Bad (25th Anniversary Edition)",
+          "plays": 18,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Smooth Criminal",
+              "album": "Bad (25th Anniversary Edition)",
+              "genre": "Pop",
+              "year": "1987",
+              "plays": 18,
+              "skips": 4,
+              "durationSec": 258
+            }
+          ]
+        },
+        {
+          "name": "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
+          "plays": 13,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Man In the Mirror",
+              "album": "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
+              "genre": "Pop",
+              "year": "1987",
+              "plays": 8,
+              "skips": 3,
+              "durationSec": 319
+            },
+            {
+              "title": "They Don't Care About Us",
+              "album": "HIStory - PAST, PRESENT AND FUTURE - BOOK I",
+              "genre": "Pop",
+              "year": "1995",
+              "plays": 5,
+              "skips": 4,
+              "durationSec": 284
+            }
+          ]
+        },
+        {
+          "name": "Number Ones",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Dirty Diana",
+              "album": "Number Ones",
+              "genre": "Pop",
+              "year": "1987",
+              "plays": 6,
+              "skips": 1,
+              "durationSec": 282
+            }
+          ]
+        }
+      ],
+      "galaxyX": 108.07,
+      "galaxyY": -68.74,
+      "starRadius": 26.6
+    },
+    {
+      "id": "art-007",
+      "name": "Top Gun: Maverick",
+      "genre": "Cinematic / OST",
+      "decade": "2020s",
+      "bio": "Top Gun: Maverick is one of the most prominent Cinematic / OST discographies in your library, featuring 3 curated tracks across 1 albums with 162 verified plays.",
+      "trackCount": 3,
+      "albumCount": 1,
+      "totalPlays": 162,
+      "totalSkips": 18,
+      "totalHours": 8.3,
+      "avgPlays": 54.0,
+      "completionRate": 90.0,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/e6/14/14/e6141444-6597-4c3a-7ad1-86304528acf4/22UMGIM45569.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "The Man, the Legend / Touchdown",
+        "Top Gun Anthem",
+        "Main Titles (You've Been Called Back to Top Gun)"
+      ],
+      "albums": [
+        "Top Gun: Maverick (Music from the Motion Picture)"
+      ],
+      "songDetails": [
+        {
+          "title": "The Man, the Legend / Touchdown",
+          "album": "Top Gun: Maverick (Music from the Motion Picture)",
+          "genre": "Soundtrack",
+          "year": "2022",
+          "plays": 67,
+          "skips": 5,
+          "durationSec": 235
+        },
+        {
+          "title": "Top Gun Anthem",
+          "album": "Top Gun: Maverick (Music from the Motion Picture)",
+          "genre": "Soundtrack",
+          "year": "2022",
+          "plays": 54,
+          "skips": 11,
+          "durationSec": 149
+        },
+        {
+          "title": "Main Titles (You've Been Called Back to Top Gun)",
+          "album": "Top Gun: Maverick (Music from the Motion Picture)",
+          "genre": "Soundtrack",
+          "year": "2022",
+          "plays": 41,
+          "skips": 2,
+          "durationSec": 151
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Top Gun: Maverick (Music from the Motion Picture)",
+          "plays": 162,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "The Man, the Legend / Touchdown",
+              "album": "Top Gun: Maverick (Music from the Motion Picture)",
+              "genre": "Soundtrack",
+              "year": "2022",
+              "plays": 67,
+              "skips": 5,
+              "durationSec": 235
+            },
+            {
+              "title": "Top Gun Anthem",
+              "album": "Top Gun: Maverick (Music from the Motion Picture)",
+              "genre": "Soundtrack",
+              "year": "2022",
+              "plays": 54,
+              "skips": 11,
+              "durationSec": 149
+            },
+            {
+              "title": "Main Titles (You've Been Called Back to Top Gun)",
+              "album": "Top Gun: Maverick (Music from the Motion Picture)",
+              "genre": "Soundtrack",
+              "year": "2022",
+              "plays": 41,
+              "skips": 2,
+              "durationSec": 151
+            }
+          ]
+        }
+      ],
+      "galaxyX": -35.19,
+      "galaxyY": 130.89,
+      "starRadius": 25.2
+    },
+    {
+      "id": "art-008",
+      "name": "Dominic Fike",
+      "genre": "Indie / Alt Rock",
+      "decade": "2010s",
+      "bio": "Dominic David Fike is an American rapper, singer-songwriter and actor. He first received recognition after releasing several popular songs to the website SoundCloud. Following the release of his debut extended play, Don't Forget About Me, Demos in 2018, he signed to Columbia Records. Fike's song \"3 Nights\" reached the top ten in several countries. He later collaborated with fellow American musicians Brockhampton and Halsey. His debut album, What Could Possibly Go Wrong, was released in 2020. The album charted in the top 50 of multiple countries, including the United States and Australia. He recorded a cover of Paul McCartney's song \"The Kiss of Venus\" for the album McCartney III Imagined (2021).",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 148,
+      "totalSkips": 9,
+      "totalHours": 4.0,
+      "avgPlays": 148.0,
+      "completionRate": 94.3,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0c/5a/ef/0c5aef1c-6929-76c8-d9cb-9c8e9c5537fa/196873758947.jpg/600x600bb.jpg",
+      "songs": [
+        "Babydoll"
+      ],
+      "albums": [
+        "Don't Forget About Me, Demos - EP"
+      ],
+      "songDetails": [
+        {
+          "title": "Babydoll",
+          "album": "Don't Forget About Me, Demos - EP",
+          "genre": "Alternative",
+          "year": "2018",
+          "plays": 148,
+          "skips": 9,
+          "durationSec": 98
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Don't Forget About Me, Demos - EP",
+          "plays": 148,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Babydoll",
+              "album": "Don't Forget About Me, Demos - EP",
+              "genre": "Alternative",
+              "year": "2018",
+              "plays": 148,
+              "skips": 9,
+              "durationSec": 98
+            }
+          ]
+        }
+      ],
+      "galaxyX": -65.67,
+      "galaxyY": -126.44,
+      "starRadius": 24.3
+    },
+    {
+      "id": "art-009",
+      "name": "Aerosmith",
+      "genre": "Classic Rock",
+      "decade": "1970s",
+      "bio": "Aerosmith is an American rock band formed in Boston in 1970. The group consists of lead vocalist Steven Tyler, bassist Tom Hamilton, drummer Joey Kramer, and guitarists Joe Perry and Brad Whitford. Their style, which is rooted in blues-based hard rock, has also incorporated elements of pop rock, heavy metal, glam metal, and rhythm and blues, and has inspired many subsequent rock artists. Aerosmith is sometimes referred to as \"the Bad Boys from Boston\" and \"America's Greatest Rock and Roll Band\". The primary songwriting team of Tyler and Perry is sometimes referred to as the \"Toxic Twins\".",
+      "trackCount": 33,
+      "albumCount": 13,
+      "totalPlays": 143,
+      "totalSkips": 48,
+      "totalHours": 11.4,
+      "avgPlays": 4.3,
+      "completionRate": 74.9,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/fa/da/9cfada2b-efbe-187f-dacf-a0f90ffdf63a/22UM1IM35694.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Dream On",
+        "Angel",
+        "Cryin'",
+        "Dude (Looks Like a Lady)",
+        "What It Takes",
+        "Sweet Emotion",
+        "Rag Doll",
+        "Pink",
+        "Back In the Saddle",
+        "Last Child",
+        "Walk This Way",
+        "Crazy",
+        "Jaded",
+        "Train Kept a Rollin'",
+        "Draw the Line",
+        "Ain't That a Bitch",
+        "Mama Kin",
+        "I Don't Want To Miss A Thing (From \"Armageddon\" Soundtrack)",
+        "Livin' On The Edge",
+        "Same Old Song and Dance",
+        "Come Together",
+        "Water Song / Janie's Got a Gun",
+        "Amazing",
+        "Big Ten Inch Record",
+        "Eat The Rich",
+        "Falling In Love (Is Hard On the Knees)",
+        "Remember (Walking In the Sand)",
+        "Going Down / Love In an Elevator",
+        "Dulcimer Stomp / The Other Side",
+        "Toys In The Attic",
+        "Kings and Queens",
+        "Hole In My Soul",
+        "Just Push Play"
+      ],
+      "albums": [
+        "Pump",
+        "Nine Lives",
+        "I Don't Want To Miss A Thing EP",
+        "Get Your Wings",
+        "Permanent Vacation",
+        "Aerosmith",
+        "Rocks",
+        "Pandora's Box",
+        "Toys In The Attic",
+        "Night In the Ruts",
+        "Get A Grip",
+        "Draw the Line",
+        "Just Push Play"
+      ],
+      "songDetails": [
+        {
+          "title": "Dream On",
+          "album": "Aerosmith",
+          "genre": "Hard Rock",
+          "year": "1973",
+          "plays": 75,
+          "skips": 13,
+          "durationSec": 268
+        },
+        {
+          "title": "Angel",
+          "album": "Permanent Vacation",
+          "genre": "Hard Rock",
+          "year": "1987",
+          "plays": 16,
+          "skips": 4,
+          "durationSec": 308
+        },
+        {
+          "title": "Cryin'",
+          "album": "Get A Grip",
+          "genre": "Pop",
+          "year": "1993",
+          "plays": 6,
+          "skips": 1,
+          "durationSec": 308
+        },
+        {
+          "title": "Dude (Looks Like a Lady)",
+          "album": "Permanent Vacation",
+          "genre": "Hard Rock",
+          "year": "1987",
+          "plays": 4,
+          "skips": 3,
+          "durationSec": 264
+        },
+        {
+          "title": "What It Takes",
+          "album": "Pump",
+          "genre": "Hard Rock",
+          "year": "1989",
+          "plays": 4,
+          "skips": 0,
+          "durationSec": 388
+        },
+        {
+          "title": "Sweet Emotion",
+          "album": "Toys In The Attic",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 3,
+          "skips": 6,
+          "durationSec": 274
+        },
+        {
+          "title": "Rag Doll",
+          "album": "Permanent Vacation",
+          "genre": "Hard Rock",
+          "year": "1987",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 266
+        },
+        {
+          "title": "Pink",
+          "album": "Nine Lives",
+          "genre": "Rock",
+          "year": "1997",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 235
+        },
+        {
+          "title": "Back In the Saddle",
+          "album": "Rocks",
+          "genre": "Hard Rock",
+          "year": "1976",
+          "plays": 3,
+          "skips": 2,
+          "durationSec": 280
+        },
+        {
+          "title": "Last Child",
+          "album": "Rocks",
+          "genre": "Hard Rock",
+          "year": "1976",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 207
+        },
+        {
+          "title": "Walk This Way",
+          "album": "Toys In The Attic",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 2,
+          "skips": 1,
+          "durationSec": 222
+        },
+        {
+          "title": "Crazy",
+          "album": "Get A Grip",
+          "genre": "Pop",
+          "year": "1993",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 317
+        },
+        {
+          "title": "Jaded",
+          "album": "Just Push Play",
+          "genre": "Rock",
+          "year": "2000",
+          "plays": 2,
+          "skips": 2,
+          "durationSec": 216
+        },
+        {
+          "title": "Train Kept a Rollin'",
+          "album": "Get Your Wings",
+          "genre": "Hard Rock",
+          "year": "1974",
+          "plays": 2,
+          "skips": 1,
+          "durationSec": 334
+        },
+        {
+          "title": "Draw the Line",
+          "album": "Draw the Line",
+          "genre": "Hard Rock",
+          "year": "1977",
+          "plays": 2,
+          "skips": 4,
+          "durationSec": 204
+        },
+        {
+          "title": "Ain't That a Bitch",
+          "album": "Nine Lives",
+          "genre": "Rock",
+          "year": "1997",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 326
+        },
+        {
+          "title": "Mama Kin",
+          "album": "Aerosmith",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 269
+        },
+        {
+          "title": "I Don't Want To Miss A Thing (From \"Armageddon\" Soundtrack)",
+          "album": "I Don't Want To Miss A Thing EP",
+          "genre": "Soundtrack",
+          "year": "1998",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 300
+        },
+        {
+          "title": "Livin' On The Edge",
+          "album": "Get A Grip",
+          "genre": "Pop",
+          "year": "1993",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 381
+        },
+        {
+          "title": "Same Old Song and Dance",
+          "album": "Get Your Wings",
+          "genre": "Hard Rock",
+          "year": "1974",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 234
+        },
+        {
+          "title": "Come Together",
+          "album": "Pandora's Box",
+          "genre": "Rock",
+          "year": "1978",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 225
+        },
+        {
+          "title": "Water Song / Janie's Got a Gun",
+          "album": "Pump",
+          "genre": "Hard Rock",
+          "year": "1989",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 340
+        },
+        {
+          "title": "Amazing",
+          "album": "Get A Grip",
+          "genre": "Rock",
+          "year": "1993",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 357
+        },
+        {
+          "title": "Big Ten Inch Record",
+          "album": "Toys In The Attic",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 137
+        },
+        {
+          "title": "Eat The Rich",
+          "album": "Get A Grip",
+          "genre": "Pop",
+          "year": "1993",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 250
+        },
+        {
+          "title": "Falling In Love (Is Hard On the Knees)",
+          "album": "Nine Lives",
+          "genre": "Rock",
+          "year": "1997",
+          "plays": 1,
+          "skips": 2,
+          "durationSec": 206
+        },
+        {
+          "title": "Remember (Walking In the Sand)",
+          "album": "Night In the Ruts",
+          "genre": "Hard Rock",
+          "year": "1979",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 245
+        },
+        {
+          "title": "Going Down / Love In an Elevator",
+          "album": "Pump",
+          "genre": "Hard Rock",
+          "year": "1989",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 338
+        },
+        {
+          "title": "Dulcimer Stomp / The Other Side",
+          "album": "Pump",
+          "genre": "Hard Rock",
+          "year": "1989",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 296
+        },
+        {
+          "title": "Toys In The Attic",
+          "album": "Pandora's Box",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 185
+        },
+        {
+          "title": "Kings and Queens",
+          "album": "Draw the Line",
+          "genre": "Hard Rock",
+          "year": "1977",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 296
+        },
+        {
+          "title": "Hole In My Soul",
+          "album": "Nine Lives",
+          "genre": "Rock",
+          "year": "1997",
+          "plays": 0,
+          "skips": 2,
+          "durationSec": 370
+        },
+        {
+          "title": "Just Push Play",
+          "album": "Just Push Play",
+          "genre": "Rock",
+          "year": "2001",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 231
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Aerosmith",
+          "plays": 76,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Dream On",
+              "album": "Aerosmith",
+              "genre": "Hard Rock",
+              "year": "1973",
+              "plays": 75,
+              "skips": 13,
+              "durationSec": 268
+            },
+            {
+              "title": "Mama Kin",
+              "album": "Aerosmith",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 269
+            }
+          ]
+        },
+        {
+          "name": "Permanent Vacation",
+          "plays": 23,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Angel",
+              "album": "Permanent Vacation",
+              "genre": "Hard Rock",
+              "year": "1987",
+              "plays": 16,
+              "skips": 4,
+              "durationSec": 308
+            },
+            {
+              "title": "Dude (Looks Like a Lady)",
+              "album": "Permanent Vacation",
+              "genre": "Hard Rock",
+              "year": "1987",
+              "plays": 4,
+              "skips": 3,
+              "durationSec": 264
+            },
+            {
+              "title": "Rag Doll",
+              "album": "Permanent Vacation",
+              "genre": "Hard Rock",
+              "year": "1987",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 266
+            }
+          ]
+        },
+        {
+          "name": "Get A Grip",
+          "plays": 11,
+          "trackCount": 5,
+          "songs": [
+            {
+              "title": "Cryin'",
+              "album": "Get A Grip",
+              "genre": "Pop",
+              "year": "1993",
+              "plays": 6,
+              "skips": 1,
+              "durationSec": 308
+            },
+            {
+              "title": "Crazy",
+              "album": "Get A Grip",
+              "genre": "Pop",
+              "year": "1993",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 317
+            },
+            {
+              "title": "Livin' On The Edge",
+              "album": "Get A Grip",
+              "genre": "Pop",
+              "year": "1993",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 381
+            },
+            {
+              "title": "Amazing",
+              "album": "Get A Grip",
+              "genre": "Rock",
+              "year": "1993",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 357
+            },
+            {
+              "title": "Eat The Rich",
+              "album": "Get A Grip",
+              "genre": "Pop",
+              "year": "1993",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 250
+            }
+          ]
+        },
+        {
+          "name": "Toys In The Attic",
+          "plays": 6,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Sweet Emotion",
+              "album": "Toys In The Attic",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 3,
+              "skips": 6,
+              "durationSec": 274
+            },
+            {
+              "title": "Walk This Way",
+              "album": "Toys In The Attic",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 2,
+              "skips": 1,
+              "durationSec": 222
+            },
+            {
+              "title": "Big Ten Inch Record",
+              "album": "Toys In The Attic",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 137
+            }
+          ]
+        },
+        {
+          "name": "Nine Lives",
+          "plays": 6,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "Pink",
+              "album": "Nine Lives",
+              "genre": "Rock",
+              "year": "1997",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 235
+            },
+            {
+              "title": "Ain't That a Bitch",
+              "album": "Nine Lives",
+              "genre": "Rock",
+              "year": "1997",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 326
+            },
+            {
+              "title": "Falling In Love (Is Hard On the Knees)",
+              "album": "Nine Lives",
+              "genre": "Rock",
+              "year": "1997",
+              "plays": 1,
+              "skips": 2,
+              "durationSec": 206
+            },
+            {
+              "title": "Hole In My Soul",
+              "album": "Nine Lives",
+              "genre": "Rock",
+              "year": "1997",
+              "plays": 0,
+              "skips": 2,
+              "durationSec": 370
+            }
+          ]
+        },
+        {
+          "name": "Rocks",
+          "plays": 6,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Back In the Saddle",
+              "album": "Rocks",
+              "genre": "Hard Rock",
+              "year": "1976",
+              "plays": 3,
+              "skips": 2,
+              "durationSec": 280
+            },
+            {
+              "title": "Last Child",
+              "album": "Rocks",
+              "genre": "Hard Rock",
+              "year": "1976",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 207
+            }
+          ]
+        },
+        {
+          "name": "Pump",
+          "plays": 5,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "What It Takes",
+              "album": "Pump",
+              "genre": "Hard Rock",
+              "year": "1989",
+              "plays": 4,
+              "skips": 0,
+              "durationSec": 388
+            },
+            {
+              "title": "Water Song / Janie's Got a Gun",
+              "album": "Pump",
+              "genre": "Hard Rock",
+              "year": "1989",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 340
+            },
+            {
+              "title": "Going Down / Love In an Elevator",
+              "album": "Pump",
+              "genre": "Hard Rock",
+              "year": "1989",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 338
+            },
+            {
+              "title": "Dulcimer Stomp / The Other Side",
+              "album": "Pump",
+              "genre": "Hard Rock",
+              "year": "1989",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 296
+            }
+          ]
+        },
+        {
+          "name": "Get Your Wings",
+          "plays": 3,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Train Kept a Rollin'",
+              "album": "Get Your Wings",
+              "genre": "Hard Rock",
+              "year": "1974",
+              "plays": 2,
+              "skips": 1,
+              "durationSec": 334
+            },
+            {
+              "title": "Same Old Song and Dance",
+              "album": "Get Your Wings",
+              "genre": "Hard Rock",
+              "year": "1974",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 234
+            }
+          ]
+        },
+        {
+          "name": "Just Push Play",
+          "plays": 2,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Jaded",
+              "album": "Just Push Play",
+              "genre": "Rock",
+              "year": "2000",
+              "plays": 2,
+              "skips": 2,
+              "durationSec": 216
+            },
+            {
+              "title": "Just Push Play",
+              "album": "Just Push Play",
+              "genre": "Rock",
+              "year": "2001",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 231
+            }
+          ]
+        },
+        {
+          "name": "Draw the Line",
+          "plays": 2,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Draw the Line",
+              "album": "Draw the Line",
+              "genre": "Hard Rock",
+              "year": "1977",
+              "plays": 2,
+              "skips": 4,
+              "durationSec": 204
+            },
+            {
+              "title": "Kings and Queens",
+              "album": "Draw the Line",
+              "genre": "Hard Rock",
+              "year": "1977",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 296
+            }
+          ]
+        },
+        {
+          "name": "I Don't Want To Miss A Thing EP",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "I Don't Want To Miss A Thing (From \"Armageddon\" Soundtrack)",
+              "album": "I Don't Want To Miss A Thing EP",
+              "genre": "Soundtrack",
+              "year": "1998",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "name": "Pandora's Box",
+          "plays": 1,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Come Together",
+              "album": "Pandora's Box",
+              "genre": "Rock",
+              "year": "1978",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 225
+            },
+            {
+              "title": "Toys In The Attic",
+              "album": "Pandora's Box",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 185
+            }
+          ]
+        },
+        {
+          "name": "Night In the Ruts",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Remember (Walking In the Sand)",
+              "album": "Night In the Ruts",
+              "genre": "Hard Rock",
+              "year": "1979",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 245
+            }
+          ]
+        }
+      ],
+      "galaxyX": 139.96,
+      "galaxyY": 51.11,
+      "starRadius": 24.0
+    },
+    {
+      "id": "art-010",
+      "name": "Pink Floyd",
+      "genre": "Classic Rock",
+      "decade": "1970s",
+      "bio": "Pink Floyd are an English rock band formed in London in 1965 by Syd Barrett, Nick Mason (drums), Roger Waters and Richard Wright, with David Gilmour joining at the end of 1967. Gaining an early underground following as one of the first British psychedelic groups, they were distinguished by their extended compositions, sonic experiments, philosophical lyrics, and elaborate live performances, becoming a leading progressive rock band.",
+      "trackCount": 34,
+      "albumCount": 10,
+      "totalPlays": 114,
+      "totalSkips": 16,
+      "totalHours": 10.5,
+      "avgPlays": 3.4,
+      "completionRate": 87.7,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/d62a818a5de6455f17b6a992cf22b32f/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Another Brick In the Wall, Pt. 2",
+        "Comfortably Numb",
+        "Have a Cigar",
+        "Wish You Were Here",
+        "Brain Damage",
+        "Breathe (In the Air)",
+        "Hey You",
+        "Learning to Fly (Remix 2019)",
+        "Eclipse",
+        "The Happiest Days of Our Lives",
+        "Mother",
+        "Run Like Hell",
+        "Time",
+        "Young Lust",
+        "Is There Anybody Out There?",
+        "High Hopes",
+        "Money",
+        "Shine On You Crazy Diamond, Pts. 1-5",
+        "Us and Them",
+        "On the Turning Away (Remix 2019)",
+        "One of These Days",
+        "Arnold Layne",
+        "Any Colour You Like",
+        "Fearless",
+        "Astronomy Domine",
+        "See Emily Play",
+        "Welcome to the Machine",
+        "The Great Gig In the Sky",
+        "Pigs (Three Different Ones)",
+        "On the Run",
+        "Dogs",
+        "Goodbye Blue Sky",
+        "Echoes",
+        "The Dogs of War"
+      ],
+      "albums": [
+        "Relics",
+        "The Dark Side of the Moon",
+        "A Momentary Lapse of Reason (2019 Remix)",
+        "Wish You Were Here",
+        "A Momentary Lapse of Reason",
+        "Meddle (2016 Remaster)",
+        "The Piper at the Gates of Dawn",
+        "The Division Bell",
+        "The Wall",
+        "Animals"
+      ],
+      "songDetails": [
+        {
+          "title": "Another Brick In the Wall, Pt. 2",
+          "album": "The Wall",
+          "genre": "Rock",
+          "year": "1979",
+          "plays": 31,
+          "skips": 2,
+          "durationSec": 239
+        },
+        {
+          "title": "Comfortably Numb",
+          "album": "The Wall",
+          "genre": "Rock",
+          "year": "1979",
+          "plays": 19,
+          "skips": 2,
+          "durationSec": 382
+        },
+        {
+          "title": "Have a Cigar",
+          "album": "Wish You Were Here",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 9,
+          "skips": 0,
+          "durationSec": 309
+        },
+        {
+          "title": "Wish You Were Here",
+          "album": "Wish You Were Here",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 7,
+          "skips": 0,
+          "durationSec": 339
+        },
+        {
+          "title": "Brain Damage",
+          "album": "The Dark Side of the Moon",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 5,
+          "skips": 0,
+          "durationSec": 230
+        },
+        {
+          "title": "Breathe (In the Air)",
+          "album": "The Dark Side of the Moon",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 5,
+          "skips": 0,
+          "durationSec": 170
+        },
+        {
+          "title": "Hey You",
+          "album": "The Wall",
+          "genre": "Rock",
+          "year": "1979",
+          "plays": 5,
+          "skips": 1,
+          "durationSec": 280
+        },
+        {
+          "title": "Learning to Fly (Remix 2019)",
+          "album": "A Momentary Lapse of Reason (2019 Remix)",
+          "genre": "Rock",
+          "year": "1987",
+          "plays": 4,
+          "skips": 2,
+          "durationSec": 293
+        },
+        {
+          "title": "Eclipse",
+          "album": "The Dark Side of the Moon",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 127
+        },
+        {
+          "title": "The Happiest Days of Our Lives",
+          "album": "The Wall",
+          "genre": "Rock",
+          "year": "1979",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 111
+        },
+        {
+          "title": "Mother",
+          "album": "The Wall",
+          "genre": "Rock",
+          "year": "1979",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 335
+        },
+        {
+          "title": "Run Like Hell",
+          "album": "The Wall",
+          "genre": "Rock",
+          "year": "1979",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 263
+        },
+        {
+          "title": "Time",
+          "album": "The Dark Side of the Moon",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 423
+        },
+        {
+          "title": "Young Lust",
+          "album": "The Wall",
+          "genre": "Rock",
+          "year": "1979",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 210
+        },
+        {
+          "title": "Is There Anybody Out There?",
+          "album": "The Wall",
+          "genre": "Rock",
+          "year": "1979",
+          "plays": 2,
+          "skips": 1,
+          "durationSec": 162
+        },
+        {
+          "title": "High Hopes",
+          "album": "The Division Bell",
+          "genre": "Rock",
+          "year": "1994",
+          "plays": 2,
+          "skips": 1,
+          "durationSec": 511
+        },
+        {
+          "title": "Money",
+          "album": "The Dark Side of the Moon",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 380
+        },
+        {
+          "title": "Shine On You Crazy Diamond, Pts. 1-5",
+          "album": "Wish You Were Here",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 815
+        },
+        {
+          "title": "Us and Them",
+          "album": "The Dark Side of the Moon",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 473
+        },
+        {
+          "title": "On the Turning Away (Remix 2019)",
+          "album": "A Momentary Lapse of Reason (2019 Remix)",
+          "genre": "Rock",
+          "year": "1987",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 343
+        },
+        {
+          "title": "One of These Days",
+          "album": "Meddle (2016 Remaster)",
+          "genre": "Rock",
+          "year": "1971",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 355
+        },
+        {
+          "title": "Arnold Layne",
+          "album": "Relics",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 176
+        },
+        {
+          "title": "Any Colour You Like",
+          "album": "The Dark Side of the Moon",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 206
+        },
+        {
+          "title": "Fearless",
+          "album": "Meddle (2016 Remaster)",
+          "genre": "Rock",
+          "year": "1971",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 368
+        },
+        {
+          "title": "Astronomy Domine",
+          "album": "The Piper at the Gates of Dawn",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 252
+        },
+        {
+          "title": "See Emily Play",
+          "album": "Relics",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 174
+        },
+        {
+          "title": "Welcome to the Machine",
+          "album": "Wish You Were Here",
+          "genre": "Rock",
+          "year": "1975",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 451
+        },
+        {
+          "title": "The Great Gig In the Sky",
+          "album": "The Dark Side of the Moon",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 284
+        },
+        {
+          "title": "Pigs (Three Different Ones)",
+          "album": "Animals",
+          "genre": "Rock",
+          "year": "1977",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 686
+        },
+        {
+          "title": "On the Run",
+          "album": "The Dark Side of the Moon",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 216
+        },
+        {
+          "title": "Dogs",
+          "album": "Animals",
+          "genre": "Rock",
+          "year": "1977",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 1025
+        },
+        {
+          "title": "Goodbye Blue Sky",
+          "album": "The Wall",
+          "genre": "Rock",
+          "year": "1979",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 167
+        },
+        {
+          "title": "Echoes",
+          "album": "Meddle (2016 Remaster)",
+          "genre": "Rock",
+          "year": "1971",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 1413
+        },
+        {
+          "title": "The Dogs of War",
+          "album": "A Momentary Lapse of Reason",
+          "genre": "Rock",
+          "year": "1987",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 364
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "The Wall",
+          "plays": 68,
+          "trackCount": 9,
+          "songs": [
+            {
+              "title": "Another Brick In the Wall, Pt. 2",
+              "album": "The Wall",
+              "genre": "Rock",
+              "year": "1979",
+              "plays": 31,
+              "skips": 2,
+              "durationSec": 239
+            },
+            {
+              "title": "Comfortably Numb",
+              "album": "The Wall",
+              "genre": "Rock",
+              "year": "1979",
+              "plays": 19,
+              "skips": 2,
+              "durationSec": 382
+            },
+            {
+              "title": "Hey You",
+              "album": "The Wall",
+              "genre": "Rock",
+              "year": "1979",
+              "plays": 5,
+              "skips": 1,
+              "durationSec": 280
+            },
+            {
+              "title": "The Happiest Days of Our Lives",
+              "album": "The Wall",
+              "genre": "Rock",
+              "year": "1979",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 111
+            },
+            {
+              "title": "Mother",
+              "album": "The Wall",
+              "genre": "Rock",
+              "year": "1979",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 335
+            },
+            {
+              "title": "Run Like Hell",
+              "album": "The Wall",
+              "genre": "Rock",
+              "year": "1979",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 263
+            },
+            {
+              "title": "Young Lust",
+              "album": "The Wall",
+              "genre": "Rock",
+              "year": "1979",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 210
+            },
+            {
+              "title": "Is There Anybody Out There?",
+              "album": "The Wall",
+              "genre": "Rock",
+              "year": "1979",
+              "plays": 2,
+              "skips": 1,
+              "durationSec": 162
+            },
+            {
+              "title": "Goodbye Blue Sky",
+              "album": "The Wall",
+              "genre": "Rock",
+              "year": "1979",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 167
+            }
+          ]
+        },
+        {
+          "name": "The Dark Side of the Moon",
+          "plays": 18,
+          "trackCount": 9,
+          "songs": [
+            {
+              "title": "Brain Damage",
+              "album": "The Dark Side of the Moon",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 5,
+              "skips": 0,
+              "durationSec": 230
+            },
+            {
+              "title": "Breathe (In the Air)",
+              "album": "The Dark Side of the Moon",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 5,
+              "skips": 0,
+              "durationSec": 170
+            },
+            {
+              "title": "Eclipse",
+              "album": "The Dark Side of the Moon",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 127
+            },
+            {
+              "title": "Time",
+              "album": "The Dark Side of the Moon",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 423
+            },
+            {
+              "title": "Money",
+              "album": "The Dark Side of the Moon",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 380
+            },
+            {
+              "title": "Us and Them",
+              "album": "The Dark Side of the Moon",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 473
+            },
+            {
+              "title": "Any Colour You Like",
+              "album": "The Dark Side of the Moon",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 206
+            },
+            {
+              "title": "The Great Gig In the Sky",
+              "album": "The Dark Side of the Moon",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 284
+            },
+            {
+              "title": "On the Run",
+              "album": "The Dark Side of the Moon",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 216
+            }
+          ]
+        },
+        {
+          "name": "Wish You Were Here",
+          "plays": 17,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "Have a Cigar",
+              "album": "Wish You Were Here",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 9,
+              "skips": 0,
+              "durationSec": 309
+            },
+            {
+              "title": "Wish You Were Here",
+              "album": "Wish You Were Here",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 7,
+              "skips": 0,
+              "durationSec": 339
+            },
+            {
+              "title": "Shine On You Crazy Diamond, Pts. 1-5",
+              "album": "Wish You Were Here",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 815
+            },
+            {
+              "title": "Welcome to the Machine",
+              "album": "Wish You Were Here",
+              "genre": "Rock",
+              "year": "1975",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 451
+            }
+          ]
+        },
+        {
+          "name": "A Momentary Lapse of Reason (2019 Remix)",
+          "plays": 5,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Learning to Fly (Remix 2019)",
+              "album": "A Momentary Lapse of Reason (2019 Remix)",
+              "genre": "Rock",
+              "year": "1987",
+              "plays": 4,
+              "skips": 2,
+              "durationSec": 293
+            },
+            {
+              "title": "On the Turning Away (Remix 2019)",
+              "album": "A Momentary Lapse of Reason (2019 Remix)",
+              "genre": "Rock",
+              "year": "1987",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 343
+            }
+          ]
+        },
+        {
+          "name": "The Division Bell",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "High Hopes",
+              "album": "The Division Bell",
+              "genre": "Rock",
+              "year": "1994",
+              "plays": 2,
+              "skips": 1,
+              "durationSec": 511
+            }
+          ]
+        },
+        {
+          "name": "Meddle (2016 Remaster)",
+          "plays": 2,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "One of These Days",
+              "album": "Meddle (2016 Remaster)",
+              "genre": "Rock",
+              "year": "1971",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 355
+            },
+            {
+              "title": "Fearless",
+              "album": "Meddle (2016 Remaster)",
+              "genre": "Rock",
+              "year": "1971",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 368
+            },
+            {
+              "title": "Echoes",
+              "album": "Meddle (2016 Remaster)",
+              "genre": "Rock",
+              "year": "1971",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 1413
+            }
+          ]
+        },
+        {
+          "name": "Relics",
+          "plays": 1,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Arnold Layne",
+              "album": "Relics",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 176
+            },
+            {
+              "title": "See Emily Play",
+              "album": "Relics",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 174
+            }
+          ]
+        },
+        {
+          "name": "The Piper at the Gates of Dawn",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Astronomy Domine",
+              "album": "The Piper at the Gates of Dawn",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 252
+            }
+          ]
+        },
+        {
+          "name": "Animals",
+          "plays": 0,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Pigs (Three Different Ones)",
+              "album": "Animals",
+              "genre": "Rock",
+              "year": "1977",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 686
+            },
+            {
+              "title": "Dogs",
+              "album": "Animals",
+              "genre": "Rock",
+              "year": "1977",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 1025
+            }
+          ]
+        },
+        {
+          "name": "A Momentary Lapse of Reason",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "The Dogs of War",
+              "album": "A Momentary Lapse of Reason",
+              "genre": "Rock",
+              "year": "1987",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 364
+            }
+          ]
+        }
+      ],
+      "galaxyX": -143.43,
+      "galaxyY": 59.2,
+      "starRadius": 22.1
+    },
+    {
+      "id": "art-011",
+      "name": "Ed Sheeran",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Edward Christopher Sheeran is an English singer-songwriter. Born in Halifax, West Yorkshire, and raised in Framlingham, Suffolk, he began writing songs around the age of eleven. In early 2011, Sheeran independently released the extended play No.5 Collaborations Project. He signed with Asylum Records the same year.",
+      "trackCount": 3,
+      "albumCount": 3,
+      "totalPlays": 88,
+      "totalSkips": 16,
+      "totalHours": 5.7,
+      "avgPlays": 29.3,
+      "completionRate": 84.6,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/15/e6/e8/15e6e8a4-4190-6a8b-86c3-ab4a51b88288/190295851286.jpg/600x600bb.jpg",
+      "songs": [
+        "Shape of You",
+        "Bad Habits",
+        "The A Team"
+      ],
+      "albums": [
+        "=",
+        "\u00f7 (Deluxe)",
+        "+ (Deluxe Version)"
+      ],
+      "songDetails": [
+        {
+          "title": "Shape of You",
+          "album": "\u00f7 (Deluxe)",
+          "genre": "Pop",
+          "year": "2017",
+          "plays": 59,
+          "skips": 7,
+          "durationSec": 234
+        },
+        {
+          "title": "Bad Habits",
+          "album": "=",
+          "genre": "Pop",
+          "year": "2021",
+          "plays": 28,
+          "skips": 7,
+          "durationSec": 231
+        },
+        {
+          "title": "The A Team",
+          "album": "+ (Deluxe Version)",
+          "genre": "Pop",
+          "year": "2010",
+          "plays": 1,
+          "skips": 2,
+          "durationSec": 258
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "\u00f7 (Deluxe)",
+          "plays": 59,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Shape of You",
+              "album": "\u00f7 (Deluxe)",
+              "genre": "Pop",
+              "year": "2017",
+              "plays": 59,
+              "skips": 7,
+              "durationSec": 234
+            }
+          ]
+        },
+        {
+          "name": "=",
+          "plays": 28,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Bad Habits",
+              "album": "=",
+              "genre": "Pop",
+              "year": "2021",
+              "plays": 28,
+              "skips": 7,
+              "durationSec": 231
+            }
+          ]
+        },
+        {
+          "name": "+ (Deluxe Version)",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "The A Team",
+              "album": "+ (Deluxe Version)",
+              "genre": "Pop",
+              "year": "2010",
+              "plays": 1,
+              "skips": 2,
+              "durationSec": 258
+            }
+          ]
+        }
+      ],
+      "galaxyX": 68.25,
+      "galaxyY": -145.85,
+      "starRadius": 20.2
+    },
+    {
+      "id": "art-012",
+      "name": "Shawn Mendes",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Shawn Peter Raul Mendes is a Canadian singer, songwriter, and musician. He gained a following in 2013 when he posted song covers on the video-sharing platform Vine. The following year, he caught the attention of artist manager Andrew Gertler and Island Records A&R Ziggy Chareton, which led to his signing a deal with the record label. Mendes's self-titled debut EP was released in 2014, followed by his debut studio album Handwritten in 2015. Handwritten debuted atop the US Billboard 200, making Mendes one of five artists ever to debut at number one before the age of 18. The single \"Stitches\" reached number one in the UK and the top 10 in the US and Canada.",
+      "trackCount": 18,
+      "albumCount": 12,
+      "totalPlays": 80,
+      "totalSkips": 22,
+      "totalHours": 4.3,
+      "avgPlays": 4.4,
+      "completionRate": 78.4,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/57/e4/5c57e46a-0950-7ebd-8010-28453c1c0055/16UMGIM51723.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Why Why Why",
+        "Lost in Japan",
+        "Wonder",
+        "There's Nothing Holdin' Me Back",
+        "Heart of Gold",
+        "In My Blood",
+        "If I Can't Have You",
+        "When You're Gone",
+        "Like to Be You (feat. Julia Michaels)",
+        "Treat You Better",
+        "Mercy",
+        "Youth (feat. Khalid)",
+        "It'll Be Okay",
+        "Life Of The Party",
+        "Stitches",
+        "Nervous",
+        "A Little Too Much",
+        "That\u2019s The Dream"
+      ],
+      "albums": [
+        "Morning Steps",
+        "Comforting Songs",
+        "At Home - Pop Edition",
+        "Handwritten",
+        "Wonder",
+        "Illuminate (Deluxe)",
+        "Shawn",
+        "It'll Be Okay - Single",
+        "M\u00fasica para cuando te sientes solo",
+        "Shawn Mendes",
+        "Canciones para enamorarse",
+        "Shawn Mendes (Deluxe)"
+      ],
+      "songDetails": [
+        {
+          "title": "Why Why Why",
+          "album": "Shawn",
+          "genre": "Pop",
+          "year": "2024",
+          "plays": 11,
+          "skips": 3,
+          "durationSec": 169
+        },
+        {
+          "title": "Lost in Japan",
+          "album": "Shawn Mendes",
+          "genre": "Pop",
+          "year": "2018",
+          "plays": 11,
+          "skips": 2,
+          "durationSec": 201
+        },
+        {
+          "title": "Wonder",
+          "album": "Wonder",
+          "genre": "Pop",
+          "year": "2020",
+          "plays": 11,
+          "skips": 4,
+          "durationSec": 173
+        },
+        {
+          "title": "There's Nothing Holdin' Me Back",
+          "album": "Illuminate (Deluxe)",
+          "genre": "Pop",
+          "year": "2016",
+          "plays": 10,
+          "skips": 1,
+          "durationSec": 199
+        },
+        {
+          "title": "Heart of Gold",
+          "album": "Shawn",
+          "genre": "Pop",
+          "year": "2024",
+          "plays": 9,
+          "skips": 4,
+          "durationSec": 172
+        },
+        {
+          "title": "In My Blood",
+          "album": "Shawn Mendes (Deluxe)",
+          "genre": "Pop",
+          "year": "2018",
+          "plays": 4,
+          "skips": 2,
+          "durationSec": 211
+        },
+        {
+          "title": "If I Can't Have You",
+          "album": "Morning Steps",
+          "genre": "Pop",
+          "year": "2019",
+          "plays": 4,
+          "skips": 0,
+          "durationSec": 191
+        },
+        {
+          "title": "When You're Gone",
+          "album": "Comforting Songs",
+          "genre": "Pop",
+          "year": "2022",
+          "plays": 4,
+          "skips": 0,
+          "durationSec": 172
+        },
+        {
+          "title": "Like to Be You (feat. Julia Michaels)",
+          "album": "Shawn Mendes",
+          "genre": "Pop",
+          "year": "2018",
+          "plays": 4,
+          "skips": 2,
+          "durationSec": 159
+        },
+        {
+          "title": "Treat You Better",
+          "album": "At Home - Pop Edition",
+          "genre": "Pop",
+          "year": "2016",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 188
+        },
+        {
+          "title": "Mercy",
+          "album": "Illuminate (Deluxe)",
+          "genre": "Pop",
+          "year": "2016",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 209
+        },
+        {
+          "title": "Youth (feat. Khalid)",
+          "album": "Shawn Mendes",
+          "genre": "Pop",
+          "year": "2018",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 191
+        },
+        {
+          "title": "It'll Be Okay",
+          "album": "It'll Be Okay - Single",
+          "genre": "Pop",
+          "year": "2021",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 223
+        },
+        {
+          "title": "Life Of The Party",
+          "album": "Comforting Songs",
+          "genre": "Pop",
+          "year": "2014",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 215
+        },
+        {
+          "title": "Stitches",
+          "album": "Handwritten",
+          "genre": "Pop",
+          "year": "2015",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 207
+        },
+        {
+          "title": "Nervous",
+          "album": "Canciones para enamorarse",
+          "genre": "Pop",
+          "year": "2018",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 164
+        },
+        {
+          "title": "A Little Too Much",
+          "album": "M\u00fasica para cuando te sientes solo",
+          "genre": "Pop",
+          "year": "2015",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 187
+        },
+        {
+          "title": "That\u2019s The Dream",
+          "album": "Shawn",
+          "genre": "Pop",
+          "year": "2024",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 134
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Shawn",
+          "plays": 20,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Why Why Why",
+              "album": "Shawn",
+              "genre": "Pop",
+              "year": "2024",
+              "plays": 11,
+              "skips": 3,
+              "durationSec": 169
+            },
+            {
+              "title": "Heart of Gold",
+              "album": "Shawn",
+              "genre": "Pop",
+              "year": "2024",
+              "plays": 9,
+              "skips": 4,
+              "durationSec": 172
+            },
+            {
+              "title": "That\u2019s The Dream",
+              "album": "Shawn",
+              "genre": "Pop",
+              "year": "2024",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 134
+            }
+          ]
+        },
+        {
+          "name": "Shawn Mendes",
+          "plays": 18,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Lost in Japan",
+              "album": "Shawn Mendes",
+              "genre": "Pop",
+              "year": "2018",
+              "plays": 11,
+              "skips": 2,
+              "durationSec": 201
+            },
+            {
+              "title": "Like to Be You (feat. Julia Michaels)",
+              "album": "Shawn Mendes",
+              "genre": "Pop",
+              "year": "2018",
+              "plays": 4,
+              "skips": 2,
+              "durationSec": 159
+            },
+            {
+              "title": "Youth (feat. Khalid)",
+              "album": "Shawn Mendes",
+              "genre": "Pop",
+              "year": "2018",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 191
+            }
+          ]
+        },
+        {
+          "name": "Illuminate (Deluxe)",
+          "plays": 13,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "There's Nothing Holdin' Me Back",
+              "album": "Illuminate (Deluxe)",
+              "genre": "Pop",
+              "year": "2016",
+              "plays": 10,
+              "skips": 1,
+              "durationSec": 199
+            },
+            {
+              "title": "Mercy",
+              "album": "Illuminate (Deluxe)",
+              "genre": "Pop",
+              "year": "2016",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 209
+            }
+          ]
+        },
+        {
+          "name": "Wonder",
+          "plays": 11,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Wonder",
+              "album": "Wonder",
+              "genre": "Pop",
+              "year": "2020",
+              "plays": 11,
+              "skips": 4,
+              "durationSec": 173
+            }
+          ]
+        },
+        {
+          "name": "Comforting Songs",
+          "plays": 5,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "When You're Gone",
+              "album": "Comforting Songs",
+              "genre": "Pop",
+              "year": "2022",
+              "plays": 4,
+              "skips": 0,
+              "durationSec": 172
+            },
+            {
+              "title": "Life Of The Party",
+              "album": "Comforting Songs",
+              "genre": "Pop",
+              "year": "2014",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 215
+            }
+          ]
+        },
+        {
+          "name": "Shawn Mendes (Deluxe)",
+          "plays": 4,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "In My Blood",
+              "album": "Shawn Mendes (Deluxe)",
+              "genre": "Pop",
+              "year": "2018",
+              "plays": 4,
+              "skips": 2,
+              "durationSec": 211
+            }
+          ]
+        },
+        {
+          "name": "Morning Steps",
+          "plays": 4,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "If I Can't Have You",
+              "album": "Morning Steps",
+              "genre": "Pop",
+              "year": "2019",
+              "plays": 4,
+              "skips": 0,
+              "durationSec": 191
+            }
+          ]
+        },
+        {
+          "name": "At Home - Pop Edition",
+          "plays": 3,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Treat You Better",
+              "album": "At Home - Pop Edition",
+              "genre": "Pop",
+              "year": "2016",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 188
+            }
+          ]
+        },
+        {
+          "name": "It'll Be Okay - Single",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "It'll Be Okay",
+              "album": "It'll Be Okay - Single",
+              "genre": "Pop",
+              "year": "2021",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 223
+            }
+          ]
+        },
+        {
+          "name": "Handwritten",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Stitches",
+              "album": "Handwritten",
+              "genre": "Pop",
+              "year": "2015",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 207
+            }
+          ]
+        },
+        {
+          "name": "Canciones para enamorarse",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Nervous",
+              "album": "Canciones para enamorarse",
+              "genre": "Pop",
+              "year": "2018",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 164
+            }
+          ]
+        },
+        {
+          "name": "M\u00fasica para cuando te sientes solo",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "A Little Too Much",
+              "album": "M\u00fasica para cuando te sientes solo",
+              "genre": "Pop",
+              "year": "2015",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 187
+            }
+          ]
+        }
+      ],
+      "galaxyX": 49.87,
+      "galaxyY": 159.0,
+      "starRadius": 19.5
+    },
+    {
+      "id": "art-013",
+      "name": "Ben Morfitt (SquidPhysics)",
+      "genre": "Cinematic / OST",
+      "decade": "2010s",
+      "bio": "The music for the 2010 action-adventure western video game Red Dead Redemption, developed by Rockstar San Diego and published by Rockstar Games, was composed by musicians Bill Elm and Woody Jackson. Recorded at Jackson's studio in Los Angeles, the soundtracks were produced by David Holmes. The music was intended to imitate soundtracks of 1960s Western films, such as Ennio Morricone's work on the Dollars Trilogy. In collaboration with each other, Elm and Jackson produced over fourteen hours of music across fifteen months. The composers used unconventional instruments to create unique sounds, and worked with artists such as Tommy Morgan during production. Four supplementary vocal recordings were also produced for the game.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 79,
+      "totalSkips": 3,
+      "totalHours": 2.2,
+      "avgPlays": 79.0,
+      "completionRate": 96.3,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/eb/3b/e2/eb3be273-f570-508b-24e5-aa30e23a2a7e/ea64b48e-db9a-4a03-a64c-027e89a1790b.jpg/600x600bb.jpg",
+      "songs": [
+        "GTA V Theme - Welcome To Los Santos"
+      ],
+      "albums": [
+        "Squidography, Vol. I"
+      ],
+      "songDetails": [
+        {
+          "title": "GTA V Theme - Welcome To Los Santos",
+          "album": "Squidography, Vol. I",
+          "genre": "Soundtrack",
+          "year": "2014",
+          "plays": 79,
+          "skips": 3,
+          "durationSec": 102
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Squidography, Vol. I",
+          "plays": 79,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "GTA V Theme - Welcome To Los Santos",
+              "album": "Squidography, Vol. I",
+              "genre": "Soundtrack",
+              "year": "2014",
+              "plays": 79,
+              "skips": 3,
+              "durationSec": 102
+            }
+          ]
+        }
+      ],
+      "galaxyX": -148.83,
+      "galaxyY": -86.25,
+      "starRadius": 19.4
+    },
+    {
+      "id": "art-014",
+      "name": "Alphaville",
+      "genre": "Modern Pop / Chart",
+      "decade": "1980s",
+      "bio": "Alphaville is a German synth-pop band formed in M\u00fcnster in 1982. They gained popularity in the 1980s. The group was founded by singer Marian Gold and musicians Bernhard Lloyd and Frank Mertens. They achieved chart success with the singles \"Forever Young\", \"Big in Japan\", \"Sounds Like a Melody\", \"The Jet Set\", and \"Dance with Me\". Gold remains the only continuous original member of Alphaville. They took their name from Jean-Luc Godard's 1965 film Alphaville.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 75,
+      "totalSkips": 7,
+      "totalHours": 4.7,
+      "avgPlays": 75.0,
+      "completionRate": 91.5,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d22/h05/s05.qwwmqauc.jpg/600x600bb.jpg",
+      "songs": [
+        "Forever Young"
+      ],
+      "albums": [
+        "Forever Young"
+      ],
+      "songDetails": [
+        {
+          "title": "Forever Young",
+          "album": "Forever Young",
+          "genre": "Pop",
+          "year": "1984",
+          "plays": 75,
+          "skips": 7,
+          "durationSec": 227
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Forever Young",
+          "plays": 75,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Forever Young",
+              "album": "Forever Young",
+              "genre": "Pop",
+              "year": "1984",
+              "plays": 75,
+              "skips": 7,
+              "durationSec": 227
+            }
+          ]
+        }
+      ],
+      "galaxyX": 173.05,
+      "galaxyY": -38.04,
+      "starRadius": 19.1
+    },
+    {
+      "id": "art-015",
+      "name": "Nirvana",
+      "genre": "Grunge / Alt Rock",
+      "decade": "1990s",
+      "bio": "Nirvana, in the Indian religions, is the concept of an individual's passions being extinguished as the ultimate state of salvation, release, or liberation from suffering (du\u1e25kha) and from the cycle of birth and rebirth (sa\u1e43s\u0101ra).",
+      "trackCount": 2,
+      "albumCount": 2,
+      "totalPlays": 74,
+      "totalSkips": 5,
+      "totalHours": 4.7,
+      "avgPlays": 37.0,
+      "completionRate": 93.7,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/ad67af8b0dca71d5e69f1afd8e045c4e/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Something In The Way",
+        "About a Girl"
+      ],
+      "albums": [
+        "Bleach (Deluxe Edition)",
+        "Nevermind"
+      ],
+      "songDetails": [
+        {
+          "title": "Something In The Way",
+          "album": "Nevermind",
+          "genre": "Rock",
+          "year": "1991",
+          "plays": 72,
+          "skips": 4,
+          "durationSec": 232
+        },
+        {
+          "title": "About a Girl",
+          "album": "Bleach (Deluxe Edition)",
+          "genre": "Alternative",
+          "year": "1989",
+          "plays": 2,
+          "skips": 1,
+          "durationSec": 168
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Nevermind",
+          "plays": 72,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Something In The Way",
+              "album": "Nevermind",
+              "genre": "Rock",
+              "year": "1991",
+              "plays": 72,
+              "skips": 4,
+              "durationSec": 232
+            }
+          ]
+        },
+        {
+          "name": "Bleach (Deluxe Edition)",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "About a Girl",
+              "album": "Bleach (Deluxe Edition)",
+              "genre": "Alternative",
+              "year": "1989",
+              "plays": 2,
+              "skips": 1,
+              "durationSec": 168
+            }
+          ]
+        }
+      ],
+      "galaxyX": -104.77,
+      "galaxyY": 149.03,
+      "starRadius": 19.0
+    },
+    {
+      "id": "art-016",
+      "name": "George Michael",
+      "genre": "80s/90s Pop",
+      "decade": "1980s",
+      "bio": "George Michael was an English singer-songwriter and record producer. Regarded as a pop culture icon, he is one of the best-selling recording artists of all time. Michael has been widely recognised as a creative force in songwriting, vocal performance, and visual presentation. He was inducted into the Rock and Roll Hall of Fame in 2023. The Radio Academy named him the most played artist on British radio during the period 1984\u20132004.",
+      "trackCount": 2,
+      "albumCount": 2,
+      "totalPlays": 71,
+      "totalSkips": 3,
+      "totalHours": 5.9,
+      "avgPlays": 35.5,
+      "completionRate": 95.9,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ee/49/ac/ee49accc-78bd-bcdb-1aff-c40c1ac3ccc4/074643959520.jpg/600x600bb.jpg",
+      "songs": [
+        "Careless Whisper",
+        "Careless Whisper (Remastered)"
+      ],
+      "albums": [
+        "Ladies & Gentlemen",
+        "Careless Whisper - EP"
+      ],
+      "songDetails": [
+        {
+          "title": "Careless Whisper",
+          "album": "Ladies & Gentlemen",
+          "genre": "Pop",
+          "year": "1984",
+          "plays": 63,
+          "skips": 3,
+          "durationSec": 300
+        },
+        {
+          "title": "Careless Whisper (Remastered)",
+          "album": "Careless Whisper - EP",
+          "genre": "Pop",
+          "year": "1984",
+          "plays": 8,
+          "skips": 0,
+          "durationSec": 303
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Ladies & Gentlemen",
+          "plays": 63,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Careless Whisper",
+              "album": "Ladies & Gentlemen",
+              "genre": "Pop",
+              "year": "1984",
+              "plays": 63,
+              "skips": 3,
+              "durationSec": 300
+            }
+          ]
+        },
+        {
+          "name": "Careless Whisper - EP",
+          "plays": 8,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Careless Whisper (Remastered)",
+              "album": "Careless Whisper - EP",
+              "genre": "Pop",
+              "year": "1984",
+              "plays": 8,
+              "skips": 0,
+              "durationSec": 303
+            }
+          ]
+        }
+      ],
+      "galaxyX": -24.03,
+      "galaxyY": -185.45,
+      "starRadius": 18.7
+    },
+    {
+      "id": "art-017",
+      "name": "Katy Perry",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Katheryn Elizabeth Hudson, known professionally as Katy Perry, is an American singer, songwriter, and television personality. Known for her influence on pop music and her camp style, she has been dubbed the \"Queen of Camp\" by Vogue and Rolling Stone.",
+      "trackCount": 2,
+      "albumCount": 2,
+      "totalPlays": 66,
+      "totalSkips": 9,
+      "totalHours": 3.5,
+      "avgPlays": 33.0,
+      "completionRate": 88.0,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c8/d3/42/c8d342af-26d9-3ec2-c511-e1eaf860e299/13UABIM57787.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Harleys in Hawaii",
+        "Last Friday Night (T.G.I.F.)"
+      ],
+      "albums": [
+        "Harleys in Hawaii - Single",
+        "Teenage Dream"
+      ],
+      "songDetails": [
+        {
+          "title": "Harleys in Hawaii",
+          "album": "Harleys in Hawaii - Single",
+          "genre": "Pop",
+          "year": "2020",
+          "plays": 62,
+          "skips": 8,
+          "durationSec": 186
+        },
+        {
+          "title": "Last Friday Night (T.G.I.F.)",
+          "album": "Teenage Dream",
+          "genre": "Teen Pop",
+          "year": "2010",
+          "plays": 4,
+          "skips": 1,
+          "durationSec": 231
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Harleys in Hawaii - Single",
+          "plays": 62,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Harleys in Hawaii",
+              "album": "Harleys in Hawaii - Single",
+              "genre": "Pop",
+              "year": "2020",
+              "plays": 62,
+              "skips": 8,
+              "durationSec": 186
+            }
+          ]
+        },
+        {
+          "name": "Teenage Dream",
+          "plays": 4,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Last Friday Night (T.G.I.F.)",
+              "album": "Teenage Dream",
+              "genre": "Teen Pop",
+              "year": "2010",
+              "plays": 4,
+              "skips": 1,
+              "durationSec": 231
+            }
+          ]
+        }
+      ],
+      "galaxyX": 146.57,
+      "galaxyY": 123.53,
+      "starRadius": 18.3
+    },
+    {
+      "id": "art-018",
+      "name": "The Beatles",
+      "genre": "Classic Rock",
+      "decade": "1960s",
+      "bio": "The Beatles were an English rock band formed in Liverpool in 1960. The band comprised John Lennon, Paul McCartney, George Harrison and Ringo Starr. They are regarded as the most influential band in popular music and were integral to the development of 1960s counterculture and the recognition of popular music as an art form. Rooted in skiffle, beat and 1950s rock 'n' roll, their sound incorporated elements of classical music and traditional pop in innovative ways. They also explored styles ranging from folk and Indian music to psychedelia and hard rock. As pioneers in recording, songwriting and artistic presentation, the Beatles revolutionised many aspects of the music industry and were often publicised as leaders of the era's youth and sociocultural movements.",
+      "trackCount": 70,
+      "albumCount": 18,
+      "totalPlays": 63,
+      "totalSkips": 33,
+      "totalHours": 5.2,
+      "avgPlays": 0.9,
+      "completionRate": 65.6,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/16925ed8f96eb621ecd56c2c8ba3da6e/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Yesterday",
+        "Hey Jude",
+        "Come Together (2019 Mix)",
+        "Here Comes the Sun (2019 Mix)",
+        "Eleanor Rigby (2022 Mix)",
+        "All You Need Is Love",
+        "Can't Buy Me Love",
+        "Magical Mystery Tour",
+        "In My Life",
+        "Day Tripper",
+        "Something (2019 Mix)",
+        "I Feel Fine",
+        "The Ballad of John and Yoko",
+        "The Fool On the Hill",
+        "From Me to You",
+        "Ticket to Ride",
+        "Penny Lane",
+        "While My Guitar Gently Weeps",
+        "I Saw Her Standing There",
+        "Blackbird",
+        "We Can Work It Out",
+        "With A Little Help From My Friends (2017 Mix)",
+        "Don't Let Me Down",
+        "All My Loving",
+        "Oh! Darling (2019 Mix)",
+        "I Should Have Known Better",
+        "Octopus's Garden (2019 Mix)",
+        "Back In the U.S.S.R.",
+        "For No One (2022 Mix)",
+        "Because (2019 Mix)",
+        "She Said She Said (2022 Mix)",
+        "Help!",
+        "Let It Be (2021 Mix)",
+        "I Want to Hold Your Hand",
+        "Hello, Goodbye",
+        "Strawberry Fields Forever",
+        "Ob-La-Di, Ob-La-Da",
+        "A Hard Day's Night",
+        "Lucy In The Sky With Diamonds (2017 Mix)",
+        "Love Me Do",
+        "Get Back (2021 Mix)",
+        "Eight Days a Week",
+        "She Loves You",
+        "Twist and Shout",
+        "Yellow Submarine (2022 Mix)",
+        "Across the Universe (2021 Mix)",
+        "And I Love Her",
+        "When I'm Sixty-Four (2017 Mix)",
+        "Drive My Car",
+        "A Day In The Life (2017 Mix)",
+        "Lady Madonna",
+        "Norwegian Wood (This Bird Has Flown)",
+        "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+        "Paperback Writer",
+        "The Long and Winding Road (2021 Mix)",
+        "You've Got to Hide Your Love Away",
+        "I Am the Walrus",
+        "Nowhere Man",
+        "Revolution",
+        "Here, There and Everywhere (2022 Mix)",
+        "Michelle",
+        "Got to Get You Into My Life (Second Version / Unnumbered Mix)",
+        "Please Please Me",
+        "I'll Follow the Sun",
+        "Girl",
+        "If I Needed Someone",
+        "Rain",
+        "And Your Bird Can Sing",
+        "Helter Skelter",
+        "Tomorrow Never Knows (2022 Mix)"
+      ],
+      "albums": [
+        "The Beatles (The White Album)",
+        "Abbey Road (2019 Mix)",
+        "Abbey Road (Super Deluxe Edition) [2019 Remix & Remaster]",
+        "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+        "Help!",
+        "Let It Be (2021 Mix)",
+        "Beatles For Sale",
+        "Magical Mystery Tour",
+        "The Beatles 1967-1970 (The Blue Album)",
+        "Revolver (2022 Mix)",
+        "1",
+        "Past Masters, Vols. 1 & 2",
+        "Revolver (Super Deluxe)",
+        "Revolver",
+        "A Hard Day's Night",
+        "With The Beatles",
+        "Please Please Me",
+        "Rubber Soul"
+      ],
+      "songDetails": [
+        {
+          "title": "Yesterday",
+          "album": "Help!",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 6,
+          "skips": 2,
+          "durationSec": 126
+        },
+        {
+          "title": "Hey Jude",
+          "album": "The Beatles 1967-1970 (The Blue Album)",
+          "genre": "Rock",
+          "year": "1968",
+          "plays": 5,
+          "skips": 2,
+          "durationSec": 431
+        },
+        {
+          "title": "Come Together (2019 Mix)",
+          "album": "Abbey Road (Super Deluxe Edition) [2019 Remix & Remaster]",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 5,
+          "skips": 1,
+          "durationSec": 260
+        },
+        {
+          "title": "Here Comes the Sun (2019 Mix)",
+          "album": "Abbey Road (Super Deluxe Edition) [2019 Remix & Remaster]",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 4,
+          "skips": 2,
+          "durationSec": 186
+        },
+        {
+          "title": "Eleanor Rigby (2022 Mix)",
+          "album": "Revolver (2022 Mix)",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 4,
+          "skips": 1,
+          "durationSec": 127
+        },
+        {
+          "title": "All You Need Is Love",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 228
+        },
+        {
+          "title": "Can't Buy Me Love",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1964",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 132
+        },
+        {
+          "title": "Magical Mystery Tour",
+          "album": "Magical Mystery Tour",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 3,
+          "skips": 0,
+          "durationSec": 169
+        },
+        {
+          "title": "In My Life",
+          "album": "Rubber Soul",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 2,
+          "skips": 1,
+          "durationSec": 146
+        },
+        {
+          "title": "Day Tripper",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 169
+        },
+        {
+          "title": "Something (2019 Mix)",
+          "album": "Abbey Road (Super Deluxe Edition) [2019 Remix & Remaster]",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 2,
+          "skips": 2,
+          "durationSec": 182
+        },
+        {
+          "title": "I Feel Fine",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1964",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 139
+        },
+        {
+          "title": "The Ballad of John and Yoko",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 180
+        },
+        {
+          "title": "The Fool On the Hill",
+          "album": "Magical Mystery Tour",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 179
+        },
+        {
+          "title": "From Me to You",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1963",
+          "plays": 2,
+          "skips": 2,
+          "durationSec": 116
+        },
+        {
+          "title": "Ticket to Ride",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 190
+        },
+        {
+          "title": "Penny Lane",
+          "album": "Magical Mystery Tour",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 184
+        },
+        {
+          "title": "While My Guitar Gently Weeps",
+          "album": "The Beatles (The White Album)",
+          "genre": "Rock",
+          "year": "1968",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 285
+        },
+        {
+          "title": "I Saw Her Standing There",
+          "album": "Please Please Me",
+          "genre": "Rock",
+          "year": "1963",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 173
+        },
+        {
+          "title": "Blackbird",
+          "album": "The Beatles (The White Album)",
+          "genre": "Rock",
+          "year": "1968",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 138
+        },
+        {
+          "title": "We Can Work It Out",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 136
+        },
+        {
+          "title": "With A Little Help From My Friends (2017 Mix)",
+          "album": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 165
+        },
+        {
+          "title": "Don't Let Me Down",
+          "album": "The Beatles 1967-1970 (The Blue Album)",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 216
+        },
+        {
+          "title": "All My Loving",
+          "album": "With The Beatles",
+          "genre": "Rock",
+          "year": "1963",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 128
+        },
+        {
+          "title": "Oh! Darling (2019 Mix)",
+          "album": "Abbey Road (2019 Mix)",
+          "genre": "Rock",
+          "year": "2019",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 207
+        },
+        {
+          "title": "I Should Have Known Better",
+          "album": "A Hard Day's Night",
+          "genre": "Rock",
+          "year": "1964",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 163
+        },
+        {
+          "title": "Octopus's Garden (2019 Mix)",
+          "album": "Abbey Road (2019 Mix)",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 171
+        },
+        {
+          "title": "Back In the U.S.S.R.",
+          "album": "The Beatles (The White Album)",
+          "genre": "Pop",
+          "year": "1968",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 162
+        },
+        {
+          "title": "For No One (2022 Mix)",
+          "album": "Revolver (2022 Mix)",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 120
+        },
+        {
+          "title": "Because (2019 Mix)",
+          "album": "Abbey Road (2019 Mix)",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 166
+        },
+        {
+          "title": "She Said She Said (2022 Mix)",
+          "album": "Revolver (2022 Mix)",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 156
+        },
+        {
+          "title": "Help!",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 0,
+          "skips": 2,
+          "durationSec": 139
+        },
+        {
+          "title": "Let It Be (2021 Mix)",
+          "album": "Let It Be (2021 Mix)",
+          "genre": "Rock",
+          "year": "1970",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 243
+        },
+        {
+          "title": "I Want to Hold Your Hand",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1963",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 146
+        },
+        {
+          "title": "Hello, Goodbye",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 208
+        },
+        {
+          "title": "Strawberry Fields Forever",
+          "album": "Magical Mystery Tour",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 248
+        },
+        {
+          "title": "Ob-La-Di, Ob-La-Da",
+          "album": "The Beatles (The White Album)",
+          "genre": "Rock",
+          "year": "1968",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 189
+        },
+        {
+          "title": "A Hard Day's Night",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1964",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 154
+        },
+        {
+          "title": "Lucy In The Sky With Diamonds (2017 Mix)",
+          "album": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 208
+        },
+        {
+          "title": "Love Me Do",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1962",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 140
+        },
+        {
+          "title": "Get Back (2021 Mix)",
+          "album": "Let It Be (2021 Mix)",
+          "genre": "Rock",
+          "year": "1970",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 188
+        },
+        {
+          "title": "Eight Days a Week",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1964",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 164
+        },
+        {
+          "title": "She Loves You",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1963",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 141
+        },
+        {
+          "title": "Twist and Shout",
+          "album": "Please Please Me",
+          "genre": "Rock",
+          "year": "1963",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 153
+        },
+        {
+          "title": "Yellow Submarine (2022 Mix)",
+          "album": "Revolver (2022 Mix)",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 159
+        },
+        {
+          "title": "Across the Universe (2021 Mix)",
+          "album": "Let It Be (2021 Mix)",
+          "genre": "Rock",
+          "year": "1970",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 228
+        },
+        {
+          "title": "And I Love Her",
+          "album": "A Hard Day's Night",
+          "genre": "Rock",
+          "year": "1964",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 150
+        },
+        {
+          "title": "When I'm Sixty-Four (2017 Mix)",
+          "album": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 160
+        },
+        {
+          "title": "Drive My Car",
+          "album": "Rubber Soul",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 148
+        },
+        {
+          "title": "A Day In The Life (2017 Mix)",
+          "album": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 331
+        },
+        {
+          "title": "Lady Madonna",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1968",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 137
+        },
+        {
+          "title": "Norwegian Wood (This Bird Has Flown)",
+          "album": "Rubber Soul",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 125
+        },
+        {
+          "title": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+          "album": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 122
+        },
+        {
+          "title": "Paperback Writer",
+          "album": "1",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 138
+        },
+        {
+          "title": "The Long and Winding Road (2021 Mix)",
+          "album": "Let It Be (2021 Mix)",
+          "genre": "Rock",
+          "year": "1970",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 218
+        },
+        {
+          "title": "You've Got to Hide Your Love Away",
+          "album": "Help!",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 129
+        },
+        {
+          "title": "I Am the Walrus",
+          "album": "Magical Mystery Tour",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 276
+        },
+        {
+          "title": "Nowhere Man",
+          "album": "Rubber Soul",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 164
+        },
+        {
+          "title": "Revolution",
+          "album": "Past Masters, Vols. 1 & 2",
+          "genre": "Rock",
+          "year": "1968",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 205
+        },
+        {
+          "title": "Here, There and Everywhere (2022 Mix)",
+          "album": "Revolver (2022 Mix)",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 145
+        },
+        {
+          "title": "Michelle",
+          "album": "Rubber Soul",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 162
+        },
+        {
+          "title": "Got to Get You Into My Life (Second Version / Unnumbered Mix)",
+          "album": "Revolver (Super Deluxe)",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 156
+        },
+        {
+          "title": "Please Please Me",
+          "album": "Please Please Me",
+          "genre": "Rock",
+          "year": "1963",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 121
+        },
+        {
+          "title": "I'll Follow the Sun",
+          "album": "Beatles For Sale",
+          "genre": "Rock",
+          "year": "1964",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 109
+        },
+        {
+          "title": "Girl",
+          "album": "Rubber Soul",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 152
+        },
+        {
+          "title": "If I Needed Someone",
+          "album": "Rubber Soul",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 142
+        },
+        {
+          "title": "Rain",
+          "album": "Past Masters, Vols. 1 & 2",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 181
+        },
+        {
+          "title": "And Your Bird Can Sing",
+          "album": "Revolver",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 120
+        },
+        {
+          "title": "Helter Skelter",
+          "album": "The Beatles (The White Album)",
+          "genre": "Rock",
+          "year": "1968",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 270
+        },
+        {
+          "title": "Tomorrow Never Knows (2022 Mix)",
+          "album": "Revolver (2022 Mix)",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 178
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "1",
+          "plays": 16,
+          "trackCount": 17,
+          "songs": [
+            {
+              "title": "All You Need Is Love",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 228
+            },
+            {
+              "title": "Can't Buy Me Love",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1964",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 132
+            },
+            {
+              "title": "Day Tripper",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 169
+            },
+            {
+              "title": "I Feel Fine",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1964",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 139
+            },
+            {
+              "title": "The Ballad of John and Yoko",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 180
+            },
+            {
+              "title": "From Me to You",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1963",
+              "plays": 2,
+              "skips": 2,
+              "durationSec": 116
+            },
+            {
+              "title": "Ticket to Ride",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 190
+            },
+            {
+              "title": "We Can Work It Out",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 136
+            },
+            {
+              "title": "Help!",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 0,
+              "skips": 2,
+              "durationSec": 139
+            },
+            {
+              "title": "I Want to Hold Your Hand",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1963",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 146
+            },
+            {
+              "title": "Hello, Goodbye",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 208
+            },
+            {
+              "title": "A Hard Day's Night",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1964",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 154
+            },
+            {
+              "title": "Love Me Do",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1962",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 140
+            },
+            {
+              "title": "Eight Days a Week",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1964",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 164
+            },
+            {
+              "title": "She Loves You",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1963",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 141
+            },
+            {
+              "title": "Lady Madonna",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1968",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 137
+            },
+            {
+              "title": "Paperback Writer",
+              "album": "1",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 138
+            }
+          ]
+        },
+        {
+          "name": "Abbey Road (Super Deluxe Edition) [2019 Remix & Remaster]",
+          "plays": 11,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Come Together (2019 Mix)",
+              "album": "Abbey Road (Super Deluxe Edition) [2019 Remix & Remaster]",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 5,
+              "skips": 1,
+              "durationSec": 260
+            },
+            {
+              "title": "Here Comes the Sun (2019 Mix)",
+              "album": "Abbey Road (Super Deluxe Edition) [2019 Remix & Remaster]",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 4,
+              "skips": 2,
+              "durationSec": 186
+            },
+            {
+              "title": "Something (2019 Mix)",
+              "album": "Abbey Road (Super Deluxe Edition) [2019 Remix & Remaster]",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 2,
+              "skips": 2,
+              "durationSec": 182
+            }
+          ]
+        },
+        {
+          "name": "Help!",
+          "plays": 6,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Yesterday",
+              "album": "Help!",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 6,
+              "skips": 2,
+              "durationSec": 126
+            },
+            {
+              "title": "You've Got to Hide Your Love Away",
+              "album": "Help!",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 129
+            }
+          ]
+        },
+        {
+          "name": "The Beatles 1967-1970 (The Blue Album)",
+          "plays": 6,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Hey Jude",
+              "album": "The Beatles 1967-1970 (The Blue Album)",
+              "genre": "Rock",
+              "year": "1968",
+              "plays": 5,
+              "skips": 2,
+              "durationSec": 431
+            },
+            {
+              "title": "Don't Let Me Down",
+              "album": "The Beatles 1967-1970 (The Blue Album)",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 216
+            }
+          ]
+        },
+        {
+          "name": "Revolver (2022 Mix)",
+          "plays": 6,
+          "trackCount": 6,
+          "songs": [
+            {
+              "title": "Eleanor Rigby (2022 Mix)",
+              "album": "Revolver (2022 Mix)",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 4,
+              "skips": 1,
+              "durationSec": 127
+            },
+            {
+              "title": "For No One (2022 Mix)",
+              "album": "Revolver (2022 Mix)",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 120
+            },
+            {
+              "title": "She Said She Said (2022 Mix)",
+              "album": "Revolver (2022 Mix)",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 156
+            },
+            {
+              "title": "Yellow Submarine (2022 Mix)",
+              "album": "Revolver (2022 Mix)",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 159
+            },
+            {
+              "title": "Here, There and Everywhere (2022 Mix)",
+              "album": "Revolver (2022 Mix)",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 145
+            },
+            {
+              "title": "Tomorrow Never Knows (2022 Mix)",
+              "album": "Revolver (2022 Mix)",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 178
+            }
+          ]
+        },
+        {
+          "name": "Magical Mystery Tour",
+          "plays": 6,
+          "trackCount": 5,
+          "songs": [
+            {
+              "title": "Magical Mystery Tour",
+              "album": "Magical Mystery Tour",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 3,
+              "skips": 0,
+              "durationSec": 169
+            },
+            {
+              "title": "The Fool On the Hill",
+              "album": "Magical Mystery Tour",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 179
+            },
+            {
+              "title": "Penny Lane",
+              "album": "Magical Mystery Tour",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 184
+            },
+            {
+              "title": "Strawberry Fields Forever",
+              "album": "Magical Mystery Tour",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 248
+            },
+            {
+              "title": "I Am the Walrus",
+              "album": "Magical Mystery Tour",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 276
+            }
+          ]
+        },
+        {
+          "name": "The Beatles (The White Album)",
+          "plays": 3,
+          "trackCount": 5,
+          "songs": [
+            {
+              "title": "While My Guitar Gently Weeps",
+              "album": "The Beatles (The White Album)",
+              "genre": "Rock",
+              "year": "1968",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 285
+            },
+            {
+              "title": "Blackbird",
+              "album": "The Beatles (The White Album)",
+              "genre": "Rock",
+              "year": "1968",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 138
+            },
+            {
+              "title": "Back In the U.S.S.R.",
+              "album": "The Beatles (The White Album)",
+              "genre": "Pop",
+              "year": "1968",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 162
+            },
+            {
+              "title": "Ob-La-Di, Ob-La-Da",
+              "album": "The Beatles (The White Album)",
+              "genre": "Rock",
+              "year": "1968",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 189
+            },
+            {
+              "title": "Helter Skelter",
+              "album": "The Beatles (The White Album)",
+              "genre": "Rock",
+              "year": "1968",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 270
+            }
+          ]
+        },
+        {
+          "name": "Abbey Road (2019 Mix)",
+          "plays": 3,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Oh! Darling (2019 Mix)",
+              "album": "Abbey Road (2019 Mix)",
+              "genre": "Rock",
+              "year": "2019",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 207
+            },
+            {
+              "title": "Octopus's Garden (2019 Mix)",
+              "album": "Abbey Road (2019 Mix)",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 171
+            },
+            {
+              "title": "Because (2019 Mix)",
+              "album": "Abbey Road (2019 Mix)",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 166
+            }
+          ]
+        },
+        {
+          "name": "Rubber Soul",
+          "plays": 2,
+          "trackCount": 7,
+          "songs": [
+            {
+              "title": "In My Life",
+              "album": "Rubber Soul",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 2,
+              "skips": 1,
+              "durationSec": 146
+            },
+            {
+              "title": "Drive My Car",
+              "album": "Rubber Soul",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 148
+            },
+            {
+              "title": "Norwegian Wood (This Bird Has Flown)",
+              "album": "Rubber Soul",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 125
+            },
+            {
+              "title": "Nowhere Man",
+              "album": "Rubber Soul",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 164
+            },
+            {
+              "title": "Michelle",
+              "album": "Rubber Soul",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 162
+            },
+            {
+              "title": "Girl",
+              "album": "Rubber Soul",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 152
+            },
+            {
+              "title": "If I Needed Someone",
+              "album": "Rubber Soul",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 142
+            }
+          ]
+        },
+        {
+          "name": "Please Please Me",
+          "plays": 1,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "I Saw Her Standing There",
+              "album": "Please Please Me",
+              "genre": "Rock",
+              "year": "1963",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 173
+            },
+            {
+              "title": "Twist and Shout",
+              "album": "Please Please Me",
+              "genre": "Rock",
+              "year": "1963",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 153
+            },
+            {
+              "title": "Please Please Me",
+              "album": "Please Please Me",
+              "genre": "Rock",
+              "year": "1963",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 121
+            }
+          ]
+        },
+        {
+          "name": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+          "plays": 1,
+          "trackCount": 5,
+          "songs": [
+            {
+              "title": "With A Little Help From My Friends (2017 Mix)",
+              "album": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 165
+            },
+            {
+              "title": "Lucy In The Sky With Diamonds (2017 Mix)",
+              "album": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 208
+            },
+            {
+              "title": "When I'm Sixty-Four (2017 Mix)",
+              "album": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 160
+            },
+            {
+              "title": "A Day In The Life (2017 Mix)",
+              "album": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 331
+            },
+            {
+              "title": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+              "album": "Sgt. Pepper's Lonely Hearts Club Band (2017 Mix)",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 122
+            }
+          ]
+        },
+        {
+          "name": "With The Beatles",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "All My Loving",
+              "album": "With The Beatles",
+              "genre": "Rock",
+              "year": "1963",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 128
+            }
+          ]
+        },
+        {
+          "name": "A Hard Day's Night",
+          "plays": 1,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "I Should Have Known Better",
+              "album": "A Hard Day's Night",
+              "genre": "Rock",
+              "year": "1964",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 163
+            },
+            {
+              "title": "And I Love Her",
+              "album": "A Hard Day's Night",
+              "genre": "Rock",
+              "year": "1964",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 150
+            }
+          ]
+        },
+        {
+          "name": "Let It Be (2021 Mix)",
+          "plays": 0,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "Let It Be (2021 Mix)",
+              "album": "Let It Be (2021 Mix)",
+              "genre": "Rock",
+              "year": "1970",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 243
+            },
+            {
+              "title": "Get Back (2021 Mix)",
+              "album": "Let It Be (2021 Mix)",
+              "genre": "Rock",
+              "year": "1970",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 188
+            },
+            {
+              "title": "Across the Universe (2021 Mix)",
+              "album": "Let It Be (2021 Mix)",
+              "genre": "Rock",
+              "year": "1970",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 228
+            },
+            {
+              "title": "The Long and Winding Road (2021 Mix)",
+              "album": "Let It Be (2021 Mix)",
+              "genre": "Rock",
+              "year": "1970",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 218
+            }
+          ]
+        },
+        {
+          "name": "Past Masters, Vols. 1 & 2",
+          "plays": 0,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Revolution",
+              "album": "Past Masters, Vols. 1 & 2",
+              "genre": "Rock",
+              "year": "1968",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 205
+            },
+            {
+              "title": "Rain",
+              "album": "Past Masters, Vols. 1 & 2",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 181
+            }
+          ]
+        },
+        {
+          "name": "Revolver (Super Deluxe)",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Got to Get You Into My Life (Second Version / Unnumbered Mix)",
+              "album": "Revolver (Super Deluxe)",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 156
+            }
+          ]
+        },
+        {
+          "name": "Beatles For Sale",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "I'll Follow the Sun",
+              "album": "Beatles For Sale",
+              "genre": "Rock",
+              "year": "1964",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 109
+            }
+          ]
+        },
+        {
+          "name": "Revolver",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "And Your Bird Can Sing",
+              "album": "Revolver",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 120
+            }
+          ]
+        }
+      ],
+      "galaxyX": -196.05,
+      "galaxyY": 8.11,
+      "starRadius": 18.0
+    },
+    {
+      "id": "art-019",
+      "name": "Childish Gambino",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "Donald McKinley Glover Jr., also known by his musical stage name Childish Gambino, is an American actor, rapper, singer, comedian, and filmmaker. While he studied at New York University and after working in Derrick Comedy, a comedy group, Glover was hired by Tina Fey to write for the NBC sitcom 30 Rock at age 23. He gained fame for portraying college student Troy Barnes on the NBC sitcom Community from 2009 to 2014. He created the FX series Atlanta (2016\u20132022), which he starred in and occasionally directed. For his work on Atlanta, he won various accolades including two Primetime Emmy Awards, as well as two Golden Globe Awards.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 63,
+      "totalSkips": 25,
+      "totalHours": 5.5,
+      "avgPlays": 63.0,
+      "completionRate": 71.6,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f1/3c/d7/f13cd7ab-7319-028a-8807-5991d0b308d4/0044003187658_Cover.jpg/600x600bb.jpg",
+      "songs": [
+        "Les"
+      ],
+      "albums": [
+        "Camp"
+      ],
+      "songDetails": [
+        {
+          "title": "Les",
+          "album": "Camp",
+          "genre": "Hip-Hop/Rap",
+          "year": "2011",
+          "plays": 63,
+          "skips": 25,
+          "durationSec": 317
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Camp",
+          "plays": 63,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Les",
+              "album": "Camp",
+              "genre": "Hip-Hop/Rap",
+              "year": "2011",
+              "plays": 63,
+              "skips": 25,
+              "durationSec": 317
+            }
+          ]
+        }
+      ],
+      "galaxyX": 142.22,
+      "galaxyY": -141.53,
+      "starRadius": 18.0
+    },
+    {
+      "id": "art-020",
+      "name": "JAY-Z & LINKIN PARK",
+      "genre": "Nu-Metal / Alt Rock",
+      "decade": "2000s",
+      "bio": "Shawn Corey Carter, known professionally as Jay-Z, is an American rapper, businessman, and record executive. In 2023, Billboard and Vibe ranked him as the greatest rapper of all time. Rooted in East Coast hip-hop, Jay-Z is known for his complex lyricism that often uses double entendres, wordplay, and braggadocio\u2014built on a rags to riches narrative. According to Forbes, he is the wealthiest music artist in history, worth an estimated US$2.8 billion as of 2026.",
+      "trackCount": 3,
+      "albumCount": 1,
+      "totalPlays": 61,
+      "totalSkips": 16,
+      "totalHours": 3.8,
+      "avgPlays": 20.3,
+      "completionRate": 79.2,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/b2/85/8cb28589-a74d-1961-894c-6d7662ee90da/mzi.eaqqjnzg.jpg/600x600bb.jpg",
+      "songs": [
+        "Numb / Encore",
+        "Jigga What / Faint",
+        "Points of Authority / 99 Problems / One Step Closer"
+      ],
+      "albums": [
+        "Collision Course - EP"
+      ],
+      "songDetails": [
+        {
+          "title": "Numb / Encore",
+          "album": "Collision Course - EP",
+          "genre": "Hard Rock",
+          "year": "2004",
+          "plays": 31,
+          "skips": 11,
+          "durationSec": 205
+        },
+        {
+          "title": "Jigga What / Faint",
+          "album": "Collision Course - EP",
+          "genre": "Hard Rock",
+          "year": "2004",
+          "plays": 19,
+          "skips": 2,
+          "durationSec": 211
+        },
+        {
+          "title": "Points of Authority / 99 Problems / One Step Closer",
+          "album": "Collision Course - EP",
+          "genre": "Hard Rock",
+          "year": "2004",
+          "plays": 11,
+          "skips": 3,
+          "durationSec": 296
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Collision Course - EP",
+          "plays": 61,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Numb / Encore",
+              "album": "Collision Course - EP",
+              "genre": "Hard Rock",
+              "year": "2004",
+              "plays": 31,
+              "skips": 11,
+              "durationSec": 205
+            },
+            {
+              "title": "Jigga What / Faint",
+              "album": "Collision Course - EP",
+              "genre": "Hard Rock",
+              "year": "2004",
+              "plays": 19,
+              "skips": 2,
+              "durationSec": 211
+            },
+            {
+              "title": "Points of Authority / 99 Problems / One Step Closer",
+              "album": "Collision Course - EP",
+              "genre": "Hard Rock",
+              "year": "2004",
+              "plays": 11,
+              "skips": 3,
+              "durationSec": 296
+            }
+          ]
+        }
+      ],
+      "galaxyX": -9.47,
+      "galaxyY": 204.72,
+      "starRadius": 17.8
+    },
+    {
+      "id": "art-021",
+      "name": "Eurythmics",
+      "genre": "Modern Pop / Chart",
+      "decade": "1980s",
+      "bio": "Eurythmics were a British new wave duo formed in 1980, consisting of the Scottish vocalist Annie Lennox and the English musician and producer Dave Stewart. They had both been previously in the Tourists, a band that broke up in 1980. They released their first studio album, In the Garden, in 1981 to little success, but achieved global acclaim with their second album, Sweet Dreams (1983). The title track became a worldwide hit, reaching number two in the UK Singles Chart, and number one in Canada and on the US Billboard Hot 100. Eurythmics went on to release a string of hit singles and albums, including \"Love Is a Stranger\", \"There Must Be an Angel \" and \"Here Comes the Rain Again\", before splitting in 1990.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 60,
+      "totalSkips": 14,
+      "totalHours": 3.6,
+      "avgPlays": 60.0,
+      "completionRate": 81.1,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/82/46/65/824665ec-aa22-0f93-e511-ba1585978159/mzi.gkkumlce.jpg/600x600bb.jpg",
+      "songs": [
+        "Sweet Dreams (Are Made of This)"
+      ],
+      "albums": [
+        "Sweet Dreams (Are Made of This) [Deluxe Edition]"
+      ],
+      "songDetails": [
+        {
+          "title": "Sweet Dreams (Are Made of This)",
+          "album": "Sweet Dreams (Are Made of This) [Deluxe Edition]",
+          "genre": "Pop",
+          "year": "1983",
+          "plays": 60,
+          "skips": 14,
+          "durationSec": 217
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Sweet Dreams (Are Made of This) [Deluxe Edition]",
+          "plays": 60,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Sweet Dreams (Are Made of This)",
+              "album": "Sweet Dreams (Are Made of This) [Deluxe Edition]",
+              "genre": "Pop",
+              "year": "1983",
+              "plays": 60,
+              "skips": 14,
+              "durationSec": 217
+            }
+          ]
+        }
+      ],
+      "galaxyX": -134.0,
+      "galaxyY": -160.57,
+      "starRadius": 17.7
+    },
+    {
+      "id": "art-022",
+      "name": "Coldplay",
+      "genre": "Modern Pop / Chart",
+      "decade": "2000s",
+      "bio": "Coldplay are a British rock band formed in London in 1997. They consist of vocalist and pianist Chris Martin, guitarist Jonny Buckland, bassist Guy Berryman and drummer Will Champion; manager Phil Harvey is also credited as a full member. The group are known for their live performances and have had a significant impact on popular culture.",
+      "trackCount": 2,
+      "albumCount": 2,
+      "totalPlays": 58,
+      "totalSkips": 13,
+      "totalHours": 3.9,
+      "avgPlays": 29.0,
+      "completionRate": 81.7,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/93/8c/f5938c49-964c-31d1-4b33-78b634f71fb7/190295978075.jpg/600x600bb.jpg",
+      "songs": [
+        "Viva La Vida",
+        "Adventure of a Lifetime"
+      ],
+      "albums": [
+        "Viva La Vida or Death and All His Friends",
+        "A Head Full of Dreams"
+      ],
+      "songDetails": [
+        {
+          "title": "Viva La Vida",
+          "album": "Viva La Vida or Death and All His Friends",
+          "genre": "Alternative",
+          "year": "2008",
+          "plays": 56,
+          "skips": 9,
+          "durationSec": 241
+        },
+        {
+          "title": "Adventure of a Lifetime",
+          "album": "A Head Full of Dreams",
+          "genre": "Alternative",
+          "year": "2015",
+          "plays": 2,
+          "skips": 4,
+          "durationSec": 264
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Viva La Vida or Death and All His Friends",
+          "plays": 56,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Viva La Vida",
+              "album": "Viva La Vida or Death and All His Friends",
+              "genre": "Alternative",
+              "year": "2008",
+              "plays": 56,
+              "skips": 9,
+              "durationSec": 241
+            }
+          ]
+        },
+        {
+          "name": "A Head Full of Dreams",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Adventure of a Lifetime",
+              "album": "A Head Full of Dreams",
+              "genre": "Alternative",
+              "year": "2015",
+              "plays": 2,
+              "skips": 4,
+              "durationSec": 264
+            }
+          ]
+        }
+      ],
+      "galaxyX": 211.33,
+      "galaxyY": 28.43,
+      "starRadius": 17.5
+    },
+    {
+      "id": "art-023",
+      "name": "Ludwig G\u00f6ransson",
+      "genre": "Cinematic / OST",
+      "decade": "2020s",
+      "bio": "Ludwig Emil Tomas G\u00f6ransson is a Swedish musician, composer, and record producer. Based in the United States, he is often regarded as one of the most successful composers in Hollywood of the 21st century. For his work in music, film and television, he has received numerous accolades including three Academy Awards, two British Academy Film Awards, two Emmy Awards, two Golden Globe Awards, and six Grammy Awards.",
+      "trackCount": 3,
+      "albumCount": 1,
+      "totalPlays": 55,
+      "totalSkips": 18,
+      "totalHours": 2.3,
+      "avgPlays": 18.3,
+      "completionRate": 75.3,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/85/28/de/8528de5e-6fbb-012a-0c8b-b75562b426e0/961.jpg/600x600bb.jpg",
+      "songs": [
+        "Destroyer of Worlds",
+        "American Prometheus",
+        "Can You Hear the Music"
+      ],
+      "albums": [
+        "Oppenheimer (Original Motion Picture Soundtrack)"
+      ],
+      "songDetails": [
+        {
+          "title": "Destroyer of Worlds",
+          "album": "Oppenheimer (Original Motion Picture Soundtrack)",
+          "genre": "Soundtrack",
+          "year": "2023",
+          "plays": 21,
+          "skips": 6,
+          "durationSec": 175
+        },
+        {
+          "title": "American Prometheus",
+          "album": "Oppenheimer (Original Motion Picture Soundtrack)",
+          "genre": "Soundtrack",
+          "year": "2023",
+          "plays": 20,
+          "skips": 4,
+          "durationSec": 157
+        },
+        {
+          "title": "Can You Hear the Music",
+          "album": "Oppenheimer (Original Motion Picture Soundtrack)",
+          "genre": "Soundtrack",
+          "year": "2023",
+          "plays": 14,
+          "skips": 8,
+          "durationSec": 110
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Oppenheimer (Original Motion Picture Soundtrack)",
+          "plays": 55,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Destroyer of Worlds",
+              "album": "Oppenheimer (Original Motion Picture Soundtrack)",
+              "genre": "Soundtrack",
+              "year": "2023",
+              "plays": 21,
+              "skips": 6,
+              "durationSec": 175
+            },
+            {
+              "title": "American Prometheus",
+              "album": "Oppenheimer (Original Motion Picture Soundtrack)",
+              "genre": "Soundtrack",
+              "year": "2023",
+              "plays": 20,
+              "skips": 4,
+              "durationSec": 157
+            },
+            {
+              "title": "Can You Hear the Music",
+              "album": "Oppenheimer (Original Motion Picture Soundtrack)",
+              "genre": "Soundtrack",
+              "year": "2023",
+              "plays": 14,
+              "skips": 8,
+              "durationSec": 110
+            }
+          ]
+        }
+      ],
+      "galaxyX": -178.32,
+      "galaxyY": 124.07,
+      "starRadius": 17.2
+    },
+    {
+      "id": "art-024",
+      "name": "Hideki Taniuchi",
+      "genre": "Cinematic / OST",
+      "decade": "2000s",
+      "bio": "This article lists the soundtracks attributed to the Death Note franchise.",
+      "trackCount": 2,
+      "albumCount": 1,
+      "totalPlays": 51,
+      "totalSkips": 6,
+      "totalHours": 2.7,
+      "avgPlays": 25.5,
+      "completionRate": 89.5,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/23/ce/ce/23cecec0-780c-7987-ae6f-e2582ae402c7/ticket.xgoxorzi.jpg/600x600bb.jpg",
+      "songs": [
+        "L no Theme",
+        "Light no Theme"
+      ],
+      "albums": [
+        "DEATH NOTE Original Soundtrack"
+      ],
+      "songDetails": [
+        {
+          "title": "L no Theme",
+          "album": "DEATH NOTE Original Soundtrack",
+          "genre": "Soundtrack",
+          "year": "2006",
+          "plays": 27,
+          "skips": 2,
+          "durationSec": 184
+        },
+        {
+          "title": "Light no Theme",
+          "album": "DEATH NOTE Original Soundtrack",
+          "genre": "Soundtrack",
+          "year": "2006",
+          "plays": 24,
+          "skips": 4,
+          "durationSec": 204
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "DEATH NOTE Original Soundtrack",
+          "plays": 51,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "L no Theme",
+              "album": "DEATH NOTE Original Soundtrack",
+              "genre": "Soundtrack",
+              "year": "2006",
+              "plays": 27,
+              "skips": 2,
+              "durationSec": 184
+            },
+            {
+              "title": "Light no Theme",
+              "album": "DEATH NOTE Original Soundtrack",
+              "genre": "Soundtrack",
+              "year": "2006",
+              "plays": 24,
+              "skips": 4,
+              "durationSec": 204
+            }
+          ]
+        }
+      ],
+      "galaxyX": 48.54,
+      "galaxyY": -215.77,
+      "starRadius": 16.8
+    },
+    {
+      "id": "art-025",
+      "name": "Harry Styles",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Harry Edward Styles is an English singer, songwriter, and actor. An influential figure in popular culture, he is known for his showmanship, artistry, and flamboyant fashion. Styles's musical career began in 2010 as part of One Direction, a boy band formed on the British music competition series The X Factor after each member of the band had been eliminated from the solo contest. They became one of the best-selling boy bands of all time before going on an indefinite hiatus in 2016. Styles released his eponymous debut solo album through Erskine and Columbia Records in 2017, which was led by the UK number-one single \"Sign of the Times\".",
+      "trackCount": 3,
+      "albumCount": 1,
+      "totalPlays": 49,
+      "totalSkips": 8,
+      "totalHours": 2.4,
+      "avgPlays": 16.3,
+      "completionRate": 86.0,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/5e/aa/3d5eaaa3-9a86-c264-5cd5-7fac83f99a59/886446451978.jpg/600x600bb.jpg",
+      "songs": [
+        "As It Was",
+        "Music For a Sushi Restaurant",
+        "Late Night Talking"
+      ],
+      "albums": [
+        "Harry's House"
+      ],
+      "songDetails": [
+        {
+          "title": "As It Was",
+          "album": "Harry's House",
+          "genre": "Pop",
+          "year": "2022",
+          "plays": 36,
+          "skips": 8,
+          "durationSec": 167
+        },
+        {
+          "title": "Music For a Sushi Restaurant",
+          "album": "Harry's House",
+          "genre": "Pop",
+          "year": "2022",
+          "plays": 13,
+          "skips": 0,
+          "durationSec": 194
+        },
+        {
+          "title": "Late Night Talking",
+          "album": "Harry's House",
+          "genre": "Pop",
+          "year": "2022",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 178
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Harry's House",
+          "plays": 49,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "As It Was",
+              "album": "Harry's House",
+              "genre": "Pop",
+              "year": "2022",
+              "plays": 36,
+              "skips": 8,
+              "durationSec": 167
+            },
+            {
+              "title": "Music For a Sushi Restaurant",
+              "album": "Harry's House",
+              "genre": "Pop",
+              "year": "2022",
+              "plays": 13,
+              "skips": 0,
+              "durationSec": 194
+            },
+            {
+              "title": "Late Night Talking",
+              "album": "Harry's House",
+              "genre": "Pop",
+              "year": "2022",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 178
+            }
+          ]
+        }
+      ],
+      "galaxyX": 111.87,
+      "galaxyY": 195.22,
+      "starRadius": 16.6
+    },
+    {
+      "id": "art-026",
+      "name": "Lana Del Rey",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Elizabeth Woolridge Grant, known professionally as Lana Del Rey, is an American singer-songwriter. Her music is noted for its melancholic exploration of glamour and romance, with frequent references to pop culture and 1950s\u20131970s Americana. She is the recipient of various accolades, including an MTV Video Music Award, three MTV Europe Music Awards, two Brit Awards, two Billboard Women in Music awards, and a Satellite Award, in addition to nominations for 11 Grammy Awards and a Golden Globe Award. Variety honored her at their Hitmakers Awards for being \"one of the most influential singer-songwriters of the 21st century\". In 2023, Rolling Stone placed Del Rey on their list of the \"200 Greatest Singers of All Time\", while Rolling Stone UK named her as the \"greatest American songwriter of the 21st century\".",
+      "trackCount": 6,
+      "albumCount": 5,
+      "totalPlays": 45,
+      "totalSkips": 16,
+      "totalHours": 2.9,
+      "avgPlays": 7.5,
+      "completionRate": 73.8,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/d9/63/5fd96387-45fa-6b94-afd8-7b2c4a24a93b/11UMGIM38959.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Diet Mountain Dew",
+        "Young and Beautiful",
+        "West Coast",
+        "Summertime Sadness",
+        "Radio",
+        "Say Yes To Heaven"
+      ],
+      "albums": [
+        "The Great Gatsby (Music From Baz Luhrmann's Film)",
+        "Ultraviolence (Deluxe)",
+        "Born to Die \u2013 Paradise Edition (Special Version)",
+        "Born To Die",
+        "Say Yes To Heaven - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Diet Mountain Dew",
+          "album": "Born To Die",
+          "genre": "Alternative",
+          "year": "2012",
+          "plays": 23,
+          "skips": 5,
+          "durationSec": 223
+        },
+        {
+          "title": "Young and Beautiful",
+          "album": "The Great Gatsby (Music From Baz Luhrmann's Film)",
+          "genre": "Soundtrack",
+          "year": "2013",
+          "plays": 10,
+          "skips": 1,
+          "durationSec": 236
+        },
+        {
+          "title": "West Coast",
+          "album": "Ultraviolence (Deluxe)",
+          "genre": "Alternative",
+          "year": "2014",
+          "plays": 6,
+          "skips": 2,
+          "durationSec": 257
+        },
+        {
+          "title": "Summertime Sadness",
+          "album": "Born To Die",
+          "genre": "Alternative",
+          "year": "2012",
+          "plays": 3,
+          "skips": 3,
+          "durationSec": 265
+        },
+        {
+          "title": "Radio",
+          "album": "Born to Die \u2013 Paradise Edition (Special Version)",
+          "genre": "Pop",
+          "year": "2012",
+          "plays": 2,
+          "skips": 4,
+          "durationSec": 215
+        },
+        {
+          "title": "Say Yes To Heaven",
+          "album": "Say Yes To Heaven - Single",
+          "genre": "Alternative",
+          "year": "2023",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 209
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Born To Die",
+          "plays": 26,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Diet Mountain Dew",
+              "album": "Born To Die",
+              "genre": "Alternative",
+              "year": "2012",
+              "plays": 23,
+              "skips": 5,
+              "durationSec": 223
+            },
+            {
+              "title": "Summertime Sadness",
+              "album": "Born To Die",
+              "genre": "Alternative",
+              "year": "2012",
+              "plays": 3,
+              "skips": 3,
+              "durationSec": 265
+            }
+          ]
+        },
+        {
+          "name": "The Great Gatsby (Music From Baz Luhrmann's Film)",
+          "plays": 10,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Young and Beautiful",
+              "album": "The Great Gatsby (Music From Baz Luhrmann's Film)",
+              "genre": "Soundtrack",
+              "year": "2013",
+              "plays": 10,
+              "skips": 1,
+              "durationSec": 236
+            }
+          ]
+        },
+        {
+          "name": "Ultraviolence (Deluxe)",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "West Coast",
+              "album": "Ultraviolence (Deluxe)",
+              "genre": "Alternative",
+              "year": "2014",
+              "plays": 6,
+              "skips": 2,
+              "durationSec": 257
+            }
+          ]
+        },
+        {
+          "name": "Born to Die \u2013 Paradise Edition (Special Version)",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Radio",
+              "album": "Born to Die \u2013 Paradise Edition (Special Version)",
+              "genre": "Pop",
+              "year": "2012",
+              "plays": 2,
+              "skips": 4,
+              "durationSec": 215
+            }
+          ]
+        },
+        {
+          "name": "Say Yes To Heaven - Single",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Say Yes To Heaven",
+              "album": "Say Yes To Heaven - Single",
+              "genre": "Alternative",
+              "year": "2023",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 209
+            }
+          ]
+        }
+      ],
+      "galaxyX": -217.94,
+      "galaxyY": -69.53,
+      "starRadius": 16.2
+    },
+    {
+      "id": "art-027",
+      "name": "K'naan",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "Keinan Abdi Warsame, known professionally as K'naan, is a Somali-Canadian rapper, singer-songwriter and filmmaker. He rose to international fame after releasing the single \"Wavin' Flag\", which was chosen as Coca-Cola's promotional anthem for the 2010 FIFA World Cup. Besides hip hop, K'naan's sound is influenced by elements of Somali music and world music. A Grammy Award-winning artist and FIPRESCI Prize-winning director, he is also involved in various philanthropic initiatives.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 45,
+      "totalSkips": 7,
+      "totalHours": 2.7,
+      "avgPlays": 45.0,
+      "completionRate": 86.5,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/40/0c/c1/400cc179-975f-2176-926c-f804c78fd1e2/00602527454559.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Wavin' Flag (Coca-Cola Celebration Mix)"
+      ],
+      "albums": [
+        "Troubadour (Champion Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "Wavin' Flag (Coca-Cola Celebration Mix)",
+          "album": "Troubadour (Champion Edition)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2010",
+          "plays": 45,
+          "skips": 7,
+          "durationSec": 213
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Troubadour (Champion Edition)",
+          "plays": 45,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Wavin' Flag (Coca-Cola Celebration Mix)",
+              "album": "Troubadour (Champion Edition)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2010",
+              "plays": 45,
+              "skips": 7,
+              "durationSec": 213
+            }
+          ]
+        }
+      ],
+      "galaxyX": 211.02,
+      "galaxyY": -97.5,
+      "starRadius": 16.2
+    },
+    {
+      "id": "art-028",
+      "name": "C\u00e9line Dion & James Horner",
+      "genre": "Cinematic / OST",
+      "decade": "1990s",
+      "bio": "C\u00e9line Marie Claudette Dion is a Canadian singer, entrepreneur and philanthropist. Dubbed the \"Queen of Power Ballads\", she is known for her impact on popular music through powerful, technically skilled vocals and commercially successful works. With over 200 million records sold worldwide, Dion is the best-selling Canadian recording artist, the best-selling French-language artist, and one of the best-selling musical artists of all time.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 44,
+      "totalSkips": 6,
+      "totalHours": 3.8,
+      "avgPlays": 44.0,
+      "completionRate": 88.0,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ab/5a/96/ab5a9681-e891-8449-53d2-7d358501f97f/mzi.zbauexhy.jpg/600x600bb.jpg",
+      "songs": [
+        "My Heart Will Go On (Love Theme from \"Titanic\")"
+      ],
+      "albums": [
+        "Titanic (Original Motion Picture Soundtrack) - Collector's Anniversary Edition"
+      ],
+      "songDetails": [
+        {
+          "title": "My Heart Will Go On (Love Theme from \"Titanic\")",
+          "album": "Titanic (Original Motion Picture Soundtrack) - Collector's Anniversary Edition",
+          "genre": "Soundtrack",
+          "year": "1997",
+          "plays": 44,
+          "skips": 6,
+          "durationSec": 311
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Titanic (Original Motion Picture Soundtrack) - Collector's Anniversary Edition",
+          "plays": 44,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "My Heart Will Go On (Love Theme from \"Titanic\")",
+              "album": "Titanic (Original Motion Picture Soundtrack) - Collector's Anniversary Edition",
+              "genre": "Soundtrack",
+              "year": "1997",
+              "plays": 44,
+              "skips": 6,
+              "durationSec": 311
+            }
+          ]
+        }
+      ],
+      "galaxyX": -91.14,
+      "galaxyY": 217.77,
+      "starRadius": 16.1
+    },
+    {
+      "id": "art-029",
+      "name": "Enrique Iglesias",
+      "genre": "Modern Pop / Chart",
+      "decade": "1990s",
+      "bio": "Enrique Miguel Iglesias Preysler is a Spanish singer and songwriter. He started his recording career in the mid-1990s on the Mexican label Fonovisa where he released three Spanish albums: Enrique Iglesias, Vivir and Cosas del Amor, becoming the bestselling Spanish-language act of the decade. By the turn of the millennium, he made a successful crossover into the mainstream English-language market.",
+      "trackCount": 2,
+      "albumCount": 1,
+      "totalPlays": 42,
+      "totalSkips": 5,
+      "totalHours": 2.5,
+      "avgPlays": 21.0,
+      "completionRate": 89.4,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a5/84/90/a58490c6-5dad-2663-7f44-d15fdbeba0d0/00602527419923.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Bailamos",
+        "Rhythm Divine"
+      ],
+      "albums": [
+        "Enrique"
+      ],
+      "songDetails": [
+        {
+          "title": "Bailamos",
+          "album": "Enrique",
+          "genre": "Latin",
+          "year": "1999",
+          "plays": 23,
+          "skips": 2,
+          "durationSec": 213
+        },
+        {
+          "title": "Rhythm Divine",
+          "album": "Enrique",
+          "genre": "Latin",
+          "year": "1999",
+          "plays": 19,
+          "skips": 3,
+          "durationSec": 210
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Enrique",
+          "plays": 42,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Bailamos",
+              "album": "Enrique",
+              "genre": "Latin",
+              "year": "1999",
+              "plays": 23,
+              "skips": 2,
+              "durationSec": 213
+            },
+            {
+              "title": "Rhythm Divine",
+              "album": "Enrique",
+              "genre": "Latin",
+              "year": "1999",
+              "plays": 19,
+              "skips": 3,
+              "durationSec": 210
+            }
+          ]
+        }
+      ],
+      "galaxyX": -81.11,
+      "galaxyY": -225.49,
+      "starRadius": 15.8
+    },
+    {
+      "id": "art-030",
+      "name": "Michael Hunter",
+      "genre": "Cinematic / OST",
+      "decade": "2000s",
+      "bio": "Orion the Hunter was a 1980s rock band formed as an offshoot of Boston. It featured former Boston members Barry Goudreau on guitars and Brad Delp on songwriting and backing vocals, along with lead vocalist Fran Cosmo who would later join Boston.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 42,
+      "totalSkips": 7,
+      "totalHours": 2.0,
+      "avgPlays": 42.0,
+      "completionRate": 85.7,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/a898efc484561b062c8d1d80461f6861/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Soviet Connection \u2014 the Theme from Grand Theft Auto IV"
+      ],
+      "albums": [
+        "Grand Theft Auto IV \u2014 the Theme Song Collection - EP"
+      ],
+      "songDetails": [
+        {
+          "title": "Soviet Connection \u2014 the Theme from Grand Theft Auto IV",
+          "album": "Grand Theft Auto IV \u2014 the Theme Song Collection - EP",
+          "genre": "Soundtrack",
+          "year": "2008",
+          "plays": 42,
+          "skips": 7,
+          "durationSec": 171
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Grand Theft Auto IV \u2014 the Theme Song Collection - EP",
+          "plays": 42,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Soviet Connection \u2014 the Theme from Grand Theft Auto IV",
+              "album": "Grand Theft Auto IV \u2014 the Theme Song Collection - EP",
+              "genre": "Soundtrack",
+              "year": "2008",
+              "plays": 42,
+              "skips": 7,
+              "durationSec": 171
+            }
+          ]
+        }
+      ],
+      "galaxyX": 215.22,
+      "galaxyY": 113.11,
+      "starRadius": 15.8
+    },
+    {
+      "id": "art-031",
+      "name": "Farazi",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "Onur \u0130nal, better known by his stage name Kayra, is a Turkish rapper, lyricist and English teacher, best known for his work with the hip hop group Farazi V Kayra and the album Hayalet Isl\u0131\u011f\u0131.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 42,
+      "totalSkips": 13,
+      "totalHours": 2.6,
+      "avgPlays": 42.0,
+      "completionRate": 76.4,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1a/de/38/1ade3802-49ac-ecc7-8ba2-491335ba1fd1/32446.jpg/600x600bb.jpg",
+      "songs": [
+        "Dobro Vecer"
+      ],
+      "albums": [
+        "Hayalet Isl\u0131\u011f\u0131 (Instrumentals)"
+      ],
+      "songDetails": [
+        {
+          "title": "Dobro Vecer",
+          "album": "Hayalet Isl\u0131\u011f\u0131 (Instrumentals)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2013",
+          "plays": 42,
+          "skips": 13,
+          "durationSec": 226
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Hayalet Isl\u0131\u011f\u0131 (Instrumentals)",
+          "plays": 42,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Dobro Vecer",
+              "album": "Hayalet Isl\u0131\u011f\u0131 (Instrumentals)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2013",
+              "plays": 42,
+              "skips": 13,
+              "durationSec": 226
+            }
+          ]
+        }
+      ],
+      "galaxyX": -238.43,
+      "galaxyY": 62.85,
+      "starRadius": 15.8
+    },
+    {
+      "id": "art-032",
+      "name": "Kanye West",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2000s",
+      "bio": "Ye is an American rapper, songwriter, and record producer. He has been listed among the greatest rappers of all time and referred to as one of the most prominent figures in hip-hop. His music, characterized by frequent stylistic shifts, has been credited with facilitating the emergence of rappers who did not conform to gangsta rap conventions. He is also known for his controversial public persona, including his polarizing cultural and political commentary.",
+      "trackCount": 38,
+      "albumCount": 12,
+      "totalPlays": 40,
+      "totalSkips": 24,
+      "totalHours": 4.6,
+      "avgPlays": 1.1,
+      "completionRate": 62.5,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4d/75/2d/4d752db1-022d-f65d-40a1-a2390f01427a/13UAEIM26465.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Flashing Lights",
+        "Flashing Lights (feat. Dwele)",
+        "Can't Tell Me Nothing",
+        "Jesus Walks",
+        "Stronger",
+        "Runaway (feat. Pusha T)",
+        "Good Life (feat. T-Pain)",
+        "Gold Digger (feat. Jamie Foxx)",
+        "Father Stretch My Hands, Pt. 1",
+        "Homecoming (feat. Chris Martin)",
+        "Heartless",
+        "All Falls Down (feat. Syleena Johnson)",
+        "Power",
+        "Hurricane",
+        "Touch the Sky (feat. Lupe Fiasco)",
+        "All of the Lights",
+        "Through The Wire",
+        "Black Skinhead",
+        "Bound 2",
+        "Fade",
+        "Jail",
+        "Love Lockdown",
+        "Monster (feat. JA\u0178-Z, Rick Ross, Nicki Minaj & Bon Iver)",
+        "Famous",
+        "Mercy (feat. Big Sean, Pusha T & 2 Chainz)",
+        "Follow God",
+        "Yikes",
+        "Moon",
+        "Diamonds From Sierra Leone (Bonus Track)",
+        "Ghost Town (feat. PARTYNEXTDOOR)",
+        "Ultralight Beam",
+        "Off The Grid",
+        "New Slaves",
+        "All Mine",
+        "Jonah",
+        "Wash Us in the Blood (feat. Travis Scott)",
+        "Paranoid (feat. Mr Hudson)",
+        "Closed on Sunday"
+      ],
+      "albums": [
+        "Mercy (feat. Big Sean, Pusha T & 2 Chainz) - Single",
+        "808s & Heartbreak (Exclusive Edition)",
+        "The Life of Pablo",
+        "Wash Us in the Blood (feat. Travis Scott) - Single",
+        "Donda (Deluxe)",
+        "Graduation",
+        "Yeezus",
+        "ye",
+        "My Beautiful Dark Twisted Fantasy",
+        "JESUS IS KING",
+        "Late Registration",
+        "The College Dropout"
+      ],
+      "songDetails": [
+        {
+          "title": "Flashing Lights",
+          "album": "Graduation",
+          "genre": "Hip-Hop/Rap",
+          "year": "2007",
+          "plays": 18,
+          "skips": 6,
+          "durationSec": 237
+        },
+        {
+          "title": "Flashing Lights (feat. Dwele)",
+          "album": "Graduation",
+          "genre": "Hip-Hop/Rap",
+          "year": "2007",
+          "plays": 9,
+          "skips": 1,
+          "durationSec": 238
+        },
+        {
+          "title": "Can't Tell Me Nothing",
+          "album": "Graduation",
+          "genre": "Hip-Hop/Rap",
+          "year": "2007",
+          "plays": 6,
+          "skips": 0,
+          "durationSec": 272
+        },
+        {
+          "title": "Jesus Walks",
+          "album": "The College Dropout",
+          "genre": "Hip-Hop/Rap",
+          "year": "2004",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 194
+        },
+        {
+          "title": "Stronger",
+          "album": "Graduation",
+          "genre": "Hip-Hop/Rap",
+          "year": "2007",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 312
+        },
+        {
+          "title": "Runaway (feat. Pusha T)",
+          "album": "My Beautiful Dark Twisted Fantasy",
+          "genre": "Hip-Hop/Rap",
+          "year": "2010",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 548
+        },
+        {
+          "title": "Good Life (feat. T-Pain)",
+          "album": "Graduation",
+          "genre": "Hip-Hop/Rap",
+          "year": "2007",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 207
+        },
+        {
+          "title": "Gold Digger (feat. Jamie Foxx)",
+          "album": "Late Registration",
+          "genre": "Hip-Hop/Rap",
+          "year": "2005",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 208
+        },
+        {
+          "title": "Father Stretch My Hands, Pt. 1",
+          "album": "The Life of Pablo",
+          "genre": "Hip-Hop/Rap",
+          "year": "2016",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 136
+        },
+        {
+          "title": "Homecoming (feat. Chris Martin)",
+          "album": "Graduation",
+          "genre": "Hip-Hop/Rap",
+          "year": "2007",
+          "plays": 1,
+          "skips": 4,
+          "durationSec": 203
+        },
+        {
+          "title": "Heartless",
+          "album": "808s & Heartbreak (Exclusive Edition)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2008",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 211
+        },
+        {
+          "title": "All Falls Down (feat. Syleena Johnson)",
+          "album": "The College Dropout",
+          "genre": "Hip-Hop/Rap",
+          "year": "2004",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 224
+        },
+        {
+          "title": "Power",
+          "album": "My Beautiful Dark Twisted Fantasy",
+          "genre": "Hip-Hop/Rap",
+          "year": "2010",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 292
+        },
+        {
+          "title": "Hurricane",
+          "album": "Donda (Deluxe)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2021",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 243
+        },
+        {
+          "title": "Touch the Sky (feat. Lupe Fiasco)",
+          "album": "Late Registration",
+          "genre": "Hip-Hop/Rap",
+          "year": "2005",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 237
+        },
+        {
+          "title": "All of the Lights",
+          "album": "My Beautiful Dark Twisted Fantasy",
+          "genre": "Hip-Hop/Rap",
+          "year": "2010",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 300
+        },
+        {
+          "title": "Through The Wire",
+          "album": "The College Dropout",
+          "genre": "Hip-Hop/Rap",
+          "year": "2003",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 221
+        },
+        {
+          "title": "Black Skinhead",
+          "album": "Yeezus",
+          "genre": "Hip-Hop/Rap",
+          "year": "2013",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 188
+        },
+        {
+          "title": "Bound 2",
+          "album": "Yeezus",
+          "genre": "Hip-Hop/Rap",
+          "year": "2013",
+          "plays": 0,
+          "skips": 2,
+          "durationSec": 229
+        },
+        {
+          "title": "Fade",
+          "album": "The Life of Pablo",
+          "genre": "Hip-Hop/Rap",
+          "year": "2016",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 194
+        },
+        {
+          "title": "Jail",
+          "album": "Donda (Deluxe)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2021",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 297
+        },
+        {
+          "title": "Love Lockdown",
+          "album": "808s & Heartbreak (Exclusive Edition)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2008",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 270
+        },
+        {
+          "title": "Monster (feat. JA\u0178-Z, Rick Ross, Nicki Minaj & Bon Iver)",
+          "album": "My Beautiful Dark Twisted Fantasy",
+          "genre": "Hip-Hop/Rap",
+          "year": "2010",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 379
+        },
+        {
+          "title": "Famous",
+          "album": "The Life of Pablo",
+          "genre": "Hip-Hop/Rap",
+          "year": "2016",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 196
+        },
+        {
+          "title": "Mercy (feat. Big Sean, Pusha T & 2 Chainz)",
+          "album": "Mercy (feat. Big Sean, Pusha T & 2 Chainz) - Single",
+          "genre": "Hip-Hop/Rap",
+          "year": "2012",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 329
+        },
+        {
+          "title": "Follow God",
+          "album": "JESUS IS KING",
+          "genre": "Hip-Hop/Rap",
+          "year": "2019",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 105
+        },
+        {
+          "title": "Yikes",
+          "album": "ye",
+          "genre": "Hip-Hop/Rap",
+          "year": "2018",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 189
+        },
+        {
+          "title": "Moon",
+          "album": "Donda (Deluxe)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2021",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 156
+        },
+        {
+          "title": "Diamonds From Sierra Leone (Bonus Track)",
+          "album": "Late Registration",
+          "genre": "Hip-Hop/Rap",
+          "year": "2005",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 238
+        },
+        {
+          "title": "Ghost Town (feat. PARTYNEXTDOOR)",
+          "album": "ye",
+          "genre": "Hip-Hop/Rap",
+          "year": "2018",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 271
+        },
+        {
+          "title": "Ultralight Beam",
+          "album": "The Life of Pablo",
+          "genre": "Hip-Hop/Rap",
+          "year": "2016",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 321
+        },
+        {
+          "title": "Off The Grid",
+          "album": "Donda (Deluxe)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2021",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 339
+        },
+        {
+          "title": "New Slaves",
+          "album": "Yeezus",
+          "genre": "Hip-Hop/Rap",
+          "year": "2013",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 256
+        },
+        {
+          "title": "All Mine",
+          "album": "ye",
+          "genre": "Hip-Hop/Rap",
+          "year": "2018",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 146
+        },
+        {
+          "title": "Jonah",
+          "album": "Donda (Deluxe)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2021",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 195
+        },
+        {
+          "title": "Wash Us in the Blood (feat. Travis Scott)",
+          "album": "Wash Us in the Blood (feat. Travis Scott) - Single",
+          "genre": "Hip-Hop/Rap",
+          "year": "2020",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 190
+        },
+        {
+          "title": "Paranoid (feat. Mr Hudson)",
+          "album": "808s & Heartbreak (Exclusive Edition)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2008",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 278
+        },
+        {
+          "title": "Closed on Sunday",
+          "album": "JESUS IS KING",
+          "genre": "Hip-Hop/Rap",
+          "year": "2019",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 152
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Graduation",
+          "plays": 36,
+          "trackCount": 6,
+          "songs": [
+            {
+              "title": "Flashing Lights",
+              "album": "Graduation",
+              "genre": "Hip-Hop/Rap",
+              "year": "2007",
+              "plays": 18,
+              "skips": 6,
+              "durationSec": 237
+            },
+            {
+              "title": "Flashing Lights (feat. Dwele)",
+              "album": "Graduation",
+              "genre": "Hip-Hop/Rap",
+              "year": "2007",
+              "plays": 9,
+              "skips": 1,
+              "durationSec": 238
+            },
+            {
+              "title": "Can't Tell Me Nothing",
+              "album": "Graduation",
+              "genre": "Hip-Hop/Rap",
+              "year": "2007",
+              "plays": 6,
+              "skips": 0,
+              "durationSec": 272
+            },
+            {
+              "title": "Stronger",
+              "album": "Graduation",
+              "genre": "Hip-Hop/Rap",
+              "year": "2007",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 312
+            },
+            {
+              "title": "Good Life (feat. T-Pain)",
+              "album": "Graduation",
+              "genre": "Hip-Hop/Rap",
+              "year": "2007",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 207
+            },
+            {
+              "title": "Homecoming (feat. Chris Martin)",
+              "album": "Graduation",
+              "genre": "Hip-Hop/Rap",
+              "year": "2007",
+              "plays": 1,
+              "skips": 4,
+              "durationSec": 203
+            }
+          ]
+        },
+        {
+          "name": "The College Dropout",
+          "plays": 1,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Jesus Walks",
+              "album": "The College Dropout",
+              "genre": "Hip-Hop/Rap",
+              "year": "2004",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 194
+            },
+            {
+              "title": "All Falls Down (feat. Syleena Johnson)",
+              "album": "The College Dropout",
+              "genre": "Hip-Hop/Rap",
+              "year": "2004",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 224
+            },
+            {
+              "title": "Through The Wire",
+              "album": "The College Dropout",
+              "genre": "Hip-Hop/Rap",
+              "year": "2003",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 221
+            }
+          ]
+        },
+        {
+          "name": "My Beautiful Dark Twisted Fantasy",
+          "plays": 1,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "Runaway (feat. Pusha T)",
+              "album": "My Beautiful Dark Twisted Fantasy",
+              "genre": "Hip-Hop/Rap",
+              "year": "2010",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 548
+            },
+            {
+              "title": "Power",
+              "album": "My Beautiful Dark Twisted Fantasy",
+              "genre": "Hip-Hop/Rap",
+              "year": "2010",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 292
+            },
+            {
+              "title": "All of the Lights",
+              "album": "My Beautiful Dark Twisted Fantasy",
+              "genre": "Hip-Hop/Rap",
+              "year": "2010",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 300
+            },
+            {
+              "title": "Monster (feat. JA\u0178-Z, Rick Ross, Nicki Minaj & Bon Iver)",
+              "album": "My Beautiful Dark Twisted Fantasy",
+              "genre": "Hip-Hop/Rap",
+              "year": "2010",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 379
+            }
+          ]
+        },
+        {
+          "name": "Late Registration",
+          "plays": 1,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Gold Digger (feat. Jamie Foxx)",
+              "album": "Late Registration",
+              "genre": "Hip-Hop/Rap",
+              "year": "2005",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 208
+            },
+            {
+              "title": "Touch the Sky (feat. Lupe Fiasco)",
+              "album": "Late Registration",
+              "genre": "Hip-Hop/Rap",
+              "year": "2005",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 237
+            },
+            {
+              "title": "Diamonds From Sierra Leone (Bonus Track)",
+              "album": "Late Registration",
+              "genre": "Hip-Hop/Rap",
+              "year": "2005",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 238
+            }
+          ]
+        },
+        {
+          "name": "The Life of Pablo",
+          "plays": 1,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "Father Stretch My Hands, Pt. 1",
+              "album": "The Life of Pablo",
+              "genre": "Hip-Hop/Rap",
+              "year": "2016",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 136
+            },
+            {
+              "title": "Fade",
+              "album": "The Life of Pablo",
+              "genre": "Hip-Hop/Rap",
+              "year": "2016",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 194
+            },
+            {
+              "title": "Famous",
+              "album": "The Life of Pablo",
+              "genre": "Hip-Hop/Rap",
+              "year": "2016",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 196
+            },
+            {
+              "title": "Ultralight Beam",
+              "album": "The Life of Pablo",
+              "genre": "Hip-Hop/Rap",
+              "year": "2016",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 321
+            }
+          ]
+        },
+        {
+          "name": "808s & Heartbreak (Exclusive Edition)",
+          "plays": 0,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Heartless",
+              "album": "808s & Heartbreak (Exclusive Edition)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2008",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 211
+            },
+            {
+              "title": "Love Lockdown",
+              "album": "808s & Heartbreak (Exclusive Edition)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2008",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 270
+            },
+            {
+              "title": "Paranoid (feat. Mr Hudson)",
+              "album": "808s & Heartbreak (Exclusive Edition)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2008",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 278
+            }
+          ]
+        },
+        {
+          "name": "Donda (Deluxe)",
+          "plays": 0,
+          "trackCount": 5,
+          "songs": [
+            {
+              "title": "Hurricane",
+              "album": "Donda (Deluxe)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2021",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 243
+            },
+            {
+              "title": "Jail",
+              "album": "Donda (Deluxe)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2021",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 297
+            },
+            {
+              "title": "Moon",
+              "album": "Donda (Deluxe)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2021",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 156
+            },
+            {
+              "title": "Off The Grid",
+              "album": "Donda (Deluxe)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2021",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 339
+            },
+            {
+              "title": "Jonah",
+              "album": "Donda (Deluxe)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2021",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 195
+            }
+          ]
+        },
+        {
+          "name": "Yeezus",
+          "plays": 0,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Black Skinhead",
+              "album": "Yeezus",
+              "genre": "Hip-Hop/Rap",
+              "year": "2013",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 188
+            },
+            {
+              "title": "Bound 2",
+              "album": "Yeezus",
+              "genre": "Hip-Hop/Rap",
+              "year": "2013",
+              "plays": 0,
+              "skips": 2,
+              "durationSec": 229
+            },
+            {
+              "title": "New Slaves",
+              "album": "Yeezus",
+              "genre": "Hip-Hop/Rap",
+              "year": "2013",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 256
+            }
+          ]
+        },
+        {
+          "name": "Mercy (feat. Big Sean, Pusha T & 2 Chainz) - Single",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Mercy (feat. Big Sean, Pusha T & 2 Chainz)",
+              "album": "Mercy (feat. Big Sean, Pusha T & 2 Chainz) - Single",
+              "genre": "Hip-Hop/Rap",
+              "year": "2012",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 329
+            }
+          ]
+        },
+        {
+          "name": "JESUS IS KING",
+          "plays": 0,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Follow God",
+              "album": "JESUS IS KING",
+              "genre": "Hip-Hop/Rap",
+              "year": "2019",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 105
+            },
+            {
+              "title": "Closed on Sunday",
+              "album": "JESUS IS KING",
+              "genre": "Hip-Hop/Rap",
+              "year": "2019",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 152
+            }
+          ]
+        },
+        {
+          "name": "ye",
+          "plays": 0,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Yikes",
+              "album": "ye",
+              "genre": "Hip-Hop/Rap",
+              "year": "2018",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 189
+            },
+            {
+              "title": "Ghost Town (feat. PARTYNEXTDOOR)",
+              "album": "ye",
+              "genre": "Hip-Hop/Rap",
+              "year": "2018",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 271
+            },
+            {
+              "title": "All Mine",
+              "album": "ye",
+              "genre": "Hip-Hop/Rap",
+              "year": "2018",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 146
+            }
+          ]
+        },
+        {
+          "name": "Wash Us in the Blood (feat. Travis Scott) - Single",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Wash Us in the Blood (feat. Travis Scott)",
+              "album": "Wash Us in the Blood (feat. Travis Scott) - Single",
+              "genre": "Hip-Hop/Rap",
+              "year": "2020",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 190
+            }
+          ]
+        }
+      ],
+      "galaxyX": 135.19,
+      "galaxyY": -210.25,
+      "starRadius": 15.6
+    },
+    {
+      "id": "art-033",
+      "name": "Sia",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Sia Kate Isobelle Furler is an Australian singer and songwriter. Born and raised in Adelaide, she started her career as a singer in the acid jazz band Crisp in the mid-1990s. When Crisp disbanded in 1997, she released her debut studio album, OnlySee, in Australia. Sia moved to London and provided vocals for the English duo Zero 7. She released her second studio album, Healing Is Difficult, in 2001 and her third, Colour the Small One, in 2004.",
+      "trackCount": 3,
+      "albumCount": 3,
+      "totalPlays": 40,
+      "totalSkips": 12,
+      "totalHours": 2.4,
+      "avgPlays": 13.3,
+      "completionRate": 76.9,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/00/bf/72/00bf72a2-3e50-e5e7-ae78-dc35bbf9bcda/886444578219.jpg/600x600bb.jpg",
+      "songs": [
+        "Cheap Thrills",
+        "Cheap Thrills (feat. Sean Paul)",
+        "Unstoppable"
+      ],
+      "albums": [
+        "This Is Acting (Deluxe Version)",
+        "This Is Acting",
+        "Cheap Thrills (feat. Sean Paul) - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Cheap Thrills",
+          "album": "This Is Acting",
+          "genre": "Pop",
+          "year": "2015",
+          "plays": 18,
+          "skips": 5,
+          "durationSec": 212
+        },
+        {
+          "title": "Cheap Thrills (feat. Sean Paul)",
+          "album": "Cheap Thrills (feat. Sean Paul) - Single",
+          "genre": "Pop",
+          "year": "2016",
+          "plays": 14,
+          "skips": 2,
+          "durationSec": 225
+        },
+        {
+          "title": "Unstoppable",
+          "album": "This Is Acting (Deluxe Version)",
+          "genre": "Pop",
+          "year": "2016",
+          "plays": 8,
+          "skips": 5,
+          "durationSec": 218
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "This Is Acting",
+          "plays": 18,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Cheap Thrills",
+              "album": "This Is Acting",
+              "genre": "Pop",
+              "year": "2015",
+              "plays": 18,
+              "skips": 5,
+              "durationSec": 212
+            }
+          ]
+        },
+        {
+          "name": "Cheap Thrills (feat. Sean Paul) - Single",
+          "plays": 14,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Cheap Thrills (feat. Sean Paul)",
+              "album": "Cheap Thrills (feat. Sean Paul) - Single",
+              "genre": "Pop",
+              "year": "2016",
+              "plays": 14,
+              "skips": 2,
+              "durationSec": 225
+            }
+          ]
+        },
+        {
+          "name": "This Is Acting (Deluxe Version)",
+          "plays": 8,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Unstoppable",
+              "album": "This Is Acting (Deluxe Version)",
+              "genre": "Pop",
+              "year": "2016",
+              "plays": 8,
+              "skips": 5,
+              "durationSec": 218
+            }
+          ]
+        }
+      ],
+      "galaxyX": 42.9,
+      "galaxyY": 249.63,
+      "starRadius": 15.6
+    },
+    {
+      "id": "art-034",
+      "name": "Adele",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Adele Laurie Blue Adkins is an English singer and songwriter. Regarded as a British cultural icon, she is known for her mezzo-soprano vocals and sentimental songwriting. Her accolades include 16 Grammy Awards, 12 Brit Awards, an Academy Award, a Primetime Emmy Award, and a Golden Globe Award.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 40,
+      "totalSkips": 8,
+      "totalHours": 3.2,
+      "avgPlays": 40.0,
+      "completionRate": 83.3,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/600x600bb.jpg",
+      "songs": [
+        "Skyfall"
+      ],
+      "albums": [
+        "Skyfall - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Skyfall",
+          "album": "Skyfall - Single",
+          "genre": "Pop",
+          "year": "2012",
+          "plays": 40,
+          "skips": 8,
+          "durationSec": 286
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Skyfall - Single",
+          "plays": 40,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Skyfall",
+              "album": "Skyfall - Single",
+              "genre": "Pop",
+              "year": "2012",
+              "plays": 40,
+              "skips": 8,
+              "durationSec": 286
+            }
+          ]
+        }
+      ],
+      "galaxyX": -202.86,
+      "galaxyY": -157.1,
+      "starRadius": 15.6
+    },
+    {
+      "id": "art-035",
+      "name": "Oasis",
+      "genre": "Classic Rock",
+      "decade": "1990s",
+      "bio": "In ecology, an oasis is a fertile area of a desert or semi-desert environment that sustains plant life and provides habitat for animals. Surface water may be present, or water may only be accessible from wells or underground channels created by humans. In geography, an oasis may be a current or past rest stop on a transportation route, or less-than-verdant location that nonetheless provides access to underground water through deep wells created and maintained by humans. Although they depend on a natural condition, such as the presence of water that may be stored in reservoirs and used for irrigation, most oases, as we know them, are artificial.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 40,
+      "totalSkips": 7,
+      "totalHours": 2.9,
+      "avgPlays": 40.0,
+      "completionRate": 85.1,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/d04e1d3938ea455b2a4962305057278e/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Wonderwall"
+      ],
+      "albums": [
+        "Time Flies...1994-2009"
+      ],
+      "songDetails": [
+        {
+          "title": "Wonderwall",
+          "album": "Time Flies...1994-2009",
+          "genre": "Rock",
+          "year": "1995",
+          "plays": 40,
+          "skips": 7,
+          "durationSec": 262
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Time Flies...1994-2009",
+          "plays": 40,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Wonderwall",
+              "album": "Time Flies...1994-2009",
+              "genre": "Rock",
+              "year": "1995",
+              "plays": 40,
+              "skips": 7,
+              "durationSec": 262
+            }
+          ]
+        }
+      ],
+      "galaxyX": 258.92,
+      "galaxyY": -21.45,
+      "starRadius": 15.6
+    },
+    {
+      "id": "art-036",
+      "name": "Ace of Base",
+      "genre": "80s/90s Pop",
+      "decade": "1990s",
+      "bio": "Ace of Base are a Swedish pop music group formed in Gothenburg in 1990. Originally consisting of siblings Jonas, Linn and Jenny Berggren along with Ulf Ekberg, they achieved worldwide success following the release of their debut album, Happy Nation, in 1992. Later reissued as The Sign, it was certified nine times platinum in the United States and was the best-selling album of 1994. One of the most successful debut albums of all time, it was the first to produce three No. 1 singles on the Billboard Mainstream Top 40 chart: \"All That She Wants\", \"The Sign\" and \"Don't Turn Around\".",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 38,
+      "totalSkips": 13,
+      "totalHours": 2.7,
+      "avgPlays": 38.0,
+      "completionRate": 74.5,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/42/59/8b/42598b61-bd54-aaa3-5280-d711569800b6/cover.jpg/600x600bb.jpg",
+      "songs": [
+        "Happy Nation"
+      ],
+      "albums": [
+        "Happy Nation - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Happy Nation",
+          "album": "Happy Nation - Single",
+          "genre": "Pop",
+          "year": "1993",
+          "plays": 38,
+          "skips": 13,
+          "durationSec": 256
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Happy Nation - Single",
+          "plays": 38,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Happy Nation",
+              "album": "Happy Nation - Single",
+              "genre": "Pop",
+              "year": "1993",
+              "plays": 38,
+              "skips": 13,
+              "durationSec": 256
+            }
+          ]
+        }
+      ],
+      "galaxyX": -178.6,
+      "galaxyY": 193.06,
+      "starRadius": 15.4
+    },
+    {
+      "id": "art-037",
+      "name": "Dua Lipa",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Dua Lipa is an English singer and songwriter. Her accolades include seven Brit Awards and three Grammy Awards.",
+      "trackCount": 3,
+      "albumCount": 3,
+      "totalPlays": 37,
+      "totalSkips": 12,
+      "totalHours": 2.1,
+      "avgPlays": 12.3,
+      "completionRate": 75.5,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/1d/86/2d1d8629-34d0-f8f6-ffe8-2eca20741d33/1200214922771.jpg/600x600bb.jpg",
+      "songs": [
+        "Levitating",
+        "Dance The Night (From Barbie The Album)",
+        "Don't Start Now"
+      ],
+      "albums": [
+        "Future Nostalgia",
+        "Dance The Night (From Barbie The Album) - Single",
+        "Don't Start Now - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Levitating",
+          "album": "Future Nostalgia",
+          "genre": "Pop",
+          "year": "2020",
+          "plays": 35,
+          "skips": 11,
+          "durationSec": 204
+        },
+        {
+          "title": "Dance The Night (From Barbie The Album)",
+          "album": "Dance The Night (From Barbie The Album) - Single",
+          "genre": "Pop",
+          "year": "2023",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 177
+        },
+        {
+          "title": "Don't Start Now",
+          "album": "Don't Start Now - Single",
+          "genre": "Pop",
+          "year": "2019",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 183
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Future Nostalgia",
+          "plays": 35,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Levitating",
+              "album": "Future Nostalgia",
+              "genre": "Pop",
+              "year": "2020",
+              "plays": 35,
+              "skips": 11,
+              "durationSec": 204
+            }
+          ]
+        },
+        {
+          "name": "Dance The Night (From Barbie The Album) - Single",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Dance The Night (From Barbie The Album)",
+              "album": "Dance The Night (From Barbie The Album) - Single",
+              "genre": "Pop",
+              "year": "2023",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 177
+            }
+          ]
+        },
+        {
+          "name": "Don't Start Now - Single",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Don't Start Now",
+              "album": "Don't Start Now - Single",
+              "genre": "Pop",
+              "year": "2019",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 183
+            }
+          ]
+        }
+      ],
+      "galaxyX": 1.3,
+      "galaxyY": -266.14,
+      "starRadius": 15.2
+    },
+    {
+      "id": "art-038",
+      "name": "Lady Gaga",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Stefani Joanne Angelina Germanotta, known professionally as Lady Gaga, is an American singer, songwriter, and actress. An influential figure in popular music, she is known for her image reinventions, flamboyant fashion, and versatility across the entertainment industry. With estimated sales of 124 million records, she is one of the best-selling music artists of all time.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 35,
+      "totalSkips": 6,
+      "totalHours": 2.2,
+      "avgPlays": 35.0,
+      "completionRate": 85.4,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b1/9f/ef/b19fef51-79de-a940-e8ab-9e4e07b04d96/18UMGIM53752.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Hold My Hand"
+      ],
+      "albums": [
+        "Top Gun: Maverick (Music from the Motion Picture)"
+      ],
+      "songDetails": [
+        {
+          "title": "Hold My Hand",
+          "album": "Top Gun: Maverick (Music from the Motion Picture)",
+          "genre": "Pop",
+          "year": "2022",
+          "plays": 35,
+          "skips": 6,
+          "durationSec": 225
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Top Gun: Maverick (Music from the Motion Picture)",
+          "plays": 35,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Hold My Hand",
+              "album": "Top Gun: Maverick (Music from the Motion Picture)",
+              "genre": "Pop",
+              "year": "2022",
+              "plays": 35,
+              "skips": 6,
+              "durationSec": 225
+            }
+          ]
+        }
+      ],
+      "galaxyX": 180.9,
+      "galaxyY": 199.42,
+      "starRadius": 15.0
+    },
+    {
+      "id": "art-039",
+      "name": "Green Day",
+      "genre": "Modern Pop / Chart",
+      "decade": "2000s",
+      "bio": "Green Day is an American rock band formed in Rodeo, California, in 1987 by lead singer and guitarist Billie Joe Armstrong and bassist and backing vocalist Mike Dirnt, with drummer Tr\u00e9 Cool joining in 1990. In 1994, their major-label debut Dookie, released through Reprise Records, became a breakout success and eventually shipped over 20 million copies in the United States. Green Day has been credited with reigniting mainstream interest in punk rock.",
+      "trackCount": 3,
+      "albumCount": 3,
+      "totalPlays": 31,
+      "totalSkips": 11,
+      "totalHours": 2.9,
+      "avgPlays": 10.3,
+      "completionRate": 73.8,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/88/83/e7/8883e74b-1b7c-0725-09de-21e4e00d54b5/093624915713.jpg/600x600bb.jpg",
+      "songs": [
+        "Boulevard of Broken Dreams",
+        "Holiday / Boulevard of Broken Dreams",
+        "American Idiot"
+      ],
+      "albums": [
+        "American Idiot",
+        "American Idiot (20th\u00a0Anniversary Deluxe Edition)",
+        "American Idiot (Deluxe Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "Boulevard of Broken Dreams",
+          "album": "American Idiot (20th\u00a0Anniversary Deluxe Edition)",
+          "genre": "Alternative",
+          "year": "2004",
+          "plays": 15,
+          "skips": 5,
+          "durationSec": 261
+        },
+        {
+          "title": "Holiday / Boulevard of Broken Dreams",
+          "album": "American Idiot (Deluxe Edition)",
+          "genre": "Alternative",
+          "year": "2004",
+          "plays": 12,
+          "skips": 2,
+          "durationSec": 493
+        },
+        {
+          "title": "American Idiot",
+          "album": "American Idiot",
+          "genre": "Alternative",
+          "year": "2004",
+          "plays": 4,
+          "skips": 4,
+          "durationSec": 175
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "American Idiot (20th\u00a0Anniversary Deluxe Edition)",
+          "plays": 15,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Boulevard of Broken Dreams",
+              "album": "American Idiot (20th\u00a0Anniversary Deluxe Edition)",
+              "genre": "Alternative",
+              "year": "2004",
+              "plays": 15,
+              "skips": 5,
+              "durationSec": 261
+            }
+          ]
+        },
+        {
+          "name": "American Idiot (Deluxe Edition)",
+          "plays": 12,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Holiday / Boulevard of Broken Dreams",
+              "album": "American Idiot (Deluxe Edition)",
+              "genre": "Alternative",
+              "year": "2004",
+              "plays": 12,
+              "skips": 2,
+              "durationSec": 493
+            }
+          ]
+        },
+        {
+          "name": "American Idiot",
+          "plays": 4,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "American Idiot",
+              "album": "American Idiot",
+              "genre": "Alternative",
+              "year": "2004",
+              "plays": 4,
+              "skips": 4,
+              "durationSec": 175
+            }
+          ]
+        }
+      ],
+      "galaxyX": -271.15,
+      "galaxyY": -25.13,
+      "starRadius": 14.5
+    },
+    {
+      "id": "art-040",
+      "name": "Red Hot Chili Peppers",
+      "genre": "Modern Pop / Chart",
+      "decade": "1990s",
+      "bio": "The Red Hot Chili Peppers are an American rock band formed in Los Angeles in 1982, consisting of Flea (bass), Anthony Kiedis (vocals), Chad Smith (drums), and John Frusciante (guitar). Their music incorporates elements of alternative rock, funk, punk rock, hard rock, hip-hop, and psychedelic rock, and has influenced genres including funk metal, rap metal, rap rock, and nu metal. With over 120 million records sold worldwide, the Red Hot Chili Peppers are one of the top-selling bands of all time. They hold the records for most number-one singles on the American Alternative Songs charts (15), most cumulative weeks at number one (91), and most top-ten songs on the Billboard Alternative Songs chart (28). They have won three Grammy Awards, were inducted into the Rock and Roll Hall of Fame in 2012, and in 2022 received a star on the Hollywood Walk of Fame.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 30,
+      "totalSkips": 2,
+      "totalHours": 2.7,
+      "avgPlays": 30.0,
+      "completionRate": 93.8,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/238f5524a401dfdd5cac685f0f7989bd/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Californication"
+      ],
+      "albums": [
+        "Californication (Deluxe Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "Californication",
+          "album": "Californication (Deluxe Edition)",
+          "genre": "Alternative",
+          "year": "1999",
+          "plays": 30,
+          "skips": 2,
+          "durationSec": 321
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Californication (Deluxe Edition)",
+          "plays": 30,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Californication",
+              "album": "Californication (Deluxe Edition)",
+              "genre": "Alternative",
+              "year": "1999",
+              "plays": 30,
+              "skips": 2,
+              "durationSec": 321
+            }
+          ]
+        }
+      ],
+      "galaxyX": 219.32,
+      "galaxyY": -166.46,
+      "starRadius": 14.4
+    },
+    {
+      "id": "art-041",
+      "name": "OneRepublic",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "OneRepublic is an American pop rock band formed in Colorado Springs, Colorado in 2002. The lineup currently consists of Ryan Tedder, Zach Filkins, Drew Brown, Brent Kutzle, Eddie Fisher and Brian Willett.",
+      "trackCount": 2,
+      "albumCount": 1,
+      "totalPlays": 29,
+      "totalSkips": 9,
+      "totalHours": 2.0,
+      "avgPlays": 14.5,
+      "completionRate": 76.3,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/25/46/a7/2546a71a-b2bb-b4c9-4c52-a4daa3ae23ca/13UMGIM15076.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Counting Stars",
+        "I Lived"
+      ],
+      "albums": [
+        "Native"
+      ],
+      "songDetails": [
+        {
+          "title": "Counting Stars",
+          "album": "Native",
+          "genre": "Pop",
+          "year": "2013",
+          "plays": 18,
+          "skips": 3,
+          "durationSec": 257
+        },
+        {
+          "title": "I Lived",
+          "album": "Native",
+          "genre": "Pop",
+          "year": "2013",
+          "plays": 11,
+          "skips": 6,
+          "durationSec": 235
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Native",
+          "plays": 29,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Counting Stars",
+              "album": "Native",
+              "genre": "Pop",
+              "year": "2013",
+              "plays": 18,
+              "skips": 3,
+              "durationSec": 257
+            },
+            {
+              "title": "I Lived",
+              "album": "Native",
+              "genre": "Pop",
+              "year": "2013",
+              "plays": 11,
+              "skips": 6,
+              "durationSec": 235
+            }
+          ]
+        }
+      ],
+      "galaxyX": -49.81,
+      "galaxyY": 273.82,
+      "starRadius": 14.2
+    },
+    {
+      "id": "art-042",
+      "name": "Shakira",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Shakira Isabel Mebarak Ripoll is a Colombian singer-songwriter, dancer, and record producer. Referred to as the \"Queen of Latin Music\", she has had a significant impact on the musical landscape of Latin America and has been credited with popularizing Hispanophone music globally, contributing to increased learning and use of the Spanish language worldwide. She is also credited with opening the doors of the international market in popular music for other Latin artists. Her accolades include four Grammy Awards and fifteen Latin Grammy Awards.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 28,
+      "totalSkips": 3,
+      "totalHours": 1.6,
+      "avgPlays": 28.0,
+      "completionRate": 90.3,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/69c569506a8ff6ab0edfecbd1adf94b0/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] [feat. Freshlyground] [Single]"
+      ],
+      "albums": [
+        "Listen Up! The Official 2010 FIFA World Cup Album"
+      ],
+      "songDetails": [
+        {
+          "title": "Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] [feat. Freshlyground] [Single]",
+          "album": "Listen Up! The Official 2010 FIFA World Cup Album",
+          "genre": "Pop Latino",
+          "year": "2010",
+          "plays": 28,
+          "skips": 3,
+          "durationSec": 203
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Listen Up! The Official 2010 FIFA World Cup Album",
+          "plays": 28,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] [feat. Freshlyground] [Single]",
+              "album": "Listen Up! The Official 2010 FIFA World Cup Album",
+              "genre": "Pop Latino",
+              "year": "2010",
+              "plays": 28,
+              "skips": 3,
+              "durationSec": 203
+            }
+          ]
+        }
+      ],
+      "galaxyX": -149.8,
+      "galaxyY": -238.06,
+      "starRadius": 14.1
+    },
+    {
+      "id": "art-043",
+      "name": "Marilyn Manson",
+      "genre": "Classic Rock",
+      "decade": "1990s",
+      "bio": "Brian Hugh Warner, known professionally as Marilyn Manson, is an American rock musician. He is the lead singer and the only original member remaining of the same-titled band he founded in 1989. The band members initially created their stage names by combining the first name of an American female sex symbol, Marilyn Monroe, and the last name of a male criminal and cult leader, Charles Manson.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 27,
+      "totalSkips": 1,
+      "totalHours": 2.2,
+      "avgPlays": 27.0,
+      "completionRate": 96.4,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/9c29670dd8067bf2cc1f15c1909fb58a/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Sweet Dreams (Are Made of This)"
+      ],
+      "albums": [
+        "Smells Like Children"
+      ],
+      "songDetails": [
+        {
+          "title": "Sweet Dreams (Are Made of This)",
+          "album": "Smells Like Children",
+          "genre": "Hard Rock",
+          "year": "1995",
+          "plays": 27,
+          "skips": 1,
+          "durationSec": 293
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Smells Like Children",
+          "plays": 27,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Sweet Dreams (Are Made of This)",
+              "album": "Smells Like Children",
+              "genre": "Hard Rock",
+              "year": "1995",
+              "plays": 27,
+              "skips": 1,
+              "durationSec": 293
+            }
+          ]
+        }
+      ],
+      "galaxyX": 274.08,
+      "galaxyY": 75.11,
+      "starRadius": 13.9
+    },
+    {
+      "id": "art-044",
+      "name": "almost monday",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Almost Monday is an American indie pop band based in San Diego, California. The group was founded by Dawson Daugherty, Luke Fabry and Cole Clisby in 2015. Their debut extended play, Don't Say You're Ordinary, was released on October 9, 2020, and followed by a second, Til the End of Time, on July 9, 2021. Their debut studio album, Dive, was released on September 25, 2024.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 27,
+      "totalSkips": 6,
+      "totalHours": 1.3,
+      "avgPlays": 27.0,
+      "completionRate": 81.8,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/72/39/e4723947-8d0c-d19f-d100-5f1c633c2f6c/26UMGIM44892.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "enjoy the ride"
+      ],
+      "albums": [
+        "enjoy the ride - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "enjoy the ride",
+          "album": "enjoy the ride - Single",
+          "genre": "Alternative",
+          "year": "2025",
+          "plays": 27,
+          "skips": 6,
+          "durationSec": 171
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "enjoy the ride - Single",
+          "plays": 27,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "enjoy the ride",
+              "album": "enjoy the ride - Single",
+              "genre": "Alternative",
+              "year": "2025",
+              "plays": 27,
+              "skips": 6,
+              "durationSec": 171
+            }
+          ]
+        }
+      ],
+      "galaxyX": -255.4,
+      "galaxyY": 131.07,
+      "starRadius": 13.9
+    },
+    {
+      "id": "art-045",
+      "name": "Modern Talking",
+      "genre": "80s/90s Pop",
+      "decade": "1980s",
+      "bio": "Modern Talking was a German pop duo consisting of arranger, songwriter and producer Dieter Bohlen and singer Thomas Anders. They have been referred to as Germany's most successful pop duo, and have had a number of hit singles, reaching the top 5 in many countries. Their most popular singles are \"You're My Heart, You're My Soul\", \"You Can Win If You Want\", \"Cheri, Cheri Lady\", \"Brother Louie\", \"Atlantis Is Calling \" and \"Geronimo's Cadillac\".",
+      "trackCount": 3,
+      "albumCount": 3,
+      "totalPlays": 26,
+      "totalSkips": 17,
+      "totalHours": 1.7,
+      "avgPlays": 8.7,
+      "completionRate": 60.5,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/b0/99/e8/b099e8f1-370d-7814-c75f-ae2e5313aaf6/mzi.ghqlcxdt.jpg/600x600bb.jpg",
+      "songs": [
+        "Cheri Cheri Lady",
+        "Brother Louie Mix '98 (Radio Edit) [feat. Eric Singleton]",
+        "Atlantis Is Calling (S.O.S. for Love)"
+      ],
+      "albums": [
+        "Back for Good",
+        "L'Essentiel",
+        "Original 80'S"
+      ],
+      "songDetails": [
+        {
+          "title": "Cheri Cheri Lady",
+          "album": "L'Essentiel",
+          "genre": "Pop",
+          "year": "1988",
+          "plays": 19,
+          "skips": 12,
+          "durationSec": 226
+        },
+        {
+          "title": "Brother Louie Mix '98 (Radio Edit) [feat. Eric Singleton]",
+          "album": "Back for Good",
+          "genre": "Pop",
+          "year": "1998",
+          "plays": 7,
+          "skips": 5,
+          "durationSec": 204
+        },
+        {
+          "title": "Atlantis Is Calling (S.O.S. for Love)",
+          "album": "Original 80'S",
+          "genre": "Pop",
+          "year": "1987",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 229
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "L'Essentiel",
+          "plays": 19,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Cheri Cheri Lady",
+              "album": "L'Essentiel",
+              "genre": "Pop",
+              "year": "1988",
+              "plays": 19,
+              "skips": 12,
+              "durationSec": 226
+            }
+          ]
+        },
+        {
+          "name": "Back for Good",
+          "plays": 7,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Brother Louie Mix '98 (Radio Edit) [feat. Eric Singleton]",
+              "album": "Back for Good",
+              "genre": "Pop",
+              "year": "1998",
+              "plays": 7,
+              "skips": 5,
+              "durationSec": 204
+            }
+          ]
+        },
+        {
+          "name": "Original 80'S",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Atlantis Is Calling (S.O.S. for Love)",
+              "album": "Original 80'S",
+              "genre": "Pop",
+              "year": "1987",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 229
+            }
+          ]
+        }
+      ],
+      "galaxyX": 100.78,
+      "galaxyY": -271.83,
+      "starRadius": 13.8
+    },
+    {
+      "id": "art-046",
+      "name": "WILLOW",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Willow Camille Reign Smith, known mononymously as Willow, is an American musician and actress. After early beginnings as a child actor, she signed with Jay-Z's Roc Nation in 2010, becoming the label's youngest artist. Her debut single \"Whip My Hair\" peaked at number 11 on the Billboard Hot 100 and was certified 3\u00d7 platinum by the RIAA. Her subsequent singles \"Wait a Minute!\", \"Meet Me at Our Spot\", and \"Transparent Soul\" were also certified platinum or higher by the RIAA.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 25,
+      "totalSkips": 6,
+      "totalHours": 1.4,
+      "avgPlays": 25.0,
+      "completionRate": 80.6,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/e29fb60ce99284e0dd5429ffdddd088b/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Wait a Minute!"
+      ],
+      "albums": [
+        "Ardipithecus"
+      ],
+      "songDetails": [
+        {
+          "title": "Wait a Minute!",
+          "album": "Ardipithecus",
+          "genre": "Alternative",
+          "year": "2015",
+          "plays": 25,
+          "skips": 6,
+          "durationSec": 197
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Ardipithecus",
+          "plays": 25,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Wait a Minute!",
+              "album": "Ardipithecus",
+              "genre": "Alternative",
+              "year": "2015",
+              "plays": 25,
+              "skips": 6,
+              "durationSec": 197
+            }
+          ]
+        }
+      ],
+      "galaxyX": 110.37,
+      "galaxyY": 271.12,
+      "starRadius": 13.6
+    },
+    {
+      "id": "art-047",
+      "name": "Alexander Rybak",
+      "genre": "Modern Pop / Chart",
+      "decade": "2000s",
+      "bio": "Alexander Igorevich Rybak or Alyaksandr Iharavich Rybak is a Norwegian singer, songwriter and actor. Based in Oslo, Norway, Rybak extensively worked on television programs and on tours in Europe, particularly in Scandinavia and Eastern Europe throughout the early 2010s. Performing in English, Russian and Norwegian, Rybak has released five albums.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 25,
+      "totalSkips": 3,
+      "totalHours": 1.3,
+      "avgPlays": 25.0,
+      "completionRate": 89.3,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/d4/62/20/d4622093-950c-530e-3876-56beb320cddf/cover.jpg/600x600bb.jpg",
+      "songs": [
+        "Fairytale"
+      ],
+      "albums": [
+        "Fairytale - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Fairytale",
+          "album": "Fairytale - Single",
+          "genre": "Pop",
+          "year": "2009",
+          "plays": 25,
+          "skips": 3,
+          "durationSec": 183
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Fairytale - Single",
+          "plays": 25,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Fairytale",
+              "album": "Fairytale - Single",
+              "genre": "Pop",
+              "year": "2009",
+              "plays": 25,
+              "skips": 3,
+              "durationSec": 183
+            }
+          ]
+        }
+      ],
+      "galaxyX": -267.04,
+      "galaxyY": -126.56,
+      "starRadius": 13.6
+    },
+    {
+      "id": "art-048",
+      "name": "Sade",
+      "genre": "80s/90s Pop",
+      "decade": "1980s",
+      "bio": "Sade are an English band, formed in London in 1982. It comprises Sade Adu (vocals), Paul Denman (bass), Stuart Matthewman and Andrew Hale ; the band has not had a drummer since 1986, and employs session musicians for recordings and live shows. Their style spans genres such as soul, quiet storm, smooth jazz and sophisti-pop.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 23,
+      "totalSkips": 11,
+      "totalHours": 1.7,
+      "avgPlays": 23.0,
+      "completionRate": 67.6,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Smooth Operator (Single Version)"
+      ],
+      "albums": [
+        "The Best of Sade"
+      ],
+      "songDetails": [
+        {
+          "title": "Smooth Operator (Single Version)",
+          "album": "The Best of Sade",
+          "genre": "R&B/Soul",
+          "year": "1984",
+          "plays": 23,
+          "skips": 11,
+          "durationSec": 259
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "The Best of Sade",
+          "plays": 23,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Smooth Operator (Single Version)",
+              "album": "The Best of Sade",
+              "genre": "R&B/Soul",
+              "year": "1984",
+              "plays": 23,
+              "skips": 11,
+              "durationSec": 259
+            }
+          ]
+        }
+      ],
+      "galaxyX": 285.03,
+      "galaxyY": -87.88,
+      "starRadius": 13.3
+    },
+    {
+      "id": "art-049",
+      "name": "Lady Gaga & Bruno Mars",
+      "genre": "Smooth Soul / R&B",
+      "decade": "2020s",
+      "bio": "Stefani Joanne Angelina Germanotta, known professionally as Lady Gaga, is an American singer, songwriter, and actress. An influential figure in popular music, she is known for her image reinventions, flamboyant fashion, and versatility across the entertainment industry. With estimated sales of 124 million records, she is one of the best-selling music artists of all time.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 23,
+      "totalSkips": 8,
+      "totalHours": 1.6,
+      "avgPlays": 23.0,
+      "completionRate": 74.2,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/ae/f2/11aef294-f57c-bab9-c9fc-529162984e62/24UMGIM85348.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Die With A Smile"
+      ],
+      "albums": [
+        "Die With A Smile - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Die With A Smile",
+          "album": "Die With A Smile - Single",
+          "genre": "Pop",
+          "year": "2024",
+          "plays": 23,
+          "skips": 8,
+          "durationSec": 252
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Die With A Smile - Single",
+          "plays": 23,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Die With A Smile",
+              "album": "Die With A Smile - Single",
+              "genre": "Pop",
+              "year": "2024",
+              "plays": 23,
+              "skips": 8,
+              "durationSec": 252
+            }
+          ]
+        }
+      ],
+      "galaxyX": -152.19,
+      "galaxyY": 259.69,
+      "starRadius": 13.3
+    },
+    {
+      "id": "art-050",
+      "name": "Kenny Loggins",
+      "genre": "Classic Rock",
+      "decade": "2020s",
+      "bio": "Kenneth Clark Loggins is an American singer, songwriter and guitarist. His early songs were recorded with the Nitty Gritty Dirt Band in 1970, which led to seven albums recorded with Jim Messina as Loggins and Messina from 1972 to 1977. His early soundtrack contributions date back to A Star Is Born in 1976, and he is known as the \"King of the Movie Soundtrack\". As a solo artist, Loggins experienced a string of soundtrack successes, including an Academy Award nomination for \"Footloose\" in 1985. Finally Home was released in 2013, shortly after Loggins formed the group Blue Sky Riders with Gary Burr and Georgia Middleman. He has won two Grammy Awards and a Daytime Emmy Award; and was nominated for an Academy Award, a Tony Award, and a Golden Globe Award.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 21,
+      "totalSkips": 3,
+      "totalHours": 1.3,
+      "avgPlays": 21.0,
+      "completionRate": 87.5,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/81/2f/27/812f27f8-4c88-7b16-8a54-5113fa169781/dj.jvcruggi.jpg/600x600bb.jpg",
+      "songs": [
+        "Danger Zone (From \"Top Gun\" Original Soundtrack)"
+      ],
+      "albums": [
+        "Yesterday, Today, Tomorrow - The Greatest Hits Of Kenny Loggins"
+      ],
+      "songDetails": [
+        {
+          "title": "Danger Zone (From \"Top Gun\" Original Soundtrack)",
+          "album": "Yesterday, Today, Tomorrow - The Greatest Hits Of Kenny Loggins",
+          "genre": "Rock",
+          "year": "1986",
+          "plays": 21,
+          "skips": 3,
+          "durationSec": 215
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Yesterday, Today, Tomorrow - The Greatest Hits Of Kenny Loggins",
+          "plays": 21,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Danger Zone (From \"Top Gun\" Original Soundtrack)",
+              "album": "Yesterday, Today, Tomorrow - The Greatest Hits Of Kenny Loggins",
+              "genre": "Rock",
+              "year": "1986",
+              "plays": 21,
+              "skips": 3,
+              "durationSec": 215
+            }
+          ]
+        }
+      ],
+      "galaxyX": -63.76,
+      "galaxyY": -296.93,
+      "starRadius": 13.0
+    },
+    {
+      "id": "art-051",
+      "name": "The Rolling Stones",
+      "genre": "Classic Rock",
+      "decade": "1960s",
+      "bio": "The Rolling Stones are an English rock band formed in 1962. Active for over six decades, they are one of the most popular, influential, and enduring bands of the rock era. In the early 1960s, the band pioneered the gritty, rhythmically driven sound that came to define hard rock. Their first stable line-up consisted of vocalist Mick Jagger, guitarist Keith Richards, multi-instrumentalist Brian Jones, bassist Bill Wyman, and drummer Charlie Watts, after keyboardist Ian Stewart was side-lined by their manager Andrew Loog Oldham. During their early years, Jones was the primary leader. Oldham encouraged them to write their own songs. The Jagger\u2013Richards partnership soon became the band's primary songwriting and creative force.",
+      "trackCount": 49,
+      "albumCount": 23,
+      "totalPlays": 20,
+      "totalSkips": 8,
+      "totalHours": 3.7,
+      "avgPlays": 0.4,
+      "completionRate": 71.4,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/cac467bef484959b4ad503c4cb7ef83d/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Paint It, Black",
+        "Start Me Up",
+        "(I Can't Get No) Satisfaction",
+        "Beast of Burden",
+        "Gimme Shelter (Remastered 2019)",
+        "Angie",
+        "Anybody Seen My Baby?",
+        "As Tears Go By",
+        "It's Only Rock 'N' Roll (But I Like It)",
+        "Let's Spend the Night Together",
+        "Emotional Rescue",
+        "Get Off of My Cloud",
+        "Almost Hear You Sigh",
+        "Monkey Man (Remastered 2019)",
+        "Harlem Shuffle",
+        "Miss You",
+        "Wild Horses",
+        "Sympathy For The Devil",
+        "Honky Tonk Women",
+        "You Can't Always Get What You Want (Remastered 2019)",
+        "Brown Sugar",
+        "Under My Thumb",
+        "Jumpin' Jack Flash",
+        "Waiting On A Friend",
+        "Ruby Tuesday",
+        "Can't You Hear Me Knocking",
+        "She's a Rainbow",
+        "Sweet Virginia",
+        "She's So Cold",
+        "Dead Flowers",
+        "Love Is Strong",
+        "Fool to Cry",
+        "Doo Doo Doo Doo Doo (Heartbreaker)",
+        "Heaven",
+        "Street Fighting Man",
+        "Play With Fire",
+        "Bitch",
+        "Let It Bleed (Remastered 2019)",
+        "Happy",
+        "Angry",
+        "Mess It Up",
+        "Route 66",
+        "Mother's Little Helper",
+        "Saint Of Me",
+        "Shine A Light",
+        "Far Away Eyes",
+        "Loving Cup",
+        "Rocks Off",
+        "Tumbling Dice"
+      ],
+      "albums": [
+        "Between the Buttons",
+        "Tattoo You (2021 Remaster)",
+        "Let It Bleed (Remastered 2019)",
+        "She's a Rainbow / Dandelion / We Love You - Single",
+        "Aftermath (UK)",
+        "Black and Blue (2009 Remaster)",
+        "December's Children (And Everybody's)",
+        "It's Only Rock 'N' Roll (2009 Remaster)",
+        "Forty Licks",
+        "Exile On Main Street (2010 Remaster)",
+        "Emotional Rescue (2009 Remaster)",
+        "Hackney Diamonds",
+        "Sticky Fingers (2015 Remaster)",
+        "Dirty Work (2009 Remaster)",
+        "Beggars Banquet (2018 Remaster)",
+        "The Rolling Stones (UK)",
+        "Some Girls (Deluxe Edition with Bonus Video) [2011 Remaster]",
+        "Out of Our Heads",
+        "Voodoo Lounge (2009 Remaster)",
+        "Aftermath (US Version)",
+        "Bridges To Babylon (2009 Remaster)",
+        "Goats Head Soup (2009 Remaster)",
+        "Steel Wheels (2009 Remaster)"
+      ],
+      "songDetails": [
+        {
+          "title": "Paint It, Black",
+          "album": "Aftermath (US Version)",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 6,
+          "skips": 0,
+          "durationSec": 202
+        },
+        {
+          "title": "Start Me Up",
+          "album": "Tattoo You (2021 Remaster)",
+          "genre": "Rock",
+          "year": "1981",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 214
+        },
+        {
+          "title": "(I Can't Get No) Satisfaction",
+          "album": "Out of Our Heads",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 223
+        },
+        {
+          "title": "Beast of Burden",
+          "album": "Some Girls (Deluxe Edition with Bonus Video) [2011 Remaster]",
+          "genre": "Rock",
+          "year": "1978",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 265
+        },
+        {
+          "title": "Gimme Shelter (Remastered 2019)",
+          "album": "Let It Bleed (Remastered 2019)",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 271
+        },
+        {
+          "title": "Angie",
+          "album": "Goats Head Soup (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 272
+        },
+        {
+          "title": "Anybody Seen My Baby?",
+          "album": "Bridges To Babylon (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1997",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 271
+        },
+        {
+          "title": "As Tears Go By",
+          "album": "December's Children (And Everybody's)",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 166
+        },
+        {
+          "title": "It's Only Rock 'N' Roll (But I Like It)",
+          "album": "It's Only Rock 'N' Roll (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1974",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 307
+        },
+        {
+          "title": "Let's Spend the Night Together",
+          "album": "Between the Buttons",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 217
+        },
+        {
+          "title": "Emotional Rescue",
+          "album": "Emotional Rescue (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1980",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 339
+        },
+        {
+          "title": "Get Off of My Cloud",
+          "album": "December's Children (And Everybody's)",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 176
+        },
+        {
+          "title": "Almost Hear You Sigh",
+          "album": "Steel Wheels (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1989",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 277
+        },
+        {
+          "title": "Monkey Man (Remastered 2019)",
+          "album": "Let It Bleed (Remastered 2019)",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 252
+        },
+        {
+          "title": "Harlem Shuffle",
+          "album": "Dirty Work (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1986",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 206
+        },
+        {
+          "title": "Miss You",
+          "album": "Some Girls (Deluxe Edition with Bonus Video) [2011 Remaster]",
+          "genre": "Rock",
+          "year": "1978",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 289
+        },
+        {
+          "title": "Wild Horses",
+          "album": "Sticky Fingers (2015 Remaster)",
+          "genre": "Rock",
+          "year": "1971",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 344
+        },
+        {
+          "title": "Sympathy For The Devil",
+          "album": "Beggars Banquet (2018 Remaster)",
+          "genre": "Rock",
+          "year": "1968",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 378
+        },
+        {
+          "title": "Honky Tonk Women",
+          "album": "Forty Licks",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 181
+        },
+        {
+          "title": "You Can't Always Get What You Want (Remastered 2019)",
+          "album": "Let It Bleed (Remastered 2019)",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 448
+        },
+        {
+          "title": "Brown Sugar",
+          "album": "Sticky Fingers (2015 Remaster)",
+          "genre": "Rock",
+          "year": "1971",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 229
+        },
+        {
+          "title": "Under My Thumb",
+          "album": "Aftermath (US Version)",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 222
+        },
+        {
+          "title": "Jumpin' Jack Flash",
+          "album": "Forty Licks",
+          "genre": "Rock",
+          "year": "1968",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 223
+        },
+        {
+          "title": "Waiting On A Friend",
+          "album": "Tattoo You (2021 Remaster)",
+          "genre": "Rock",
+          "year": "1981",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 276
+        },
+        {
+          "title": "Ruby Tuesday",
+          "album": "Between the Buttons",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 196
+        },
+        {
+          "title": "Can't You Hear Me Knocking",
+          "album": "Sticky Fingers (2015 Remaster)",
+          "genre": "Rock",
+          "year": "1971",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 436
+        },
+        {
+          "title": "She's a Rainbow",
+          "album": "She's a Rainbow / Dandelion / We Love You - Single",
+          "genre": "Rock",
+          "year": "1967",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 254
+        },
+        {
+          "title": "Sweet Virginia",
+          "album": "Exile On Main Street (2010 Remaster)",
+          "genre": "Rock",
+          "year": "1972",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 266
+        },
+        {
+          "title": "She's So Cold",
+          "album": "Emotional Rescue (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1980",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 254
+        },
+        {
+          "title": "Dead Flowers",
+          "album": "Sticky Fingers (2015 Remaster)",
+          "genre": "Rock",
+          "year": "1971",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 245
+        },
+        {
+          "title": "Love Is Strong",
+          "album": "Voodoo Lounge (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1994",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 230
+        },
+        {
+          "title": "Fool to Cry",
+          "album": "Black and Blue (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1976",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 306
+        },
+        {
+          "title": "Doo Doo Doo Doo Doo (Heartbreaker)",
+          "album": "Goats Head Soup (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 207
+        },
+        {
+          "title": "Heaven",
+          "album": "Tattoo You (2021 Remaster)",
+          "genre": "Rock",
+          "year": "1981",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 263
+        },
+        {
+          "title": "Street Fighting Man",
+          "album": "Beggars Banquet (2018 Remaster)",
+          "genre": "Pop",
+          "year": "1968",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 196
+        },
+        {
+          "title": "Play With Fire",
+          "album": "Out of Our Heads",
+          "genre": "Rock",
+          "year": "1965",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 135
+        },
+        {
+          "title": "Bitch",
+          "album": "Sticky Fingers (2015 Remaster)",
+          "genre": "Rock",
+          "year": "1971",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 218
+        },
+        {
+          "title": "Let It Bleed (Remastered 2019)",
+          "album": "Let It Bleed (Remastered 2019)",
+          "genre": "Rock",
+          "year": "1969",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 328
+        },
+        {
+          "title": "Happy",
+          "album": "Exile On Main Street (2010 Remaster)",
+          "genre": "Rock",
+          "year": "1972",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 185
+        },
+        {
+          "title": "Angry",
+          "album": "Hackney Diamonds",
+          "genre": "Rock",
+          "year": "2023",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 227
+        },
+        {
+          "title": "Mess It Up",
+          "album": "Hackney Diamonds",
+          "genre": "Rock",
+          "year": "2023",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 244
+        },
+        {
+          "title": "Route 66",
+          "album": "The Rolling Stones (UK)",
+          "genre": "Rock",
+          "year": "1964",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 142
+        },
+        {
+          "title": "Mother's Little Helper",
+          "album": "Aftermath (UK)",
+          "genre": "Rock",
+          "year": "1966",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 165
+        },
+        {
+          "title": "Saint Of Me",
+          "album": "Bridges To Babylon (2009 Remaster)",
+          "genre": "Rock",
+          "year": "1997",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 315
+        },
+        {
+          "title": "Shine A Light",
+          "album": "Exile On Main Street (2010 Remaster)",
+          "genre": "Rock",
+          "year": "1972",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 257
+        },
+        {
+          "title": "Far Away Eyes",
+          "album": "Some Girls (Deluxe Edition with Bonus Video) [2011 Remaster]",
+          "genre": "Rock",
+          "year": "1978",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 264
+        },
+        {
+          "title": "Loving Cup",
+          "album": "Exile On Main Street (2010 Remaster)",
+          "genre": "Rock",
+          "year": "1972",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 266
+        },
+        {
+          "title": "Rocks Off",
+          "album": "Exile On Main Street (2010 Remaster)",
+          "genre": "Rock",
+          "year": "1972",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 273
+        },
+        {
+          "title": "Tumbling Dice",
+          "album": "Exile On Main Street (2010 Remaster)",
+          "genre": "Rock",
+          "year": "1972",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 227
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Aftermath (US Version)",
+          "plays": 6,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Paint It, Black",
+              "album": "Aftermath (US Version)",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 6,
+              "skips": 0,
+              "durationSec": 202
+            },
+            {
+              "title": "Under My Thumb",
+              "album": "Aftermath (US Version)",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 222
+            }
+          ]
+        },
+        {
+          "name": "Let It Bleed (Remastered 2019)",
+          "plays": 2,
+          "trackCount": 4,
+          "songs": [
+            {
+              "title": "Gimme Shelter (Remastered 2019)",
+              "album": "Let It Bleed (Remastered 2019)",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 271
+            },
+            {
+              "title": "Monkey Man (Remastered 2019)",
+              "album": "Let It Bleed (Remastered 2019)",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 252
+            },
+            {
+              "title": "You Can't Always Get What You Want (Remastered 2019)",
+              "album": "Let It Bleed (Remastered 2019)",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 448
+            },
+            {
+              "title": "Let It Bleed (Remastered 2019)",
+              "album": "Let It Bleed (Remastered 2019)",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 328
+            }
+          ]
+        },
+        {
+          "name": "December's Children (And Everybody's)",
+          "plays": 2,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "As Tears Go By",
+              "album": "December's Children (And Everybody's)",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 166
+            },
+            {
+              "title": "Get Off of My Cloud",
+              "album": "December's Children (And Everybody's)",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 176
+            }
+          ]
+        },
+        {
+          "name": "Tattoo You (2021 Remaster)",
+          "plays": 1,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Start Me Up",
+              "album": "Tattoo You (2021 Remaster)",
+              "genre": "Rock",
+              "year": "1981",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 214
+            },
+            {
+              "title": "Waiting On A Friend",
+              "album": "Tattoo You (2021 Remaster)",
+              "genre": "Rock",
+              "year": "1981",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 276
+            },
+            {
+              "title": "Heaven",
+              "album": "Tattoo You (2021 Remaster)",
+              "genre": "Rock",
+              "year": "1981",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 263
+            }
+          ]
+        },
+        {
+          "name": "Out of Our Heads",
+          "plays": 1,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "(I Can't Get No) Satisfaction",
+              "album": "Out of Our Heads",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 223
+            },
+            {
+              "title": "Play With Fire",
+              "album": "Out of Our Heads",
+              "genre": "Rock",
+              "year": "1965",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 135
+            }
+          ]
+        },
+        {
+          "name": "Some Girls (Deluxe Edition with Bonus Video) [2011 Remaster]",
+          "plays": 1,
+          "trackCount": 3,
+          "songs": [
+            {
+              "title": "Beast of Burden",
+              "album": "Some Girls (Deluxe Edition with Bonus Video) [2011 Remaster]",
+              "genre": "Rock",
+              "year": "1978",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 265
+            },
+            {
+              "title": "Miss You",
+              "album": "Some Girls (Deluxe Edition with Bonus Video) [2011 Remaster]",
+              "genre": "Rock",
+              "year": "1978",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 289
+            },
+            {
+              "title": "Far Away Eyes",
+              "album": "Some Girls (Deluxe Edition with Bonus Video) [2011 Remaster]",
+              "genre": "Rock",
+              "year": "1978",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 264
+            }
+          ]
+        },
+        {
+          "name": "Goats Head Soup (2009 Remaster)",
+          "plays": 1,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Angie",
+              "album": "Goats Head Soup (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 272
+            },
+            {
+              "title": "Doo Doo Doo Doo Doo (Heartbreaker)",
+              "album": "Goats Head Soup (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 207
+            }
+          ]
+        },
+        {
+          "name": "Bridges To Babylon (2009 Remaster)",
+          "plays": 1,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Anybody Seen My Baby?",
+              "album": "Bridges To Babylon (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1997",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 271
+            },
+            {
+              "title": "Saint Of Me",
+              "album": "Bridges To Babylon (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1997",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 315
+            }
+          ]
+        },
+        {
+          "name": "It's Only Rock 'N' Roll (2009 Remaster)",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "It's Only Rock 'N' Roll (But I Like It)",
+              "album": "It's Only Rock 'N' Roll (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1974",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 307
+            }
+          ]
+        },
+        {
+          "name": "Between the Buttons",
+          "plays": 1,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Let's Spend the Night Together",
+              "album": "Between the Buttons",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 217
+            },
+            {
+              "title": "Ruby Tuesday",
+              "album": "Between the Buttons",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 196
+            }
+          ]
+        },
+        {
+          "name": "Emotional Rescue (2009 Remaster)",
+          "plays": 1,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Emotional Rescue",
+              "album": "Emotional Rescue (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1980",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 339
+            },
+            {
+              "title": "She's So Cold",
+              "album": "Emotional Rescue (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1980",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 254
+            }
+          ]
+        },
+        {
+          "name": "Steel Wheels (2009 Remaster)",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Almost Hear You Sigh",
+              "album": "Steel Wheels (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1989",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 277
+            }
+          ]
+        },
+        {
+          "name": "Dirty Work (2009 Remaster)",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Harlem Shuffle",
+              "album": "Dirty Work (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1986",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 206
+            }
+          ]
+        },
+        {
+          "name": "Sticky Fingers (2015 Remaster)",
+          "plays": 0,
+          "trackCount": 5,
+          "songs": [
+            {
+              "title": "Wild Horses",
+              "album": "Sticky Fingers (2015 Remaster)",
+              "genre": "Rock",
+              "year": "1971",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 344
+            },
+            {
+              "title": "Brown Sugar",
+              "album": "Sticky Fingers (2015 Remaster)",
+              "genre": "Rock",
+              "year": "1971",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 229
+            },
+            {
+              "title": "Can't You Hear Me Knocking",
+              "album": "Sticky Fingers (2015 Remaster)",
+              "genre": "Rock",
+              "year": "1971",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 436
+            },
+            {
+              "title": "Dead Flowers",
+              "album": "Sticky Fingers (2015 Remaster)",
+              "genre": "Rock",
+              "year": "1971",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 245
+            },
+            {
+              "title": "Bitch",
+              "album": "Sticky Fingers (2015 Remaster)",
+              "genre": "Rock",
+              "year": "1971",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 218
+            }
+          ]
+        },
+        {
+          "name": "Beggars Banquet (2018 Remaster)",
+          "plays": 0,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Sympathy For The Devil",
+              "album": "Beggars Banquet (2018 Remaster)",
+              "genre": "Rock",
+              "year": "1968",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 378
+            },
+            {
+              "title": "Street Fighting Man",
+              "album": "Beggars Banquet (2018 Remaster)",
+              "genre": "Pop",
+              "year": "1968",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 196
+            }
+          ]
+        },
+        {
+          "name": "Forty Licks",
+          "plays": 0,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Honky Tonk Women",
+              "album": "Forty Licks",
+              "genre": "Rock",
+              "year": "1969",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 181
+            },
+            {
+              "title": "Jumpin' Jack Flash",
+              "album": "Forty Licks",
+              "genre": "Rock",
+              "year": "1968",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 223
+            }
+          ]
+        },
+        {
+          "name": "She's a Rainbow / Dandelion / We Love You - Single",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "She's a Rainbow",
+              "album": "She's a Rainbow / Dandelion / We Love You - Single",
+              "genre": "Rock",
+              "year": "1967",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 254
+            }
+          ]
+        },
+        {
+          "name": "Exile On Main Street (2010 Remaster)",
+          "plays": 0,
+          "trackCount": 6,
+          "songs": [
+            {
+              "title": "Sweet Virginia",
+              "album": "Exile On Main Street (2010 Remaster)",
+              "genre": "Rock",
+              "year": "1972",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 266
+            },
+            {
+              "title": "Happy",
+              "album": "Exile On Main Street (2010 Remaster)",
+              "genre": "Rock",
+              "year": "1972",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 185
+            },
+            {
+              "title": "Shine A Light",
+              "album": "Exile On Main Street (2010 Remaster)",
+              "genre": "Rock",
+              "year": "1972",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 257
+            },
+            {
+              "title": "Loving Cup",
+              "album": "Exile On Main Street (2010 Remaster)",
+              "genre": "Rock",
+              "year": "1972",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 266
+            },
+            {
+              "title": "Rocks Off",
+              "album": "Exile On Main Street (2010 Remaster)",
+              "genre": "Rock",
+              "year": "1972",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 273
+            },
+            {
+              "title": "Tumbling Dice",
+              "album": "Exile On Main Street (2010 Remaster)",
+              "genre": "Rock",
+              "year": "1972",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 227
+            }
+          ]
+        },
+        {
+          "name": "Voodoo Lounge (2009 Remaster)",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Love Is Strong",
+              "album": "Voodoo Lounge (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1994",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 230
+            }
+          ]
+        },
+        {
+          "name": "Black and Blue (2009 Remaster)",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Fool to Cry",
+              "album": "Black and Blue (2009 Remaster)",
+              "genre": "Rock",
+              "year": "1976",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 306
+            }
+          ]
+        },
+        {
+          "name": "Hackney Diamonds",
+          "plays": 0,
+          "trackCount": 2,
+          "songs": [
+            {
+              "title": "Angry",
+              "album": "Hackney Diamonds",
+              "genre": "Rock",
+              "year": "2023",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 227
+            },
+            {
+              "title": "Mess It Up",
+              "album": "Hackney Diamonds",
+              "genre": "Rock",
+              "year": "2023",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 244
+            }
+          ]
+        },
+        {
+          "name": "The Rolling Stones (UK)",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Route 66",
+              "album": "The Rolling Stones (UK)",
+              "genre": "Rock",
+              "year": "1964",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 142
+            }
+          ]
+        },
+        {
+          "name": "Aftermath (UK)",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Mother's Little Helper",
+              "album": "Aftermath (UK)",
+              "genre": "Rock",
+              "year": "1966",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 165
+            }
+          ]
+        }
+      ],
+      "galaxyX": 249.77,
+      "galaxyY": 177.43,
+      "starRadius": 12.9
+    },
+    {
+      "id": "art-052",
+      "name": "Jung Jae Il",
+      "genre": "Cinematic / OST",
+      "decade": "2020s",
+      "bio": "Jung Jae-il is a South Korean composer known for writing the scores of the 2019 Academy Award-winning film Parasite and the Netflix television series Squid Game, which earned him a nomination for Outstanding Original Main Title Theme Music at the 74th Primetime Creative Arts Emmy Awards.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 20,
+      "totalSkips": 4,
+      "totalHours": 1.6,
+      "avgPlays": 20.0,
+      "completionRate": 83.3,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/58/6d/25586dab-baf6-0b0b-fe61-9f782c7a78f0/810123165483.png/600x600bb.jpg",
+      "songs": [
+        "Jung - Bae Ya!"
+      ],
+      "albums": [
+        "Squid Game 2 (Soundtrack from the Netflix Series)"
+      ],
+      "songDetails": [
+        {
+          "title": "Jung - Bae Ya!",
+          "album": "Squid Game 2 (Soundtrack from the Netflix Series)",
+          "genre": "Soundtrack",
+          "year": "2024",
+          "plays": 20,
+          "skips": 4,
+          "durationSec": 292
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Squid Game 2 (Soundtrack from the Netflix Series)",
+          "plays": 20,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Jung - Bae Ya!",
+              "album": "Squid Game 2 (Soundtrack from the Netflix Series)",
+              "genre": "Soundtrack",
+              "year": "2024",
+              "plays": 20,
+              "skips": 4,
+              "durationSec": 292
+            }
+          ]
+        }
+      ],
+      "galaxyX": -306.65,
+      "galaxyY": 38.22,
+      "starRadius": 12.9
+    },
+    {
+      "id": "art-053",
+      "name": "Linkin Park & Jay-Z",
+      "genre": "Nu-Metal / Alt Rock",
+      "decade": "2000s",
+      "bio": "Linkin Park is an American rock band formed in Agoura Hills, California, in 1996. The band's current lineup consists of vocalist/rhythm guitarist/keyboardist Mike Shinoda, lead guitarist Brad Delson, DJ/turntablist Joe Hahn, bassist Dave Farrell, vocalist Emily Armstrong, and drummer Colin Brittain. The lineup for the band's first seven studio albums included lead vocalist Chester Bennington and drummer Rob Bourdon; after Bennington's suicide in July 2017, the band endured a seven-year hiatus, during which Bourdon chose to depart from the band. In September 2024, Linkin Park's reformation was announced along with the addition of Armstrong and Brittain.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 19,
+      "totalSkips": 7,
+      "totalHours": 1.1,
+      "avgPlays": 19.0,
+      "completionRate": 73.1,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/8c/b2/85/8cb28589-a74d-1961-894c-6d7662ee90da/mzi.eaqqjnzg.jpg/600x600bb.jpg",
+      "songs": [
+        "Numb / Encore"
+      ],
+      "albums": [
+        "MTV Ultimate Mash-Ups Presents: Collision Course - Numb / Encore - EP"
+      ],
+      "songDetails": [
+        {
+          "title": "Numb / Encore",
+          "album": "MTV Ultimate Mash-Ups Presents: Collision Course - Numb / Encore - EP",
+          "genre": "Hard Rock",
+          "year": "2004",
+          "plays": 19,
+          "skips": 7,
+          "durationSec": 206
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "MTV Ultimate Mash-Ups Presents: Collision Course - Numb / Encore - EP",
+          "plays": 19,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Numb / Encore",
+              "album": "MTV Ultimate Mash-Ups Presents: Collision Course - Numb / Encore - EP",
+              "genre": "Hard Rock",
+              "year": "2004",
+              "plays": 19,
+              "skips": 7,
+              "durationSec": 206
+            }
+          ]
+        }
+      ],
+      "galaxyX": 202.0,
+      "galaxyY": -237.32,
+      "starRadius": 12.7
+    },
+    {
+      "id": "art-054",
+      "name": "Papa Roach",
+      "genre": "Nu-Metal / Alt Rock",
+      "decade": "2000s",
+      "bio": "Papa Roach is an American rock band from Vacaville, California, formed in 1993. After a few early shifts, the band initially stabilized in 1996 with the lineup of lead vocalist Jacoby Shaddix, drummer Dave Buckner, guitarist Jerry Horton, and bassist Tobin Esperance. This lineup remained consistent for slightly over a decade.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 19,
+      "totalSkips": 5,
+      "totalHours": 1.1,
+      "avgPlays": 19.0,
+      "completionRate": 79.2,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/0552943ebc46bc507c72bcc2135b68b8/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Last Resort"
+      ],
+      "albums": [
+        "Infest"
+      ],
+      "songDetails": [
+        {
+          "title": "Last Resort",
+          "album": "Infest",
+          "genre": "Hard Rock",
+          "year": "2000",
+          "plays": 19,
+          "skips": 5,
+          "durationSec": 200
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Infest",
+          "plays": 19,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Last Resort",
+              "album": "Infest",
+              "genre": "Hard Rock",
+              "year": "2000",
+              "plays": 19,
+              "skips": 5,
+              "durationSec": 200
+            }
+          ]
+        }
+      ],
+      "galaxyX": 11.45,
+      "galaxyY": 314.03,
+      "starRadius": 12.7
+    },
+    {
+      "id": "art-055",
+      "name": "Michael Jackson & Mark Ronson",
+      "genre": "80s/90s Pop",
+      "decade": "2010s",
+      "bio": "Michael Joseph Jackson was an American singer, songwriter, dancer, and philanthropist. Dubbed the \"King of Pop\", he is widely regarded as one of the most culturally significant figures of the 20th century. His musical achievements broke American racial barriers and made him a dominant figure worldwide. Through his songs, music videos, concerts, and fashion, he transformed visual performance in popular music, popularizing street dance moves such as the moonwalk, the robot, and the anti-gravity lean. Jackson is often deemed the greatest entertainer of all time.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 18,
+      "totalSkips": 7,
+      "totalHours": 1.5,
+      "avgPlays": 18.0,
+      "completionRate": 72.0,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/37/81/71/37817158-6cd8-61cd-b7d8-ec09a9c520cf/886447287187.jpg/600x600bb.jpg",
+      "songs": [
+        "Michael Jackson x Mark Ronson: Diamonds are Invincible"
+      ],
+      "albums": [
+        "Michael Jackson x Mark Ronson: Diamonds are Invincible - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Michael Jackson x Mark Ronson: Diamonds are Invincible",
+          "album": "Michael Jackson x Mark Ronson: Diamonds are Invincible - Single",
+          "genre": "Pop",
+          "year": "2018",
+          "plays": 18,
+          "skips": 7,
+          "durationSec": 300
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Michael Jackson x Mark Ronson: Diamonds are Invincible - Single",
+          "plays": 18,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Michael Jackson x Mark Ronson: Diamonds are Invincible",
+              "album": "Michael Jackson x Mark Ronson: Diamonds are Invincible - Single",
+              "genre": "Pop",
+              "year": "2018",
+              "plays": 18,
+              "skips": 7,
+              "durationSec": 300
+            }
+          ]
+        }
+      ],
+      "galaxyX": -222.38,
+      "galaxyY": -225.66,
+      "starRadius": 12.5
+    },
+    {
+      "id": "art-056",
+      "name": "Dimension Anime",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Super Dimension Fortress Macross is a Japanese science fiction anime television series produced by Tatsunoko Production. It is the first part of the Super Dimension trilogy and the Macross franchise. The series aired in Japan from October 1982 to June 1983. According to Sh\u014dji Kawamori, it depicts \"a love triangle against the backdrop of great battles\" during the first human-alien war.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 18,
+      "totalSkips": 11,
+      "totalHours": 0.3,
+      "avgPlays": 18.0,
+      "completionRate": 62.1,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f3/58/9e/f3589ed5-5e90-381f-013a-1e048284a76b/artwork.jpg/600x600bb.jpg",
+      "songs": [
+        "Beyblade (Opening  Let's Beyblade)"
+      ],
+      "albums": [
+        "Classic Legends / Openings"
+      ],
+      "songDetails": [
+        {
+          "title": "Beyblade (Opening  Let's Beyblade)",
+          "album": "Classic Legends / Openings",
+          "genre": "Alternative",
+          "year": "2023",
+          "plays": 18,
+          "skips": 11,
+          "durationSec": 65
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Classic Legends / Openings",
+          "plays": 18,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Beyblade (Opening  Let's Beyblade)",
+              "album": "Classic Legends / Openings",
+              "genre": "Alternative",
+              "year": "2023",
+              "plays": 18,
+              "skips": 11,
+              "durationSec": 65
+            }
+          ]
+        }
+      ],
+      "galaxyX": 318.95,
+      "galaxyY": 16.31,
+      "starRadius": 12.5
+    },
+    {
+      "id": "art-057",
+      "name": "Akon",
+      "genre": "Smooth Soul / R&B",
+      "decade": "2000s",
+      "bio": "Aliaune Damala Bouga Time Puru Nacka Lu Lu Lu Badara Akon Thiam, known professionally as Akon, is a Senegalese-American singer, songwriter, record producer, businessman, and philanthropist. An influential figure in world music, he rose to prominence in 2004 following the release of his single \"Locked Up\". Styled in hip-hop, it preceded the release of his debut studio album Trouble (2004), which became his commercial breakthrough and spawned the R&B-styled follow-up, \"Lonely\", the following year.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 17,
+      "totalSkips": 7,
+      "totalHours": 1.0,
+      "avgPlays": 17.0,
+      "completionRate": 70.8,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/d7/c3/9e/d7c39e5c-1284-8c22-8ea5-ca259bcfc525/08UMGIM26305.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Smack That (feat. Eminem)"
+      ],
+      "albums": [
+        "Konvicted"
+      ],
+      "songDetails": [
+        {
+          "title": "Smack That (feat. Eminem)",
+          "album": "Konvicted",
+          "genre": "R&B/Soul",
+          "year": "2006",
+          "plays": 17,
+          "skips": 7,
+          "durationSec": 212
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Konvicted",
+          "plays": 17,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Smack That (feat. Eminem)",
+              "album": "Konvicted",
+              "genre": "R&B/Soul",
+              "year": "2006",
+              "plays": 17,
+              "skips": 7,
+              "durationSec": 212
+            }
+          ]
+        }
+      ],
+      "galaxyX": -248.15,
+      "galaxyY": 205.03,
+      "starRadius": 12.4
+    },
+    {
+      "id": "art-058",
+      "name": "She & Him",
+      "genre": "Classic Rock",
+      "decade": "2000s",
+      "bio": "She & Him is an American musical duo consisting of Zooey Deschanel and M. Ward. It was formed in 2008 in Portland, Oregon. Their first album, Volume One, was released on the independent label Merge Records on March 18, 2008. They are commonly associated with the indie-folk resurgence of the mid-2000s, which music critic and professor Eric Harvey described in Stereogum as \"childlike, whimsical, earnest, acoustic Starbucks-friendly music like Feist, the Decemberists, Regina Spektor, and Jose Gonzalez.\"",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 17,
+      "totalSkips": 0,
+      "totalHours": 0.8,
+      "avgPlays": 17.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/461cf39d4e30a856b77462b2f16e28b8/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "I Thought I Saw Your Face Today"
+      ],
+      "albums": [
+        "Volume One"
+      ],
+      "songDetails": [
+        {
+          "title": "I Thought I Saw Your Face Today",
+          "album": "Volume One",
+          "genre": "Rock",
+          "year": "2008",
+          "plays": 17,
+          "skips": 0,
+          "durationSec": 170
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Volume One",
+          "plays": 17,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "I Thought I Saw Your Face Today",
+              "album": "Volume One",
+              "genre": "Rock",
+              "year": "2008",
+              "plays": 17,
+              "skips": 0,
+              "durationSec": 170
+            }
+          ]
+        }
+      ],
+      "galaxyX": 44.83,
+      "galaxyY": -321.29,
+      "starRadius": 12.4
+    },
+    {
+      "id": "art-059",
+      "name": "Sub Urban",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "A suburb is an area within a metropolitan area which is predominantly residential and within commuting distance of a large city. Suburbs can have their own political or legal jurisdictions, especially in the United States, but this is not always the case, especially in the United Kingdom, where most suburbs are located within the administrative boundaries of cities. In most English-speaking countries, suburban areas are defined in contrast to central city or inner city areas, but in Australian English and South African English, suburb has become largely synonymous with what is called a \"neighborhood\" in the U.S. Due in part to historical trends such as white flight, some suburbs in the United States have a higher population and higher incomes than their nearby inner cities.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 16,
+      "totalSkips": 4,
+      "totalHours": 0.9,
+      "avgPlays": 16.0,
+      "completionRate": 80.0,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/7b/bd/88/7bbd8845-ace6-cbba-1925-834b3e1b47ac/8721465222470.png/600x600bb.jpg",
+      "songs": [
+        "Cradles"
+      ],
+      "albums": [
+        "Cradles - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Cradles",
+          "album": "Cradles - Single",
+          "genre": "Alternative",
+          "year": "2019",
+          "plays": 16,
+          "skips": 4,
+          "durationSec": 210
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Cradles - Single",
+          "plays": 16,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Cradles",
+              "album": "Cradles - Single",
+              "genre": "Alternative",
+              "year": "2019",
+              "plays": 16,
+              "skips": 4,
+              "durationSec": 210
+            }
+          ]
+        }
+      ],
+      "galaxyX": 185.38,
+      "galaxyY": 269.23,
+      "starRadius": 12.2
+    },
+    {
+      "id": "art-060",
+      "name": "Lynyrd Skynyrd",
+      "genre": "Classic Rock",
+      "decade": "1970s",
+      "bio": "Lynyrd Skynyrd is an American rock band formed in Jacksonville, Florida, in 1964. The group originally formed as My Backyard and comprised Ronnie Van Zant (vocals), Gary Rossington (guitar), Allen Collins (guitar), Larry Junstrom (bass), and Bob Burns (drums). The band spent four years touring small venues under various names and with several lineup changes before deciding on \"Lynyrd Skynyrd\" in 1968. The band released its first album, (Pronounced 'L\u0115h-'n\u00e9rd 'Skin-'n\u00e9rd), in 1973. By then, they had settled on a lineup that included bassist Leon Wilkeson, keyboardist Billy Powell, and guitarist Ed King. Burns left and was replaced by Artimus Pyle in 1974. King left in 1975 and was replaced by Steve Gaines in 1976. At the height of their fame in the 1970s, the band popularized the Southern rock genre with songs such as \"Sweet Home Alabama\" and \"Free Bird\". After releasing five studio albums and one live album, the band's career was abruptly halted on October 20, 1977, when their chartered airplane crashed, killing Ronnie Van Zant, Steve Gaines, and backup singer Cassie Gaines, and seriously injuring the rest of the band.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 16,
+      "totalSkips": 0,
+      "totalHours": 2.5,
+      "avgPlays": 16.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/d5dfdbe7783133afa602a591bbe6c4e3/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Free Bird"
+      ],
+      "albums": [
+        "Pronounced' Leh-'Nerd 'Skin-'Nerd"
+      ],
+      "songDetails": [
+        {
+          "title": "Free Bird",
+          "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 16,
+          "skips": 0,
+          "durationSec": 553
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+          "plays": 16,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Free Bird",
+              "album": "Pronounced' Leh-'Nerd 'Skin-'Nerd",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 16,
+              "skips": 0,
+              "durationSec": 553
+            }
+          ]
+        }
+      ],
+      "galaxyX": -320.96,
+      "galaxyY": -73.85,
+      "starRadius": 12.2
+    },
+    {
+      "id": "art-061",
+      "name": "Nicholas Britell",
+      "genre": "Cinematic / OST",
+      "decade": "2010s",
+      "bio": "Nicholas Britell is an American film and television composer. He has received numerous accolades including an Emmy Award as well as nominations for three Academy Awards and a Grammy Award. He has received Academy Award nominations for Best Original Score for Moonlight (2016), If Beale Street Could Talk (2018), and Don't Look Up (2021). He also scored The Big Short (2015) and Vice (2018). He is also known for scoring Battle of the Sexes (2017), The King (2019), Cruella (2021), season 1 of Andor (2022), She Said (2022), and Jay Kelly (2025).",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 15,
+      "totalSkips": 4,
+      "totalHours": 0.4,
+      "avgPlays": 15.0,
+      "completionRate": 78.9,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/85/10/d9/8510d9fb-b003-b310-859f-6b7e68d0cc5a/780163532326.jpg/600x600bb.jpg",
+      "songs": [
+        "Succession (Main Title Theme)"
+      ],
+      "albums": [
+        "Succession: Season 1 (HBO Original Series Soundtrack)"
+      ],
+      "songDetails": [
+        {
+          "title": "Succession (Main Title Theme)",
+          "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
+          "genre": "Soundtrack",
+          "year": "2018",
+          "plays": 15,
+          "skips": 4,
+          "durationSec": 102
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Succession: Season 1 (HBO Original Series Soundtrack)",
+          "plays": 15,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Succession (Main Title Theme)",
+              "album": "Succession: Season 1 (HBO Original Series Soundtrack)",
+              "genre": "Soundtrack",
+              "year": "2018",
+              "plays": 15,
+              "skips": 4,
+              "durationSec": 102
+            }
+          ]
+        }
+      ],
+      "galaxyX": 288.68,
+      "galaxyY": -163.55,
+      "starRadius": 12.0
+    },
+    {
+      "id": "art-062",
+      "name": "Bruno Mars",
+      "genre": "Smooth Soul / R&B",
+      "decade": "2010s",
+      "bio": "Peter Gene Hernandez, known professionally as Bruno Mars, is an American singer-songwriter, record producer and dancer. Regarded as a pop icon, he is known for his three-octave tenor vocal range, live performances, retro showmanship, and musical versatility. He is accompanied by his band, the Hooligans. Raised in Honolulu, Mars gained recognition in Hawaii as a child for his impersonation of Elvis Presley, before moving to Los Angeles in 2003 to pursue a musical career.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 15,
+      "totalSkips": 7,
+      "totalHours": 0.9,
+      "avgPlays": 15.0,
+      "completionRate": 68.2,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ed/46/bf/ed46bf4e-7cb9-965a-54f3-03059977fe6c/075679589293.jpg/600x600bb.jpg",
+      "songs": [
+        "Talking to the Moon"
+      ],
+      "albums": [
+        "Doo-Wops & Hooligans (Deluxe)"
+      ],
+      "songDetails": [
+        {
+          "title": "Talking to the Moon",
+          "album": "Doo-Wops & Hooligans (Deluxe)",
+          "genre": "Pop",
+          "year": "2010",
+          "plays": 15,
+          "skips": 7,
+          "durationSec": 218
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Doo-Wops & Hooligans (Deluxe)",
+          "plays": 15,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Talking to the Moon",
+              "album": "Doo-Wops & Hooligans (Deluxe)",
+              "genre": "Pop",
+              "year": "2010",
+              "plays": 15,
+              "skips": 7,
+              "durationSec": 218
+            }
+          ]
+        }
+      ],
+      "galaxyX": -103.13,
+      "galaxyY": 317.9,
+      "starRadius": 12.0
+    },
+    {
+      "id": "art-063",
+      "name": "Gorillaz & De La Soul",
+      "genre": "Modern Pop / Chart",
+      "decade": "2000s",
+      "bio": "Gorillaz are an English virtual band formed in 1998 by the musician Damon Albarn and the artist Jamie Hewlett. The band primarily consists of four fictional members: 2-D, Murdoc Niccals, Noodle and Russel Hobbs (drums). Their universe is presented in media such as music videos, interviews, comic strips and short cartoons. Gorillaz's music has featured collaborations with a wide range of musicians and featured artists, with Albarn as the only permanent musical contributor.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 15,
+      "totalSkips": 5,
+      "totalHours": 0.9,
+      "avgPlays": 15.0,
+      "completionRate": 75.0,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/b8/f9/b9/b8f9b9f8-a609-bde2-0302-349436ffc508/825646291038.jpg/600x600bb.jpg",
+      "songs": [
+        "Feel Good Inc. (feat. David Jolicoeur, Kelvin Mercer & Vincent Mason)"
+      ],
+      "albums": [
+        "Demon Days"
+      ],
+      "songDetails": [
+        {
+          "title": "Feel Good Inc. (feat. David Jolicoeur, Kelvin Mercer & Vincent Mason)",
+          "album": "Demon Days",
+          "genre": "Alternative",
+          "year": "2005",
+          "plays": 15,
+          "skips": 5,
+          "durationSec": 221
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Demon Days",
+          "plays": 15,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Feel Good Inc. (feat. David Jolicoeur, Kelvin Mercer & Vincent Mason)",
+              "album": "Demon Days",
+              "genre": "Alternative",
+              "year": "2005",
+              "plays": 15,
+              "skips": 5,
+              "durationSec": 221
+            }
+          ]
+        }
+      ],
+      "galaxyX": -139.69,
+      "galaxyY": -306.26,
+      "starRadius": 12.0
+    },
+    {
+      "id": "art-064",
+      "name": "Nickelback",
+      "genre": "Classic Rock",
+      "decade": "2000s",
+      "bio": "Nickelback is a Canadian rock band formed in 1995 in Hanna, Alberta, comprising lead guitarist and lead vocalist Chad Kroeger, rhythm guitarist, keyboardist and backing vocalist Ryan Peake, and bassist Mike Kroeger. It went through several drummer changes between 1995 and 2005 before Daniel Adair joined.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 14,
+      "totalSkips": 5,
+      "totalHours": 0.9,
+      "avgPlays": 14.0,
+      "completionRate": 73.7,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/330ba45fea5de7a576b4a6c30b266157/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "How You Remind Me"
+      ],
+      "albums": [
+        "Silver Side Up"
+      ],
+      "songDetails": [
+        {
+          "title": "How You Remind Me",
+          "album": "Silver Side Up",
+          "genre": "Rock",
+          "year": "2001",
+          "plays": 14,
+          "skips": 5,
+          "durationSec": 224
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Silver Side Up",
+          "plays": 14,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "How You Remind Me",
+              "album": "Silver Side Up",
+              "genre": "Rock",
+              "year": "2001",
+              "plays": 14,
+              "skips": 5,
+              "durationSec": 224
+            }
+          ]
+        }
+      ],
+      "galaxyX": 312.08,
+      "galaxyY": 132.4,
+      "starRadius": 11.8
+    },
+    {
+      "id": "art-065",
+      "name": "Miki Matsubara",
+      "genre": "Modern Pop / Chart",
+      "decade": "1970s",
+      "bio": "Miki Matsubara was a Japanese singer and songwriter. She contributed to the opening and ending theme songs of the anime Gu-Gu Ganmo under the name Suzie Matsubara. Her 1979 debut song \"Mayonaka no Door \" became a hit, reaching No. 28 on the Oricon chart.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 14,
+      "totalSkips": 1,
+      "totalHours": 1.2,
+      "avgPlays": 14.0,
+      "completionRate": 93.3,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/4e/96/c5/4e96c53f-0e15-e1f6-e21e-86b85f52e389/PA00204088_0_234545_jacket.jpg/600x600bb.jpg",
+      "songs": [
+        "Mayonaka No Door ~Stay with Me"
+      ],
+      "albums": [
+        "Miki Matsubara Best Collection"
+      ],
+      "songDetails": [
+        {
+          "title": "Mayonaka No Door ~Stay with Me",
+          "album": "Miki Matsubara Best Collection",
+          "genre": "J-Pop",
+          "year": "1979",
+          "plays": 14,
+          "skips": 1,
+          "durationSec": 312
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Miki Matsubara Best Collection",
+          "plays": 14,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Mayonaka No Door ~Stay with Me",
+              "album": "Miki Matsubara Best Collection",
+              "genre": "J-Pop",
+              "year": "1979",
+              "plays": 14,
+              "skips": 1,
+              "durationSec": 312
+            }
+          ]
+        }
+      ],
+      "galaxyX": -321.78,
+      "galaxyY": 113.97,
+      "starRadius": 11.8
+    },
+    {
+      "id": "art-066",
+      "name": "Kendrick Lamar",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "Kendrick Lamar Duckworth is an American rapper and songwriter. Rooted in West Coast hip-hop, his music features conscious, introspective lyrics, with political criticism and social commentary concerning African-American culture. Music journalists have listed Lamar among the greatest rappers of all time. In 2018, he became the first musician outside of the classical and jazz genres to receive the Pulitzer Prize for Music.",
+      "trackCount": 2,
+      "albumCount": 2,
+      "totalPlays": 13,
+      "totalSkips": 3,
+      "totalHours": 1.2,
+      "avgPlays": 6.5,
+      "completionRate": 81.2,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c9/15/f1/c915f103-2e61-235f-a9d6-9c7a7126e073/8721555614062.png/600x600bb.jpg",
+      "songs": [
+        "Money Trees (feat. Jay Rock)",
+        "Not Like Us"
+      ],
+      "albums": [
+        "Not Like Us - Single",
+        "good kid, m.A.A.d city (Deluxe)"
+      ],
+      "songDetails": [
+        {
+          "title": "Money Trees (feat. Jay Rock)",
+          "album": "good kid, m.A.A.d city (Deluxe)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2012",
+          "plays": 7,
+          "skips": 2,
+          "durationSec": 387
+        },
+        {
+          "title": "Not Like Us",
+          "album": "Not Like Us - Single",
+          "genre": "Hip-Hop/Rap",
+          "year": "2024",
+          "plays": 6,
+          "skips": 1,
+          "durationSec": 274
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "good kid, m.A.A.d city (Deluxe)",
+          "plays": 7,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Money Trees (feat. Jay Rock)",
+              "album": "good kid, m.A.A.d city (Deluxe)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2012",
+              "plays": 7,
+              "skips": 2,
+              "durationSec": 387
+            }
+          ]
+        },
+        {
+          "name": "Not Like Us - Single",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Not Like Us",
+              "album": "Not Like Us - Single",
+              "genre": "Hip-Hop/Rap",
+              "year": "2024",
+              "plays": 6,
+              "skips": 1,
+              "durationSec": 274
+            }
+          ]
+        }
+      ],
+      "galaxyX": 161.39,
+      "galaxyY": -303.47,
+      "starRadius": 11.6
+    },
+    {
+      "id": "art-067",
+      "name": "John Newman",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "John William Peter Newman is an English singer, songwriter, musician, DJ, and record producer. He first gained prominence for his single \"Love Me Again\" (2013), which peaked at number one on the UK singles chart, and entered the top ten in over twenty countries. The song also made an appearance in FIFA 14 and returned in FIFA 23. His 2013 debut album Tribute, reached number one on the UK Albums Chart and is certified platinum by the BPI.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 13,
+      "totalSkips": 3,
+      "totalHours": 0.9,
+      "avgPlays": 13.0,
+      "completionRate": 81.2,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/25/6b/e9/256be99e-84af-eaf9-fe88-9c5d696200f1/00602537672172.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Love Me Again"
+      ],
+      "albums": [
+        "Tribute"
+      ],
+      "songDetails": [
+        {
+          "title": "Love Me Again",
+          "album": "Tribute",
+          "genre": "Pop",
+          "year": "2013",
+          "plays": 13,
+          "skips": 3,
+          "durationSec": 240
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Tribute",
+          "plays": 13,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Love Me Again",
+              "album": "Tribute",
+              "genre": "Pop",
+              "year": "2013",
+              "plays": 13,
+              "skips": 3,
+              "durationSec": 240
+            }
+          ]
+        }
+      ],
+      "galaxyX": 86.57,
+      "galaxyY": 335.04,
+      "starRadius": 11.6
+    },
+    {
+      "id": "art-068",
+      "name": "Don Toliver",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Caleb Zackary \"Don\" Toliver is an American rapper, singer and songwriter. His debut mixtape, Donny Womack (2018), was released one day prior to fellow Houston rapper Travis Scott's album Astroworld, on which Toliver made a guest appearance. In the following week, he signed with Scott's record label, Cactus Jack Records, in a joint venture with Atlantic Records.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 13,
+      "totalSkips": 3,
+      "totalHours": 0.8,
+      "avgPlays": 13.0,
+      "completionRate": 81.2,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a5/c2/a5/a5c2a541-9f56-7c98-eb01-3c3198267851/075679823908.jpg/600x600bb.jpg",
+      "songs": [
+        "Lose My Mind (feat. Doja Cat) [From F1\u00ae The Movie]"
+      ],
+      "albums": [
+        "Lose My Mind (feat. Doja Cat) [From F1\u00ae The Movie] - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Lose My Mind (feat. Doja Cat) [From F1\u00ae The Movie]",
+          "album": "Lose My Mind (feat. Doja Cat) [From F1\u00ae The Movie] - Single",
+          "genre": "Pop",
+          "year": "2025",
+          "plays": 13,
+          "skips": 3,
+          "durationSec": 209
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Lose My Mind (feat. Doja Cat) [From F1\u00ae The Movie] - Single",
+          "plays": 13,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Lose My Mind (feat. Doja Cat) [From F1\u00ae The Movie]",
+              "album": "Lose My Mind (feat. Doja Cat) [From F1\u00ae The Movie] - Single",
+              "genre": "Pop",
+              "year": "2025",
+              "plays": 13,
+              "skips": 3,
+              "durationSec": 209
+            }
+          ]
+        }
+      ],
+      "galaxyX": -292.09,
+      "galaxyY": -189.83,
+      "starRadius": 11.6
+    },
+    {
+      "id": "art-069",
+      "name": "System Of A Down",
+      "genre": "Nu-Metal / Alt Rock",
+      "decade": "2000s",
+      "bio": "System of a Down is an Armenian-American heavy metal band formed in Glendale, California, in 1994. Since 1997, the band has consisted of founding members Serj Tankian, Daron Malakian, and Shavo Odadjian (bass); along with John Dolmayan (drums), who replaced original drummer Andy Khachaturian.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 13,
+      "totalSkips": 5,
+      "totalHours": 0.8,
+      "avgPlays": 13.0,
+      "completionRate": 72.2,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/82/51/52/825152b4-9423-b23b-c036-cc67ead732d4/888888046775.jpg/600x600bb.jpg",
+      "songs": [
+        "Aerials"
+      ],
+      "albums": [
+        "Toxicity"
+      ],
+      "songDetails": [
+        {
+          "title": "Aerials",
+          "album": "Toxicity",
+          "genre": "Hard Rock",
+          "year": "2001",
+          "plays": 13,
+          "skips": 5,
+          "durationSec": 235
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Toxicity",
+          "plays": 13,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Aerials",
+              "album": "Toxicity",
+              "genre": "Hard Rock",
+              "year": "2001",
+              "plays": 13,
+              "skips": 5,
+              "durationSec": 235
+            }
+          ]
+        }
+      ],
+      "galaxyX": 345.87,
+      "galaxyY": -57.71,
+      "starRadius": 11.6
+    },
+    {
+      "id": "art-070",
+      "name": "The Weeknd",
+      "genre": "Smooth Soul / R&B",
+      "decade": "2010s",
+      "bio": "Abel Tesfaye, known professionally as the Weeknd, is a Canadian singer-songwriter, record producer, and actor. Regarded as an influential figure in popular music, he is known for his light-lyric tenor vocal range and falsetto, alternative R&B sound, and dark aesthetics, as well as the cinematic visuals and storytelling of his music videos. His accolades include 4 Grammy Awards, 20 Billboard Music Awards, 22 Juno Awards, 6 American Music Awards, 3 MTV Video Music Awards, and a Latin Grammy Award.",
+      "trackCount": 2,
+      "albumCount": 2,
+      "totalPlays": 12,
+      "totalSkips": 1,
+      "totalHours": 0.7,
+      "avgPlays": 6.0,
+      "completionRate": 92.3,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/581693b4724a7fcfa754455101e13a44/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Blinding Lights",
+        "Starboy (feat. Daft Punk)"
+      ],
+      "albums": [
+        "Starboy (Deluxe)",
+        "After Hours"
+      ],
+      "songDetails": [
+        {
+          "title": "Blinding Lights",
+          "album": "After Hours",
+          "genre": "R&B/Soul",
+          "year": "2019",
+          "plays": 10,
+          "skips": 1,
+          "durationSec": 200
+        },
+        {
+          "title": "Starboy (feat. Daft Punk)",
+          "album": "Starboy (Deluxe)",
+          "genre": "R&B/Soul",
+          "year": "2016",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 230
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "After Hours",
+          "plays": 10,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Blinding Lights",
+              "album": "After Hours",
+              "genre": "R&B/Soul",
+              "year": "2019",
+              "plays": 10,
+              "skips": 1,
+              "durationSec": 200
+            }
+          ]
+        },
+        {
+          "name": "Starboy (Deluxe)",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Starboy (feat. Daft Punk)",
+              "album": "Starboy (Deluxe)",
+              "genre": "R&B/Soul",
+              "year": "2016",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 230
+            }
+          ]
+        }
+      ],
+      "galaxyX": -217.46,
+      "galaxyY": 277.98,
+      "starRadius": 11.4
+    },
+    {
+      "id": "art-071",
+      "name": "The Police",
+      "genre": "Classic Rock",
+      "decade": "1980s",
+      "bio": "The Police were an English rock band formed in London in 1977. Their core line-up comprised Sting, Andy Summers (guitar) and Stewart Copeland. The Police became globally popular from the late 1970s to the mid-1980s. The band emerged in the British punk scene, but soon expanded into other styles such as new wave, reggae rock, and post-punk.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 12,
+      "totalSkips": 2,
+      "totalHours": 0.8,
+      "avgPlays": 12.0,
+      "completionRate": 85.7,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/5b4796f1d81da41fa45db0eda8d51b04/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Every Breath You Take (Remastered 2003)"
+      ],
+      "albums": [
+        "Synchronicity (Remastered 2003)"
+      ],
+      "songDetails": [
+        {
+          "title": "Every Breath You Take (Remastered 2003)",
+          "album": "Synchronicity (Remastered 2003)",
+          "genre": "Rock",
+          "year": "1983",
+          "plays": 12,
+          "skips": 2,
+          "durationSec": 254
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Synchronicity (Remastered 2003)",
+          "plays": 12,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Every Breath You Take (Remastered 2003)",
+              "album": "Synchronicity (Remastered 2003)",
+              "genre": "Rock",
+              "year": "1983",
+              "plays": 12,
+              "skips": 2,
+              "durationSec": 254
+            }
+          ]
+        }
+      ],
+      "galaxyX": -27.6,
+      "galaxyY": -354.12,
+      "starRadius": 11.4
+    },
+    {
+      "id": "art-072",
+      "name": "Thirty Seconds to Mars",
+      "genre": "Classic Rock",
+      "decade": "2000s",
+      "bio": "Thirty Seconds to Mars is an American rock band formed in Los Angeles, California, in 1998. The band consists of brothers Jared Leto and Shannon Leto, with various line-up changes throughout its history, most notably involving Tomo Mili\u010devi\u0107.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 12,
+      "totalSkips": 4,
+      "totalHours": 0.8,
+      "avgPlays": 12.0,
+      "completionRate": 75.0,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/d1bff43f270c25bc9d3d45f100cf2251/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "The Kill (Bury Me)"
+      ],
+      "albums": [
+        "A Beautiful Lie"
+      ],
+      "songDetails": [
+        {
+          "title": "The Kill (Bury Me)",
+          "album": "A Beautiful Lie",
+          "genre": "Rock",
+          "year": "2005",
+          "plays": 12,
+          "skips": 4,
+          "durationSec": 232
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "A Beautiful Lie",
+          "plays": 12,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "The Kill (Bury Me)",
+              "album": "A Beautiful Lie",
+              "genre": "Rock",
+              "year": "2005",
+              "plays": 12,
+              "skips": 4,
+              "durationSec": 232
+            }
+          ]
+        }
+      ],
+      "galaxyX": 261.2,
+      "galaxyY": 244.01,
+      "starRadius": 11.4
+    },
+    {
+      "id": "art-073",
+      "name": "FILV & Edmofo",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "\u0130manbek Marat\u016bly Zeikenov, known professionally as Imanbek, is a Kazakh DJ and record producer. In 2019, he became known for his remix of Saint Jhn's \"Roses\". In 2021, Imanbek won a Grammy for his remix of \"Roses\", becoming the first Grammy recipient from Kazakhstan, and the first Grammy award winner in a non-classical category from within the CIS.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 11,
+      "totalSkips": 7,
+      "totalHours": 0.4,
+      "avgPlays": 11.0,
+      "completionRate": 61.1,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/84/a7/4b/84a74b9d-def8-89c0-5f2b-a8793c97954b/5056412709760.png/600x600bb.jpg",
+      "songs": [
+        "Clandestina (feat. Emma Peters) [JVSTIN Remix]"
+      ],
+      "albums": [
+        "Clandestina (feat. Emma Peters) [JVSTIN Remix] - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Clandestina (feat. Emma Peters) [JVSTIN Remix]",
+          "album": "Clandestina (feat. Emma Peters) [JVSTIN Remix] - Single",
+          "genre": "Pop",
+          "year": "2023",
+          "plays": 11,
+          "skips": 7,
+          "durationSec": 145
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Clandestina (feat. Emma Peters) [JVSTIN Remix] - Single",
+          "plays": 11,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Clandestina (feat. Emma Peters) [JVSTIN Remix]",
+              "album": "Clandestina (feat. Emma Peters) [JVSTIN Remix] - Single",
+              "genre": "Pop",
+              "year": "2023",
+              "plays": 11,
+              "skips": 7,
+              "durationSec": 145
+            }
+          ]
+        }
+      ],
+      "galaxyX": -359.66,
+      "galaxyY": -3.51,
+      "starRadius": 11.2
+    },
+    {
+      "id": "art-074",
+      "name": "Tom Petty",
+      "genre": "Classic Rock",
+      "decade": "1980s",
+      "bio": "Thomas Earl Petty was an American singer, songwriter, and guitarist. He was the leader and frontman of the rock bands Tom Petty and the Heartbreakers and Mudcrutch and a member of the late 1980s supergroup the Traveling Wilburys. He was also a successful solo artist.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 11,
+      "totalSkips": 4,
+      "totalHours": 0.8,
+      "avgPlays": 11.0,
+      "completionRate": 73.3,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/f3/71/47/f37147d5-d029-880b-bdc1-5929c907909a/06UMGIM04214.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Love Is a Long Road"
+      ],
+      "albums": [
+        "Full Moon Fever"
+      ],
+      "songDetails": [
+        {
+          "title": "Love Is a Long Road",
+          "album": "Full Moon Fever",
+          "genre": "Rock",
+          "year": "1989",
+          "plays": 11,
+          "skips": 4,
+          "durationSec": 247
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Full Moon Fever",
+          "plays": 11,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Love Is a Long Road",
+              "album": "Full Moon Fever",
+              "genre": "Rock",
+              "year": "1989",
+              "plays": 11,
+              "skips": 4,
+              "durationSec": 247
+            }
+          ]
+        }
+      ],
+      "galaxyX": 269.22,
+      "galaxyY": -241.84,
+      "starRadius": 11.2
+    },
+    {
+      "id": "art-075",
+      "name": "Empire Of The Sun",
+      "genre": "Modern Pop / Chart",
+      "decade": "2000s",
+      "bio": "Empire of the Sun are an Australian electronic music duo formed in 2007. The duo is a collaboration between Luke Steele of alternative rock band The Sleepy Jackson, and Nick Littlemore of electronic dance band Pnau.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 11,
+      "totalSkips": 4,
+      "totalHours": 0.8,
+      "avgPlays": 11.0,
+      "completionRate": 73.3,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/63/2c/7f632c08-3960-de3d-d34c-ee8140038b69/13UADIM60773.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "We Are the People"
+      ],
+      "albums": [
+        "Walking on a Dream (10th Anniversary Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "We Are the People",
+          "album": "Walking on a Dream (10th Anniversary Edition)",
+          "genre": "Alternative",
+          "year": "2008",
+          "plays": 11,
+          "skips": 4,
+          "durationSec": 267
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Walking on a Dream (10th Anniversary Edition)",
+          "plays": 11,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "We Are the People",
+              "album": "Walking on a Dream (10th Anniversary Edition)",
+              "genre": "Alternative",
+              "year": "2008",
+              "plays": 11,
+              "skips": 4,
+              "durationSec": 267
+            }
+          ]
+        }
+      ],
+      "galaxyX": -35.37,
+      "galaxyY": 362.37,
+      "starRadius": 11.2
+    },
+    {
+      "id": "art-076",
+      "name": "Madonna & Sickick",
+      "genre": "80s/90s Pop",
+      "decade": "2020s",
+      "bio": "Madonna Louise Ciccone is an American singer, songwriter, record producer, and actress. Dubbed the \"Queen of Pop\", she is known for her continual reinvention and versatility in music production, songwriting, and visual presentation. Her works, which concern social, political, sexual, and religious themes, have generated both controversy and critical acclaim. Regarded as one of the most influential musicians in history, Madonna broke gender barriers in popular music and has had a significant socio-cultural impact across her career.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 10,
+      "totalSkips": 1,
+      "totalHours": 0.3,
+      "avgPlays": 10.0,
+      "completionRate": 90.9,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/51/a9/7a/51a97aca-e299-49d6-0d8e-7b5db0543294/054391908261.jpg/600x600bb.jpg",
+      "songs": [
+        "Frozen"
+      ],
+      "albums": [
+        "Frozen - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Frozen",
+          "album": "Frozen - Single",
+          "genre": "Pop",
+          "year": "2021",
+          "plays": 10,
+          "skips": 1,
+          "durationSec": 120
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Frozen - Single",
+          "plays": 10,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Frozen",
+              "album": "Frozen - Single",
+              "genre": "Pop",
+              "year": "2021",
+              "plays": 10,
+              "skips": 1,
+              "durationSec": 120
+            }
+          ]
+        }
+      ],
+      "galaxyX": -220.01,
+      "galaxyY": -292.84,
+      "starRadius": 11.0
+    },
+    {
+      "id": "art-077",
+      "name": "Tommee Profitt, Mellen Gi & Fleurie",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Tommee James Profitt is an American songwriter and record producer.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 10,
+      "totalSkips": 5,
+      "totalHours": 0.6,
+      "avgPlays": 10.0,
+      "completionRate": 66.7,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/63/39/bf6339c9-99d6-1692-76f1-710f8e8abeed/26SYMIM25885.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "In the End (Mellen Gi Remix)"
+      ],
+      "albums": [
+        "In the End - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "In the End (Mellen Gi Remix)",
+          "album": "In the End - Single",
+          "genre": "Alternative",
+          "year": "2019",
+          "plays": 10,
+          "skips": 5,
+          "durationSec": 218
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "In the End - Single",
+          "plays": 10,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "In the End (Mellen Gi Remix)",
+              "album": "In the End - Single",
+              "genre": "Alternative",
+              "year": "2019",
+              "plays": 10,
+              "skips": 5,
+              "durationSec": 218
+            }
+          ]
+        }
+      ],
+      "galaxyX": 362.17,
+      "galaxyY": 67.71,
+      "starRadius": 11.0
+    },
+    {
+      "id": "art-078",
+      "name": "Manu Pilas",
+      "genre": "Cinematic / OST",
+      "decade": "2010s",
+      "bio": "\"Bella ciao\" is an anti-Nazi and anti-fascist Italian folk song dedicated to the partisans of the Italian resistance, who fought against the occupying troops of Nazi Germany and the collaborationist fascist forces during the liberation of Italy.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 10,
+      "totalSkips": 7,
+      "totalHours": 0.4,
+      "avgPlays": 10.0,
+      "completionRate": 58.8,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/679ec95828d0a276cf3aa7fabd770df7/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Bella Ciao (M\u00fasica Original de la Serie La Casa de Papel / Money Heist)"
+      ],
+      "albums": [
+        "Bella Ciao (M\u00fasica Original de la Serie La Casa de Papel / Money Heist) - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Bella Ciao (M\u00fasica Original de la Serie La Casa de Papel / Money Heist)",
+          "album": "Bella Ciao (M\u00fasica Original de la Serie La Casa de Papel / Money Heist) - Single",
+          "genre": "TV Soundtrack",
+          "year": "2018",
+          "plays": 10,
+          "skips": 7,
+          "durationSec": 140
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Bella Ciao (M\u00fasica Original de la Serie La Casa de Papel / Money Heist) - Single",
+          "plays": 10,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Bella Ciao (M\u00fasica Original de la Serie La Casa de Papel / Money Heist)",
+              "album": "Bella Ciao (M\u00fasica Original de la Serie La Casa de Papel / Money Heist) - Single",
+              "genre": "TV Soundtrack",
+              "year": "2018",
+              "plays": 10,
+              "skips": 7,
+              "durationSec": 140
+            }
+          ]
+        }
+      ],
+      "galaxyX": -314.63,
+      "galaxyY": 195.85,
+      "starRadius": 11.0
+    },
+    {
+      "id": "art-079",
+      "name": "Justin Timberlake",
+      "genre": "Modern Pop / Chart",
+      "decade": "2000s",
+      "bio": "Justin Randall Timberlake is an American singer, songwriter, actor, record producer, and dancer. Dubbed the \"Prince of Pop\", he is known for his showmanship, tenor vocal range, versatility across the entertainment industry, and frequent collaborations with hip-hop producers such as The Neptunes and Timbaland.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 10,
+      "totalSkips": 3,
+      "totalHours": 0.7,
+      "avgPlays": 10.0,
+      "completionRate": 76.9,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4c/44/30/4c4430dd-150b-d393-ec70-4894975f4b16/888880422095.jpg/600x600bb.jpg",
+      "songs": [
+        "SexyBack (feat. Timbaland)"
+      ],
+      "albums": [
+        "FutureSex/LoveSounds"
+      ],
+      "songDetails": [
+        {
+          "title": "SexyBack (feat. Timbaland)",
+          "album": "FutureSex/LoveSounds",
+          "genre": "Pop",
+          "year": "2006",
+          "plays": 10,
+          "skips": 3,
+          "durationSec": 243
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "FutureSex/LoveSounds",
+          "plays": 10,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "SexyBack (feat. Timbaland)",
+              "album": "FutureSex/LoveSounds",
+              "genre": "Pop",
+              "year": "2006",
+              "plays": 10,
+              "skips": 3,
+              "durationSec": 243
+            }
+          ]
+        }
+      ],
+      "galaxyX": 100.28,
+      "galaxyY": -359.01,
+      "starRadius": 11.0
+    },
+    {
+      "id": "art-080",
+      "name": "3 Doors Down",
+      "genre": "Classic Rock",
+      "decade": "2000s",
+      "bio": "3 Doors Down is an American rock band formed in Escatawpa, Mississippi, in 1996. The band's founding members were Brad Arnold, Matt Roberts, and Todd Harrell. The band's music has been described as a mixture of post-grunge, hard rock and alternative rock.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 9,
+      "totalSkips": 1,
+      "totalHours": 0.6,
+      "avgPlays": 9.0,
+      "completionRate": 90.0,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/61/2a/58/612a58ca-af10-cc8f-07ef-b3368ebc9564/07UMGIM12238.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Kryptonite"
+      ],
+      "albums": [
+        "Summer Of '99"
+      ],
+      "songDetails": [
+        {
+          "title": "Kryptonite",
+          "album": "Summer Of '99",
+          "genre": "Rock",
+          "year": "2000",
+          "plays": 9,
+          "skips": 1,
+          "durationSec": 235
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Summer Of '99",
+          "plays": 9,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Kryptonite",
+              "album": "Summer Of '99",
+              "genre": "Rock",
+              "year": "2000",
+              "plays": 9,
+              "skips": 1,
+              "durationSec": 235
+            }
+          ]
+        }
+      ],
+      "galaxyX": 169.53,
+      "galaxyY": 334.36,
+      "starRadius": 10.7
+    },
+    {
+      "id": "art-081",
+      "name": "Tetsuya Takeda Ichiza",
+      "genre": "Modern Pop / Chart",
+      "decade": "1990s",
+      "bio": "Tetsuya Takeda Ichiza is a celebrated musical artist in your catalog with dedicated discography coverage.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 9,
+      "totalSkips": 1,
+      "totalHours": 0.5,
+      "avgPlays": 9.0,
+      "completionRate": 90.0,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/41/27/ba/4127ba13-9291-6acb-8a9b-aec3245e0cc3/00044002553829.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Yumeno Hito"
+      ],
+      "albums": [
+        "Doraemon Eiga Shudaikashuu"
+      ],
+      "songDetails": [
+        {
+          "title": "Yumeno Hito",
+          "album": "Doraemon Eiga Shudaikashuu",
+          "genre": "Pop",
+          "year": "1995",
+          "plays": 9,
+          "skips": 1,
+          "durationSec": 209
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Doraemon Eiga Shudaikashuu",
+          "plays": 9,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Yumeno Hito",
+              "album": "Doraemon Eiga Shudaikashuu",
+              "genre": "Pop",
+              "year": "1995",
+              "plays": 9,
+              "skips": 1,
+              "durationSec": 209
+            }
+          ]
+        }
+      ],
+      "galaxyX": -352.85,
+      "galaxyY": -132.77,
+      "starRadius": 10.7
+    },
+    {
+      "id": "art-082",
+      "name": "Buck Owens",
+      "genre": "Modern Pop / Chart",
+      "decade": "1990s",
+      "bio": "Alvis Edgar \"Buck\" Owens Jr. was an American musician, singer, and songwriter. He was the frontman for The Buckaroos, which had 21 No. 1 hits on the Billboard country music chart. He pioneered what came to be called the Bakersfield sound, named in honor of Bakersfield, California, Owens's adopted home and the city from which he drew inspiration for what he preferred to call \"American music\".",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 9,
+      "totalSkips": 3,
+      "totalHours": 0.4,
+      "avgPlays": 9.0,
+      "completionRate": 75.0,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/cf/15/0d/cf150d6d-1257-a661-50e8-1d092a13466a/715187734227.jpg/600x600bb.jpg",
+      "songs": [
+        "Made In Japan"
+      ],
+      "albums": [
+        "The Complete Capitol Singles: 1971-1975"
+      ],
+      "songDetails": [
+        {
+          "title": "Made In Japan",
+          "album": "The Complete Capitol Singles: 1971-1975",
+          "genre": "Country",
+          "year": "1992",
+          "plays": 9,
+          "skips": 3,
+          "durationSec": 165
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "The Complete Capitol Singles: 1971-1975",
+          "plays": 9,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Made In Japan",
+              "album": "The Complete Capitol Singles: 1971-1975",
+              "genre": "Country",
+              "year": "1992",
+              "plays": 9,
+              "skips": 3,
+              "durationSec": 165
+            }
+          ]
+        }
+      ],
+      "galaxyX": 351.82,
+      "galaxyY": -141.22,
+      "starRadius": 10.7
+    },
+    {
+      "id": "art-083",
+      "name": "Tom Grennan",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Thomas Grennan is an English singer and songwriter from Bedford. He entered the music charts in 2016 as guest vocalist on Chase & Status's \"All Goes Wrong\". His debut album, Lighting Matches, was released in July 2018. The album peaked at number five on the UK Albums Chart and includes the single \"Found What I've Been Looking For\".",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 8,
+      "totalSkips": 1,
+      "totalHours": 0.3,
+      "avgPlays": 8.0,
+      "completionRate": 88.9,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/3c/d7/3d3cd7e9-26e9-b55d-a1bc-ffab554fa8ce/886448343868.jpg/600x600bb.jpg",
+      "songs": [
+        "How Does It Feel"
+      ],
+      "albums": [
+        "What Ifs & Maybes (Apple Music Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "How Does It Feel",
+          "album": "What Ifs & Maybes (Apple Music Edition)",
+          "genre": "Alternative",
+          "year": "2023",
+          "plays": 8,
+          "skips": 1,
+          "durationSec": 144
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "What Ifs & Maybes (Apple Music Edition)",
+          "plays": 8,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "How Does It Feel",
+              "album": "What Ifs & Maybes (Apple Music Edition)",
+              "genre": "Alternative",
+              "year": "2023",
+              "plays": 8,
+              "skips": 1,
+              "durationSec": 144
+            }
+          ]
+        }
+      ],
+      "galaxyX": -164.93,
+      "galaxyY": 343.67,
+      "starRadius": 10.5
+    },
+    {
+      "id": "art-084",
+      "name": "Tate McRae",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Tate Rosner McRae is a Canadian singer, songwriter, and dancer. She first gained prominence as a contestant on the American reality television series So You Think You Can Dance in 2016. She signed with RCA Records in 2019 and gained early recognition for her extended plays (EPs) All the Things I Never Said (2020) and Too Young to Be Sad (2021); the latter became the most streamed female EP of 2021 on Spotify and was preceded by the single \"You Broke Me First\", her first US Billboard Hot 100 entry.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 8,
+      "totalSkips": 3,
+      "totalHours": 0.3,
+      "avgPlays": 8.0,
+      "completionRate": 72.7,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/b3578bcbd54124c8125c9a9d52f38716/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Just Keep Watching (From F1\u00ae The Movie)"
+      ],
+      "albums": [
+        "Just Keep Watching (From F1\u00ae The Movie) - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Just Keep Watching (From F1\u00ae The Movie)",
+          "album": "Just Keep Watching (From F1\u00ae The Movie) - Single",
+          "genre": "Pop",
+          "year": "2025",
+          "plays": 8,
+          "skips": 3,
+          "durationSec": 143
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Just Keep Watching (From F1\u00ae The Movie) - Single",
+          "plays": 8,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Just Keep Watching (From F1\u00ae The Movie)",
+              "album": "Just Keep Watching (From F1\u00ae The Movie) - Single",
+              "genre": "Pop",
+              "year": "2025",
+              "plays": 8,
+              "skips": 3,
+              "durationSec": 143
+            }
+          ]
+        }
+      ],
+      "galaxyX": -111.13,
+      "galaxyY": -366.81,
+      "starRadius": 10.5
+    },
+    {
+      "id": "art-085",
+      "name": "MC Ren",
+      "genre": "Hip-Hop / Rap",
+      "decade": "1990s",
+      "bio": "Lorenzo Jerald Patterson, known professionally by his stage name MC Ren, is an American rapper, songwriter, and record producer from Compton, California. He is the founder and owner of the independent record label Villain Entertainment.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 8,
+      "totalSkips": 2,
+      "totalHours": 0.5,
+      "avgPlays": 8.0,
+      "completionRate": 80.0,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/e142d6455ae078826a2f7da95da8f397/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "I Don't Give a Damn"
+      ],
+      "albums": [
+        "The Villain In Black"
+      ],
+      "songDetails": [
+        {
+          "title": "I Don't Give a Damn",
+          "album": "The Villain In Black",
+          "genre": "Rap",
+          "year": "1996",
+          "plays": 8,
+          "skips": 2,
+          "durationSec": 235
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "The Villain In Black",
+          "plays": 8,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "I Don't Give a Damn",
+              "album": "The Villain In Black",
+              "genre": "Rap",
+              "year": "1996",
+              "plays": 8,
+              "skips": 2,
+              "durationSec": 235
+            }
+          ]
+        }
+      ],
+      "galaxyX": 331.5,
+      "galaxyY": 196.46,
+      "starRadius": 10.5
+    },
+    {
+      "id": "art-086",
+      "name": "The Jimi Hendrix Experience",
+      "genre": "Modern Pop / Chart",
+      "decade": "1960s",
+      "bio": "James Marshall \"Jimi\" Hendrix was an American guitarist, singer, and songwriter. He is widely regarded as one of the greatest and most influential guitarists of all time. He was inducted into the Rock and Roll Hall of Fame in 1992 as a part of his band, the Jimi Hendrix Experience; the institution describes him as \"arguably the greatest instrumentalist in the history of rock music\".",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 8,
+      "totalSkips": 2,
+      "totalHours": 0.5,
+      "avgPlays": 8.0,
+      "completionRate": 80.0,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a6/b8/45/a6b84589-6ff7-a462-9ff9-170b724980d5/dj.wjkdwlks.jpg/600x600bb.jpg",
+      "songs": [
+        "All Along the Watchtower"
+      ],
+      "albums": [
+        "Electric Ladyland - 50th Anniversary Deluxe Edition"
+      ],
+      "songDetails": [
+        {
+          "title": "All Along the Watchtower",
+          "album": "Electric Ladyland - 50th Anniversary Deluxe Edition",
+          "genre": "Pop",
+          "year": "1968",
+          "plays": 8,
+          "skips": 2,
+          "durationSec": 240
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Electric Ladyland - 50th Anniversary Deluxe Edition",
+          "plays": 8,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "All Along the Watchtower",
+              "album": "Electric Ladyland - 50th Anniversary Deluxe Edition",
+              "genre": "Pop",
+              "year": "1968",
+              "plays": 8,
+              "skips": 2,
+              "durationSec": 240
+            }
+          ]
+        }
+      ],
+      "galaxyX": -379.16,
+      "galaxyY": 79.49,
+      "starRadius": 10.5
+    },
+    {
+      "id": "art-087",
+      "name": "KXLLSWXTCH",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Kevin Pouya, known mononymously as Pouya, is an American rapper. Considered as a pioneer of the underground rap scene that began on SoundCloud in 2012, along with discovering the well known hip-hop duo Suicideboys in their early career, Pouya has developed a long-lasting core fanbase as an independent artist.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 8,
+      "totalSkips": 1,
+      "totalHours": 0.3,
+      "avgPlays": 8.0,
+      "completionRate": 88.9,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ac/da/e7/acdae77d-0d5b-1dad-7a25-4bdbff49c1df/194690649035_cover.jpg/600x600bb.jpg",
+      "songs": [
+        "WASTE"
+      ],
+      "albums": [
+        "DISORDER"
+      ],
+      "songDetails": [
+        {
+          "title": "WASTE",
+          "album": "DISORDER",
+          "genre": "Alternative",
+          "year": "2021",
+          "plays": 8,
+          "skips": 1,
+          "durationSec": 120
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "DISORDER",
+          "plays": 8,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "WASTE",
+              "album": "DISORDER",
+              "genre": "Alternative",
+              "year": "2021",
+              "plays": 8,
+              "skips": 1,
+              "durationSec": 120
+            }
+          ]
+        }
+      ],
+      "galaxyX": 227.08,
+      "galaxyY": -316.39,
+      "starRadius": 10.5
+    },
+    {
+      "id": "art-088",
+      "name": "Michael Jackson & Siedah Garrett",
+      "genre": "80s/90s Pop",
+      "decade": "1980s",
+      "bio": "Michael Joseph Jackson was an American singer, songwriter, dancer, and philanthropist. Dubbed the \"King of Pop\", he is widely regarded as one of the most culturally significant figures of the 20th century. His musical achievements broke American racial barriers and made him a dominant figure worldwide. Through his songs, music videos, concerts, and fashion, he transformed visual performance in popular music, popularizing street dance moves such as the moonwalk, the robot, and the anti-gravity lean. Jackson is often deemed the greatest entertainer of all time.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 7,
+      "totalSkips": 0,
+      "totalHours": 0.5,
+      "avgPlays": 7.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/3d/9d/38/3d9d3811-71f0-3a0e-1ada-3004e56ff852/827969428726.jpg/600x600bb.jpg",
+      "songs": [
+        "I Just Can't Stop Loving You"
+      ],
+      "albums": [
+        "Bad (25th Anniversary Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "I Just Can't Stop Loving You",
+          "album": "Bad (25th Anniversary Edition)",
+          "genre": "Pop",
+          "year": "1987",
+          "plays": 7,
+          "skips": 0,
+          "durationSec": 254
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Bad (25th Anniversary Edition)",
+          "plays": 7,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "I Just Can't Stop Loving You",
+              "album": "Bad (25th Anniversary Edition)",
+              "genre": "Pop",
+              "year": "1987",
+              "plays": 7,
+              "skips": 0,
+              "durationSec": 254
+            }
+          ]
+        }
+      ],
+      "galaxyX": 46.52,
+      "galaxyY": 388.7,
+      "starRadius": 10.2
+    },
+    {
+      "id": "art-089",
+      "name": "Dom Dolla & Nathan Nicholson",
+      "genre": "Eurodance / Electronic",
+      "decade": "2020s",
+      "bio": "Dominic Louis Matheson, better known by his stage name Dom Dolla, is an Australian tech house producer, DJ, songwriter and remixer, acclaimed for his special house music style and high-profile collaborations. He has been nominated eight times for the ARIA Award for Best Dance Release; Including: in 2017 for \"Be Randy\", with Torren Foot and in 2019, for the song \"Take It\". He won the award at the 2020 ARIA Music Awards for the song \"San Frandisco\" and in 2023 for the song \"Rhyme Dust\". He was a Grammy Award nominee in 2024 for the song \"New Gold\" featuring Gorillaz, Tame Impala and Bootie Brown, and a Juno Award nominee in 2024 for the song \"Eat Your Man\" featuring Nelly Furtado.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 7,
+      "totalSkips": 3,
+      "totalHours": 0.5,
+      "avgPlays": 7.0,
+      "completionRate": 70.0,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/91/da/a691dac7-4cb7-82f5-0eda-e37b96f63f55/075679610720.jpg/600x600bb.jpg",
+      "songs": [
+        "No Room For A Saint (From F1\u00ae The Movie)"
+      ],
+      "albums": [
+        "No Room For A Saint (From F1\u00ae The Movie) - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "No Room For A Saint (From F1\u00ae The Movie)",
+          "album": "No Room For A Saint (From F1\u00ae The Movie) - Single",
+          "genre": "Dance",
+          "year": "2025",
+          "plays": 7,
+          "skips": 3,
+          "durationSec": 236
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "No Room For A Saint (From F1\u00ae The Movie) - Single",
+          "plays": 7,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "No Room For A Saint (From F1\u00ae The Movie)",
+              "album": "No Room For A Saint (From F1\u00ae The Movie) - Single",
+              "genre": "Dance",
+              "year": "2025",
+              "plays": 7,
+              "skips": 3,
+              "durationSec": 236
+            }
+          ]
+        }
+      ],
+      "galaxyX": -298.39,
+      "galaxyY": -256.51,
+      "starRadius": 10.2
+    },
+    {
+      "id": "art-090",
+      "name": "Surf Mesa",
+      "genre": "Eurodance / Electronic",
+      "decade": "2010s",
+      "bio": "Powell Aguirre, known by the stage name Surf Mesa, is an American electronic musician from Seattle. He gained fame for the single \"ILY \" (2019), a song which sampled a cover of Frankie Valli's \"Can't Take My Eyes Off You\" (1967) and gained popularity on TikTok.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 7,
+      "totalSkips": 1,
+      "totalHours": 0.3,
+      "avgPlays": 7.0,
+      "completionRate": 87.5,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/00/2c/31/002c3175-9261-aee9-2e41-5af229cb2703/20UMGIM14423.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "ily (i love you baby) [feat. Emilee]"
+      ],
+      "albums": [
+        "ily (i love you baby) [feat. Emilee] - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "ily (i love you baby) [feat. Emilee]",
+          "album": "ily (i love you baby) [feat. Emilee] - Single",
+          "genre": "Dance",
+          "year": "2019",
+          "plays": 7,
+          "skips": 1,
+          "durationSec": 177
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "ily (i love you baby) [feat. Emilee] - Single",
+          "plays": 7,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "ily (i love you baby) [feat. Emilee]",
+              "album": "ily (i love you baby) [feat. Emilee] - Single",
+              "genre": "Dance",
+              "year": "2019",
+              "plays": 7,
+              "skips": 1,
+              "durationSec": 177
+            }
+          ]
+        }
+      ],
+      "galaxyX": 395.3,
+      "galaxyY": -12.49,
+      "starRadius": 10.2
+    },
+    {
+      "id": "art-091",
+      "name": "Luis Fonsi & Daddy Yankee",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Luis Alfonso Rodr\u00edguez L\u00f3pez-Cepero, known by his stage name Luis Fonsi, is a Puerto Rican singer. He is known for his soulful and dance oriented songs, most notably 2017's \"Despacito\".",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 7,
+      "totalSkips": 4,
+      "totalHours": 0.4,
+      "avgPlays": 7.0,
+      "completionRate": 63.6,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e2/ef/f0/e2eff0bc-c51d-7de5-9280-6891ddcee71b/18UMGIM85289.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Despacito (feat. Justin Bieber) [Remix]"
+      ],
+      "albums": [
+        "VIDA"
+      ],
+      "songDetails": [
+        {
+          "title": "Despacito (feat. Justin Bieber) [Remix]",
+          "album": "VIDA",
+          "genre": "Pop",
+          "year": "2017",
+          "plays": 7,
+          "skips": 4,
+          "durationSec": 230
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "VIDA",
+          "plays": 7,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Despacito (feat. Justin Bieber) [Remix]",
+              "album": "VIDA",
+              "genre": "Pop",
+              "year": "2017",
+              "plays": 7,
+              "skips": 4,
+              "durationSec": 230
+            }
+          ]
+        }
+      ],
+      "galaxyX": -284.48,
+      "galaxyY": 277.62,
+      "starRadius": 10.2
+    },
+    {
+      "id": "art-092",
+      "name": "Hippie Sabotage",
+      "genre": "Eurodance / Electronic",
+      "decade": "2010s",
+      "bio": "Hippie Sabotage is an electronic and hip-hop duo from Sacramento, California, consisting of brothers Kevin and Jeff Saurer. Often classified as chillwave, their music features elements from a variety of genres including trap, psych rock, and indie rock. They are well known for their remix of \"Habits \" by Tove Lo, which has accumulated over 1 billion views on YouTube and 1.6 billion streams on Spotify since release, as well as \"Devil Eyes\" with over 700 million Spotify streams. Hippie Sabotage have toured frequently since 2015, including a number of headline tours with two shows at Red Rocks Amphitheatre, festival performances at Bonnaroo, Lollapalooza, Austin City Limits, Firefly, and Hangout among others, and sets supporting Zedd, Gramatik, and Big Gigantic.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 7,
+      "totalSkips": 0,
+      "totalHours": 0.3,
+      "avgPlays": 7.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/c1/3f/ef/c13fef93-f252-b679-50d3-3edbd6543400/858958005451_.jpg/600x600bb.jpg",
+      "songs": [
+        "Devil Eyes"
+      ],
+      "albums": [
+        "Providence"
+      ],
+      "songDetails": [
+        {
+          "title": "Devil Eyes",
+          "album": "Providence",
+          "genre": "Electronic",
+          "year": "2016",
+          "plays": 7,
+          "skips": 0,
+          "durationSec": 131
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Providence",
+          "plays": 7,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Devil Eyes",
+              "album": "Providence",
+              "genre": "Electronic",
+              "year": "2016",
+              "plays": 7,
+              "skips": 0,
+              "durationSec": 131
+            }
+          ]
+        }
+      ],
+      "galaxyX": 22.35,
+      "galaxyY": -398.86,
+      "starRadius": 10.2
+    },
+    {
+      "id": "art-093",
+      "name": "The Pussycat Dolls",
+      "genre": "Modern Pop / Chart",
+      "decade": "2000s",
+      "bio": "The Pussycat Dolls are an American girl group and dance ensemble, founded in Los Angeles, California, by choreographer Robin Antin in 1995 as a neo-burlesque troupe. At the suggestion of Jimmy Iovine, Antin decided to take the troupe mainstream as a pop group. Antin negotiated a record deal with Interscope Geffen A&M Records in 2003 turning the group into a music franchise comprising Nicole Scherzinger, Carmit Bachar, Ashley Roberts, Jessica Sutta, Melody Thornton and Kimberly Wyatt. Their debut, a promotional cover of \"Sway\" was featured on the soundtrack of the 2004 film Shall We Dance?.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 6,
+      "totalSkips": 2,
+      "totalHours": 0.4,
+      "avgPlays": 6.0,
+      "completionRate": 75.0,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c4/eb/7c/c4eb7c2e-bbf2-8da1-4752-dda69e8ba6b8/26UMGIM02033.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Buttons"
+      ],
+      "albums": [
+        "Too Sexy"
+      ],
+      "songDetails": [
+        {
+          "title": "Buttons",
+          "album": "Too Sexy",
+          "genre": "Pop",
+          "year": "2005",
+          "plays": 6,
+          "skips": 2,
+          "durationSec": 226
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Too Sexy",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Buttons",
+              "album": "Too Sexy",
+              "genre": "Pop",
+              "year": "2005",
+              "plays": 6,
+              "skips": 2,
+              "durationSec": 226
+            }
+          ]
+        }
+      ],
+      "galaxyX": 254.2,
+      "galaxyY": 310.73,
+      "starRadius": 10.0
+    },
+    {
+      "id": "art-094",
+      "name": "Gala",
+      "genre": "Eurodance / Electronic",
+      "decade": "1990s",
+      "bio": "Gala Rizzatto, known mononymously as Gala, is an Italian pop singer and songwriter. Her debut album Come into My Life included the multiplatinum singles \"Freed from Desire\", \"Let a Boy Cry\" and \"Come into My Life\" which reached the Top 3 in music charts across Europe, South America, Russia and the Middle East. Gala has sold over six million records worldwide.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 6,
+      "totalSkips": 0,
+      "totalHours": 0.4,
+      "avgPlays": 6.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/70/a3/33/70a333a9-29d8-bfde-fe2d-79d2a9a72518/mzi.hroawrfd.tif/600x600bb.jpg",
+      "songs": [
+        "Freed From Desire"
+      ],
+      "albums": [
+        "Come Into My Life (The Album)"
+      ],
+      "songDetails": [
+        {
+          "title": "Freed From Desire",
+          "album": "Come Into My Life (The Album)",
+          "genre": "Dance",
+          "year": "1996",
+          "plays": 6,
+          "skips": 0,
+          "durationSec": 213
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Come Into My Life (The Album)",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Freed From Desire",
+              "album": "Come Into My Life (The Album)",
+              "genre": "Dance",
+              "year": "1996",
+              "plays": 6,
+              "skips": 0,
+              "durationSec": 213
+            }
+          ]
+        }
+      ],
+      "galaxyX": -399.28,
+      "galaxyY": -57.69,
+      "starRadius": 10.0
+    },
+    {
+      "id": "art-095",
+      "name": "Shawn Mendes & Justin Bieber",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Shawn Peter Raul Mendes is a Canadian singer, songwriter, and musician. He gained a following in 2013 when he posted song covers on the video-sharing platform Vine. The following year, he caught the attention of artist manager Andrew Gertler and Island Records A&R Ziggy Chareton, which led to his signing a deal with the record label. Mendes's self-titled debut EP was released in 2014, followed by his debut studio album Handwritten in 2015. Handwritten debuted atop the US Billboard 200, making Mendes one of five artists ever to debut at number one before the age of 18. The single \"Stitches\" reached number one in the UK and the top 10 in the US and Canada.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 6,
+      "totalSkips": 0,
+      "totalHours": 0.3,
+      "avgPlays": 6.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/01/3e/21/013e21f6-6ee8-f111-7a9b-a5d0cdecf182/20UMGIM83351.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Monster"
+      ],
+      "albums": [
+        "Monster - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Monster",
+          "album": "Monster - Single",
+          "genre": "Pop",
+          "year": "2020",
+          "plays": 6,
+          "skips": 0,
+          "durationSec": 179
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Monster - Single",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Monster",
+              "album": "Monster - Single",
+              "genre": "Pop",
+              "year": "2020",
+              "plays": 6,
+              "skips": 0,
+              "durationSec": 179
+            }
+          ]
+        }
+      ],
+      "galaxyX": 335.0,
+      "galaxyY": -228.27,
+      "starRadius": 10.0
+    },
+    {
+      "id": "art-096",
+      "name": "The Pointer Sisters",
+      "genre": "Modern Pop / Chart",
+      "decade": "1980s",
+      "bio": "The Pointer Sisters are an American female vocal group from Oakland, California, who achieved mainstream success during the 1970s and 1980s, selling around 40 million records over the course of their career. Their repertoire spans many genres. The Pointer Sisters have won three Grammy Awards and received a star on the Hollywood Walk of Fame in 1994. The group had 13 US top 20 hits between 1973 and 1987.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 6,
+      "totalSkips": 2,
+      "totalHours": 0.4,
+      "avgPlays": 6.0,
+      "completionRate": 75.0,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/f96879bdec0dd6f20c76d53fd38ebf52/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Hot Together"
+      ],
+      "albums": [
+        "Hot Together (Expanded Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "Hot Together",
+          "album": "Hot Together (Expanded Edition)",
+          "genre": "Pop",
+          "year": "1986",
+          "plays": 6,
+          "skips": 2,
+          "durationSec": 253
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Hot Together (Expanded Edition)",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Hot Together",
+              "album": "Hot Together (Expanded Edition)",
+              "genre": "Pop",
+              "year": "1986",
+              "plays": 6,
+              "skips": 2,
+              "durationSec": 253
+            }
+          ]
+        }
+      ],
+      "galaxyX": -93.27,
+      "galaxyY": 396.5,
+      "starRadius": 10.0
+    },
+    {
+      "id": "art-097",
+      "name": "Tame Impala",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Tame Impala is the psychedelic music project of Australian singer and multi-instrumentalist Kevin Parker. In the recording studio, Parker writes, records, performs, and produces the project's music. As a touring act, Tame Impala consists of Parker, Dominic Simper, Jay Watson, Cam Avery, Julien Barbagallo, and James Ireland. The group has a close affiliation with fellow Australian psychedelic rock band Pond, sharing members and collaborators, including Watson, Ireland, and formerly Nick Allbrook. Originally signed to Modular Recordings, Tame Impala signed in 2015 to Interscope Records in the United States and Fiction Records in the United Kingdom.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 6,
+      "totalSkips": 1,
+      "totalHours": 0.4,
+      "avgPlays": 6.0,
+      "completionRate": 85.7,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a8/2e/b4/a82eb490-f30a-a321-461a-0383c88fec95/15UMGIM23316.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Borderline"
+      ],
+      "albums": [
+        "Borderline (Blood Orange Remix) - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Borderline",
+          "album": "Borderline (Blood Orange Remix) - Single",
+          "genre": "Alternative",
+          "year": "2019",
+          "plays": 6,
+          "skips": 1,
+          "durationSec": 238
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Borderline (Blood Orange Remix) - Single",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Borderline",
+              "album": "Borderline (Blood Orange Remix) - Single",
+              "genre": "Alternative",
+              "year": "2019",
+              "plays": 6,
+              "skips": 1,
+              "durationSec": 238
+            }
+          ]
+        }
+      ],
+      "galaxyX": -200.0,
+      "galaxyY": -357.06,
+      "starRadius": 10.0
+    },
+    {
+      "id": "art-098",
+      "name": "ABBA",
+      "genre": "Modern Pop / Chart",
+      "decade": "1980s",
+      "bio": "ABBA were a Swedish pop music group formed in Stockholm in 1972 by Agnetha F\u00e4ltskog, Bj\u00f6rn Ulvaeus, Benny Andersson and Anni-Frid Lyngstad. They are among the most renowned and commercially successful musical groups in history.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 6,
+      "totalSkips": 3,
+      "totalHours": 0.5,
+      "avgPlays": 6.0,
+      "completionRate": 66.7,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/60/f8/a6/60f8a6bc-e875-238d-f2f8-f34a6034e6d2/14UMGIM07615.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "The Winner Takes It All"
+      ],
+      "albums": [
+        "Super Trouper (Bonus Track Version)"
+      ],
+      "songDetails": [
+        {
+          "title": "The Winner Takes It All",
+          "album": "Super Trouper (Bonus Track Version)",
+          "genre": "Pop",
+          "year": "1980",
+          "plays": 6,
+          "skips": 3,
+          "durationSec": 295
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Super Trouper (Bonus Track Version)",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "The Winner Takes It All",
+              "album": "Super Trouper (Bonus Track Version)",
+              "genre": "Pop",
+              "year": "1980",
+              "plays": 6,
+              "skips": 3,
+              "durationSec": 295
+            }
+          ]
+        }
+      ],
+      "galaxyX": 390.49,
+      "galaxyY": 128.79,
+      "starRadius": 10.0
+    },
+    {
+      "id": "art-099",
+      "name": "Kiss",
+      "genre": "Classic Rock",
+      "decade": "1970s",
+      "bio": "A kiss is the touching or pressing of one's lips against another person, animal, or object. The cultural connotations associated with kissing vary significantly between different societies and contexts. Depending on the culture and circumstances, a kiss can express a wide range of emotions, such as love, passion, romance, sexual attraction, sexual arousal, affection, respect, a wish for peace or good luck, as well as numerous other meanings. In some situations, kissing takes on the function of a greeting or a ritual, formal, or symbolic gesture indicating religious devotion, institutional respect, or an act of sacramental nature.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 6,
+      "totalSkips": 3,
+      "totalHours": 0.5,
+      "avgPlays": 6.0,
+      "completionRate": 66.7,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a3/30/54/a33054b1-d501-b7ea-5eb3-3ed36201c4ba/06UMGIM15802.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "I Was Made for Lovin' You"
+      ],
+      "albums": [
+        "Dynasty"
+      ],
+      "songDetails": [
+        {
+          "title": "I Was Made for Lovin' You",
+          "album": "Dynasty",
+          "genre": "Hard Rock",
+          "year": "1979",
+          "plays": 6,
+          "skips": 3,
+          "durationSec": 270
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Dynasty",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "I Was Made for Lovin' You",
+              "album": "Dynasty",
+              "genre": "Hard Rock",
+              "year": "1979",
+              "plays": 6,
+              "skips": 3,
+              "durationSec": 270
+            }
+          ]
+        }
+      ],
+      "galaxyX": -376.68,
+      "galaxyY": 169.59,
+      "starRadius": 10.0
+    },
+    {
+      "id": "art-100",
+      "name": "Charlie Puth",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Charles Otto Puth Jr. is an American singer-songwriter, musician, and record producer. His initial exposure came through the viral success of his song covers uploaded to YouTube. Puth signed with the record label eleveneleven in 2011.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 6,
+      "totalSkips": 1,
+      "totalHours": 0.3,
+      "avgPlays": 6.0,
+      "completionRate": 85.7,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a8/e2/1b/a8e21b3b-9c8d-2974-2318-6bcd4c9d2370/075679884336.jpg/600x600bb.jpg",
+      "songs": [
+        "Attention"
+      ],
+      "albums": [
+        "Voicenotes"
+      ],
+      "songDetails": [
+        {
+          "title": "Attention",
+          "album": "Voicenotes",
+          "genre": "Pop",
+          "year": "2017",
+          "plays": 6,
+          "skips": 1,
+          "durationSec": 209
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Voicenotes",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Attention",
+              "album": "Voicenotes",
+              "genre": "Pop",
+              "year": "2017",
+              "plays": 6,
+              "skips": 1,
+              "durationSec": 209
+            }
+          ]
+        }
+      ],
+      "galaxyX": 163.94,
+      "galaxyY": -381.25,
+      "starRadius": 10.0
+    },
+    {
+      "id": "art-101",
+      "name": "Powfu",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2020s",
+      "bio": "Isaiah Faber, known professionally as Powfu, is a Canadian rapper, singer, songwriter, and record producer. He is the son of Dave Faber from the band Faber Drive. He amassed popularity following the release of his first charting single, \"Death Bed \", featuring Beabadoobee, which peaked at number 23 on the Billboard Hot 100.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 6,
+      "totalSkips": 1,
+      "totalHours": 0.3,
+      "avgPlays": 6.0,
+      "completionRate": 85.7,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8b/a9/36/8ba936f3-2d8b-1012-89cc-92f75eb76961/886448289180.jpg/600x600bb.jpg",
+      "songs": [
+        "death bed (feat. beabadoobee) [coffee for your head]"
+      ],
+      "albums": [
+        "death bed (feat. beabadoobee) [coffee for your head] - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "death bed (feat. beabadoobee) [coffee for your head]",
+          "album": "death bed (feat. beabadoobee) [coffee for your head] - Single",
+          "genre": "Hip-Hop/Rap",
+          "year": "2020",
+          "plays": 6,
+          "skips": 1,
+          "durationSec": 173
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "death bed (feat. beabadoobee) [coffee for your head] - Single",
+          "plays": 6,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "death bed (feat. beabadoobee) [coffee for your head]",
+              "album": "death bed (feat. beabadoobee) [coffee for your head] - Single",
+              "genre": "Hip-Hop/Rap",
+              "year": "2020",
+              "plays": 6,
+              "skips": 1,
+              "durationSec": 173
+            }
+          ]
+        }
+      ],
+      "galaxyX": 137.27,
+      "galaxyY": 393.65,
+      "starRadius": 10.0
+    },
+    {
+      "id": "art-102",
+      "name": "Shawn Mendes & Camila Cabello",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Shawn Peter Raul Mendes is a Canadian singer, songwriter, and musician. He gained a following in 2013 when he posted song covers on the video-sharing platform Vine. The following year, he caught the attention of artist manager Andrew Gertler and Island Records A&R Ziggy Chareton, which led to his signing a deal with the record label. Mendes's self-titled debut EP was released in 2014, followed by his debut studio album Handwritten in 2015. Handwritten debuted atop the US Billboard 200, making Mendes one of five artists ever to debut at number one before the age of 18. The single \"Stitches\" reached number one in the UK and the top 10 in the US and Canada.",
+      "trackCount": 2,
+      "albumCount": 2,
+      "totalPlays": 5,
+      "totalSkips": 2,
+      "totalHours": 0.3,
+      "avgPlays": 2.5,
+      "completionRate": 71.4,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ef/06/de/ef06deeb-3890-e06f-905c-5686e23c2b88/15UMGIM06404.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Se\u00f1orita",
+        "I Know What You Did Last Summer"
+      ],
+      "albums": [
+        "Sommerhits 2025",
+        "Handwritten (Revisited)"
+      ],
+      "songDetails": [
+        {
+          "title": "Se\u00f1orita",
+          "album": "Sommerhits 2025",
+          "genre": "Pop",
+          "year": "2019",
+          "plays": 4,
+          "skips": 2,
+          "durationSec": 191
+        },
+        {
+          "title": "I Know What You Did Last Summer",
+          "album": "Handwritten (Revisited)",
+          "genre": "Pop",
+          "year": "2015",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 224
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Sommerhits 2025",
+          "plays": 4,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Se\u00f1orita",
+              "album": "Sommerhits 2025",
+              "genre": "Pop",
+              "year": "2019",
+              "plays": 4,
+              "skips": 2,
+              "durationSec": 191
+            }
+          ]
+        },
+        {
+          "name": "Handwritten (Revisited)",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "I Know What You Did Last Summer",
+              "album": "Handwritten (Revisited)",
+              "genre": "Pop",
+              "year": "2015",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 224
+            }
+          ]
+        }
+      ],
+      "galaxyX": -368.78,
+      "galaxyY": -198.44,
+      "starRadius": 9.7
+    },
+    {
+      "id": "art-103",
+      "name": "Natanael Cano & \u00d3scar Maydon",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Nathanahel Rub\u00e9n \"Natanael\" Cano Monge is a Mexican rapper and singer. He is known for his fusion of trap music and regional Mexican corridos, known as corridos tumbados. The idea to fuse the two genres was proposed by Dan Sanchez who wrote Cano's first corrido tumbado, \"Soy el Diablo\".",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 5,
+      "totalSkips": 1,
+      "totalHours": 0.3,
+      "avgPlays": 5.0,
+      "completionRate": 83.3,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ab/d4/ea/abd4ea82-e884-44a0-0ca3-cb012167175d/1963620156559_cover.jpg/600x600bb.jpg",
+      "songs": [
+        "Madonna"
+      ],
+      "albums": [
+        "Madonna - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Madonna",
+          "album": "Madonna - Single",
+          "genre": "Latin",
+          "year": "2024",
+          "plays": 5,
+          "skips": 1,
+          "durationSec": 187
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Madonna - Single",
+          "plays": 5,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Madonna",
+              "album": "Madonna - Single",
+              "genre": "Latin",
+              "year": "2024",
+              "plays": 5,
+              "skips": 1,
+              "durationSec": 187
+            }
+          ]
+        }
+      ],
+      "galaxyX": 407.79,
+      "galaxyY": -103.25,
+      "starRadius": 9.7
+    },
+    {
+      "id": "art-104",
+      "name": "Melanie Martinez",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Melanie Adele Martinez is an American singer-songwriter. Born in Astoria, Queens, and raised in Baldwin, New York, Martinez rose to fame in 2012 after appearing on season 3 of the American television talent show The Voice. Following the show, she was signed to Atlantic Records and released her debut single \"Dollhouse\", which was certificed 2\u00d7 platinum by the Recording Industry Association of America (RIAA). It was followed by her debut extended play of the same name (2014).",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 5,
+      "totalSkips": 2,
+      "totalHours": 0.2,
+      "avgPlays": 5.0,
+      "completionRate": 71.4,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4e/8a/da/4e8ada12-5602-fc2c-f75b-167697e140d8/075679921369.jpg/600x600bb.jpg",
+      "songs": [
+        "Play Date"
+      ],
+      "albums": [
+        "coquette feminine energy"
+      ],
+      "songDetails": [
+        {
+          "title": "Play Date",
+          "album": "coquette feminine energy",
+          "genre": "Alternative",
+          "year": "2015",
+          "plays": 5,
+          "skips": 2,
+          "durationSec": 180
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "coquette feminine energy",
+          "plays": 5,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Play Date",
+              "album": "coquette feminine energy",
+              "genre": "Alternative",
+              "year": "2015",
+              "plays": 5,
+              "skips": 2,
+              "durationSec": 180
+            }
+          ]
+        }
+      ],
+      "galaxyX": -231.97,
+      "galaxyY": 353.15,
+      "starRadius": 9.7
+    },
+    {
+      "id": "art-105",
+      "name": "Tetsuya Takeda",
+      "genre": "Modern Pop / Chart",
+      "decade": "1990s",
+      "bio": "Tetsuya Takeda, born April 11, 1949, is a Japanese folk singer and actor. Takeda is perhaps most known in Japan for his starring role in the Tokyo Broadcasting System's (TBS) long-running, highly rated television drama Sannen B Gumi Kinpachi Sensei. The program, targeted at junior high and high school-aged adolescents, ran on TBS with Takeda at various times from 1979 until 2011.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 5,
+      "totalSkips": 9,
+      "totalHours": 0.3,
+      "avgPlays": 5.0,
+      "completionRate": 35.7,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/2fb44de9bb1271f4eb21bba03d71175d/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Shounenki"
+      ],
+      "albums": [
+        "Doraemon Eiga Shudaikashuu"
+      ],
+      "songDetails": [
+        {
+          "title": "Shounenki",
+          "album": "Doraemon Eiga Shudaikashuu",
+          "genre": "Pop",
+          "year": "1991",
+          "plays": 5,
+          "skips": 9,
+          "durationSec": 191
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Doraemon Eiga Shudaikashuu",
+          "plays": 5,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Shounenki",
+              "album": "Doraemon Eiga Shudaikashuu",
+              "genre": "Pop",
+              "year": "1991",
+              "plays": 5,
+              "skips": 9,
+              "durationSec": 191
+            }
+          ]
+        }
+      ],
+      "galaxyX": -67.8,
+      "galaxyY": -418.93,
+      "starRadius": 9.7
+    },
+    {
+      "id": "art-106",
+      "name": "M\u00e5neskin",
+      "genre": "Classic Rock",
+      "decade": "2020s",
+      "bio": "M\u00e5neskin is an Italian rock band formed in Rome in 2016. The band is composed of lead vocalist Damiano David, bassist Victoria De Angelis, guitarist Thomas Raggi, and drummer Ethan Torchio. Performing in the streets in their early days, M\u00e5neskin rose to prominence after coming in second in the eleventh season of the Italian version of X Factor in 2017, where they were coached by Manuel Agnelli. Their international breakthrough occurred when the foursome won the Eurovision Song Contest 2021 for Italy, after also winning the Sanremo Music Festival, with the song \"Zitti e buoni\".",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 5,
+      "totalSkips": 4,
+      "totalHours": 0.2,
+      "avgPlays": 5.0,
+      "completionRate": 55.6,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/d41d8cd98f00b204e9800998ecf8427e/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "I WANNA BE YOUR SLAVE"
+      ],
+      "albums": [
+        "Teatro d'Ira - Vol. I"
+      ],
+      "songDetails": [
+        {
+          "title": "I WANNA BE YOUR SLAVE",
+          "album": "Teatro d'Ira - Vol. I",
+          "genre": "Hard Rock",
+          "year": "2021",
+          "plays": 5,
+          "skips": 4,
+          "durationSec": 173
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Teatro d'Ira - Vol. I",
+          "plays": 5,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "I WANNA BE YOUR SLAVE",
+              "album": "Teatro d'Ira - Vol. I",
+              "genre": "Hard Rock",
+              "year": "2021",
+              "plays": 5,
+              "skips": 4,
+              "durationSec": 173
+            }
+          ]
+        }
+      ],
+      "galaxyX": 334.43,
+      "galaxyY": 264.26,
+      "starRadius": 9.7
+    },
+    {
+      "id": "art-107",
+      "name": "Catfish and the Bottlemen",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Catfish and the Bottlemen are a British indie rock band formed in Llandudno, Conwy, Wales, in 2007. The band currently consists of Van McCann and Benji Blakeway. Their debut album, The Balcony, was released in 2014, peaking at number ten on the UK Albums Chart and later achieving Platinum certification on 30 December 2016. Renowned for their energetic live performances, the band have toured across North America, South America, Europe, Japan and Australia, performing at festivals including Glastonbury, Reading and Leeds, Latitude, TRNSMT, T in the Park, All Points East, Governors Ball, Bonnaroo, Lollapalooza, Falls Festival and Splendour in the Grass.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 5,
+      "totalSkips": 0,
+      "totalHours": 0.4,
+      "avgPlays": 5.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8f/8b/3c/8f8b3c0c-9f1b-fa17-c70c-48b2b3f4c8d2/00602547814623.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Soundcheck"
+      ],
+      "albums": [
+        "The Ride"
+      ],
+      "songDetails": [
+        {
+          "title": "Soundcheck",
+          "album": "The Ride",
+          "genre": "Alternative",
+          "year": "2016",
+          "plays": 5,
+          "skips": 0,
+          "durationSec": 262
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "The Ride",
+          "plays": 5,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Soundcheck",
+              "album": "The Ride",
+              "genre": "Alternative",
+              "year": "2016",
+              "plays": 5,
+              "skips": 0,
+              "durationSec": 262
+            }
+          ]
+        }
+      ],
+      "galaxyX": -426.94,
+      "galaxyY": 31.18,
+      "starRadius": 9.7
+    },
+    {
+      "id": "art-108",
+      "name": "DNCE",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "DNCE was an American dance-rock band consisting of lead singer Joe Jonas, drummer Jack Lawless, and guitarist JinJoo Lee. Bassist and keyboardist Cole Whittle was a part of the band from when they formed in 2015 to when they went on hiatus in 2019. DNCE's music is mainly dance-rock, dance-pop, pop rock, and funk-pop. The band signed with Republic Records and released their debut single, \"Cake by the Ocean\", on September 18, 2015. The song reached the top 10 on several charts, including on the US Billboard Hot 100, where it peaked at number nine. The band's second single, \"Toothbrush\", was moderately successful.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 5,
+      "totalSkips": 1,
+      "totalHours": 0.3,
+      "avgPlays": 5.0,
+      "completionRate": 83.3,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/67/ed/b7/67edb73c-2666-af9f-cde7-84082ef03a1a/16UMGIM68263.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Cake By the Ocean"
+      ],
+      "albums": [
+        "DNCE"
+      ],
+      "songDetails": [
+        {
+          "title": "Cake By the Ocean",
+          "album": "DNCE",
+          "genre": "Pop",
+          "year": "2015",
+          "plays": 5,
+          "skips": 1,
+          "durationSec": 219
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "DNCE",
+          "plays": 5,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Cake By the Ocean",
+              "album": "DNCE",
+              "genre": "Pop",
+              "year": "2015",
+              "plays": 5,
+              "skips": 1,
+              "durationSec": 219
+            }
+          ]
+        }
+      ],
+      "galaxyX": 295.01,
+      "galaxyY": -312.72,
+      "starRadius": 9.7
+    },
+    {
+      "id": "art-109",
+      "name": "Taylor Swift",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Taylor Alison Swift is an American singer-songwriter. An influential figure in popular culture, Swift is known for her autobiographical songwriting and artistic reinventions. She is the highest-grossing live music artist, the wealthiest female musician, and one of the best-selling music artists of all time.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 5,
+      "totalSkips": 2,
+      "totalHours": 0.3,
+      "avgPlays": 5.0,
+      "completionRate": 71.4,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/e528e270424103b527f8a27ac625563b/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Style"
+      ],
+      "albums": [
+        "1989 (Deluxe Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "Style",
+          "album": "1989 (Deluxe Edition)",
+          "genre": "Pop",
+          "year": "2014",
+          "plays": 5,
+          "skips": 2,
+          "durationSec": 231
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "1989 (Deluxe Edition)",
+          "plays": 5,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Style",
+              "album": "1989 (Deluxe Edition)",
+              "genre": "Pop",
+              "year": "2014",
+              "plays": 5,
+              "skips": 2,
+              "durationSec": 231
+            }
+          ]
+        }
+      ],
+      "galaxyX": -6.32,
+      "galaxyY": 431.69,
+      "starRadius": 9.7
+    },
+    {
+      "id": "art-110",
+      "name": "Gym Class Heroes",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Gym Class Heroes is an American rap rock band from Geneva, New York. The group formed in 1997 when Travie McCoy met drummer Matt McGinley during their high school gym class. The band's music displays a wide variety of influences, including hip hop, rock, funk, and reggae.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 4,
+      "totalSkips": 0,
+      "totalHours": 0.2,
+      "avgPlays": 4.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/c6/b4/53c6b4d2-c47a-ff5e-6473-1895f8c74026/mzi.zhootxes.jpg/600x600bb.jpg",
+      "songs": [
+        "Stereo Hearts (feat. Adam Levine)"
+      ],
+      "albums": [
+        "The Papercut Chronicles II"
+      ],
+      "songDetails": [
+        {
+          "title": "Stereo Hearts (feat. Adam Levine)",
+          "album": "The Papercut Chronicles II",
+          "genre": "Pop",
+          "year": "2011",
+          "plays": 4,
+          "skips": 0,
+          "durationSec": 211
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "The Papercut Chronicles II",
+          "plays": 4,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Stereo Hearts (feat. Adam Levine)",
+              "album": "The Papercut Chronicles II",
+              "genre": "Pop",
+              "year": "2011",
+              "plays": 4,
+              "skips": 0,
+              "durationSec": 211
+            }
+          ]
+        }
+      ],
+      "galaxyX": -288.15,
+      "galaxyY": -323.94,
+      "starRadius": 9.4
+    },
+    {
+      "id": "art-111",
+      "name": "Fleetwood Mac",
+      "genre": "Classic Rock",
+      "decade": "1970s",
+      "bio": "Fleetwood Mac were a British and American rock band formed in London in 1967. They have sold more than 120 million records worldwide, making them one of the world's best-selling musical acts. Their 1977 album, Rumours, is one of the best-selling albums of all time and won the Grammy Award for Album of the Year in 1978. In 1979, they were honoured with a star on the Hollywood Walk of Fame, and in 1998 they were inducted into the Rock and Roll Hall of Fame and received the Brit Award for Outstanding Contribution to Music. In 2018, Fleetwood Mac received the MusiCares Person of the Year award from the Recording Academy in recognition of their artistic achievement in the music industry and dedication to philanthropy.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 4,
+      "totalSkips": 1,
+      "totalHours": 0.3,
+      "avgPlays": 4.0,
+      "completionRate": 80.0,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2a/eb/dc/2aebdc18-c2c0-0fdd-fb85-07538a925700/603497925766.jpg/600x600bb.jpg",
+      "songs": [
+        "Dreams"
+      ],
+      "albums": [
+        "Rumours (Super Deluxe Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "Dreams",
+          "album": "Rumours (Super Deluxe Edition)",
+          "genre": "Rock",
+          "year": "1977",
+          "plays": 4,
+          "skips": 1,
+          "durationSec": 258
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Rumours (Super Deluxe Edition)",
+          "plays": 4,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Dreams",
+              "album": "Rumours (Super Deluxe Edition)",
+              "genre": "Rock",
+              "year": "1977",
+              "plays": 4,
+              "skips": 1,
+              "durationSec": 258
+            }
+          ]
+        }
+      ],
+      "galaxyX": 433.08,
+      "galaxyY": 44.4,
+      "starRadius": 9.4
+    },
+    {
+      "id": "art-112",
+      "name": "Majestic & Boney M.",
+      "genre": "Eurodance / Electronic",
+      "decade": "2020s",
+      "bio": "Majestic, formerly known as Lab Rat, was a Swedish neo-classical power metal band, founded in 1997 by Peter Espinoza after he was asked to form a band. Richard Andersson was asked to join and they started to write music for the debut album. Tunes like Golden sea and Standing Alone were meant to be on Peters second solo album but were rearranged for the sound and the keyboard and together the Majestic sound was born. Majestic made two albums: Abstract Symphony (1999) and Trinity Overture (2000), under the label Massacre Records. Peter left the band after the debut album for reunion and touring with Nasty Idols.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 3,
+      "totalSkips": 4,
+      "totalHours": 0.2,
+      "avgPlays": 3.0,
+      "completionRate": 42.9,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/54/77/e654778e-7970-b06d-576d-38ccdb01341b/0197907007765.png/600x600bb.jpg",
+      "songs": [
+        "Rasputin"
+      ],
+      "albums": [
+        "Rasputin - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Rasputin",
+          "album": "Rasputin - Single",
+          "genre": "Dance",
+          "year": "2021",
+          "plays": 3,
+          "skips": 4,
+          "durationSec": 186
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Rasputin - Single",
+          "plays": 3,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Rasputin",
+              "album": "Rasputin - Single",
+              "genre": "Dance",
+              "year": "2021",
+              "plays": 3,
+              "skips": 4,
+              "durationSec": 186
+            }
+          ]
+        }
+      ],
+      "galaxyX": -350.78,
+      "galaxyY": 260.88,
+      "starRadius": 9.0
+    },
+    {
+      "id": "art-113",
+      "name": "Killswitch Engage",
+      "genre": "Classic Rock",
+      "decade": "2000s",
+      "bio": "Killswitch Engage is an American metalcore band from Westfield, Massachusetts, formed in 1999. The band's current lineup consists of vocalist Jesse Leach, guitarists Joel Stroetzel and Adam Dutkiewicz, bassist Mike D'Antonio, and drummer Justin Foley. Howard Jones was the band's lead vocalist from 2002 to 2012.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 3,
+      "totalSkips": 1,
+      "totalHours": 0.2,
+      "avgPlays": 3.0,
+      "completionRate": 75.0,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4a/bb/17/4abb1737-c0bb-04c7-bd10-b630c0445c05/mzi.ulqbnqhw.jpg/600x600bb.jpg",
+      "songs": [
+        "This Fire"
+      ],
+      "albums": [
+        "As Daylight Dies (Special Edition)"
+      ],
+      "songDetails": [
+        {
+          "title": "This Fire",
+          "album": "As Daylight Dies (Special Edition)",
+          "genre": "Metal",
+          "year": "2006",
+          "plays": 3,
+          "skips": 1,
+          "durationSec": 190
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "As Daylight Dies (Special Edition)",
+          "plays": 3,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "This Fire",
+              "album": "As Daylight Dies (Special Edition)",
+              "genre": "Metal",
+              "year": "2006",
+              "plays": 3,
+              "skips": 1,
+              "durationSec": 190
+            }
+          ]
+        }
+      ],
+      "galaxyX": 82.77,
+      "galaxyY": -431.07,
+      "starRadius": 9.0
+    },
+    {
+      "id": "art-114",
+      "name": "Billy Joel",
+      "genre": "Classic Rock",
+      "decade": "1970s",
+      "bio": "William Martin Joel is an American singer, songwriter, and pianist. Nicknamed the Piano Man, after his 1973 signature song of the same name, he has had a successful career as a solo artist since the 1970s. From 1971 to 1993, Joel released 12 entirely self-written studio albums spanning the genres of pop and rock, and in 2001 released a one-off studio album of classical compositions. With over 160 million records sold worldwide, Joel is one of the world's best-selling music artists and is the fourth-best-selling solo artist in the United States. His 1985 compilation album, Greatest Hits \u2013 Volume I & Volume II, is one of the best-selling albums in the U.S.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 3,
+      "totalSkips": 3,
+      "totalHours": 0.3,
+      "avgPlays": 3.0,
+      "completionRate": 50.0,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f0/7a/54/f07a54ab-3ebc-6813-e515-86200b8138fc/dj.uthntyfe.jpg/600x600bb.jpg",
+      "songs": [
+        "Piano Man"
+      ],
+      "albums": [
+        "Piano Man"
+      ],
+      "songDetails": [
+        {
+          "title": "Piano Man",
+          "album": "Piano Man",
+          "genre": "Rock",
+          "year": "1973",
+          "plays": 3,
+          "skips": 3,
+          "durationSec": 339
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Piano Man",
+          "plays": 3,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Piano Man",
+              "album": "Piano Man",
+              "genre": "Rock",
+              "year": "1973",
+              "plays": 3,
+              "skips": 3,
+              "durationSec": 339
+            }
+          ]
+        }
+      ],
+      "galaxyX": 231.08,
+      "galaxyY": 375.29,
+      "starRadius": 9.0
+    },
+    {
+      "id": "art-115",
+      "name": "AC/DC",
+      "genre": "Classic Rock",
+      "decade": "1980s",
+      "bio": "AC/DC are an Australian rock band formed in Sydney in 1973. Their music has been variously described as hard rock, blues rock and heavy metal, although the band calls it simply \"rock and roll\". They are cited as a formative influence on the new wave of British heavy metal bands, such as Def Leppard and Saxon, and were among \"the second generation of rising stars ready to step into the breach as the old guard waned\", according to critics.",
+      "trackCount": 2,
+      "albumCount": 2,
+      "totalPlays": 2,
+      "totalSkips": 4,
+      "totalHours": 0.1,
+      "avgPlays": 1.0,
+      "completionRate": 33.3,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/fc/c2/f8/fcc2f850-1d81-7440-c0a0-de7fcef1e911/dj.rrgizfic.jpg/600x600bb.jpg",
+      "songs": [
+        "Back In Black",
+        "Highway to Hell"
+      ],
+      "albums": [
+        "Highway to Hell",
+        "Back In Black"
+      ],
+      "songDetails": [
+        {
+          "title": "Back In Black",
+          "album": "Back In Black",
+          "genre": "Hard Rock",
+          "year": "1980",
+          "plays": 1,
+          "skips": 4,
+          "durationSec": 256
+        },
+        {
+          "title": "Highway to Hell",
+          "album": "Highway to Hell",
+          "genre": "Hard Rock",
+          "year": "1979",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 208
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Back In Black",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Back In Black",
+              "album": "Back In Black",
+              "genre": "Hard Rock",
+              "year": "1980",
+              "plays": 1,
+              "skips": 4,
+              "durationSec": 256
+            }
+          ]
+        },
+        {
+          "name": "Highway to Hell",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Highway to Hell",
+              "album": "Highway to Hell",
+              "genre": "Hard Rock",
+              "year": "1979",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 208
+            }
+          ]
+        }
+      ],
+      "galaxyX": -425.61,
+      "galaxyY": -121.12,
+      "starRadius": 8.6
+    },
+    {
+      "id": "art-116",
+      "name": "The Rare Occasions",
+      "genre": "Classic Rock",
+      "decade": "2010s",
+      "bio": "The Rare Occasions are an American indie rock band, formed in Somerville, Massachusetts in 2012. Current members are Brian McLaughlin, Jeremy Cohen and Luke Imbusch. Lead guitarist Peter Stone left in 2018. The band's debut release was the Demo Recordings EP (2012). In 2016, Futureproof was released as a fourth EP. \"Notion\", a song from the EP, went viral on TikTok in October 2021. Their most recent release has been the album \"Through Moonshot Eyes\" in September 2024.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 2,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 2.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/09/54/1f/09541f3f-7013-a259-b468-88cf507f1319/075679761576.jpg/600x600bb.jpg",
+      "songs": [
+        "Notion"
+      ],
+      "albums": [
+        "coquette feminine energy"
+      ],
+      "songDetails": [
+        {
+          "title": "Notion",
+          "album": "coquette feminine energy",
+          "genre": "Rock",
+          "year": "2016",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 195
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "coquette feminine energy",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Notion",
+              "album": "coquette feminine energy",
+              "genre": "Rock",
+              "year": "2016",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 195
+            }
+          ]
+        }
+      ],
+      "galaxyX": 397.22,
+      "galaxyY": -198.98,
+      "starRadius": 8.6
+    },
+    {
+      "id": "art-117",
+      "name": "Kali Uchis",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Karly Marina Loaiza, known professionally as Kali Uchis, is an American singer-songwriter. Her accolades include a Grammy Award, an American Music Award, two Billboard Music Awards, and five nominations for a Latin Grammy Award.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 2,
+      "totalSkips": 3,
+      "totalHours": 0.1,
+      "avgPlays": 2.0,
+      "completionRate": 40.0,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/c2/21/4a/c2214a0a-1355-770e-eef2-7b872f433e02/20UMGIM71274.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "telepat\u00eda"
+      ],
+      "albums": [
+        "Alternativo para las buenas vibras"
+      ],
+      "songDetails": [
+        {
+          "title": "telepat\u00eda",
+          "album": "Alternativo para las buenas vibras",
+          "genre": "Latin",
+          "year": "2020",
+          "plays": 2,
+          "skips": 3,
+          "durationSec": 160
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Alternativo para las buenas vibras",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "telepat\u00eda",
+              "album": "Alternativo para las buenas vibras",
+              "genre": "Latin",
+              "year": "2020",
+              "plays": 2,
+              "skips": 3,
+              "durationSec": 160
+            }
+          ]
+        }
+      ],
+      "galaxyX": -159.12,
+      "galaxyY": 416.68,
+      "starRadius": 8.6
+    },
+    {
+      "id": "art-118",
+      "name": "Guns N' Roses",
+      "genre": "Classic Rock",
+      "decade": "1980s",
+      "bio": "Guns N' Roses is an American hard rock band formed in Los Angeles, California, in 1985 from L.A. Guns and Hollywood Rose. After signing with Geffen Records in 1986, the band's \"classic\" lineup featured vocalist Axl Rose, lead guitarist Slash, rhythm guitarist Izzy Stradlin, bassist Duff McKagan, and drummer Steven Adler.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 2,
+      "totalSkips": 1,
+      "totalHours": 0.2,
+      "avgPlays": 2.0,
+      "completionRate": 66.7,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a0/4d/c4/a04dc484-03cc-02aa-fa82-5334fcb4bc16/18UMGIM24878.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Welcome to the Jungle"
+      ],
+      "albums": [
+        "Appetite for Destruction"
+      ],
+      "songDetails": [
+        {
+          "title": "Welcome to the Jungle",
+          "album": "Appetite for Destruction",
+          "genre": "Hard Rock",
+          "year": "1987",
+          "plays": 2,
+          "skips": 1,
+          "durationSec": 273
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Appetite for Destruction",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Welcome to the Jungle",
+              "album": "Appetite for Destruction",
+              "genre": "Hard Rock",
+              "year": "1987",
+              "plays": 2,
+              "skips": 1,
+              "durationSec": 273
+            }
+          ]
+        }
+      ],
+      "galaxyX": -164.78,
+      "galaxyY": -416.36,
+      "starRadius": 8.6
+    },
+    {
+      "id": "art-119",
+      "name": "Alter Bridge",
+      "genre": "Classic Rock",
+      "decade": "2000s",
+      "bio": "Alter Bridge is an American rock band from Orlando, Florida. The band was formed in 2004 by lead vocalist and rhythm guitarist Myles Kennedy, lead guitarist Mark Tremonti, bassist Brian Marshall and drummer Scott Phillips. After their former band Creed became inactive in 2003, Tremonti and Phillips formed a new band with former bandmate Marshall and new member Kennedy; Alter Bridge was formally unveiled in January 2004, months before Creed's official breakup in June.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 2,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 2.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2d/27/ee/2d27ee51-35d1-f7c2-26c8-6eca18f7143f/00601501409721.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Metalingus"
+      ],
+      "albums": [
+        "One Day Remains"
+      ],
+      "songDetails": [
+        {
+          "title": "Metalingus",
+          "album": "One Day Remains",
+          "genre": "Hard Rock",
+          "year": "2004",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 260
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "One Day Remains",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Metalingus",
+              "album": "One Day Remains",
+              "genre": "Hard Rock",
+              "year": "2004",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 260
+            }
+          ]
+        }
+      ],
+      "galaxyX": 404.32,
+      "galaxyY": 196.47,
+      "starRadius": 8.6
+    },
+    {
+      "id": "art-120",
+      "name": "Aerosmith & Beavis and Butt-Head",
+      "genre": "Classic Rock",
+      "decade": "1990s",
+      "bio": "Aerosmith is an American rock band formed in Boston in 1970. The group consists of lead vocalist Steven Tyler, bassist Tom Hamilton, drummer Joey Kramer, and guitarists Joe Perry and Brad Whitford. Their style, which is rooted in blues-based hard rock, has also incorporated elements of pop rock, heavy metal, glam metal, and rhythm and blues, and has inspired many subsequent rock artists. Aerosmith is sometimes referred to as \"the Bad Boys from Boston\" and \"America's Greatest Rock and Roll Band\". The primary songwriting team of Tyler and Perry is sometimes referred to as the \"Toxic Twins\".",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 2,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 2.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/41/0b/88/410b88ce-0e7d-4c0d-abaa-cc9f25961ff6/00720642461327.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Deuces Are Wild"
+      ],
+      "albums": [
+        "The Beavis and Butt-Head Experience"
+      ],
+      "songDetails": [
+        {
+          "title": "Deuces Are Wild",
+          "album": "The Beavis and Butt-Head Experience",
+          "genre": "Rock",
+          "year": "1993",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 231
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "The Beavis and Butt-Head Experience",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Deuces Are Wild",
+              "album": "The Beavis and Butt-Head Experience",
+              "genre": "Rock",
+              "year": "1993",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 231
+            }
+          ]
+        }
+      ],
+      "galaxyX": -432.52,
+      "galaxyY": 128.74,
+      "starRadius": 8.6
+    },
+    {
+      "id": "art-121",
+      "name": "Run-DMC",
+      "genre": "Hip-Hop / Rap",
+      "decade": "1980s",
+      "bio": "Run-DMC was an American hip-hop group formed in Hollis, Queens, New York City in 1983 by Joseph Simmons, Darryl McDaniels, and Jason Mizell. Run-DMC is regarded as one of the most influential acts in the history of hip-hop culture and especially one of the most famous hip-hop acts of the 1980s. Along with Beastie Boys, LL Cool J, DJ Jazzy Jeff & the Fresh Prince, and Public Enemy, the group pioneered new-school hip-hop music and helped usher in golden age hip-hop. The group was among the first to popularize the MC and DJ relationship.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 2,
+      "totalSkips": 0,
+      "totalHours": 0.2,
+      "avgPlays": 2.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/52/83/6c5283eb-146f-bde5-30aa-0e9892b6fc04/888880788566.jpg/600x600bb.jpg",
+      "songs": [
+        "Walk This Way (feat. Aerosmith)"
+      ],
+      "albums": [
+        "Raising Hell"
+      ],
+      "songDetails": [
+        {
+          "title": "Walk This Way (feat. Aerosmith)",
+          "album": "Raising Hell",
+          "genre": "Hip-Hop/Rap",
+          "year": "1986",
+          "plays": 2,
+          "skips": 0,
+          "durationSec": 310
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Raising Hell",
+          "plays": 2,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Walk This Way (feat. Aerosmith)",
+              "album": "Raising Hell",
+              "genre": "Hip-Hop/Rap",
+              "year": "1986",
+              "plays": 2,
+              "skips": 0,
+              "durationSec": 310
+            }
+          ]
+        }
+      ],
+      "galaxyX": 232.85,
+      "galaxyY": -388.57,
+      "starRadius": 8.6
+    },
+    {
+      "id": "art-122",
+      "name": "JAY-Z",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2000s",
+      "bio": "Shawn Corey Carter, known professionally as Jay-Z, is an American rapper, businessman, and record executive. In 2023, Billboard and Vibe ranked him as the greatest rapper of all time. Rooted in East Coast hip-hop, Jay-Z is known for his complex lyricism that often uses double entendres, wordplay, and braggadocio\u2014built on a rags to riches narrative. According to Forbes, he is the wealthiest music artist in history, worth an estimated US$2.8 billion as of 2026.",
+      "trackCount": 2,
+      "albumCount": 2,
+      "totalPlays": 1,
+      "totalSkips": 5,
+      "totalHours": 0.1,
+      "avgPlays": 0.5,
+      "completionRate": 16.7,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music/03/c5/d4/mzi.ldvrmhxt.jpg/600x600bb.jpg",
+      "songs": [
+        "Lost One (feat. Chrisette Michele)",
+        "F*ckwithmeyouknowigotit (feat. Rick Ross)"
+      ],
+      "albums": [
+        "Magna Carta... Holy Grail",
+        "Kingdom Come"
+      ],
+      "songDetails": [
+        {
+          "title": "Lost One (feat. Chrisette Michele)",
+          "album": "Kingdom Come",
+          "genre": "Hip-Hop/Rap",
+          "year": "2006",
+          "plays": 1,
+          "skips": 5,
+          "durationSec": 224
+        },
+        {
+          "title": "F*ckwithmeyouknowigotit (feat. Rick Ross)",
+          "album": "Magna Carta... Holy Grail",
+          "genre": "Hip-Hop/Rap",
+          "year": "2013",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 243
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Kingdom Come",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Lost One (feat. Chrisette Michele)",
+              "album": "Kingdom Come",
+              "genre": "Hip-Hop/Rap",
+              "year": "2006",
+              "plays": 1,
+              "skips": 5,
+              "durationSec": 224
+            }
+          ]
+        },
+        {
+          "name": "Magna Carta... Holy Grail",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "F*ckwithmeyouknowigotit (feat. Rick Ross)",
+              "album": "Magna Carta... Holy Grail",
+              "genre": "Hip-Hop/Rap",
+              "year": "2013",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 243
+            }
+          ]
+        }
+      ],
+      "galaxyX": 91.13,
+      "galaxyY": 445.5,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-123",
+      "name": "BLOND:ISH, Madonna, Eran Hersh & Darmon",
+      "genre": "80s/90s Pop",
+      "decade": "2020s",
+      "bio": "Thomas Gandey is an English electronic music producer, composer, vocalist, keyboard player and former DJ, known for work under his own name as well as under his Cagedbaby pseudonym. He has released over 150 remixes to date including for Shirley Bassey, Ocean Colour Scene, Empire of the Sun, Fatboy Slim, The Temper Trap and Grace Jones, and DJed and performed live shows at many of the world's best-known clubs and festivals, including Womb, Glastonbury Festival, Fuji Rock Festival, and Tokyo's Big Beach Festival. He has been a resident at We Love Space Ibiza and Barcelona's Razzmatazz. He lived in the UK until 2006, and now splits his time between Bordeaux and Brighton.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 1,
+      "totalHours": 0.0,
+      "avgPlays": 1.0,
+      "completionRate": 50.0,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/58/ba/f4/58baf488-f18d-3ca8-46cb-8f844b7c66ea/8720996317068.png/600x600bb.jpg",
+      "songs": [
+        "Sorry"
+      ],
+      "albums": [
+        "Sorry - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Sorry",
+          "album": "Sorry - Single",
+          "genre": "Dance",
+          "year": "2023",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 162
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Sorry - Single",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Sorry",
+              "album": "Sorry - Single",
+              "genre": "Dance",
+              "year": "2023",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 162
+            }
+          ]
+        }
+      ],
+      "galaxyX": -369.52,
+      "galaxyY": -267.95,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-124",
+      "name": "Sabrina Carpenter",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Sabrina Annlynn Carpenter is an American singer, songwriter, and actress. She first gained prominence starring as Maya Hart on the Disney Channel series Girl Meets World (2014\u20132017). She signed with the Disney-owned Hollywood Records and achieved limited success with her studio albums, Eyes Wide Open (2015), Evolution (2016), Singular: Act I (2018), and Singular: Act II (2019).",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 1,
+      "totalHours": 0.0,
+      "avgPlays": 1.0,
+      "completionRate": 50.0,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f6/15/d0/f615d0ab-e0c4-575d-907e-1cc084642357/24UMGIM61704.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Espresso"
+      ],
+      "albums": [
+        "Short n' Sweet"
+      ],
+      "songDetails": [
+        {
+          "title": "Espresso",
+          "album": "Short n' Sweet",
+          "genre": "Pop",
+          "year": "2024",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 175
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Short n' Sweet",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Espresso",
+              "album": "Short n' Sweet",
+              "genre": "Pop",
+              "year": "2024",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 175
+            }
+          ]
+        }
+      ],
+      "galaxyX": 455.16,
+      "galaxyY": -52.22,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-125",
+      "name": "Michael Jackson & Justin Timberlake",
+      "genre": "80s/90s Pop",
+      "decade": "2010s",
+      "bio": "Michael Joseph Jackson was an American singer, songwriter, dancer, and philanthropist. Dubbed the \"King of Pop\", he is widely regarded as one of the most culturally significant figures of the 20th century. His musical achievements broke American racial barriers and made him a dominant figure worldwide. Through his songs, music videos, concerts, and fashion, he transformed visual performance in popular music, popularizing street dance moves such as the moonwalk, the robot, and the anti-gravity lean. Jackson is often deemed the greatest entertainer of all time.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 1.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/83/15/cc/8315ccdd-5a8d-8344-fa15-72e4cb64145e/886444533171.jpg/600x600bb.jpg",
+      "songs": [
+        "Love Never Felt So Good"
+      ],
+      "albums": [
+        "XSCAPE (Deluxe)"
+      ],
+      "songDetails": [
+        {
+          "title": "Love Never Felt So Good",
+          "album": "XSCAPE (Deluxe)",
+          "genre": "Pop",
+          "year": "2014",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 246
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "XSCAPE (Deluxe)",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Love Never Felt So Good",
+              "album": "XSCAPE (Deluxe)",
+              "genre": "Pop",
+              "year": "2014",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 246
+            }
+          ]
+        }
+      ],
+      "galaxyX": -301.46,
+      "galaxyY": 347.25,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-126",
+      "name": "K Suave",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "Kevin Gainer, known professionally as K Suave, is an American rapper, singer and songwriter.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 1,
+      "totalHours": 0.1,
+      "avgPlays": 1.0,
+      "completionRate": 50.0,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/70/94/67/70946710-bf91-dc79-6f61-d9f209008dda/075679560018.jpg/600x600bb.jpg",
+      "songs": [
+        "In the Hills"
+      ],
+      "albums": [
+        "Thot Slayer"
+      ],
+      "songDetails": [
+        {
+          "title": "In the Hills",
+          "album": "Thot Slayer",
+          "genre": "Hip-Hop/Rap",
+          "year": "2018",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 180
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Thot Slayer",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "In the Hills",
+              "album": "Thot Slayer",
+              "genre": "Hip-Hop/Rap",
+              "year": "2018",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 180
+            }
+          ]
+        }
+      ],
+      "galaxyX": -12.32,
+      "galaxyY": -461.38,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-127",
+      "name": "Future",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "The future is the time after the past and the present. Its arrival is considered inevitable due to the existence of time and the laws of physics. Due to the apparent nature of the reality and the unavoidability of the future, everything that currently exists and will exist can be categorized as either permanent, meaning that it will exist forever, or temporary, meaning that it will end. In the Occidental view, which uses a linear conception of time, the future is the portion of the projected timeline that is anticipated to occur. In special relativity, the future is considered absolute future, or the future light cone.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 1,
+      "totalHours": 0.1,
+      "avgPlays": 1.0,
+      "completionRate": 50.0,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0e/44/fd/0e44fd82-6ae7-3083-b3a4-c25bd50a527f/196922105265_Cover.jpg/600x600bb.jpg",
+      "songs": [
+        "Mask Off (feat. Kendrick Lamar) [Remix]"
+      ],
+      "albums": [
+        "FUTURE"
+      ],
+      "songDetails": [
+        {
+          "title": "Mask Off (feat. Kendrick Lamar) [Remix]",
+          "album": "FUTURE",
+          "genre": "Hip-Hop/Rap",
+          "year": "2017",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 258
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "FUTURE",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Mask Off (feat. Kendrick Lamar) [Remix]",
+              "album": "FUTURE",
+              "genre": "Hip-Hop/Rap",
+              "year": "2017",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 258
+            }
+          ]
+        }
+      ],
+      "galaxyX": 321.92,
+      "galaxyY": 333.1,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-128",
+      "name": "Ice Cube",
+      "genre": "Hip-Hop / Rap",
+      "decade": "1990s",
+      "bio": "O'Shea Jackson, known professionally as Ice Cube, is an American rapper, songwriter, actor, and film producer. His efforts on N.W.A's 1989 album Straight Outta Compton contributed to gangsta rap's popularity, and his political rap solo albums AmeriKKKa's Most Wanted (1990), Death Certificate (1991), and The Predator (1992) were all critically and commercially successful. He was inducted into the Rock and Roll Hall of Fame as a member of N.W.A in 2016.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 1.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0f/0c/7a/0f0c7a70-ea64-e314-a9aa-05b11999f314/00602498837900.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "You Know How We Do It"
+      ],
+      "albums": [
+        "Lethal Injection"
+      ],
+      "songDetails": [
+        {
+          "title": "You Know How We Do It",
+          "album": "Lethal Injection",
+          "genre": "Hip-Hop/Rap",
+          "year": "1993",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 233
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Lethal Injection",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "You Know How We Do It",
+              "album": "Lethal Injection",
+              "genre": "Hip-Hop/Rap",
+              "year": "1993",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 233
+            }
+          ]
+        }
+      ],
+      "galaxyX": -464.06,
+      "galaxyY": -28.27,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-129",
+      "name": "J. Cole",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "Jermaine Lamarr Cole is an American rapper and record producer. Born on a military base in Germany and raised in Fayetteville, North Carolina, Cole initially gained attention as a rapper following the release of his debut mixtape, The Come Up, in early 2007. He attended college in New York City with intent in furthering his musical career, and signed with Jay-Z's Roc Nation in 2009; the label released his next two mixtapes: The Warm Up (2009) and Friday Night Lights (2010), both of which earned him wider recognition.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 1.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/04/f4/a2/04f4a2ca-81d1-a258-0c70-ee555840bc15/18UMGIM22943.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "She Knows (feat. Amber Coffman & Cults)"
+      ],
+      "albums": [
+        "Born Sinner (Deluxe Version)"
+      ],
+      "songDetails": [
+        {
+          "title": "She Knows (feat. Amber Coffman & Cults)",
+          "album": "Born Sinner (Deluxe Version)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2013",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 297
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Born Sinner (Deluxe Version)",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "She Knows (feat. Amber Coffman & Cults)",
+              "album": "Born Sinner (Deluxe Version)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2013",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 297
+            }
+          ]
+        }
+      ],
+      "galaxyX": 362.58,
+      "galaxyY": -293.68,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-130",
+      "name": "Shawn Mendes & Tainy",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "Shawn Peter Raul Mendes is a Canadian singer, songwriter, and musician. He gained a following in 2013 when he posted song covers on the video-sharing platform Vine. The following year, he caught the attention of artist manager Andrew Gertler and Island Records A&R Ziggy Chareton, which led to his signing a deal with the record label. Mendes's self-titled debut EP was released in 2014, followed by his debut studio album Handwritten in 2015. Handwritten debuted atop the US Billboard 200, making Mendes one of five artists ever to debut at number one before the age of 18. The single \"Stitches\" reached number one in the UK and the top 10 in the US and Canada.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 1.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#F59E0B",
+        "bg": "linear-gradient(135deg,#451a03,#291002)",
+        "glow": "rgba(245,158,11,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5c/57/e4/5c57e46a-0950-7ebd-8010-28453c1c0055/16UMGIM51723.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Summer Of Love"
+      ],
+      "albums": [
+        "Summer Grooves"
+      ],
+      "songDetails": [
+        {
+          "title": "Summer Of Love",
+          "album": "Summer Grooves",
+          "genre": "Pop",
+          "year": "2021",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 184
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Summer Grooves",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Summer Of Love",
+              "album": "Summer Grooves",
+              "genre": "Pop",
+              "year": "2021",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 184
+            }
+          ]
+        }
+      ],
+      "galaxyX": -69.23,
+      "galaxyY": 463.12,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-131",
+      "name": "Bitterwood",
+      "genre": "Classic Rock",
+      "decade": "2020s",
+      "bio": "Bitter wood is a common name for several trees, all from the family Simaroubaceae, and may refer to:The genus Picrasma of South & South-East Asia and the Caribbean, e.g. Picrasma excelsa Simarouba glauca, native to Florida, the Caribbean, and Central America Quassia amara, native to Central and South America",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 1,
+      "totalHours": 0.0,
+      "avgPlays": 1.0,
+      "completionRate": 50.0,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/74/a0/64/74a064c5-518e-17da-b698-252c42b64d3f/artwork.jpg/600x600bb.jpg",
+      "songs": [
+        "Let's Beyblade (Let It Rip)"
+      ],
+      "albums": [
+        "Sexy AF a//B - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Let's Beyblade (Let It Rip)",
+          "album": "Sexy AF a//B - Single",
+          "genre": "Metal",
+          "year": "2021",
+          "plays": 1,
+          "skips": 1,
+          "durationSec": 91
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Sexy AF a//B - Single",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Let's Beyblade (Let It Rip)",
+              "album": "Sexy AF a//B - Single",
+              "genre": "Metal",
+              "year": "2021",
+              "plays": 1,
+              "skips": 1,
+              "durationSec": 91
+            }
+          ]
+        }
+      ],
+      "galaxyX": -262.72,
+      "galaxyY": -389.63,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-132",
+      "name": "Ravyn Lenae",
+      "genre": "Smooth Soul / R&B",
+      "decade": "2020s",
+      "bio": "Ravyn Lenae Washington is an American singer and songwriter from Chicago, currently signed to Atlantic Records and the Three Twenty Three Music Group. She is also a member of the musical collective Zero Fatigue. Her debut EP, Moon Shoes, was released independently in 2015 and later reissued by Atlantic Records in 2016. Her follow-up EP, Midnight Moonlight, was released in 2017. She has performed at several music festivals and in 2017 toured with SZA on her Ctrl Tour and Noname on her Telefone Tour. Her discography blends elements of \"R&B, pop, dance, rock, Afrobeats and reggae\", according to Billboard.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 1.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/07/8c/6c/078c6c94-d38d-0451-d57b-23e957b569f8/075679660893.jpg/600x600bb.jpg",
+      "songs": [
+        "Love Me Not"
+      ],
+      "albums": [
+        "Bird's Eye"
+      ],
+      "songDetails": [
+        {
+          "title": "Love Me Not",
+          "album": "Bird's Eye",
+          "genre": "R&B/Soul",
+          "year": "2024",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 213
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Bird's Eye",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Love Me Not",
+              "album": "Bird's Eye",
+              "genre": "R&B/Soul",
+              "year": "2024",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 213
+            }
+          ]
+        }
+      ],
+      "galaxyX": 458.52,
+      "galaxyY": 110.23,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-133",
+      "name": "Doja Cat",
+      "genre": "Smooth Soul / R&B",
+      "decade": "2010s",
+      "bio": "Amala Ratna Zandile Dlamini, known professionally as Doja Cat, is an American rapper, singer, and songwriter. Regarded as the \"Queen of Pop-Rap\", she is known for her musical versatility, live performing skills and humorous internet presence. Billboard named her \"one of the world's biggest pop stars\" and \"one of the defining pop stars of this era\", and Time listed her as one of the world's most influential people in 2023.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 1.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a6/91/da/a691dac7-4cb7-82f5-0eda-e37b96f63f55/075679610720.jpg/600x600bb.jpg",
+      "songs": [
+        "So High"
+      ],
+      "albums": [
+        "So High - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "So High",
+          "album": "So High - Single",
+          "genre": "R&B/Soul",
+          "year": "2014",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 202
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "So High - Single",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "So High",
+              "album": "So High - Single",
+              "genre": "R&B/Soul",
+              "year": "2014",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 202
+            }
+          ]
+        }
+      ],
+      "galaxyX": -414.0,
+      "galaxyY": 229.25,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-134",
+      "name": "Amy Winehouse",
+      "genre": "Smooth Soul / R&B",
+      "decade": "2000s",
+      "bio": "Amy Jade Winehouse was a British singer-songwriter, musician, and businesswoman. She is known for her distinctive contralto vocals, expressive and autobiographical songwriting, and eclectic blend of genres such as soul, rhythm and blues, and jazz. Her music, along with her fashion and highly publicised personal life, made her an influential figure in popular culture.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 1,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 1.0,
+      "completionRate": 100.0,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9b/c3/36/9bc3369b-250a-5efb-af02-eb29b5a17d0c/mzi.hcitlgrl.jpg/600x600bb.jpg",
+      "songs": [
+        "Back To Black"
+      ],
+      "albums": [
+        "Back To Black"
+      ],
+      "songDetails": [
+        {
+          "title": "Back To Black",
+          "album": "Back To Black",
+          "genre": "R&B/Soul",
+          "year": "2006",
+          "plays": 1,
+          "skips": 0,
+          "durationSec": 241
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Back To Black",
+          "plays": 1,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Back To Black",
+              "album": "Back To Black",
+              "genre": "R&B/Soul",
+              "year": "2006",
+              "plays": 1,
+              "skips": 0,
+              "durationSec": 241
+            }
+          ]
+        }
+      ],
+      "galaxyX": 150.94,
+      "galaxyY": -450.26,
+      "starRadius": 8.1
+    },
+    {
+      "id": "art-135",
+      "name": "JA\u0178-Z & Kanye West",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "Shawn Corey Carter, known professionally as Jay-Z, is an American rapper, businessman, and record executive. In 2023, Billboard and Vibe ranked him as the greatest rapper of all time. Rooted in East Coast hip-hop, Jay-Z is known for his complex lyricism that often uses double entendres, wordplay, and braggadocio\u2014built on a rags to riches narrative. According to Forbes, he is the wealthiest music artist in history, worth an estimated US$2.8 billion as of 2026.",
+      "trackCount": 2,
+      "albumCount": 2,
+      "totalPlays": 0,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 100,
+      "palette": {
+        "primary": "#8B5CF6",
+        "bg": "linear-gradient(135deg,#2e1065,#1e1b4b)",
+        "glow": "rgba(139,92,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/90/70/da/9070da81-8739-ea57-b5a2-f1675c1a8050/886444955393.jpg/600x600bb.jpg",
+      "songs": [
+        "Ni**as in Paris",
+        "Otis (feat. Otis Redding)"
+      ],
+      "albums": [
+        "Watch the Throne (Deluxe)",
+        "Watch the Throne"
+      ],
+      "songDetails": [
+        {
+          "title": "Ni**as in Paris",
+          "album": "Watch the Throne (Deluxe)",
+          "genre": "Hip-Hop/Rap",
+          "year": "2011",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 219
+        },
+        {
+          "title": "Otis (feat. Otis Redding)",
+          "album": "Watch the Throne",
+          "genre": "Hip-Hop/Rap",
+          "year": "2011",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 178
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Watch the Throne (Deluxe)",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Ni**as in Paris",
+              "album": "Watch the Throne (Deluxe)",
+              "genre": "Hip-Hop/Rap",
+              "year": "2011",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 219
+            }
+          ]
+        },
+        {
+          "name": "Watch the Throne",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Otis (feat. Otis Redding)",
+              "album": "Watch the Throne",
+              "genre": "Hip-Hop/Rap",
+              "year": "2011",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 178
+            }
+          ]
+        }
+      ],
+      "galaxyX": 193.51,
+      "galaxyY": 435.46,
+      "starRadius": 8
+    },
+    {
+      "id": "art-136",
+      "name": "Musical Creations Karaoke",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Band-in-a-Box is a music creation software package for Windows and macOS produced by PG Music Incorporated, founded in 1988 in Victoria, British Columbia. The software enables a user to create any song and have it played by professional musicians playing real instruments. It does this by accessing a large database of real musicians' recordings that can be manipulated to fit any user's song. The user enters four basic keyboard inputs consisting of: chords; a key; a tempo; a musical style. The screen resembles a blank page of music onto which the user enters the names of chords using standard chord notation. The software generates a song typically played by four or five studio musicians to fit those specified parameters. The developers have enlisted musicians as supporting instrumentalists to build huge databases of phrases in many styles of music. The software retrieves and customizes groups of musical phrases that are appropriate for soloing or comping over a particular chord at a chosen key, genre and tempo. It can create backgrounds, melodies or solos for almost any chord progressions used in Western popular music, and can play them in any of thousands of different music styles.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 100,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music111/v4/dd/da/1f/ddda1f94-8d58-26b3-8923-b14db322d3a2/MC_logo_2017-Competition_length_cover.jpg/600x600bb.jpg",
+      "songs": [
+        "Don't Cry For Me Argentina (Miami Remix) [3:28 edit] [Karaoke]"
+      ],
+      "albums": [
+        "Don't Cry For Me Argentina (Miami Remix) [Originally Performed by Madonna] [Karaoke with Competition Edits]"
+      ],
+      "songDetails": [
+        {
+          "title": "Don't Cry For Me Argentina (Miami Remix) [3:28 edit] [Karaoke]",
+          "album": "Don't Cry For Me Argentina (Miami Remix) [Originally Performed by Madonna] [Karaoke with Competition Edits]",
+          "genre": "Karaoke",
+          "year": "2010",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 210
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Don't Cry For Me Argentina (Miami Remix) [Originally Performed by Madonna] [Karaoke with Competition Edits]",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Don't Cry For Me Argentina (Miami Remix) [3:28 edit] [Karaoke]",
+              "album": "Don't Cry For Me Argentina (Miami Remix) [Originally Performed by Madonna] [Karaoke with Competition Edits]",
+              "genre": "Karaoke",
+              "year": "2010",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 210
+            }
+          ]
+        }
+      ],
+      "galaxyX": -438.33,
+      "galaxyY": -191.03,
+      "starRadius": 8
+    },
+    {
+      "id": "art-137",
+      "name": "Judson Mancebo",
+      "genre": "Modern Pop / Chart",
+      "decade": "2000s",
+      "bio": "Manhattan's Chinatown is a neighborhood of Lower Manhattan in New York City, bounded by the Lower East Side to its east, Little Italy to its north, Civic Center to its south, and Tribeca to its west. With an estimated population of 90,000 to 100,000 people, Chinatown is home to the highest concentration of Chinese people in the Western Hemisphere. Manhattan's Chinatown is also one of the oldest Chinese ethnic enclaves. The Manhattan Chinatown is one of nine Chinatown neighborhoods in New York City, as well as one of twelve in the New York metropolitan area, which contains the largest ethnic Chinese population outside Asia, comprising an estimated 924,619 uniracial individuals in 2024.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 1,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 0.0,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/a3/52/c9a3528b-f5b8-6a14-35f8-6af7a8d6fa0d/191773623906.jpg/600x600bb.jpg",
+      "songs": [
+        "This Used to Be My Playground"
+      ],
+      "albums": [
+        "Babies Love Madonna"
+      ],
+      "songDetails": [
+        {
+          "title": "This Used to Be My Playground",
+          "album": "Babies Love Madonna",
+          "genre": "Brazilian",
+          "year": "2007",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 362
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Babies Love Madonna",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "This Used to Be My Playground",
+              "album": "Babies Love Madonna",
+              "genre": "Brazilian",
+              "year": "2007",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 362
+            }
+          ]
+        }
+      ],
+      "galaxyX": 453.79,
+      "galaxyY": -155.76,
+      "starRadius": 8
+    },
+    {
+      "id": "art-138",
+      "name": "Calvin Harris & Dua Lipa",
+      "genre": "Eurodance / Electronic",
+      "decade": "2010s",
+      "bio": "Adam Richard Wiles, known professionally as Calvin Harris, is a Scottish DJ, record producer, singer and songwriter. His debut studio album, I Created Disco (2007) was preceded by the singles \"Acceptable in the 80s\" and \"The Girls\", both of which achieved commercial success in Europe and Australia. His second album, Ready for the Weekend (2009), debuted atop the official album charts in his native Scotland as well as the United Kingdom, and its lead single, \"I'm Not Alone\", became his first song to reach number one in the UK Singles Charts. On his early tracks, Harris mostly sang in his songs.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 2,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 0.0,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/91/2a/7b/912a7bdb-c2f6-b887-9392-49728fece0df/886447044360.jpg/600x600bb.jpg",
+      "songs": [
+        "One Kiss"
+      ],
+      "albums": [
+        "New Year's Eve - NYE 2018/2019"
+      ],
+      "songDetails": [
+        {
+          "title": "One Kiss",
+          "album": "New Year's Eve - NYE 2018/2019",
+          "genre": "Dance",
+          "year": "2018",
+          "plays": 0,
+          "skips": 2,
+          "durationSec": 209
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "New Year's Eve - NYE 2018/2019",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "One Kiss",
+              "album": "New Year's Eve - NYE 2018/2019",
+              "genre": "Dance",
+              "year": "2018",
+              "plays": 0,
+              "skips": 2,
+              "durationSec": 209
+            }
+          ]
+        }
+      ],
+      "galaxyX": -230.17,
+      "galaxyY": 422.81,
+      "starRadius": 8
+    },
+    {
+      "id": "art-139",
+      "name": "Singer's Edge Karaoke",
+      "genre": "Modern Pop / Chart",
+      "decade": "2010s",
+      "bio": "Michael Jackson is a British singer who was lead vocalist with the heavy metal band Satan/Pariah.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 3,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 0.0,
+      "palette": {
+        "primary": "#EF4444",
+        "bg": "linear-gradient(135deg,#450a0a,#2b0909)",
+        "glow": "rgba(239,68,68,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/c648281baebd79a133cff9c4f486664c/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Stereo Love (Originally Performed By Edward Maya & Vika Jigulina) [Karaoke]"
+      ],
+      "albums": [
+        "Stereo Love (Originally Performed By Edward Maya & Vika Jigulina) [Karaoke Version] - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "Stereo Love (Originally Performed By Edward Maya & Vika Jigulina) [Karaoke]",
+          "album": "Stereo Love (Originally Performed By Edward Maya & Vika Jigulina) [Karaoke Version] - Single",
+          "genre": "Karaoke",
+          "year": "2014",
+          "plays": 0,
+          "skips": 3,
+          "durationSec": 248
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Stereo Love (Originally Performed By Edward Maya & Vika Jigulina) [Karaoke Version] - Single",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Stereo Love (Originally Performed By Edward Maya & Vika Jigulina) [Karaoke]",
+              "album": "Stereo Love (Originally Performed By Edward Maya & Vika Jigulina) [Karaoke Version] - Single",
+              "genre": "Karaoke",
+              "year": "2014",
+              "plays": 0,
+              "skips": 3,
+              "durationSec": 248
+            }
+          ]
+        }
+      ],
+      "galaxyX": -116.27,
+      "galaxyY": -468.81,
+      "starRadius": 8
+    },
+    {
+      "id": "art-140",
+      "name": "Vengaboys",
+      "genre": "Modern Pop / Chart",
+      "decade": "1990s",
+      "bio": "Vengaboys is a Dutch Eurodance music group based in Rotterdam consisting of lead and female vocalist Kim Sasabone, female vocalist Denise van Rijswijk and male vocalists Robin Pors and Donny Latupeirissa. Created by Dutch producers Wessel van Diepen and Dennis van den Driesschen, the group enjoyed commercial success in the late 1990s. They are best known for their hit singles \"We Like to Party\", \"Boom, Boom, Boom, Boom!!\", and \"We're Going to Ibiza\", the latter two of which topped the UK Singles Chart and have sold an estimated 25 million records worldwide.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 1,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 0.0,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/65/2b/ea/652bea58-96ac-adac-7638-106e16a82722/22UMGIM63669.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "To Brazil!"
+      ],
+      "albums": [
+        "The Party Album!"
+      ],
+      "songDetails": [
+        {
+          "title": "To Brazil!",
+          "album": "The Party Album!",
+          "genre": "Pop",
+          "year": "1998",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 187
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "The Party Album!",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "To Brazil!",
+              "album": "The Party Album!",
+              "genre": "Pop",
+              "year": "1998",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 187
+            }
+          ]
+        }
+      ],
+      "galaxyX": 403.75,
+      "galaxyY": 268.04,
+      "starRadius": 8
+    },
+    {
+      "id": "art-141",
+      "name": "The White Stripes",
+      "genre": "Classic Rock",
+      "decade": "2000s",
+      "bio": "The White Stripes were an American rock duo formed in Detroit, Michigan, in 1997. The group consisted of Jack White and Meg White. They were a leading group of the 2000s indie and garage rock revivals.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 1,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 0.0,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://cdn-images.dzcdn.net/images/artist/aa559e3743497b4433758c6709fb7a78/500x500-000000-80-0-0.jpg",
+      "songs": [
+        "Seven Nation Army"
+      ],
+      "albums": [
+        "Elephant"
+      ],
+      "songDetails": [
+        {
+          "title": "Seven Nation Army",
+          "album": "Elephant",
+          "genre": "Rock",
+          "year": "2003",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 232
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Elephant",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Seven Nation Army",
+              "album": "Elephant",
+              "genre": "Rock",
+              "year": "2003",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 232
+            }
+          ]
+        }
+      ],
+      "galaxyX": -480.35,
+      "galaxyY": 75.33,
+      "starRadius": 8
+    },
+    {
+      "id": "art-142",
+      "name": "Backstreet Boys",
+      "genre": "80s/90s Pop",
+      "decade": "1990s",
+      "bio": "Backstreet Boys are an American vocal group and pop boy band consisting of Nick Carter, Howie Dorough, AJ McLean, and cousins Brian Littrell and Kevin Richardson. The band formed in 1993 in Orlando, Florida.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 2,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 0.0,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/5f/6b/e9/5f6be919-1b9e-30ef-45b7-cc27fc428fd5/012414167224.jpg/600x600bb.jpg",
+      "songs": [
+        "Everybody (Backstreet's Back) [Radio Edit]"
+      ],
+      "albums": [
+        "Backstreet's Back"
+      ],
+      "songDetails": [
+        {
+          "title": "Everybody (Backstreet's Back) [Radio Edit]",
+          "album": "Backstreet's Back",
+          "genre": "Pop",
+          "year": "1997",
+          "plays": 0,
+          "skips": 2,
+          "durationSec": 225
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Backstreet's Back",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Everybody (Backstreet's Back) [Radio Edit]",
+              "album": "Backstreet's Back",
+              "genre": "Pop",
+              "year": "1997",
+              "plays": 0,
+              "skips": 2,
+              "durationSec": 225
+            }
+          ]
+        }
+      ],
+      "galaxyX": 304.31,
+      "galaxyY": -381.27,
+      "starRadius": 8
+    },
+    {
+      "id": "art-143",
+      "name": "George Michael & Queen",
+      "genre": "Classic Rock",
+      "decade": "1990s",
+      "bio": "George Michael was an English singer-songwriter and record producer. Regarded as a pop culture icon, he is one of the best-selling recording artists of all time. Michael has been widely recognised as a creative force in songwriting, vocal performance, and visual presentation. He was inducted into the Rock and Roll Hall of Fame in 2023. The Radio Academy named him the most played artist on British radio during the period 1984\u20132004.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 1,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 0.0,
+      "palette": {
+        "primary": "#3B82F6",
+        "bg": "linear-gradient(135deg,#172554,#0f172a)",
+        "glow": "rgba(59,130,246,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ee/49/ac/ee49accc-78bd-bcdb-1aff-c40c1ac3ccc4/074643959520.jpg/600x600bb.jpg",
+      "songs": [
+        "Somebody to Love"
+      ],
+      "albums": [
+        "Ladies & Gentlemen"
+      ],
+      "songDetails": [
+        {
+          "title": "Somebody to Love",
+          "album": "Ladies & Gentlemen",
+          "genre": "Pop",
+          "year": "1993",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 319
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Ladies & Gentlemen",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Somebody to Love",
+              "album": "Ladies & Gentlemen",
+              "genre": "Pop",
+              "year": "1993",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 319
+            }
+          ]
+        }
+      ],
+      "galaxyX": 33.27,
+      "galaxyY": 488.28,
+      "starRadius": 8
+    },
+    {
+      "id": "art-144",
+      "name": "The Rolling Stones & Steve Riley",
+      "genre": "Modern Pop / Chart",
+      "decade": "2020s",
+      "bio": "The Rolling Stones are an English rock band formed in 1962. Active for over six decades, they are one of the most popular, influential, and enduring bands of the rock era. In the early 1960s, the band pioneered the gritty, rhythmically driven sound that came to define hard rock. Their first stable line-up consisted of vocalist Mick Jagger, guitarist Keith Richards, multi-instrumentalist Brian Jones, bassist Bill Wyman, and drummer Charlie Watts, after keyboardist Ian Stewart was side-lined by their manager Andrew Loog Oldham. During their early years, Jones was the primary leader. Oldham encouraged them to write their own songs. The Jagger\u2013Richards partnership soon became the band's primary songwriting and creative force.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 1,
+      "totalHours": 0.0,
+      "avgPlays": 0.0,
+      "completionRate": 0.0,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/80/bb/18/80bb1895-326f-e618-9aa8-d2338bb35f0c/842812106569_Cover.jpg/600x600bb.jpg",
+      "songs": [
+        "Zydeco Sont Pas Sal\u00e9s"
+      ],
+      "albums": [
+        "A Tribute to the King of Zydeco"
+      ],
+      "songDetails": [
+        {
+          "title": "Zydeco Sont Pas Sal\u00e9s",
+          "album": "A Tribute to the King of Zydeco",
+          "genre": "Zydeco",
+          "year": "2025",
+          "plays": 0,
+          "skips": 1,
+          "durationSec": 165
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "A Tribute to the King of Zydeco",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Zydeco Sont Pas Sal\u00e9s",
+              "album": "A Tribute to the King of Zydeco",
+              "genre": "Zydeco",
+              "year": "2025",
+              "plays": 0,
+              "skips": 1,
+              "durationSec": 165
+            }
+          ]
+        }
+      ],
+      "galaxyX": -355.51,
+      "galaxyY": -338.67,
+      "starRadius": 8
+    },
+    {
+      "id": "art-145",
+      "name": "Kanye West, JA\u0178-Z & Big Sean",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "Ye is an American rapper, songwriter, and record producer. He has been listed among the greatest rappers of all time and referred to as one of the most prominent figures in hip-hop. His music, characterized by frequent stylistic shifts, has been credited with facilitating the emergence of rappers who did not conform to gangsta rap conventions. He is also known for his controversial public persona, including his polarizing cultural and political commentary.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 100,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0d/3f/b5/0d3fb523-1b70-b4b1-6bf7-ee94a89ab805/859717324721_cover.jpg/600x600bb.jpg",
+      "songs": [
+        "Clique"
+      ],
+      "albums": [
+        "Kanye West Presents: Good Music - Cruel Summer"
+      ],
+      "songDetails": [
+        {
+          "title": "Clique",
+          "album": "Kanye West Presents: Good Music - Cruel Summer",
+          "genre": "Hip-Hop/Rap",
+          "year": "2012",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 294
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Kanye West Presents: Good Music - Cruel Summer",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Clique",
+              "album": "Kanye West Presents: Good Music - Cruel Summer",
+              "genre": "Hip-Hop/Rap",
+              "year": "2012",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 294
+            }
+          ]
+        }
+      ],
+      "galaxyX": 492.49,
+      "galaxyY": 9.61,
+      "starRadius": 8
+    },
+    {
+      "id": "art-146",
+      "name": "Twista",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2000s",
+      "bio": "Carl Terrell Mitchell, better known by his stage name Twista, is an American rapper. He is best known for his chopper style of rapping and for once holding the title of fastest English-speaking rapper in the world according to Guinness World Records in 1992, being able to pronounce 598 syllables in 55 seconds.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 100,
+      "palette": {
+        "primary": "#6366F1",
+        "bg": "linear-gradient(135deg,#1e1b4b,#0f0e26)",
+        "glow": "rgba(99,102,241,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/62/15/54/621554be-4a24-0be2-c9fd-c58177701bf2/dj.zrudcxub.jpg/600x600bb.jpg",
+      "songs": [
+        "Slow Jamz (feat. Kanye West & Jamie Foxx)"
+      ],
+      "albums": [
+        "Kamikaze"
+      ],
+      "songDetails": [
+        {
+          "title": "Slow Jamz (feat. Kanye West & Jamie Foxx)",
+          "album": "Kamikaze",
+          "genre": "Hip-Hop/Rap",
+          "year": "2003",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 212
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "Kamikaze",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Slow Jamz (feat. Kanye West & Jamie Foxx)",
+              "album": "Kamikaze",
+              "genre": "Hip-Hop/Rap",
+              "year": "2003",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 212
+            }
+          ]
+        }
+      ],
+      "galaxyX": -370.82,
+      "galaxyY": 326.62,
+      "starRadius": 8
+    },
+    {
+      "id": "art-147",
+      "name": "Rihanna and Kanye West and Paul McCartney",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "The discography of Paul McCartney consists of 27 studio albums, 5 compilation albums, 10 live albums, 4 extended plays, 132 singles, 2 remix albums, 7 classical albums, 4 electronica albums, 6 box sets, 13 archival box sets and 15 limited release albums. Before his career as a solo artist, McCartney, a founding member of the Beatles, enjoyed unprecedented success.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 100,
+      "palette": {
+        "primary": "#10B981",
+        "bg": "linear-gradient(135deg,#022c22,#064e3b)",
+        "glow": "rgba(16,185,129,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bf/f4/bc/bff4bc77-7429-cae6-f5ff-b31a319f6a6c/15UMGIM02701.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "FourFiveSeconds"
+      ],
+      "albums": [
+        "FourFiveSeconds - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "FourFiveSeconds",
+          "album": "FourFiveSeconds - Single",
+          "genre": "Pop",
+          "year": "2015",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 188
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "FourFiveSeconds - Single",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "FourFiveSeconds",
+              "album": "FourFiveSeconds - Single",
+              "genre": "Pop",
+              "year": "2015",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 188
+            }
+          ]
+        }
+      ],
+      "galaxyX": 52.97,
+      "galaxyY": -492.89,
+      "starRadius": 8
+    },
+    {
+      "id": "art-148",
+      "name": "Kanye West & Lil Pump",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "Ye is an American rapper, songwriter, and record producer. He has been listed among the greatest rappers of all time and referred to as one of the most prominent figures in hip-hop. His music, characterized by frequent stylistic shifts, has been credited with facilitating the emergence of rappers who did not conform to gangsta rap conventions. He is also known for his controversial public persona, including his polarizing cultural and political commentary.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 0,
+      "totalHours": 0.0,
+      "avgPlays": 0.0,
+      "completionRate": 100,
+      "palette": {
+        "primary": "#06B6D4",
+        "bg": "linear-gradient(135deg,#083344,#04222f)",
+        "glow": "rgba(6,182,212,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/4d/75/2d/4d752db1-022d-f65d-40a1-a2390f01427a/13UAEIM26465.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "I Love It"
+      ],
+      "albums": [
+        "I Love It - Single"
+      ],
+      "songDetails": [
+        {
+          "title": "I Love It",
+          "album": "I Love It - Single",
+          "genre": "Hip-Hop/Rap",
+          "year": "2018",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 128
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "I Love It - Single",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "I Love It",
+              "album": "I Love It - Single",
+              "genre": "Hip-Hop/Rap",
+              "year": "2018",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 128
+            }
+          ]
+        }
+      ],
+      "galaxyX": 294.81,
+      "galaxyY": 400.48,
+      "starRadius": 8
+    },
+    {
+      "id": "art-149",
+      "name": "KIDS SEE GHOSTS",
+      "genre": "Hip-Hop / Rap",
+      "decade": "2010s",
+      "bio": "Kids See Ghosts were an American hip-hop superduo composed of rappers Kanye West and Kid Cudi. Formed during West's 2018 Wyoming sessions, the duo's only album, Kids See Ghosts, was released in June of that year by Def Jam Recordings, along with their respective label imprints, GOOD Music and Wicked Awesome Records. A critical and commercial success, the album peaked at number two on the US Billboard 200 and received gold certification by the Recording Industry Association of America (RIAA). Despite a planned sequel and television series, the duo disbanded in 2022 due to personal disagreements, and Cudi ended his affiliation with West in 2025.",
+      "trackCount": 1,
+      "albumCount": 1,
+      "totalPlays": 0,
+      "totalSkips": 0,
+      "totalHours": 0.1,
+      "avgPlays": 0.0,
+      "completionRate": 100,
+      "palette": {
+        "primary": "#EC4899",
+        "bg": "linear-gradient(135deg,#500724,#2e081d)",
+        "glow": "rgba(236,72,153,0.35)"
+      },
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3f/2e/d3/3f2ed3b1-d260-4e92-816b-4beac102c676/00602567794318.rgb.jpg/600x600bb.jpg",
+      "songs": [
+        "Reborn"
+      ],
+      "albums": [
+        "KIDS SEE GHOSTS"
+      ],
+      "songDetails": [
+        {
+          "title": "Reborn",
+          "album": "KIDS SEE GHOSTS",
+          "genre": "Hip-Hop/Rap",
+          "year": "2018",
+          "plays": 0,
+          "skips": 0,
+          "durationSec": 325
+        }
+      ],
+      "albumsBreakdown": [
+        {
+          "name": "KIDS SEE GHOSTS",
+          "plays": 0,
+          "trackCount": 1,
+          "songs": [
+            {
+              "title": "Reborn",
+              "album": "KIDS SEE GHOSTS",
+              "genre": "Hip-Hop/Rap",
+              "year": "2018",
+              "plays": 0,
+              "skips": 0,
+              "durationSec": 325
+            }
+          ]
+        }
+      ],
+      "galaxyX": -489.43,
+      "galaxyY": -96.46,
+      "starRadius": 8
+    }
+  ]
+};

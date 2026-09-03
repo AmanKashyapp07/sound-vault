@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+/* ─── Mastering Room & Physical Vinyl Design Tokens ─────────── */
+:root, [data-theme="obsidian"] {
+  /* Physical Studio Palette */
+  --bg-tape:         #0D0B09;
+  --bg-board:        #141210;
+  --surface-sleeve:  #1A1713;
+  --surface-label:   #221E19;
+  --surface-3:       #2A2520;
+  
+  --signal:          #E8443A; /* Mastering Signal Hot Red (used with high intention) */
+  --oxide:           #C8934A; /* Tape Oxide Warm Amber / Gold */
+  --groove:          #36312B; /* Vinyl pressed groove separator */
+  --groove-light:    #4D463E;
+  --linen:           #EAE4D9; /* Archival liner note off-white */
+  --linen-muted:     #A69E92;
+  --muted:           #70695E;
+  --pressed:         #070605; /* Deepest black record wax */
+
+  /* Functional Token Mappings */
+  --bg-primary:      var(--bg-tape);
+  --bg-secondary:    var(--bg-board);
+  --surface:         var(--surface-sleeve);
+  --surface-2:       var(--surface-label);
+  --border:          rgba(234, 228, 217, 0.08);
+  --border-hover:    rgba(200, 147, 74, 0.38);
+  --text-primary:    var(--linen);
+  --text-secondary:  var(--linen-muted);
+  --text-muted:      var(--muted);
+  --accent:          var(--oxide);
+  --accent-signal:   var(--signal);
+  --accent-glow:     rgba(232, 68, 58, 0.18);
+
+  /* Typography */
+  --font-serif:      'Instrument Serif', Georgia, serif;
+  --font-mono:       'IBM Plex Mono', monospace;
+  --font-display:    'Instrument Serif', Georgia, serif;
+  --font-sans:       'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --r-sm:  4px;
+  --r-md:  6px;
+  --r-lg:  8px;
+  --r-xl:  10px;
+  --ease:  cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-theme="amber"] {
+  --bg-tape:         #110E09;
+  --bg-board:        #1A150F;
+  --surface-sleeve:  #231C14;
+  --surface-label:   #2E251B;
+  --surface-3:       #3A3023;
+  --signal:          #F05D3A;
+  --oxide:           #DCA04C;
+  --groove:          #443627;
+  --linen:           #FDF6E2;
+  --linen-muted:     #BAA88C;
+  --muted:           #7D6D56;
+  --pressed:         #090704;
+
+  --bg-primary:      var(--bg-tape);
+  --bg-secondary:    var(--bg-board);
+  --surface:         var(--surface-sleeve);
+  --surface-2:       var(--surface-label);
+  --border:          rgba(220, 160, 76, 0.14);
+  --border-hover:    rgba(220, 160, 76, 0.4);
+  --text-primary:    var(--linen);
+  --text-secondary:  var(--linen-muted);
+  --text-muted:      var(--muted);
+  --accent:          var(--oxide);
+  --accent-signal:   var(--signal);
+}
+
+[data-theme="amoled"] {
+  --bg-tape:         #000000;
+  --bg-board:        #060606;
+  --surface-sleeve:  #0C0C0C;
+  --surface-label:   #141414;
+  --surface-3:       #1D1D1D;
+  --signal:          #FF4B4B;
+  --oxide:           #E5A955;
+  --groove:          #2A2A2A;
+  --linen:           #F5F5F5;
+  --linen-muted:     #9E9E9E;
+  --muted:           #5E5E5E;
+  --pressed:         #000000;
+
+  --bg-primary:      var(--bg-tape);
+  --bg-secondary:    var(--bg-board);
+  --surface:         var(--surface-sleeve);
+  --surface-2:       var(--surface-label);
+  --border:          rgba(255, 255, 255, 0.1);
+  --border-hover:    rgba(229, 169, 85, 0.45);
+  --text-primary:    var(--linen);
+  --text-secondary:  var(--linen-muted);
+  --text-muted:      var(--muted);
+  --accent:          var(--oxide);
+  --accent-signal:   var(--signal);
+}
+
+[data-theme="light"] {
+  --bg-tape:         #F5F2EB; /* Warm cream archival paper */
+  --bg-board:        #ECE7DC;
+  --surface-sleeve:  #FCFAF6;
+  --surface-label:   #EFEBE1;
+  --surface-3:       #E4DDD0;
+  --signal:          #D83025;
+  --oxide:           #9C6B28;
+  --groove:          #D3CABE;
+  --linen:           #1A1713; /* Deep ink on linen */
+  --linen-muted:     #524B40;
+  --muted:           #807769;
+  --pressed:         #EDE8DE;
+
+  --bg-primary:      var(--bg-tape);
+  --bg-secondary:    var(--bg-board);
+  --surface:         var(--surface-sleeve);
+  --surface-2:       var(--surface-label);
+  --border:          rgba(26, 23, 19, 0.1);
+  --border-hover:    rgba(156, 107, 40, 0.4);
+  --text-primary:    var(--linen);
+  --text-secondary:  var(--linen-muted);
+  --text-muted:      var(--muted);
+  --accent:          var(--oxide);
+  --accent-signal:   var(--signal);
+}
+
+/* ─── Reset ─────────────────────────────────────────────────── */
+*, *::before, *::after {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  line-height: 1.55;
+  letter-spacing: 0.01em;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ─── Noise texture utility (Physical paper / vinyl sheen) ───── */
+.surface-noise {
+  position: relative;
+}
+.surface-noise::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  mix-blend-mode: overlay;
+}
+
+/* ─── Numbers ───────────────────────────────────────────────── */
+.num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums lining-nums;
+  letter-spacing: 0.025em;
+}
+
+/* ─── Editorial serif headings ───────────────────────────────── */
+h1, h2, h3, .serif-heading {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
+}
+
+/* ─── Ambient background: warm studio light wash ─────────────── */
+.ambient-background {
+  position: fixed;
+  top: 0; left: 0; width: 100vw; height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+  background: radial-gradient(ellipse 60% 40% at 50% 0%, rgba(200, 147, 74, 0.045), transparent 70%);
+}
+
+[data-theme="light"] .ambient-background {
+  background: radial-gradient(ellipse 60% 40% at 50% 0%, rgba(156, 107, 40, 0.04), transparent 70%);
+}
+
+/* ─── App layout ─────────────────────────────────────────────── */
+.app-container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 24px 32px 80px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* ─── Physical Vinyl / Studio Scrollbar ──────────────────────── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb {
+  background: var(--groove);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--oxide);
+}
+
